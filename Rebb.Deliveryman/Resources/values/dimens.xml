@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+	<dimen name="loading_progress_bar_thickness">3dp</dimen>
+	<dimen name="loading_progress_leagth">100dp</dimen>
+	<!-- null search_progress_bar_thickness - erro in layoutRegister-->
+</resources>

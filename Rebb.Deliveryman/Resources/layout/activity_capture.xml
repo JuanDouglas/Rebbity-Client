@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Rebb.Deliveryman.Assets.CustomViews.BitmapOutput
+        android:layout_width="match_parent"
+        android:id="@+id/imgResultCapture"
+        android:scaleType="fitXY"
+        android:src="@drawable/abc_ab_share_pack_mtrl_alpha"
+        android:layout_height="match_parent"/>
+    <ImageView
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp"
+        android:id="@+id/imgSwitchCamera"
+        android:layout_alignParentRight="true"
+        android:layout_width="50dp"
+       android:background="@drawable/ripple_color_primary"
+        android:src="@android:drawable/ic_menu_camera"
+        android:layout_height="50dp"/>
+</RelativeLayout>
