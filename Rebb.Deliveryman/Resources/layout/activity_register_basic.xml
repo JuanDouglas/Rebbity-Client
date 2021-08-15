@@ -84,11 +84,11 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="horizontal">
             <CheckBox
                    android:layout_width="wrap_content"
                    android:layout_height="wrap_content"
-            android:gravity="center_vertical"/>
+                android:gravity="start"/>
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -97,13 +97,16 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:orientation="horizontal"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal">
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="wrap_content"                        
                         android:text="@string/text_term_polityc_v1"/>
                         <!--Term -->
                         <TextView
+                        style="@style/TextViweSepar"
+                        android:textColor="@android:color/holo_blue_dark"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/text_term_polityc_v2"/>
@@ -111,13 +114,17 @@
                  <LinearLayout
                     android:layout_width="wrap_content"
                     android:orientation="horizontal"
+                    android:gravity="center_horizontal"
                     android:layout_height="wrap_content">
                    <TextView
+                       
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/text_term_polityc_v3"/>
                     <!-- politic of privacity -->
                     <TextView
+                        android:textColor="@android:color/holo_blue_dark"
+                        style="@style/TextViweSepar"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/text_term_polityc_v4"/>
@@ -163,7 +170,8 @@
                 />
                 <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"              
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/holo_blue_dark"
                         android:text=" Faça o login"
                 />
         </LinearLayout>  

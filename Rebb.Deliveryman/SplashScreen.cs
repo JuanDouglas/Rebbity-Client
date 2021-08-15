@@ -26,14 +26,14 @@ namespace Rebb.Deliveryman
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.activity_splash_screen);
             ImageView imgLogo = FindViewById<ImageView>(Resource.Id.imgLogo);
-            //RotateAnimation animation = new RotateAnimation(0, 0.5f, 0, 0)
-            //{
-            //    Interpolator = new BounceInterpolator(),
-            //    Duration = (TimeSpan.TicksPerSecond / TimeSpan.TicksPerMillisecond) * 2
-            //};
-            //animation.AnimationEnd += AnimationEnd;
-            //imgLogo.StartAnimation(animation);
-            //animation.Start();
+            RotateAnimation animation = new RotateAnimation(0, 0.5f, 0, 0)
+            {
+                Interpolator = new BounceInterpolator(),
+                Duration = (TimeSpan.TicksPerSecond / TimeSpan.TicksPerMillisecond) * 2
+            };
+            animation.AnimationEnd += AnimationEnd;
+            imgLogo.StartAnimation(animation);
+            animation.Start();
             Task task = Task.Run(Background);
             if (task.Status == TaskStatus.Created)
                 task.Start();
@@ -41,7 +41,8 @@ namespace Rebb.Deliveryman
         private void AnimationEnd(object sender, EventArgs args)
         {
             Bundle bundle = ActivityOptionsCompat.MakeCustomAnimation(this, Resource.Animation.abc_fade_in, Resource.Animation.abc_fade_out).ToBundle();
-            Intent intent = new Intent(this, typeof(RegisterBasicActivity));
+            Intent intent = new Intent(this, typeof(RegisterDocument));
+            //Intent intent = new Intent(this, typeof(RegisterBasicActivity));
             ActivityCompat.StartActivity(this, intent, bundle);
         }
 
