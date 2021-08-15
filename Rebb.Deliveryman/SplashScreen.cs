@@ -47,9 +47,7 @@ namespace Rebb.Deliveryman
 
         private async Task Background() 
         {
-            ApiClient client = new ApiClient();
-
-            await client.LoginController.ValidLoginAsync(null);
+            ApiClient.Start(null,"Rebb DeliveryMan Android App");
         }
     }
 }

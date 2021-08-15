@@ -35,8 +35,7 @@ namespace Rebb.Deliveryman
         {
             new LoadingTaskFragment(Task.Run(() =>
             {
-                ApiClient client = new ApiClient();
-                Thread.Sleep((int)TimeSpan.TicksPerSecond * 2);
+               
             }))
             { Message = "Conectando aos servidores"}.Show(SupportFragmentManager, LoadingTaskFragment.TAG);
         }
