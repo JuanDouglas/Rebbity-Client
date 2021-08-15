@@ -7,5 +7,10 @@
 	<string name="hint_phonenumber">Numero Celular</string>
 	<string name="hint_name">Name</string>
 	<string name="text_register_rebbity_account">Criar conta</string>
-	<string name="text_term_polityc">Eu Concordo e aceito os termos e poticas de privacidade</string>
+	
+	
+	<string name="text_term_polityc_v1">Eu concordo e aceito os </string>
+	<string name="text_term_polityc_v2">termos</string>
+	<string name="text_term_polityc_v3">e</string>
+	<string name="text_term_polityc_v4">politicas de privacidade</string>
 </resources>
