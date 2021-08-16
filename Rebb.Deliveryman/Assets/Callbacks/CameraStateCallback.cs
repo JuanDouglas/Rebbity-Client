@@ -1,6 +1,4 @@
-﻿using Android.App;
-using Android.Content;
-using Android.Graphics;
+﻿using Android.Graphics;
 using Android.Hardware.Camera2;
 using Android.Media;
 using Android.OS;
@@ -17,6 +15,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using static Android.Media.Image;
 
 namespace Rebb.Deliveryman.Assets.Callbacks
 {
@@ -33,12 +32,12 @@ namespace Rebb.Deliveryman.Assets.Callbacks
         }
         public override void OnDisconnected(CameraDevice camera)
         {
-           
+
         }
 
         public override void OnError(CameraDevice camera, [GeneratedEnum] CameraError error)
         {
-           
+
         }
 
         public void OnImageAvailable(ImageReader reader)
@@ -46,7 +45,9 @@ namespace Rebb.Deliveryman.Assets.Callbacks
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
             Image image = reader.AcquireNextImage();
-            var buffer = image.GetPlanes()[0].Buffer;
+
+            Plane[] planes = image.GetPlanes();
+            var buffer = planes[0].Buffer;
 
             buffer.Rewind();
             int capacity = buffer.Capacity();
@@ -55,17 +56,15 @@ namespace Rebb.Deliveryman.Assets.Callbacks
 
             using MemoryStream ms = new MemoryStream(imageBytes);
             Bitmap bmp = BitmapFactory.DecodeStream(ms);
+
+            using MemoryStream compressStream = new MemoryStream();
+            bool compress = bmp.Compress(Bitmap.CompressFormat.Jpeg, 10, compressStream);
+
             ms.Flush();
             ms.Close();
 
-            using MemoryStream compressStream = new MemoryStream();
-            bmp.Compress(Bitmap.CompressFormat.Jpeg, 0, compressStream);
-
-            compressStream.Flush();
-            compressStream.Close();
-
             stopwatch.Stop();
-            Log.Debug("ImageRenderTime", stopwatch.Elapsed.ToString());
+            Log.Debug("ImageRenderTime", stopwatch.Elapsed.TotalMilliseconds.ToString());
             stopwatch.Reset();
 
             stopwatch.Start();
@@ -73,7 +72,7 @@ namespace Rebb.Deliveryman.Assets.Callbacks
 
             if (Control.LensFacing == LensFacing.Front)
             {
-                RotateBitmap(bmp, 270);
+                RotateBitmap(bmp, 180);
             }
             else if (Control.LensFacing == LensFacing.Back)
             {
@@ -81,7 +80,6 @@ namespace Rebb.Deliveryman.Assets.Callbacks
             }
 
             resultView.Bitmap = bmp;
-            resultView.Invalidate();
             stopwatch.Stop();
 
             Log.Debug("ImageSetTime", stopwatch.Elapsed.ToString());
@@ -93,6 +91,7 @@ namespace Rebb.Deliveryman.Assets.Callbacks
 
         public override void OnOpened(CameraDevice camera)
         {
+           
             var reader = ImageReader.NewInstance(Height, Width, ImageFormatType.Jpeg, 50);
             reader.SetOnImageAvailableListener(this, null);
             CaptureSessionCallback captureSessionCallback = new CaptureSessionCallback(camera) { Surface = reader.Surface };
@@ -108,7 +107,8 @@ namespace Rebb.Deliveryman.Assets.Callbacks
             return Bitmap.CreateBitmap(source, 0, 0, source.Width, source.Height, matrix, true);
         }
     }
-    public class CameraDeviceControl {
+    public class CameraDeviceControl
+    {
         public CameraDevice Device { get; set; }
         public CameraCharacteristics Characteristics { get; set; }
         public LensFacing LensFacing { get; set; }

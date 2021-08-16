@@ -37,7 +37,8 @@ namespace Rebb.Deliveryman
             {
                
             }))
-            { Message = "Conectando aos servidores"}.Show(SupportFragmentManager, LoadingTaskFragment.TAG);
+            {
+                Message = "Conectando aos servidores"}.Show(SupportFragmentManager, LoadingTaskFragment.TAG);
         }
 
         private void ShowError(string name, string error)

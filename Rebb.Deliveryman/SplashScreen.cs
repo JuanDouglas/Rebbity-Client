@@ -40,14 +40,15 @@ namespace Rebb.Deliveryman
         }
         private void AnimationEnd(object sender, EventArgs args)
         {
-            Bundle bundle = ActivityOptionsCompat.MakeCustomAnimation(this, Resource.Animation.abc_fade_in, Resource.Animation.abc_fade_out).ToBundle();
-            Intent intent = new Intent(this, typeof(RegisterBasicActivity));
-            ActivityCompat.StartActivity(this, intent, bundle);
+            
         }
 
         private async Task Background() 
         {
             ApiClient.Start(null,"Rebb DeliveryMan Android App");
+            Bundle bundle = ActivityOptionsCompat.MakeCustomAnimation(this, Resource.Animation.abc_fade_in, Resource.Animation.abc_fade_out).ToBundle();
+            Intent intent = new Intent(this, typeof(CaptureActivity));
+            ActivityCompat.StartActivity(this, intent, bundle);
         }
     }
 }
