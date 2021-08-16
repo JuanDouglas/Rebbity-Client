@@ -14,7 +14,7 @@
         android:layout_alignParentBottom="true"
         android:layout_margin="15dp"
         android:id="@+id/imgSwitchCamera"
-        android             :layout_alignParentRight="true"
+        android:layout_alignParentRight="true"
         android:layout_width="50dp"
        android:background="@drawable/ripple_color_primary"
         android:src="@android:drawable/ic_menu_camera"
