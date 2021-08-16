@@ -26,14 +26,14 @@ namespace Rebb.Deliveryman
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.activity_splash_screen);
             ImageView imgLogo = FindViewById<ImageView>(Resource.Id.imgLogo);
-            //RotateAnimation animation = new RotateAnimation(0, 0.5f, 0, 0)
-            //{
-            //    Interpolator = new BounceInterpolator(),
-            //    Duration = (TimeSpan.TicksPerSecond / TimeSpan.TicksPerMillisecond) * 2
-            //};
-            //animation.AnimationEnd += AnimationEnd;
-            //imgLogo.StartAnimation(animation);
-            //animation.Start();
+            RotateAnimation animation = new RotateAnimation(0, 0.5f, 0, 0)
+            {
+                Interpolator = new BounceInterpolator(),
+                Duration = (TimeSpan.TicksPerSecond / TimeSpan.TicksPerMillisecond) * 2
+            };
+            animation.AnimationEnd += AnimationEnd;
+            imgLogo.StartAnimation(animation);
+            animation.Start();
             Task task = Task.Run(Background);
             if (task.Status == TaskStatus.Created)
                 task.Start();
