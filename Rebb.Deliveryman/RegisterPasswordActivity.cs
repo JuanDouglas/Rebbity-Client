@@ -17,12 +17,12 @@ namespace Rebb.Deliveryman
 {
     [Activity(Label = "RegisterDocument", Theme = "@style/AppTheme.NoActionBar")]
     
-    public class RegisterDocument: AppCompatActivity
+    public class RegisterPasswordActivity: AppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            SetContentView(Resource.Layout.activity_register_document);
+            SetContentView(Resource.Layout.activity_register_password);
 
         }
     }

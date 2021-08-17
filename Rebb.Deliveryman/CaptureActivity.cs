@@ -19,7 +19,7 @@ using System.Text;
 
 namespace Rebb.Deliveryman
 {
-    [Activity(Label = "CaptureActivity", Theme = "@style/AppTheme.NoActionBar", ScreenOrientation = ScreenOrientation.Portrait,HardwareAccelerated =true)]
+    [Activity(Label = "CaptureActivity", Theme = "@style/AppTheme.NoActionBar", ScreenOrientation = ScreenOrientation.Portrait)]
     public class CaptureActivity : AppCompatActivity
     {
         private const int RequestCameraCode = 007;
@@ -41,14 +41,11 @@ namespace Rebb.Deliveryman
             control = new CameraDeviceControl();
             manager = (CameraManager)GetSystemService(CameraService);
             resultView = FindViewById<BitmapOutput>(Resource.Id.imgResultCapture);
-            resultView.Activity = this;
 
-            callback = new CameraStateCallback(resultView, control) {
-                Width = 1920, 
-                Height = 1080 };
-
+            callback = new CameraStateCallback(resultView, control) { Width = metrics.HeightPixels, Height = metrics.WidthPixels };
+           
             ImageView imgview = FindViewById<ImageView>(Resource.Id.imgSwitchCamera);
-            imgview.Click += new EventHandler((object sender, EventArgs args) => { SwitchCamera(); });
+            imgview.Click += new EventHandler((object sender,EventArgs args)=> { SwitchCamera(); });
             if (CheckSelfPermission(Manifest.Permission.Camera) == Permission.Granted)
             {
                 CameraIsPermited();
@@ -128,11 +125,13 @@ namespace Rebb.Deliveryman
                         }
                         else
                         {
-
                         }
                     }
                 }
             }
         }
+
+
+
     }
 }

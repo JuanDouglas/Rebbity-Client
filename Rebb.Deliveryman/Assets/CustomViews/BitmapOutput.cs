@@ -10,48 +10,40 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Timers;
 
 namespace Rebb.Deliveryman.Assets.CustomViews
 {
     public class BitmapOutput : View
     {
-        public Activity Activity { get; set; }
         public Bitmap Bitmap
         {
             get { return _bitmap; }
             set
             {
                 _bitmap = value;
-                if (Activity != null)
-                {
-                    Activity.RunOnUiThread(() =>
-                    {
-                        Invalidate();
-                    });
-                }
-                else
-                {
-                    PostInvalidateDelayed(10);
-                }
+                Invalidate();
             }
         }
         Bitmap _bitmap;
         public BitmapOutput(Context context, IAttributeSet attrs) : base(context, attrs)
         {
+
+        }
+        public override void Draw(Canvas canvas)
+        {
+            base.Draw(canvas);
+            Paint p = new Paint();
+            if (_bitmap != null)
+            {
+                canvas.DrawBitmap(_bitmap, 0, 0, p);
+            }
         }
         protected override void OnDraw(Canvas canvas)
         {
-            base.OnDraw(canvas);
-
-            Bitmap bitmap = Bitmap;
-            Rect rect = new Rect(0, 0, Width, Height);
             Paint p = new Paint();
-            p.SetStyle(Paint.Style.Fill);
-
-            if (bitmap != null)
+            if (_bitmap != null)
             {
-                canvas.DrawBitmap(bitmap, 0, 0, p);
+                canvas.DrawBitmap(_bitmap, 0, 0, p);
             }
         }
     }
