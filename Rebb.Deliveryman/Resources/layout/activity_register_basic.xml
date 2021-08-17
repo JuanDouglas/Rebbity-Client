@@ -1,179 +1,133 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:padding="45dp"
-    android:paddingTop="40dp"
-    android:layout_gravity="center"
-    android:layout_height="wrap_content">
-       <!-- Register User -->
+    android:layout_height="match_parent">
     <LinearLayout
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center"
-    >  
-         <TextView
-          android:layout_width="match_parent"       
-          android:textAlignment="textStart"
-          android:textStyle="bold"
-          style="@style/TextTitleFont"
-          android:text="@string/text_register_rebbity_account"
-          android:layout_height="wrap_content"/>
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="match_parent"
-            style="@style/TextInputLayout"
-            android:layout_height="wrap_content">
-            
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:hint="@string/hint_name"                
-                android:inputType="textPersonName"                
-                android:layout_height="wrap_content"/>
-        </com.google.android.material.textfield.TextInputLayout>
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="match_parent"
-            style="@style/TextInputLayout"
-            android:layout_height="wrap_content">
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:hint="@string/hint_email"
-                android:inputType="textEmailAddress"
-                android:layout_height="wrap_content"/>
-        </com.google.android.material.textfield.TextInputLayout>
-        <com.google.android.material.textfield.TextInputLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:padding="45dp"
+        android:paddingTop="40dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+        <!-- Register User -->
+        <LinearLayout
+            android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            style="@style/TextInputLayout">
-            <com.google.android.material.textfield.TextInputEditText
+            android:layout_gravity="center"
+    >
+            <TextView
                 android:layout_width="match_parent"
-                android:hint="@string/hint_phonenumber"
-                android:inputType="textPhonetic"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                style="@style/TextTitleFont"
+                android:text="@string/text_register_rebbity_account"
                 android:layout_height="wrap_content"/>
-        </com.google.android.material.textfield.TextInputLayout>
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            style="@style/TextInputLayout">
-            <com.google.android.material.textfield.TextInputEditText
+            <TextView
                 android:layout_width="match_parent"
-                android:hint="@string/hint_password"
-                android:inputType="textPassword"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:text="@string/text_register_rebbity_account_sub"
                 android:layout_height="wrap_content"/>
-        </com.google.android.material.textfield.TextInputLayout>
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            style="@style/TextInputLayout">
-            <com.google.android.material.textfield.TextInputEditText
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
-                android:hint="@string/hint_confirmpassword"
-                android:inputType="textPassword"
-                android:layout_height="wrap_content"/>
-        </com.google.android.material.textfield.TextInputLayout>
+                style="@style/TextInputLayout"
+                android:layout_height="wrap_content">
 
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:hint="@string/hint_name"
+                    android:inputType="textPersonName"
+                    android:layout_height="wrap_content"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                style="@style/TextInputLayout"
+                android:layout_height="wrap_content">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:hint="@string/hint_cpf"
+                    android:inputType="textEmailAddress"
+                    android:layout_height="wrap_content"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TextInputLayout">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:hint="@string/hint_phonenumber"
+                    android:inputType="textPhonetic"
+                    android:layout_height="wrap_content"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TextInputLayout">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:hint="@string/hint_email"
+                    android:inputType="textPassword"
+                    android:layout_height="wrap_content"/>
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
 
-    </LinearLayout>
-            <!-- term checkbox -->
-             <!-- Update-->
+        <!-- term checkbox -->
+        <!-- Update-->
         <RelativeLayout
-             android:layout_width="match_parent"    
-              android:layout_marginTop="20dp"
-              android:layout_height="wrap_content">>
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:gravity="end">
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-            <CheckBox
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                android:gravity="start"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"/>
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
                 <LinearLayout
                     android:layout_width="wrap_content"
-                    android:orientation="horizontal"
                     android:layout_height="wrap_content"
-                    android:gravity="center_horizontal">
+                    android:orientation="vertical">
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"                        
-                        android:text="@string/text_term_polityc_v1"/>
-                        <!--Term -->
-                        <TextView
-                        style="@style/TextViweSepar"
-                        android:textColor="@android:color/holo_blue_dark"
-                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/text_term_polityc_v2"/>
+                        android:id="@+id/txvTermo"/>
                 </LinearLayout>
-                 <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center_horizontal"
-                    android:layout_height="wrap_content">
-                   <TextView
-                       
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/text_term_polityc_v3"/>
-                    <!-- politic of privacity -->
-                    <TextView
-                        android:textColor="@android:color/holo_blue_dark"
-                        style="@style/TextViweSepar"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/text_term_polityc_v4"/>
-                </LinearLayout>
-                </LinearLayout>
-             </LinearLayout>
+            </LinearLayout>
         </RelativeLayout>
+    </LinearLayout>
 
-       <!-- btn Register(Cadastrar)-->
-       <RelativeLayout
-                android:layout_width="match_parent"    
-                android:layout_marginTop="20dp"
-                android:layout_height="wrap_content">
-                <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"      
-                app:cardCornerRadius="50dp"
-                android:id="@+id/btnNext"
-                android:layout_centerHorizontal="true"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:text="Cadastrar"
-                    android:textColor="@android:color/white"
-                    android:background="@drawable/gradient"
-                    android:paddingVertical="15dp"
-                    android:textSize="18dp"
-                    android:paddingHorizontal="22dp"
-                    android:layout_height="wrap_content"/>
-            </androidx.cardview.widget.CardView>
-        </RelativeLayout> 
-    
-        <LinearLayout
+
+      <!-- btn Register(Cadastrar)-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            app:cardCornerRadius="50dp"            
+            android:layout_height="wrap_content"
+            android:id="@+id/btnNext">
+            <TextView
                 android:layout_width="match_parent"
-                android:layout_marginTop="20dp"   
-                android:layout_gravity="end"
-                android:gravity="center_horizontal"
-                android:orientation="horizontal"
-                android:layout_height="wrap_content"> 
-                <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Já tem uma conta?"                       
-                />
-                <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="@android:color/holo_blue_dark"
-                        android:text=" Faça o login"
-                />
-        </LinearLayout>  
-</LinearLayout>
+                android:textAlignment="center"
+                android:text="@string/text_confirma_cadastro"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:background="@drawable/gradient"
+                android:paddingVertical="15dp"
+                android:textSize="18dp"
+                android:paddingHorizontal="22dp"
+                android:layout_height="wrap_content"/>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+
+</RelativeLayout>

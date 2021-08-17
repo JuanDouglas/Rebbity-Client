@@ -11,6 +11,10 @@ using Rebb.Client.Core;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
+using Android.Text;
+using Android.Text.Style;
+using Android.Graphics;
+using AndroidX.Core.App;
 
 namespace Rebb.Deliveryman
 {
@@ -18,6 +22,7 @@ namespace Rebb.Deliveryman
     public class RegisterBasicActivity : AppCompatActivity
     {
         View buttonNext;
+        TextView txvCondicoesTerm;
         TextInputLayout Email;
         TextInputLayout Password;
         TextInputLayout ConfirmPassword;
@@ -29,15 +34,25 @@ namespace Rebb.Deliveryman
 
             buttonNext = FindViewById(Resource.Id.btnNext);
             buttonNext.Click += NextClick;
+
+            txvCondicoesTerm = (TextView)FindViewById(Resource.Id.txvTermo);
+            string textmain = "Li e concordo com os Termos e Condições de Uso. Os termos estarão disponivel para consulta dentro do app.";
+            SpannableString ss = new SpannableString(textmain);
+            ForegroundColorSpan fcsBlue = new ForegroundColorSpan(Color.Red);
+            ss.SetSpan(fcsBlue, 21, 46, SpanTypes.User);
+            txvCondicoesTerm.SetText(ss, TextView.BufferType.Normal);
             // Create your application here
         }
         public void NextClick(object sender, EventArgs args)
         {
-            new LoadingTaskFragment(Task.Run(() =>
-            {
-               
-            }))
-            { Message = "Conectando aos servidores"}.Show(SupportFragmentManager, LoadingTaskFragment.TAG);
+            Bundle bundle = ActivityOptionsCompat.MakeCustomAnimation(this, Resource.Animation.abc_fade_in, Resource.Animation.abc_fade_out).ToBundle();
+            Intent intent = new Intent(this, typeof(RegisterPasswordActivity));
+            ActivityCompat.StartActivity(this, intent, bundle);
+            //new LoadingTaskFragment(Task.Run(() =>
+            //{
+
+            //}))
+            //{ Message = "Conectando aos servidores" }.Show(SupportFragmentManager, LoadingTaskFragment.TAG);
         }
 
         private void ShowError(string name, string error)
