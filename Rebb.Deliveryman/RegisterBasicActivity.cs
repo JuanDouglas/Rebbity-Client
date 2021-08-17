@@ -45,6 +45,7 @@ namespace Rebb.Deliveryman
         }
         public void NextClick(object sender, EventArgs args)
         {
+<<<<<<< HEAD
             Bundle bundle = ActivityOptionsCompat.MakeCustomAnimation(this, Resource.Animation.abc_fade_in, Resource.Animation.abc_fade_out).ToBundle();
             Intent intent = new Intent(this, typeof(RegisterPasswordActivity));
             ActivityCompat.StartActivity(this, intent, bundle);
@@ -53,6 +54,14 @@ namespace Rebb.Deliveryman
 
             //}))
             //{ Message = "Conectando aos servidores" }.Show(SupportFragmentManager, LoadingTaskFragment.TAG);
+=======
+            new LoadingTaskFragment(Task.Run(() =>
+            {
+               
+            }))
+            {
+                Message = "Conectando aos servidores"}.Show(SupportFragmentManager, LoadingTaskFragment.TAG);
+>>>>>>> 2b06f69195ec21cd6e32eca1d8e0e9a7bda702b7
         }
 
         private void ShowError(string name, string error)
