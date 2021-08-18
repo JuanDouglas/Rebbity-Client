@@ -15,8 +15,16 @@
 	</style>
 
 	<style name="TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
-		<item name="android:textSize">17dp</item>
-		<item name="android:layout_marginVertical">7dp</item>
+		<item name="android:textSize">16dp</item>
+		<item name="android:layout_margin">5dp</item>
+		<item name="android:fontFamily">@font/roboto</item>
+		<item name="android:layout_marginHorizontal">0dp</item>
+	</style>
+
+	<style name="TextInputEditText">
+		<item name="android:textSize">16dp</item>
+		<item name="android:layout_margin">5dp</item>
+		<item name="android:fontFamily">@font/roboto</item>
 	</style>
 
 	<style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />

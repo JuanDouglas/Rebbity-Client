@@ -72,8 +72,9 @@
     <Compile Include="Assets\Callbacks\CaptureSessionCallback.cs" />
     <Compile Include="Assets\CustomViews\BitmapOutput.cs" />
     <Compile Include="Assets\Fragments\LoadingTaskFragment.cs" />
+    <Compile Include="Assets\Fragments\RegisterBasicFragment.cs" />
     <Compile Include="CaptureActivity.cs" />
-    <Compile Include="RegisterBasicActivity.cs" />
+    <Compile Include="RegisterActivity.cs" />
     <Compile Include="RegisterPasswordActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -101,6 +102,7 @@
     <AndroidResource Include="Resources\font\montserrat_semibolditalic.ttf" />
     <AndroidResource Include="Resources\font\montserrat_thin.ttf" />
     <AndroidResource Include="Resources\font\montserrat_thinitalic.ttf" />
+    <AndroidResource Include="Resources\font\roboto_light.ttf" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\activity_main.xml">
@@ -167,7 +169,7 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\activity_register_basic.xml">
+    <AndroidResource Include="Resources\layout\content_register_basic.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -195,12 +197,27 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\activity_register_password.xml">
+    <AndroidResource Include="Resources\layout\content_register_password.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\activity_verify_email.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\activity_register.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\font\roboto.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\gradient_progress.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

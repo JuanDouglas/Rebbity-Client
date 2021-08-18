@@ -22,7 +22,7 @@ namespace Rebb.Deliveryman
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            SetContentView(Resource.Layout.activity_register_password);
+            SetContentView(Resource.Layout.content_register_password);
 
         }
     }

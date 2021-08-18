@@ -7,11 +7,11 @@
 	<string name="hint_phonenumber">Numero Celular</string>
 	<string name="hint_cpf">CPF</string>
 	<string name="hint_name">Nome</string>
-	<string name="text_register_rebbity_account">Bem-vindo entregador!</string>
-	<string name="text_register_rebbity_account_sub">digite seus dados pessoais.</string>
+	<string name="text_register_rebbity_account">Bem-vindo entregador(a)!</string>
+	<string name="text_register_rebbity_account_sub">Vamos começar o seu cadastro. Para isso digite algumas informações de contato e o seu nome.</string>
 	
-	<string name="text_register_rebbity_password">Cria sua senha</string>
-	<string name="text_register_rebbity_password_sub">Essa senha deve ser personalizada. Você pode usá-la para entrar no aplicativo com seu e-mail.</string>
+	<string name="text_register_rebbity_password">Crie uma sua senha</string>
+	<string name="text_register_rebbity_password_sub">Essa senha deve ser difícil. Mas lembre-se você irá usá-la para entrar no aplicativo junto o com seu e-mail, por isso anote-a.</string>
 	<string name="hint_password">Senha</string>
 	<string name="hint_confirmpassword">Confirma senha</string>
 	
@@ -25,6 +25,6 @@
 	<string name="text_confirma_cadastro">Confirmar</string>
 	<string name="text_avaca">Avança</string>
 	<string name="text_voltar">Voltar</string>
-	<string name="text_main">Li e concordo com os Termos e Condições de Uso. Os termos estarão disponivel para consulta dentro do app.</string>
-	
+	<string name="text_main">Li e concordo com os Termos e Condições de Uso.</string>
+	<string name="text_next">Proximo</string>
 </resources>

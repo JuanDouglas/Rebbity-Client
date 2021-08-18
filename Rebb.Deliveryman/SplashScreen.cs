@@ -39,18 +39,19 @@ namespace Rebb.Deliveryman
             try
             {
                 ApiClient client = new ApiClient(null, "Rebb DeliveryMan Android App");
-                ValidLoginResult? validation = await client.LoginController.ValidLoginAsync(new Login()
-                {
-                    FirstStepKey = string.Empty,
-                    AccountKey = string.Empty,
-                    AuthenticationToken = string.Empty
-                });
+                //ValidLoginResult? validation = await client.LoginController.ValidLoginAsync(new Login()
+                //{
+                //    FirstStepKey = string.Empty,
+                //    AccountKey = string.Empty,
+                //    AuthenticationToken = string.Empty
+                //});
             }
             catch (Exception e)
             {
             }
             Bundle bundle = ActivityOptionsCompat.MakeCustomAnimation(this, Resource.Animation.abc_fade_in, Resource.Animation.abc_fade_out).ToBundle();
-            Intent intent = new Intent(this, typeof(RegisterBasicActivity));
+            Intent intent = new Intent(this, typeof(RegisterActivity));
+            Finish();
             ActivityCompat.StartActivity(this, intent, bundle);
         }
     }
