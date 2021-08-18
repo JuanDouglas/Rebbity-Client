@@ -99,7 +99,8 @@
             android:textColor="@android:color/white"
             android:background="@drawable/gradient"
             android:paddingVertical="12dp"
-            android:textSize="18dp"
+            android:textSize="16dp"
+            android:textAllCaps="true"
             android:paddingHorizontal="22dp"
             android:layout_height="wrap_content"/>
     </androidx.cardview.widget.CardView>

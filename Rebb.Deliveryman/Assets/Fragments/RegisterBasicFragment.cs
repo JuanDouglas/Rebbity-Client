@@ -9,6 +9,7 @@ using Android.Util;
 using Android.Views;
 using Android.Widget;
 using AndroidX.AppCompat.App;
+using Google.Android.Material.TextField;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,6 +20,8 @@ namespace Rebb.Deliveryman.Assets.Fragments
     public class RegisterBasicFragment : AppCompatDialogFragment
     {
         TextView txvCondicoesTerm;
+        View btnNext;
+        TextInputLayout Email;
         public const string TAG = "RegisterBasicFragment";
         public override void OnCreate(Bundle savedInstanceState)
         {
@@ -34,13 +37,21 @@ namespace Rebb.Deliveryman.Assets.Fragments
             View view = inflater.Inflate(Resource.Layout.content_register_basic, container, false);
 
             txvCondicoesTerm = view.FindViewById<TextView>(Resource.Id.txvTermo);
+            btnNext = view.FindViewById(Resource.Id.btnNext);
+            Email = view.FindViewById<TextInputLayout>(Resource.Id.TextInputEmail); 
+
+            btnNext.Click += NextClick;
 
             SpannableString ss = new SpannableString(Resources.GetString(Resource.String.text_main));
             ForegroundColorSpan fcsBlue = new ForegroundColorSpan(Color.Red);
             ss.SetSpan(fcsBlue, 21, 46, SpanTypes.User);
             txvCondicoesTerm.SetText(ss, TextView.BufferType.Normal);
-
             return view;
+        }
+
+        private void NextClick(object sender, EventArgs args)
+        {
+
         }
     }
 }
