@@ -15,6 +15,8 @@ using Android.Text;
 using Android.Text.Style;
 using Android.Graphics;
 using AndroidX.Core.App;
+using Rebb.Client.Core.Models;
+using Rebb.Client.Core.Models.Upload;
 
 namespace Rebb.Deliveryman
 {
@@ -24,16 +26,13 @@ namespace Rebb.Deliveryman
         View buttonNext;
         TextView txvCondicoesTerm;
         TextInputLayout Email;
-        TextInputLayout Password;
-        TextInputLayout ConfirmPassword;
+        TextInputLayout Name;
+        TextInputLayout CPF;
         TextInputLayout PhoneNumber;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.activity_register_basic);
-
-            buttonNext = FindViewById(Resource.Id.btnNext);
-            buttonNext.Click += NextClick;
 
             txvCondicoesTerm = (TextView)FindViewById(Resource.Id.txvTermo);
             string textmain = "Li e concordo com os Termos e Condições de Uso. Os termos estarão disponivel para consulta dentro do app.";
@@ -42,12 +41,32 @@ namespace Rebb.Deliveryman
             ss.SetSpan(fcsBlue, 21, 46, SpanTypes.User);
             txvCondicoesTerm.SetText(ss, TextView.BufferType.Normal);
             // Create your application here
+
+            Email = (TextInputLayout)FindViewById(Resource.Id.TextInputEmail);
+            Name = (TextInputLayout)FindViewById(Resource.Id.TextInputName);
+            CPF = (TextInputLayout)FindViewById(Resource.Id.TextInputCPF);
+            PhoneNumber = (TextInputLayout)FindViewById(Resource.Id.TextInputPhoneNumber);
+
+            buttonNext = FindViewById(Resource.Id.btnNext);
+            buttonNext.Click += NextClick;
         }
         public void NextClick(object sender, EventArgs args)
         {
             Bundle bundle = ActivityOptionsCompat.MakeCustomAnimation(this, Resource.Animation.abc_fade_in, Resource.Animation.abc_fade_out).ToBundle();
             Intent intent = new Intent(this, typeof(RegisterPasswordActivity));
             ActivityCompat.StartActivity(this, intent, bundle);
+
+            ApiClient client = new ApiClient(null, "Android (Deliveryman/App)");
+            Login login = new Client.Core.Models.Login();
+            AccountUpload account = new Client.Core.Models.Upload.AccountUpload
+            {
+                Name = Name.EditText.ToString(),
+                Email = Email.ToString(),
+                PhoneNumber = PhoneNumber.ToString()
+            };
+            client.AccountController.CreateAccount(account);
+            
+      
         }
 
         private void ShowError(string name, string error)

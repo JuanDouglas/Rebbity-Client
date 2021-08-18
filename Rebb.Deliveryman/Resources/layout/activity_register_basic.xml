@@ -38,7 +38,8 @@
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
-                    android:hint="@string/hint_name"
+                    android:id="TextInputName"
+                    android:hint="@string/hint_name"                    
                     android:inputType="textPersonName"
                     android:layout_height="wrap_content"/>
             </com.google.android.material.textfield.TextInputLayout>
@@ -49,7 +50,9 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:hint="@string/hint_cpf"
-                    android:inputType="textEmailAddress"
+                    android:id="TextInputCPF"
+                    android:inputType="number"
+                    android:maxLength="11"
                     android:layout_height="wrap_content"/>
             </com.google.android.material.textfield.TextInputLayout>
             <com.google.android.material.textfield.TextInputLayout
@@ -59,6 +62,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:hint="@string/hint_phonenumber"
+                    android:id="TextInputPhoneNumber"
                     android:inputType="textPhonetic"
                     android:layout_height="wrap_content"/>
             </com.google.android.material.textfield.TextInputLayout>
@@ -69,7 +73,8 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:hint="@string/hint_email"
-                    android:inputType="textPassword"
+                    android:id="TextInputEmail"
+                    android:inputType="textEmailAddress"
                     android:layout_height="wrap_content"/>
             </com.google.android.material.textfield.TextInputLayout>
         </LinearLayout>
@@ -104,7 +109,7 @@
     </LinearLayout>
 
 
-      <!-- btn Register(Cadastrar)-->
+      <!-- btn Register-->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
