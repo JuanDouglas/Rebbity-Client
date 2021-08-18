@@ -30,7 +30,7 @@ namespace Rebb.Deliveryman
 
             SupportFragmentManager.BeginTransaction()
                 .SetReorderingAllowed(true)
-                .Add(Resource.Id.registerFragment, new RegisterBasicFragment(), RegisterBasicFragment.TAG)
+                .Add(Resource.Id.registerFragment, new RegisterBasicFragment(this), RegisterBasicFragment.TAG)
                 .Commit();
            
         }

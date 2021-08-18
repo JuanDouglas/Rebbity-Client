@@ -33,7 +33,7 @@
         android:max="100"
         android:layout_marginHorizontal="10dp"
         style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"    
-    />
+        />
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/registerFragment"
         android:layout_width="match_parent"

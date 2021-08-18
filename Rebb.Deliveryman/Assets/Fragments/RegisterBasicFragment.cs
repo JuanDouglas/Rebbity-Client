@@ -10,6 +10,7 @@ using Android.Views;
 using Android.Widget;
 using AndroidX.AppCompat.App;
 using Google.Android.Material.TextField;
+using Rebb.Client.Core.Models.Upload;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,7 +23,14 @@ namespace Rebb.Deliveryman.Assets.Fragments
         TextView txvCondicoesTerm;
         View btnNext;
         TextInputLayout Email;
+        TextInputLayout Name;
+        TextInputLayout PhoneNumber;
         public const string TAG = "RegisterBasicFragment";
+        public AppCompatActivity CompatActivity { get; set; }
+        public RegisterBasicFragment(AppCompatActivity activity)
+        {
+            CompatActivity = activity;
+        }
         public override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -38,7 +46,9 @@ namespace Rebb.Deliveryman.Assets.Fragments
 
             txvCondicoesTerm = view.FindViewById<TextView>(Resource.Id.txvTermo);
             btnNext = view.FindViewById(Resource.Id.btnNext);
-            Email = view.FindViewById<TextInputLayout>(Resource.Id.TextInputEmail); 
+            Email = view.FindViewById<TextInputLayout>(Resource.Id.TextInputEmail);
+            Name = view.FindViewById<TextInputLayout>(Resource.Id.TextInputName);
+            PhoneNumber = view.FindViewById<TextInputLayout>(Resource.Id.TextInputPhoneNumber);
 
             btnNext.Click += NextClick;
 
@@ -51,7 +61,19 @@ namespace Rebb.Deliveryman.Assets.Fragments
 
         private void NextClick(object sender, EventArgs args)
         {
+            AccountUpload account = new AccountUpload()
+            {
+                Email = Email.EditText.Text,
+                Name = Name.EditText.Text,
+                PhoneNumber = PhoneNumber.EditText.Text
+            };
 
+            RegisterPasswordFragment fragment = new RegisterPasswordFragment(CompatActivity, account);
+            CompatActivity.SupportFragmentManager.BeginTransaction()
+                .SetReorderingAllowed(true)
+                .SetCustomAnimations(Resource.Animation.abc_slide_in_top, Resource.Animation.abc_fade_out)
+                .Replace(Resource.Id.registerFragment, fragment, RegisterPasswordFragment.TAG)
+                .Commit();
         }
     }
 }
