@@ -25,8 +25,6 @@
 	<string name="text_confirma_cadastro">Confirmar</string>
 	<string name="text_avaca">Avança</string>
 	<string name="text_voltar">Voltar</string>
-	
-
-	
+	<string name="text_main">Li e concordo com os Termos e Condições de Uso. Os termos estarão disponivel para consulta dentro do app.</string>
 	
 </resources>

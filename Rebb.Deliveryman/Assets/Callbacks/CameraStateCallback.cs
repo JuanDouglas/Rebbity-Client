@@ -2,6 +2,7 @@
 using Android.Content;
 using Android.Graphics;
 using Android.Hardware.Camera2;
+using Android.Hardware.Camera2.Params;
 using Android.Media;
 using Android.OS;
 using Android.Runtime;
@@ -33,12 +34,12 @@ namespace Rebb.Deliveryman.Assets.Callbacks
         }
         public override void OnDisconnected(CameraDevice camera)
         {
-           
+
         }
 
         public override void OnError(CameraDevice camera, [GeneratedEnum] CameraError error)
         {
-           
+
         }
 
         public void OnImageAvailable(ImageReader reader)
@@ -53,47 +54,59 @@ namespace Rebb.Deliveryman.Assets.Callbacks
             byte[] imageBytes = new byte[capacity];
             buffer.Get(imageBytes);
 
-            using MemoryStream ms = new MemoryStream(imageBytes);
-            Bitmap bmp = BitmapFactory.DecodeStream(ms);
-            ms.Flush();
-            ms.Close();
-
-            using MemoryStream compressStream = new MemoryStream();
-            bmp.Compress(Bitmap.CompressFormat.Jpeg, 0, compressStream);
-
-            compressStream.Flush();
-            compressStream.Close();
-
-            stopwatch.Stop();
-            Log.Debug("ImageRenderTime", stopwatch.Elapsed.ToString());
-            stopwatch.Reset();
-
-            stopwatch.Start();
-
-
-            if (Control.LensFacing == LensFacing.Front)
+            try
             {
-                RotateBitmap(bmp, 270);
+                using MemoryStream ms = new MemoryStream(imageBytes);
+                Bitmap bmp = BitmapFactory.DecodeByteArray(imageBytes, 0, imageBytes.Length);
+                ms.Flush();
+                ms.Close();
+
+                using MemoryStream compressStream = new MemoryStream();
+                bmp.Compress(Bitmap.CompressFormat.Jpeg, 0, compressStream);
+
+                compressStream.Flush();
+                compressStream.Close();
+
+                stopwatch.Stop();
+                Log.Debug("ImageRenderTime", stopwatch.Elapsed.ToString());
+                stopwatch.Reset();
+
+                stopwatch.Start();
+
+
+                if (Control.LensFacing == LensFacing.Front)
+                {
+                    RotateBitmap(bmp, 180);
+                }
+                else if (Control.LensFacing == LensFacing.Back)
+                {
+                    RotateBitmap(bmp, 90);
+                }
+
+                resultView.Bitmap = bmp;
+                stopwatch.Stop();
+
+                Log.Debug("ImageSetTime", stopwatch.Elapsed.ToString());
+
             }
-            else if (Control.LensFacing == LensFacing.Back)
+            catch (Java.Lang.OutOfMemoryError)
             {
-                RotateBitmap(bmp, 90);
             }
-
-            resultView.Bitmap = bmp;
-            resultView.Invalidate();
-            stopwatch.Stop();
-
-            Log.Debug("ImageSetTime", stopwatch.Elapsed.ToString());
-            if (image != null)
+            finally
             {
-                image.Close();
+
+                if (image != null)
+                {
+                    image.Close();
+                }
             }
         }
 
         public override void OnOpened(CameraDevice camera)
         {
-            var reader = ImageReader.NewInstance(Height, Width, ImageFormatType.Jpeg, 50);
+            var streamConfiguration = Control.Characteristics.Get(CameraCharacteristics.ScalerStreamConfigurationMap);
+
+            var reader = ImageReader.NewInstance(Width, Height, ImageFormatType.Jpeg, 120);
             reader.SetOnImageAvailableListener(this, null);
             CaptureSessionCallback captureSessionCallback = new CaptureSessionCallback(camera) { Surface = reader.Surface };
 
@@ -108,7 +121,8 @@ namespace Rebb.Deliveryman.Assets.Callbacks
             return Bitmap.CreateBitmap(source, 0, 0, source.Width, source.Height, matrix, true);
         }
     }
-    public class CameraDeviceControl {
+    public class CameraDeviceControl
+    {
         public CameraDevice Device { get; set; }
         public CameraCharacteristics Characteristics { get; set; }
         public LensFacing LensFacing { get; set; }

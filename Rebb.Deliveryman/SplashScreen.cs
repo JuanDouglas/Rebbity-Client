@@ -10,6 +10,8 @@ using Android.Widget;
 using AndroidX.AppCompat.App;
 using AndroidX.Core.App;
 using Rebb.Client.Core;
+using Rebb.Client.Core.Models;
+using Rebb.Client.Core.Models.Result;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,9 +36,21 @@ namespace Rebb.Deliveryman
 
         private async Task Background()
         {
-            ApiClient client = new ApiClient(null, "Rebb DeliveryMan Android App");
+            try
+            {
+                ApiClient client = new ApiClient(null, "Rebb DeliveryMan Android App");
+                ValidLoginResult? validation = await client.LoginController.ValidLoginAsync(new Login()
+                {
+                    FirstStepKey = string.Empty,
+                    AccountKey = string.Empty,
+                    AuthenticationToken = string.Empty
+                });
+            }
+            catch (Exception e)
+            {
+            }
             Bundle bundle = ActivityOptionsCompat.MakeCustomAnimation(this, Resource.Animation.abc_fade_in, Resource.Animation.abc_fade_out).ToBundle();
-            Intent intent = new Intent(this, typeof(CaptureActivity));
+            Intent intent = new Intent(this, typeof(RegisterBasicActivity));
             ActivityCompat.StartActivity(this, intent, bundle);
         }
     }

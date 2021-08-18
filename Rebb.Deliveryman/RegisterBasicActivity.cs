@@ -36,8 +36,8 @@ namespace Rebb.Deliveryman
             buttonNext.Click += NextClick;
 
             txvCondicoesTerm = (TextView)FindViewById(Resource.Id.txvTermo);
-            string textmain = "Li e concordo com os Termos e Condições de Uso. Os termos estarão disponivel para consulta dentro do app.";
-            SpannableString ss = new SpannableString(textmain);
+
+            SpannableString ss = new SpannableString(Resources.GetString(Resource.String.text_main));
             ForegroundColorSpan fcsBlue = new ForegroundColorSpan(Color.Red);
             ss.SetSpan(fcsBlue, 21, 46, SpanTypes.User);
             txvCondicoesTerm.SetText(ss, TextView.BufferType.Normal);

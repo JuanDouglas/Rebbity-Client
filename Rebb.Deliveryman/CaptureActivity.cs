@@ -68,6 +68,7 @@ namespace Rebb.Deliveryman
             foreach (string id in ids)
             {
                 var info = manager.GetCameraCharacteristics(id);
+                control.Characteristics = info;   
                 var lensFacing = info.Get(CameraCharacteristics.LensFacing);
                 LensFacing facing = (LensFacing)Convert.ToInt32(lensFacing.ToString());
 
