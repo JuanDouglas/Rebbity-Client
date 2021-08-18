@@ -61,6 +61,10 @@ namespace Rebb.Deliveryman.Assets.Fragments
 
         private void NextClick(object sender, EventArgs args)
         {
+            Email.EditText.Text ??= string.Empty;
+            Name.EditText.Text ??= string.Empty;
+            PhoneNumber.EditText.Text ??= string.Empty;
+
             AccountUpload account = new AccountUpload()
             {
                 Email = Email.EditText.Text,

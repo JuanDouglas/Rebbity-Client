@@ -1,5 +1,6 @@
 ﻿using Android.App;
 using Android.Content;
+using Android.Content.PM;
 using Android.Hardware;
 using Android.Hardware.Camera2;
 using Android.OS;
@@ -12,6 +13,7 @@ using AndroidX.Core.App;
 using Rebb.Client.Core;
 using Rebb.Client.Core.Models;
 using Rebb.Client.Core.Models.Result;
+using Rebb.Deliveryman.Assets;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -38,7 +40,10 @@ namespace Rebb.Deliveryman
         {
             try
             {
-                ApiClient client = new ApiClient(null, "Rebb DeliveryMan Android App");
+                PackageInfo pInfo = PackageManager.GetPackageInfo(PackageName, 0);
+                string version = pInfo.VersionName;
+              
+                Statics.ApiClient = new ApiClient(null, $"Android {version}-{Build.VERSION.SdkInt} (Deliveryman/App)");
                 //ValidLoginResult? validation = await client.LoginController.ValidLoginAsync(new Login()
                 //{
                 //    FirstStepKey = string.Empty,

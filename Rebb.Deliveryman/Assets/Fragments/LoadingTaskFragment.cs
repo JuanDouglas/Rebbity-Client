@@ -110,7 +110,7 @@ namespace Rebb.Deliveryman.Assets.Fragments
             Background = view.FindViewById<ViewGroup>(Resource.Id.loadingBackground);
 
             Loading = true;
-            Message = Message ?? string.Empty;
+            Message ??= string.Empty;
 
             MainLayout.Click += MainLayoutClick;
 

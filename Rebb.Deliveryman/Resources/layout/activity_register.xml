@@ -29,8 +29,8 @@
         android:layout_width="match_parent"
         android:layout_height="6dp"
         android:progressDrawable="@drawable/gradient_progress"
-        android:indeterminate="true"
-        android:max="100"
+        android:max="10000"
+        android:id="@+id/registerProgress"
         android:layout_marginHorizontal="10dp"
         style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"    
         />

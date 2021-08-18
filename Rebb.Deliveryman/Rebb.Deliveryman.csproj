@@ -74,6 +74,7 @@
     <Compile Include="Assets\Fragments\LoadingTaskFragment.cs" />
     <Compile Include="Assets\Fragments\RegisterBasicFragment.cs" />
     <Compile Include="Assets\Fragments\RegisterPasswordFragment.cs" />
+    <Compile Include="Assets\Statics.cs" />
     <Compile Include="CaptureActivity.cs" />
     <Compile Include="RegisterActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
