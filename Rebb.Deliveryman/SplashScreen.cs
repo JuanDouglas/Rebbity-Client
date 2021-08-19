@@ -55,8 +55,13 @@ namespace Rebb.Deliveryman
             {
             }
             Bundle bundle = ActivityOptionsCompat.MakeCustomAnimation(this, Resource.Animation.abc_fade_in, Resource.Animation.abc_fade_out).ToBundle();
+<<<<<<< Updated upstream
             Intent intent = new Intent(this, typeof(RegisterActivity));
             Finish();
+=======
+            Intent intent = new Intent(this, typeof(RegisterBasicActivity));
+            //Intent intent = new Intent(this, typeof(CaptureActivity));
+>>>>>>> Stashed changes
             ActivityCompat.StartActivity(this, intent, bundle);
         }
     }
