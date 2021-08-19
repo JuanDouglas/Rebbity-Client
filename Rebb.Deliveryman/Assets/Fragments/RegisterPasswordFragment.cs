@@ -11,6 +11,7 @@ using Google.Android.Material.TextField;
 using Rebb.Client.Core;
 using Rebb.Client.Core.Exceptions;
 using Rebb.Client.Core.Models;
+using Rebb.Client.Core.Models.Result;
 using Rebb.Client.Core.Models.Upload;
 using System;
 using System.Collections.Generic;
@@ -66,19 +67,28 @@ namespace Rebb.Deliveryman.Assets.Fragments
             Account.ConfirmPassword = ConfirmPassword.EditText.Text;
             Account.Password = Password.EditText.Text;
 
-            Task task = SendAccount();
-            string message = Resources.GetString(Resource.String.text_send_account);
-            var loadingTaskFragment = new LoadingTaskFragment(task) { 
-                Message = message
-            };
-            loadingTaskFragment.Show(CompatActivity.SupportFragmentManager, LoadingTaskFragment.TAG);
+            try
+            {
+                Task task = SendAccount();
+                string message = Resources.GetString(Resource.String.text_send_account);
+                var loadingTaskFragment = new LoadingTaskFragment(task)
+                {
+                    Message = message
+                };
+                loadingTaskFragment.Show(CompatActivity.SupportFragmentManager, LoadingTaskFragment.TAG);
+            }
+            catch (Exception e)
+            {
+
+            }
         }
 
         public async Task SendAccount()
         {
             try
             {
-                await Client.AccountController.CreateAccount(Account);
+            AccountResult result = await Client.AccountController.CreateAccount(Account);
+
             }
             catch (ValidationErrorsException e)
             {
@@ -87,8 +97,11 @@ namespace Rebb.Deliveryman.Assets.Fragments
                 {
                     if (
                         item.Key.ToLowerInvariant() != "ConfirmPassword".ToLowerInvariant() &&
-                        item.Key.ToLowerInvariant() != "Password".ToLowerInvariant())
+                        item.Key.ToLowerInvariant() != "Password".ToLowerInvariant()) {
                         isActualPage = false;
+                        break;
+                    }
+                        
                 }
 
                 if (!isActualPage)

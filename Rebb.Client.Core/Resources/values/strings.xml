@@ -1,0 +1,6 @@
+<resources>
+    <string name="hello">Hello World, Click Me!</string>
+    <string name="app_name">Rebb.Client.Core</string>
+	<string name="user_invalid">Usuario incorreto ou invalido.</string>
+	<string name="pwd_invalid">Senha incorreta ou invalida.</string>
+</resources>

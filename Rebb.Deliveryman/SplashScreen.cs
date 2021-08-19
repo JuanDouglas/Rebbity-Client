@@ -43,7 +43,7 @@ namespace Rebb.Deliveryman
                 PackageInfo pInfo = PackageManager.GetPackageInfo(PackageName, 0);
                 string version = pInfo.VersionName;
               
-                Statics.ApiClient = new ApiClient(null, $"Android {version}-{Build.VERSION.SdkInt} (Deliveryman/App)");
+                Statics.ApiClient = new ApiClient(null, $"Android (Deliveryman/App {version}-{Build.VERSION.SdkInt})");
                 //ValidLoginResult? validation = await client.LoginController.ValidLoginAsync(new Login()
                 //{
                 //    FirstStepKey = string.Empty,
@@ -55,13 +55,8 @@ namespace Rebb.Deliveryman
             {
             }
             Bundle bundle = ActivityOptionsCompat.MakeCustomAnimation(this, Resource.Animation.abc_fade_in, Resource.Animation.abc_fade_out).ToBundle();
-<<<<<<< Updated upstream
             Intent intent = new Intent(this, typeof(RegisterActivity));
             Finish();
-=======
-            Intent intent = new Intent(this, typeof(RegisterBasicActivity));
-            //Intent intent = new Intent(this, typeof(CaptureActivity));
->>>>>>> Stashed changes
             ActivityCompat.StartActivity(this, intent, bundle);
         }
     }

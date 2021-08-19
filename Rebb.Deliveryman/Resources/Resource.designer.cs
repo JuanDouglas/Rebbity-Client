@@ -10033,31 +10033,34 @@ namespace Rebb.Deliveryman
 			public const int text_main = 2131689597;
 			
 			// aapt resource value: 0x7F0F007E
-			public const int text_next = 2131689598;
+			public const int text_main_term = 2131689598;
 			
 			// aapt resource value: 0x7F0F007F
-			public const int text_register_rebbity_account = 2131689599;
+			public const int text_next = 2131689599;
 			
 			// aapt resource value: 0x7F0F0080
-			public const int text_register_rebbity_account_sub = 2131689600;
+			public const int text_register_rebbity_account = 2131689600;
 			
 			// aapt resource value: 0x7F0F0081
-			public const int text_register_rebbity_document = 2131689601;
+			public const int text_register_rebbity_account_sub = 2131689601;
 			
 			// aapt resource value: 0x7F0F0082
-			public const int text_register_rebbity_password = 2131689602;
+			public const int text_register_rebbity_document = 2131689602;
 			
 			// aapt resource value: 0x7F0F0083
-			public const int text_register_rebbity_password_sub = 2131689603;
+			public const int text_register_rebbity_password = 2131689603;
 			
 			// aapt resource value: 0x7F0F0084
-			public const int text_send_account = 2131689604;
+			public const int text_register_rebbity_password_sub = 2131689604;
 			
 			// aapt resource value: 0x7F0F0085
-			public const int text_voltar = 2131689605;
+			public const int text_send_account = 2131689605;
 			
 			// aapt resource value: 0x7F0F0086
-			public const int user_invalid = 2131689606;
+			public const int text_voltar = 2131689606;
+			
+			// aapt resource value: 0x7F0F0087
+			public const int user_invalid = 2131689607;
 			
 			static String()
 			{

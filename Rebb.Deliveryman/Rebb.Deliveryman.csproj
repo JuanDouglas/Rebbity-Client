@@ -57,9 +57,6 @@
     <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Rebb.Client.Core">
-      <HintPath>..\Client\Rebb.Client.Core.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -232,6 +229,12 @@
     <AndroidResource Include="Resources\drawable\arrow_left.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Rebb.Client.Core\Rebb.Client.Core.csproj">
+      <Project>{2058f780-e94c-4a0a-aa5b-cd4b7f5ab648}</Project>
+      <Name>Rebb.Client.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
