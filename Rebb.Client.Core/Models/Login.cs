@@ -13,9 +13,9 @@ namespace Rebb.Client.Core.Models
 
         }
 
-        internal const string AuthenticationTokenHeader = "Authentication-Token";
-        internal const string AccountKeyHeader = "Account-Key";
-        internal const string FirstStepKeyHeader = "First-Step-Key";
+        public const string AuthenticationTokenHeader = "Authentication-Token";
+        public const string AccountKeyHeader = "Account-Key";
+        public const string FirstStepKeyHeader = "First-Step-Key";
         internal HttpRequestMessage AutenticatedRequest(HttpRequestMessage defaultRequest)
         {
             HttpRequestMessage request = defaultRequest;

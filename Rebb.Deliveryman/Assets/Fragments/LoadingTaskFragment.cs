@@ -111,7 +111,7 @@ namespace Rebb.Deliveryman.Assets.Fragments
 
             Loading = true;
             Message ??= string.Empty;
-
+            MessageTextView.Text = Message;
             MainLayout.Click += MainLayoutClick;
 
             Task.ContinueWith((Task task) =>

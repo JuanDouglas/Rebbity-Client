@@ -21,21 +21,18 @@ using System.Threading.Tasks;
 
 namespace Rebb.Deliveryman.Assets.Fragments
 {
-    public class RegisterPasswordFragment : AppCompatDialogFragment
+    public class RegisterPasswordFragment : RegisterFragment
     {
         public AccountUpload Account { get; set; }
-        public AppCompatActivity CompatActivity { get; set; }
-        public ApiClient Client { get { return Statics.ApiClient; } }
         public const string TAG = "RegisterPasswordFragment";
 
         TextInputLayout Password;
         TextInputLayout ConfirmPassword;
         View btnNext;
-        public RegisterPasswordFragment(AppCompatActivity activity, AccountUpload account)
+        bool loading;
+        public RegisterPasswordFragment(AppCompatActivity activity, AccountUpload account) : base(activity)
         {
             Account = account;
-            CompatActivity = activity;
-
         }
         public override void OnCreate(Bundle savedInstanceState)
         {
@@ -53,17 +50,23 @@ namespace Rebb.Deliveryman.Assets.Fragments
             Password = view.FindViewById<TextInputLayout>(Resource.Id.TextInputPassword);
             ConfirmPassword = view.FindViewById<TextInputLayout>(Resource.Id.TextInputPassword);
 
-            ProgressBar progressBar = CompatActivity.FindViewById<ProgressBar>(Resource.Id.registerProgress);
-            ObjectAnimator progressAnimator = ObjectAnimator.OfInt(progressBar, "progress", 0, 2500);
-            progressAnimator.SetDuration(500);
-            progressAnimator.Start();
+            string emp = string.Empty;
+            if (Account!=null)
+            {
+                Password.EditText.Text = Account.Password ?? emp;
+                ConfirmPassword.EditText.Text = Account.ConfirmPassword ?? emp;
+            }
 
+            AlterProgress(2500);
             btnNext.Click += NextClick;
             return view;
         }
 
         private void NextClick(object sender, EventArgs args)
         {
+            if (loading)
+                return;
+
             Account.ConfirmPassword = ConfirmPassword.EditText.Text;
             Account.Password = Password.EditText.Text;
 
@@ -85,10 +88,11 @@ namespace Rebb.Deliveryman.Assets.Fragments
 
         public async Task SendAccount()
         {
+            loading = true;
             try
             {
-            AccountResult result = await Client.AccountController.CreateAccount(Account);
-
+                AccountResult result = await Client.AccountController.CreateAccount(Account);
+                Login login = await Client.LoginController.LoginAsync(Account.Email, Account.Password);
             }
             catch (ValidationErrorsException e)
             {
@@ -96,23 +100,59 @@ namespace Rebb.Deliveryman.Assets.Fragments
                 foreach (var item in e.Errors.Errors)
                 {
                     if (
-                        item.Key.ToLowerInvariant() != "ConfirmPassword".ToLowerInvariant() &&
-                        item.Key.ToLowerInvariant() != "Password".ToLowerInvariant()) {
+                        item.Key.ToLowerInvariant() != nameof(ConfirmPassword).ToLowerInvariant() &&
+                        item.Key.ToLowerInvariant() != nameof(Password).ToLowerInvariant())
+                    {
                         isActualPage = false;
                         break;
                     }
-                        
+
                 }
 
                 if (!isActualPage)
                 {
-
+                    RegisterBasicFragment fragment = new RegisterBasicFragment(e.Errors, CompatActivity, Account);
+                    CompatActivity.SupportFragmentManager.BeginTransaction()
+                                  .SetReorderingAllowed(true)
+                                  .SetCustomAnimations(Resource.Animation.abc_slide_in_top, Resource.Animation.abc_fade_out)
+                                  .Replace(Resource.Id.registerFragment, fragment, RegisterBasicFragment.TAG)
+                                  .Commit();
                 }
+                else
+                {
+                    ShowErrors(e.Errors);
+                }
+
             }
             catch (Exception e)
             {
                 Log.Error("SendMessageErrorMessage", e.Message);
                 Log.Error("SendMessageErrorStackTrace", e.StackTrace);
+            }
+            finally
+            {
+                loading = false;
+            }
+        }
+
+        public void ShowErrors(ValidationErrorsResult validationErrorsResult)
+        {
+            var errors = validationErrorsResult.Errors;
+            foreach (var keyUper in errors.Keys)
+            {
+                TextInputLayout input = null;
+                string key = keyUper.ToLowerInvariant();
+                if (key == nameof(Password).ToLowerInvariant())
+                    input = Password;
+
+                if (key == nameof(ConfirmPassword).ToLowerInvariant())
+                    input = ConfirmPassword;
+
+                if (input == null)
+                {
+                    input.Error = errors[keyUper][0];
+                    input.ErrorEnabled = true;
+                }
             }
         }
     }

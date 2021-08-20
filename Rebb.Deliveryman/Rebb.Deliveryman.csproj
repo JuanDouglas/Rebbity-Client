@@ -68,8 +68,11 @@
     <Compile Include="Assets\Callbacks\CameraStateCallback.cs" />
     <Compile Include="Assets\Callbacks\CaptureSessionCallback.cs" />
     <Compile Include="Assets\CustomViews\BitmapOutput.cs" />
+    <Compile Include="Assets\Enums\RegisterStep.cs" />
+    <Compile Include="Assets\Fragments\ConfirmEmailFragment.cs" />
     <Compile Include="Assets\Fragments\LoadingTaskFragment.cs" />
     <Compile Include="Assets\Fragments\RegisterBasicFragment.cs" />
+    <Compile Include="Assets\Fragments\RegisterFragment.cs" />
     <Compile Include="Assets\Fragments\RegisterPasswordFragment.cs" />
     <Compile Include="Assets\Statics.cs" />
     <Compile Include="CaptureActivity.cs" />
@@ -226,15 +229,18 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\arrow_left.xml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\Rebb.Client.Core\Rebb.Client.Core.csproj">
       <Project>{2058f780-e94c-4a0a-aa5b-cd4b7f5ab648}</Project>
       <Name>Rebb.Client.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\fragment_confirm_email.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\arrow_left.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

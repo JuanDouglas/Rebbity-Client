@@ -4,6 +4,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Android.Content;
 using Rebb.Client.Core;
 using Rebb.Client.Core.Models;
 using System;
@@ -16,5 +17,34 @@ namespace Rebb.Deliveryman.Assets
     internal static class Statics
     {
         public static ApiClient ApiClient { get; set; }
+        public const string LoginPreferences = "LoginSharedPreferences";
+        public static void SaveLogin(Context context, Login login)
+        {
+            ISharedPreferences preferences = context.GetSharedPreferences(LoginPreferences, FileCreationMode.Private);
+            ISharedPreferencesEditor editor = preferences.Edit();
+            editor.PutString(Login.FirstStepKeyHeader, login.FirstStepKey);
+            editor.PutString(Login.AuthenticationTokenHeader, login.AuthenticationToken);
+            editor.PutString(Login.AccountKeyHeader, login.AccountKey);
+            editor.Commit();
+        }
+
+        public static Login? GetLogin(Context context)
+        {
+            ISharedPreferences preferences = context.GetSharedPreferences(LoginPreferences, FileCreationMode.Private);
+            string accountKey = preferences.GetString(Login.AccountKeyHeader, null);
+            string fsKey = preferences.GetString(Login.AuthenticationTokenHeader, null);
+            string authToken = preferences.GetString(Login.FirstStepKeyHeader, null);
+
+            if (accountKey == null && fsKey == null && authToken == null)
+                return null;
+
+           
+            return new Login
+            {
+                AccountKey = accountKey,
+                FirstStepKey = fsKey,
+                AuthenticationToken = authToken
+            };
+        }
     }
 }

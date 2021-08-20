@@ -14,6 +14,8 @@ using Rebb.Client.Core;
 using Rebb.Client.Core.Models;
 using Rebb.Client.Core.Models.Result;
 using Rebb.Deliveryman.Assets;
+using Rebb.Deliveryman.Assets.Enums;
+using Rebb.Deliveryman.Assets.Fragments;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,6 +27,7 @@ namespace Rebb.Deliveryman
     [Activity(Label = "@string/app_name", MainLauncher = true, Theme = "@style/AppTheme.NoActionBar")]
     public class SplashScreen : AppCompatActivity
     {
+        private ApiClient Client = Statics.ApiClient;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -38,26 +41,32 @@ namespace Rebb.Deliveryman
 
         private async Task Background()
         {
+            Bundle bundle = ActivityOptionsCompat.MakeCustomAnimation(this, Resource.Animation.abc_fade_in, Resource.Animation.abc_fade_out).ToBundle();
+            Intent intent = new Intent(this, typeof(RegisterActivity));
+
+            intent.PutExtra(RegisterActivity.RegisterStepKey, (int)RegisterStep.RegisterBasic);
             try
             {
                 PackageInfo pInfo = PackageManager.GetPackageInfo(PackageName, 0);
                 string version = pInfo.VersionName;
-              
+
                 Statics.ApiClient = new ApiClient(null, $"Android (Deliveryman/App {version}-{Build.VERSION.SdkInt})");
-                //ValidLoginResult? validation = await client.LoginController.ValidLoginAsync(new Login()
-                //{
-                //    FirstStepKey = string.Empty,
-                //    AccountKey = string.Empty,
-                //    AuthenticationToken = string.Empty
-                //});
+                ValidLoginResult? validation = await Client.LoginController.ValidLoginAsync(Statics.GetLogin(this));
+
+                if (validation != null)
+                {
+                    if (!validation.ValidedAccount)
+                    {
+                        intent.PutExtra(RegisterActivity.RegisterStepKey, (int)RegisterStep.RegisterEmail);
+                    }
+                }
             }
             catch (Exception e)
             {
             }
-            Bundle bundle = ActivityOptionsCompat.MakeCustomAnimation(this, Resource.Animation.abc_fade_in, Resource.Animation.abc_fade_out).ToBundle();
-            Intent intent = new Intent(this, typeof(RegisterActivity));
-            Finish();
+
             ActivityCompat.StartActivity(this, intent, bundle);
+            Finish();
         }
     }
 }

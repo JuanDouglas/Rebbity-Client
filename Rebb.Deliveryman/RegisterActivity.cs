@@ -17,23 +17,52 @@ using Android.Graphics;
 using AndroidX.Core.App;
 using Rebb.Client.Core.Models;
 using Rebb.Client.Core.Models.Upload;
+using Rebb.Deliveryman.Assets.Enums;
 
 namespace Rebb.Deliveryman
 {
     [Activity(Label = "RegisterBasicAccount", Theme = "@style/AppTheme.NoActionBar")]
     public class RegisterActivity : AppCompatActivity
     {
+        public const string RegisterStepKey = "StartRegisterStep";
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.activity_register);
 
+            RegisterStep step = RegisterStep.RegisterBasic;
+            if (Intent != null)
+            {
+                step = (RegisterStep)Intent.Extras.GetInt(RegisterStepKey,1);
+            }
+            ByStep(step);
+        }
+
+
+        public void ByStep(RegisterStep step)
+        {
+            AppCompatDialogFragment fragment = null;
+            switch (step)
+            {
+                case RegisterStep.RegisterBasic:
+                    fragment = new RegisterBasicFragment(this);
+                    break;
+                case RegisterStep.RegisterPassword:
+                    fragment = new RegisterPasswordFragment(this, new AccountUpload());
+                    break;
+                case RegisterStep.RegisterEmail:
+                    fragment = new ConfirmEmailFragment();
+                    break;
+                case RegisterStep.RegisterDocuments:
+                    break;
+                default:
+                    fragment = new RegisterBasicFragment(this);
+                    break;
+            }
             SupportFragmentManager.BeginTransaction()
                 .SetReorderingAllowed(true)
-                .Add(Resource.Id.registerFragment, new RegisterBasicFragment(this), RegisterBasicFragment.TAG)
+                .Add(Resource.Id.registerFragment, fragment, RegisterBasicFragment.TAG)
                 .Commit();
-           
         }
-      
     }
 }
