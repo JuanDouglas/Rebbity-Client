@@ -5,20 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Rebb.RequestManager"
         mc:Ignorable="d"
-        Title="Login" Height="450" Width="800">
-    <Grid Margin="0,0,0,1">
-        <Rectangle HorizontalAlignment="Left" Width="46" Fill="#FFFC8B1C" Height="433" VerticalAlignment="Top">
-            <Rectangle.Effect>
-                <DropShadowEffect Opacity="0.52" Direction="359" RenderingBias="Quality" ShadowDepth="3" BlurRadius="4"/>
-            </Rectangle.Effect>
-        </Rectangle>
-        <Button 
-            x:Name="button" 
-                Content="Button"
-            HorizontalAlignment="Left" Height="21" Margin="4,407,0,0" VerticalAlignment="Top" Width="39" RenderTransformOrigin="0.526,-0.665">
-            <Button.Background>
-                <ImageBrush/>
-            </Button.Background>
-        </Button>
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
     </Grid>
 </Window>
