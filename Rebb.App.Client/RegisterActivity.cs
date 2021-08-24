@@ -6,7 +6,6 @@ using Android.Views;
 using Android.Widget;
 using AndroidX.AppCompat.App;
 using Google.Android.Material.TextField;
-using Rebb.Deliveryman.Assets.Fragments;
 using Rebb.Client.Core;
 using System;
 using System.Threading;
@@ -17,10 +16,10 @@ using Android.Graphics;
 using AndroidX.Core.App;
 using Rebb.Client.Core.Models;
 using Rebb.Client.Core.Models.Upload;
-using Rebb.Deliveryman.Assets.Enums;
-using Rebb.Deliveryman.Assets;
+using Rebb.App.Client.Assets;
+using Rebb.App.Client.Assets.Fragments;
 
-namespace Rebb.Deliveryman
+namespace Rebb.App.Client
 {
     [Activity(Label = "RegisterBasicAccount", Theme = "@style/AppTheme.NoActionBar")]
     public class RegisterActivity : AppCompatActivity

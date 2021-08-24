@@ -25,1691 +25,6 @@ namespace Rebb.Deliveryman
 		
 		public static void UpdateIdValues()
 		{
-			global::Rebb.Client.Core.Resource.Animation.abc_fade_in = global::Rebb.Deliveryman.Resource.Animation.abc_fade_in;
-			global::Rebb.Client.Core.Resource.Animation.abc_fade_out = global::Rebb.Deliveryman.Resource.Animation.abc_fade_out;
-			global::Rebb.Client.Core.Resource.Animation.abc_grow_fade_in_from_bottom = global::Rebb.Deliveryman.Resource.Animation.abc_grow_fade_in_from_bottom;
-			global::Rebb.Client.Core.Resource.Animation.abc_popup_enter = global::Rebb.Deliveryman.Resource.Animation.abc_popup_enter;
-			global::Rebb.Client.Core.Resource.Animation.abc_popup_exit = global::Rebb.Deliveryman.Resource.Animation.abc_popup_exit;
-			global::Rebb.Client.Core.Resource.Animation.abc_shrink_fade_out_from_bottom = global::Rebb.Deliveryman.Resource.Animation.abc_shrink_fade_out_from_bottom;
-			global::Rebb.Client.Core.Resource.Animation.abc_slide_in_bottom = global::Rebb.Deliveryman.Resource.Animation.abc_slide_in_bottom;
-			global::Rebb.Client.Core.Resource.Animation.abc_slide_in_top = global::Rebb.Deliveryman.Resource.Animation.abc_slide_in_top;
-			global::Rebb.Client.Core.Resource.Animation.abc_slide_out_bottom = global::Rebb.Deliveryman.Resource.Animation.abc_slide_out_bottom;
-			global::Rebb.Client.Core.Resource.Animation.abc_slide_out_top = global::Rebb.Deliveryman.Resource.Animation.abc_slide_out_top;
-			global::Rebb.Client.Core.Resource.Animation.abc_tooltip_enter = global::Rebb.Deliveryman.Resource.Animation.abc_tooltip_enter;
-			global::Rebb.Client.Core.Resource.Animation.abc_tooltip_exit = global::Rebb.Deliveryman.Resource.Animation.abc_tooltip_exit;
-			global::Rebb.Client.Core.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::Rebb.Deliveryman.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
-			global::Rebb.Client.Core.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::Rebb.Deliveryman.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
-			global::Rebb.Client.Core.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::Rebb.Deliveryman.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
-			global::Rebb.Client.Core.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::Rebb.Deliveryman.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
-			global::Rebb.Client.Core.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::Rebb.Deliveryman.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
-			global::Rebb.Client.Core.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::Rebb.Deliveryman.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
-			global::Rebb.Client.Core.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::Rebb.Deliveryman.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
-			global::Rebb.Client.Core.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::Rebb.Deliveryman.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
-			global::Rebb.Client.Core.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::Rebb.Deliveryman.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
-			global::Rebb.Client.Core.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::Rebb.Deliveryman.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
-			global::Rebb.Client.Core.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::Rebb.Deliveryman.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
-			global::Rebb.Client.Core.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::Rebb.Deliveryman.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
-			global::Rebb.Client.Core.Resource.Animation.fragment_fast_out_extra_slow_in = global::Rebb.Deliveryman.Resource.Animation.fragment_fast_out_extra_slow_in;
-			global::Rebb.Client.Core.Resource.Attribute.actionBarDivider = global::Rebb.Deliveryman.Resource.Attribute.actionBarDivider;
-			global::Rebb.Client.Core.Resource.Attribute.actionBarItemBackground = global::Rebb.Deliveryman.Resource.Attribute.actionBarItemBackground;
-			global::Rebb.Client.Core.Resource.Attribute.actionBarPopupTheme = global::Rebb.Deliveryman.Resource.Attribute.actionBarPopupTheme;
-			global::Rebb.Client.Core.Resource.Attribute.actionBarSize = global::Rebb.Deliveryman.Resource.Attribute.actionBarSize;
-			global::Rebb.Client.Core.Resource.Attribute.actionBarSplitStyle = global::Rebb.Deliveryman.Resource.Attribute.actionBarSplitStyle;
-			global::Rebb.Client.Core.Resource.Attribute.actionBarStyle = global::Rebb.Deliveryman.Resource.Attribute.actionBarStyle;
-			global::Rebb.Client.Core.Resource.Attribute.actionBarTabBarStyle = global::Rebb.Deliveryman.Resource.Attribute.actionBarTabBarStyle;
-			global::Rebb.Client.Core.Resource.Attribute.actionBarTabStyle = global::Rebb.Deliveryman.Resource.Attribute.actionBarTabStyle;
-			global::Rebb.Client.Core.Resource.Attribute.actionBarTabTextStyle = global::Rebb.Deliveryman.Resource.Attribute.actionBarTabTextStyle;
-			global::Rebb.Client.Core.Resource.Attribute.actionBarTheme = global::Rebb.Deliveryman.Resource.Attribute.actionBarTheme;
-			global::Rebb.Client.Core.Resource.Attribute.actionBarWidgetTheme = global::Rebb.Deliveryman.Resource.Attribute.actionBarWidgetTheme;
-			global::Rebb.Client.Core.Resource.Attribute.actionButtonStyle = global::Rebb.Deliveryman.Resource.Attribute.actionButtonStyle;
-			global::Rebb.Client.Core.Resource.Attribute.actionDropDownStyle = global::Rebb.Deliveryman.Resource.Attribute.actionDropDownStyle;
-			global::Rebb.Client.Core.Resource.Attribute.actionLayout = global::Rebb.Deliveryman.Resource.Attribute.actionLayout;
-			global::Rebb.Client.Core.Resource.Attribute.actionMenuTextAppearance = global::Rebb.Deliveryman.Resource.Attribute.actionMenuTextAppearance;
-			global::Rebb.Client.Core.Resource.Attribute.actionMenuTextColor = global::Rebb.Deliveryman.Resource.Attribute.actionMenuTextColor;
-			global::Rebb.Client.Core.Resource.Attribute.actionModeBackground = global::Rebb.Deliveryman.Resource.Attribute.actionModeBackground;
-			global::Rebb.Client.Core.Resource.Attribute.actionModeCloseButtonStyle = global::Rebb.Deliveryman.Resource.Attribute.actionModeCloseButtonStyle;
-			global::Rebb.Client.Core.Resource.Attribute.actionModeCloseDrawable = global::Rebb.Deliveryman.Resource.Attribute.actionModeCloseDrawable;
-			global::Rebb.Client.Core.Resource.Attribute.actionModeCopyDrawable = global::Rebb.Deliveryman.Resource.Attribute.actionModeCopyDrawable;
-			global::Rebb.Client.Core.Resource.Attribute.actionModeCutDrawable = global::Rebb.Deliveryman.Resource.Attribute.actionModeCutDrawable;
-			global::Rebb.Client.Core.Resource.Attribute.actionModeFindDrawable = global::Rebb.Deliveryman.Resource.Attribute.actionModeFindDrawable;
-			global::Rebb.Client.Core.Resource.Attribute.actionModePasteDrawable = global::Rebb.Deliveryman.Resource.Attribute.actionModePasteDrawable;
-			global::Rebb.Client.Core.Resource.Attribute.actionModePopupWindowStyle = global::Rebb.Deliveryman.Resource.Attribute.actionModePopupWindowStyle;
-			global::Rebb.Client.Core.Resource.Attribute.actionModeSelectAllDrawable = global::Rebb.Deliveryman.Resource.Attribute.actionModeSelectAllDrawable;
-			global::Rebb.Client.Core.Resource.Attribute.actionModeShareDrawable = global::Rebb.Deliveryman.Resource.Attribute.actionModeShareDrawable;
-			global::Rebb.Client.Core.Resource.Attribute.actionModeSplitBackground = global::Rebb.Deliveryman.Resource.Attribute.actionModeSplitBackground;
-			global::Rebb.Client.Core.Resource.Attribute.actionModeStyle = global::Rebb.Deliveryman.Resource.Attribute.actionModeStyle;
-			global::Rebb.Client.Core.Resource.Attribute.actionModeWebSearchDrawable = global::Rebb.Deliveryman.Resource.Attribute.actionModeWebSearchDrawable;
-			global::Rebb.Client.Core.Resource.Attribute.actionOverflowButtonStyle = global::Rebb.Deliveryman.Resource.Attribute.actionOverflowButtonStyle;
-			global::Rebb.Client.Core.Resource.Attribute.actionOverflowMenuStyle = global::Rebb.Deliveryman.Resource.Attribute.actionOverflowMenuStyle;
-			global::Rebb.Client.Core.Resource.Attribute.actionProviderClass = global::Rebb.Deliveryman.Resource.Attribute.actionProviderClass;
-			global::Rebb.Client.Core.Resource.Attribute.actionViewClass = global::Rebb.Deliveryman.Resource.Attribute.actionViewClass;
-			global::Rebb.Client.Core.Resource.Attribute.activityChooserViewStyle = global::Rebb.Deliveryman.Resource.Attribute.activityChooserViewStyle;
-			global::Rebb.Client.Core.Resource.Attribute.alertDialogButtonGroupStyle = global::Rebb.Deliveryman.Resource.Attribute.alertDialogButtonGroupStyle;
-			global::Rebb.Client.Core.Resource.Attribute.alertDialogCenterButtons = global::Rebb.Deliveryman.Resource.Attribute.alertDialogCenterButtons;
-			global::Rebb.Client.Core.Resource.Attribute.alertDialogStyle = global::Rebb.Deliveryman.Resource.Attribute.alertDialogStyle;
-			global::Rebb.Client.Core.Resource.Attribute.alertDialogTheme = global::Rebb.Deliveryman.Resource.Attribute.alertDialogTheme;
-			global::Rebb.Client.Core.Resource.Attribute.allowStacking = global::Rebb.Deliveryman.Resource.Attribute.allowStacking;
-			global::Rebb.Client.Core.Resource.Attribute.alpha = global::Rebb.Deliveryman.Resource.Attribute.alpha;
-			global::Rebb.Client.Core.Resource.Attribute.alphabeticModifiers = global::Rebb.Deliveryman.Resource.Attribute.alphabeticModifiers;
-			global::Rebb.Client.Core.Resource.Attribute.arrowHeadLength = global::Rebb.Deliveryman.Resource.Attribute.arrowHeadLength;
-			global::Rebb.Client.Core.Resource.Attribute.arrowShaftLength = global::Rebb.Deliveryman.Resource.Attribute.arrowShaftLength;
-			global::Rebb.Client.Core.Resource.Attribute.autoCompleteTextViewStyle = global::Rebb.Deliveryman.Resource.Attribute.autoCompleteTextViewStyle;
-			global::Rebb.Client.Core.Resource.Attribute.autoSizeMaxTextSize = global::Rebb.Deliveryman.Resource.Attribute.autoSizeMaxTextSize;
-			global::Rebb.Client.Core.Resource.Attribute.autoSizeMinTextSize = global::Rebb.Deliveryman.Resource.Attribute.autoSizeMinTextSize;
-			global::Rebb.Client.Core.Resource.Attribute.autoSizePresetSizes = global::Rebb.Deliveryman.Resource.Attribute.autoSizePresetSizes;
-			global::Rebb.Client.Core.Resource.Attribute.autoSizeStepGranularity = global::Rebb.Deliveryman.Resource.Attribute.autoSizeStepGranularity;
-			global::Rebb.Client.Core.Resource.Attribute.autoSizeTextType = global::Rebb.Deliveryman.Resource.Attribute.autoSizeTextType;
-			global::Rebb.Client.Core.Resource.Attribute.background = global::Rebb.Deliveryman.Resource.Attribute.background;
-			global::Rebb.Client.Core.Resource.Attribute.backgroundSplit = global::Rebb.Deliveryman.Resource.Attribute.backgroundSplit;
-			global::Rebb.Client.Core.Resource.Attribute.backgroundStacked = global::Rebb.Deliveryman.Resource.Attribute.backgroundStacked;
-			global::Rebb.Client.Core.Resource.Attribute.backgroundTint = global::Rebb.Deliveryman.Resource.Attribute.backgroundTint;
-			global::Rebb.Client.Core.Resource.Attribute.backgroundTintMode = global::Rebb.Deliveryman.Resource.Attribute.backgroundTintMode;
-			global::Rebb.Client.Core.Resource.Attribute.barLength = global::Rebb.Deliveryman.Resource.Attribute.barLength;
-			global::Rebb.Client.Core.Resource.Attribute.borderlessButtonStyle = global::Rebb.Deliveryman.Resource.Attribute.borderlessButtonStyle;
-			global::Rebb.Client.Core.Resource.Attribute.buttonBarButtonStyle = global::Rebb.Deliveryman.Resource.Attribute.buttonBarButtonStyle;
-			global::Rebb.Client.Core.Resource.Attribute.buttonBarNegativeButtonStyle = global::Rebb.Deliveryman.Resource.Attribute.buttonBarNegativeButtonStyle;
-			global::Rebb.Client.Core.Resource.Attribute.buttonBarNeutralButtonStyle = global::Rebb.Deliveryman.Resource.Attribute.buttonBarNeutralButtonStyle;
-			global::Rebb.Client.Core.Resource.Attribute.buttonBarPositiveButtonStyle = global::Rebb.Deliveryman.Resource.Attribute.buttonBarPositiveButtonStyle;
-			global::Rebb.Client.Core.Resource.Attribute.buttonBarStyle = global::Rebb.Deliveryman.Resource.Attribute.buttonBarStyle;
-			global::Rebb.Client.Core.Resource.Attribute.buttonCompat = global::Rebb.Deliveryman.Resource.Attribute.buttonCompat;
-			global::Rebb.Client.Core.Resource.Attribute.buttonGravity = global::Rebb.Deliveryman.Resource.Attribute.buttonGravity;
-			global::Rebb.Client.Core.Resource.Attribute.buttonIconDimen = global::Rebb.Deliveryman.Resource.Attribute.buttonIconDimen;
-			global::Rebb.Client.Core.Resource.Attribute.buttonPanelSideLayout = global::Rebb.Deliveryman.Resource.Attribute.buttonPanelSideLayout;
-			global::Rebb.Client.Core.Resource.Attribute.buttonStyle = global::Rebb.Deliveryman.Resource.Attribute.buttonStyle;
-			global::Rebb.Client.Core.Resource.Attribute.buttonStyleSmall = global::Rebb.Deliveryman.Resource.Attribute.buttonStyleSmall;
-			global::Rebb.Client.Core.Resource.Attribute.buttonTint = global::Rebb.Deliveryman.Resource.Attribute.buttonTint;
-			global::Rebb.Client.Core.Resource.Attribute.buttonTintMode = global::Rebb.Deliveryman.Resource.Attribute.buttonTintMode;
-			global::Rebb.Client.Core.Resource.Attribute.checkboxStyle = global::Rebb.Deliveryman.Resource.Attribute.checkboxStyle;
-			global::Rebb.Client.Core.Resource.Attribute.checkedTextViewStyle = global::Rebb.Deliveryman.Resource.Attribute.checkedTextViewStyle;
-			global::Rebb.Client.Core.Resource.Attribute.closeIcon = global::Rebb.Deliveryman.Resource.Attribute.closeIcon;
-			global::Rebb.Client.Core.Resource.Attribute.closeItemLayout = global::Rebb.Deliveryman.Resource.Attribute.closeItemLayout;
-			global::Rebb.Client.Core.Resource.Attribute.collapseContentDescription = global::Rebb.Deliveryman.Resource.Attribute.collapseContentDescription;
-			global::Rebb.Client.Core.Resource.Attribute.collapseIcon = global::Rebb.Deliveryman.Resource.Attribute.collapseIcon;
-			global::Rebb.Client.Core.Resource.Attribute.color = global::Rebb.Deliveryman.Resource.Attribute.color;
-			global::Rebb.Client.Core.Resource.Attribute.colorAccent = global::Rebb.Deliveryman.Resource.Attribute.colorAccent;
-			global::Rebb.Client.Core.Resource.Attribute.colorBackgroundFloating = global::Rebb.Deliveryman.Resource.Attribute.colorBackgroundFloating;
-			global::Rebb.Client.Core.Resource.Attribute.colorButtonNormal = global::Rebb.Deliveryman.Resource.Attribute.colorButtonNormal;
-			global::Rebb.Client.Core.Resource.Attribute.colorControlActivated = global::Rebb.Deliveryman.Resource.Attribute.colorControlActivated;
-			global::Rebb.Client.Core.Resource.Attribute.colorControlHighlight = global::Rebb.Deliveryman.Resource.Attribute.colorControlHighlight;
-			global::Rebb.Client.Core.Resource.Attribute.colorControlNormal = global::Rebb.Deliveryman.Resource.Attribute.colorControlNormal;
-			global::Rebb.Client.Core.Resource.Attribute.colorError = global::Rebb.Deliveryman.Resource.Attribute.colorError;
-			global::Rebb.Client.Core.Resource.Attribute.colorPrimary = global::Rebb.Deliveryman.Resource.Attribute.colorPrimary;
-			global::Rebb.Client.Core.Resource.Attribute.colorPrimaryDark = global::Rebb.Deliveryman.Resource.Attribute.colorPrimaryDark;
-			global::Rebb.Client.Core.Resource.Attribute.colorSwitchThumbNormal = global::Rebb.Deliveryman.Resource.Attribute.colorSwitchThumbNormal;
-			global::Rebb.Client.Core.Resource.Attribute.commitIcon = global::Rebb.Deliveryman.Resource.Attribute.commitIcon;
-			global::Rebb.Client.Core.Resource.Attribute.contentDescription = global::Rebb.Deliveryman.Resource.Attribute.contentDescription;
-			global::Rebb.Client.Core.Resource.Attribute.contentInsetEnd = global::Rebb.Deliveryman.Resource.Attribute.contentInsetEnd;
-			global::Rebb.Client.Core.Resource.Attribute.contentInsetEndWithActions = global::Rebb.Deliveryman.Resource.Attribute.contentInsetEndWithActions;
-			global::Rebb.Client.Core.Resource.Attribute.contentInsetLeft = global::Rebb.Deliveryman.Resource.Attribute.contentInsetLeft;
-			global::Rebb.Client.Core.Resource.Attribute.contentInsetRight = global::Rebb.Deliveryman.Resource.Attribute.contentInsetRight;
-			global::Rebb.Client.Core.Resource.Attribute.contentInsetStart = global::Rebb.Deliveryman.Resource.Attribute.contentInsetStart;
-			global::Rebb.Client.Core.Resource.Attribute.contentInsetStartWithNavigation = global::Rebb.Deliveryman.Resource.Attribute.contentInsetStartWithNavigation;
-			global::Rebb.Client.Core.Resource.Attribute.controlBackground = global::Rebb.Deliveryman.Resource.Attribute.controlBackground;
-			global::Rebb.Client.Core.Resource.Attribute.customNavigationLayout = global::Rebb.Deliveryman.Resource.Attribute.customNavigationLayout;
-			global::Rebb.Client.Core.Resource.Attribute.defaultQueryHint = global::Rebb.Deliveryman.Resource.Attribute.defaultQueryHint;
-			global::Rebb.Client.Core.Resource.Attribute.dialogCornerRadius = global::Rebb.Deliveryman.Resource.Attribute.dialogCornerRadius;
-			global::Rebb.Client.Core.Resource.Attribute.dialogPreferredPadding = global::Rebb.Deliveryman.Resource.Attribute.dialogPreferredPadding;
-			global::Rebb.Client.Core.Resource.Attribute.dialogTheme = global::Rebb.Deliveryman.Resource.Attribute.dialogTheme;
-			global::Rebb.Client.Core.Resource.Attribute.displayOptions = global::Rebb.Deliveryman.Resource.Attribute.displayOptions;
-			global::Rebb.Client.Core.Resource.Attribute.divider = global::Rebb.Deliveryman.Resource.Attribute.divider;
-			global::Rebb.Client.Core.Resource.Attribute.dividerHorizontal = global::Rebb.Deliveryman.Resource.Attribute.dividerHorizontal;
-			global::Rebb.Client.Core.Resource.Attribute.dividerPadding = global::Rebb.Deliveryman.Resource.Attribute.dividerPadding;
-			global::Rebb.Client.Core.Resource.Attribute.dividerVertical = global::Rebb.Deliveryman.Resource.Attribute.dividerVertical;
-			global::Rebb.Client.Core.Resource.Attribute.drawableBottomCompat = global::Rebb.Deliveryman.Resource.Attribute.drawableBottomCompat;
-			global::Rebb.Client.Core.Resource.Attribute.drawableEndCompat = global::Rebb.Deliveryman.Resource.Attribute.drawableEndCompat;
-			global::Rebb.Client.Core.Resource.Attribute.drawableLeftCompat = global::Rebb.Deliveryman.Resource.Attribute.drawableLeftCompat;
-			global::Rebb.Client.Core.Resource.Attribute.drawableRightCompat = global::Rebb.Deliveryman.Resource.Attribute.drawableRightCompat;
-			global::Rebb.Client.Core.Resource.Attribute.drawableSize = global::Rebb.Deliveryman.Resource.Attribute.drawableSize;
-			global::Rebb.Client.Core.Resource.Attribute.drawableStartCompat = global::Rebb.Deliveryman.Resource.Attribute.drawableStartCompat;
-			global::Rebb.Client.Core.Resource.Attribute.drawableTint = global::Rebb.Deliveryman.Resource.Attribute.drawableTint;
-			global::Rebb.Client.Core.Resource.Attribute.drawableTintMode = global::Rebb.Deliveryman.Resource.Attribute.drawableTintMode;
-			global::Rebb.Client.Core.Resource.Attribute.drawableTopCompat = global::Rebb.Deliveryman.Resource.Attribute.drawableTopCompat;
-			global::Rebb.Client.Core.Resource.Attribute.drawerArrowStyle = global::Rebb.Deliveryman.Resource.Attribute.drawerArrowStyle;
-			global::Rebb.Client.Core.Resource.Attribute.drawerLayoutStyle = global::Rebb.Deliveryman.Resource.Attribute.drawerLayoutStyle;
-			global::Rebb.Client.Core.Resource.Attribute.dropdownListPreferredItemHeight = global::Rebb.Deliveryman.Resource.Attribute.dropdownListPreferredItemHeight;
-			global::Rebb.Client.Core.Resource.Attribute.dropDownListViewStyle = global::Rebb.Deliveryman.Resource.Attribute.dropDownListViewStyle;
-			global::Rebb.Client.Core.Resource.Attribute.editTextBackground = global::Rebb.Deliveryman.Resource.Attribute.editTextBackground;
-			global::Rebb.Client.Core.Resource.Attribute.editTextColor = global::Rebb.Deliveryman.Resource.Attribute.editTextColor;
-			global::Rebb.Client.Core.Resource.Attribute.editTextStyle = global::Rebb.Deliveryman.Resource.Attribute.editTextStyle;
-			global::Rebb.Client.Core.Resource.Attribute.elevation = global::Rebb.Deliveryman.Resource.Attribute.elevation;
-			global::Rebb.Client.Core.Resource.Attribute.expandActivityOverflowButtonDrawable = global::Rebb.Deliveryman.Resource.Attribute.expandActivityOverflowButtonDrawable;
-			global::Rebb.Client.Core.Resource.Attribute.firstBaselineToTopHeight = global::Rebb.Deliveryman.Resource.Attribute.firstBaselineToTopHeight;
-			global::Rebb.Client.Core.Resource.Attribute.font = global::Rebb.Deliveryman.Resource.Attribute.font;
-			global::Rebb.Client.Core.Resource.Attribute.fontFamily = global::Rebb.Deliveryman.Resource.Attribute.fontFamily;
-			global::Rebb.Client.Core.Resource.Attribute.fontProviderAuthority = global::Rebb.Deliveryman.Resource.Attribute.fontProviderAuthority;
-			global::Rebb.Client.Core.Resource.Attribute.fontProviderCerts = global::Rebb.Deliveryman.Resource.Attribute.fontProviderCerts;
-			global::Rebb.Client.Core.Resource.Attribute.fontProviderFetchStrategy = global::Rebb.Deliveryman.Resource.Attribute.fontProviderFetchStrategy;
-			global::Rebb.Client.Core.Resource.Attribute.fontProviderFetchTimeout = global::Rebb.Deliveryman.Resource.Attribute.fontProviderFetchTimeout;
-			global::Rebb.Client.Core.Resource.Attribute.fontProviderPackage = global::Rebb.Deliveryman.Resource.Attribute.fontProviderPackage;
-			global::Rebb.Client.Core.Resource.Attribute.fontProviderQuery = global::Rebb.Deliveryman.Resource.Attribute.fontProviderQuery;
-			global::Rebb.Client.Core.Resource.Attribute.fontStyle = global::Rebb.Deliveryman.Resource.Attribute.fontStyle;
-			global::Rebb.Client.Core.Resource.Attribute.fontVariationSettings = global::Rebb.Deliveryman.Resource.Attribute.fontVariationSettings;
-			global::Rebb.Client.Core.Resource.Attribute.fontWeight = global::Rebb.Deliveryman.Resource.Attribute.fontWeight;
-			global::Rebb.Client.Core.Resource.Attribute.gapBetweenBars = global::Rebb.Deliveryman.Resource.Attribute.gapBetweenBars;
-			global::Rebb.Client.Core.Resource.Attribute.goIcon = global::Rebb.Deliveryman.Resource.Attribute.goIcon;
-			global::Rebb.Client.Core.Resource.Attribute.height = global::Rebb.Deliveryman.Resource.Attribute.height;
-			global::Rebb.Client.Core.Resource.Attribute.hideOnContentScroll = global::Rebb.Deliveryman.Resource.Attribute.hideOnContentScroll;
-			global::Rebb.Client.Core.Resource.Attribute.homeAsUpIndicator = global::Rebb.Deliveryman.Resource.Attribute.homeAsUpIndicator;
-			global::Rebb.Client.Core.Resource.Attribute.homeLayout = global::Rebb.Deliveryman.Resource.Attribute.homeLayout;
-			global::Rebb.Client.Core.Resource.Attribute.icon = global::Rebb.Deliveryman.Resource.Attribute.icon;
-			global::Rebb.Client.Core.Resource.Attribute.iconifiedByDefault = global::Rebb.Deliveryman.Resource.Attribute.iconifiedByDefault;
-			global::Rebb.Client.Core.Resource.Attribute.iconTint = global::Rebb.Deliveryman.Resource.Attribute.iconTint;
-			global::Rebb.Client.Core.Resource.Attribute.iconTintMode = global::Rebb.Deliveryman.Resource.Attribute.iconTintMode;
-			global::Rebb.Client.Core.Resource.Attribute.imageButtonStyle = global::Rebb.Deliveryman.Resource.Attribute.imageButtonStyle;
-			global::Rebb.Client.Core.Resource.Attribute.indeterminateProgressStyle = global::Rebb.Deliveryman.Resource.Attribute.indeterminateProgressStyle;
-			global::Rebb.Client.Core.Resource.Attribute.initialActivityCount = global::Rebb.Deliveryman.Resource.Attribute.initialActivityCount;
-			global::Rebb.Client.Core.Resource.Attribute.isLightTheme = global::Rebb.Deliveryman.Resource.Attribute.isLightTheme;
-			global::Rebb.Client.Core.Resource.Attribute.itemPadding = global::Rebb.Deliveryman.Resource.Attribute.itemPadding;
-			global::Rebb.Client.Core.Resource.Attribute.lastBaselineToBottomHeight = global::Rebb.Deliveryman.Resource.Attribute.lastBaselineToBottomHeight;
-			global::Rebb.Client.Core.Resource.Attribute.layout = global::Rebb.Deliveryman.Resource.Attribute.layout;
-			global::Rebb.Client.Core.Resource.Attribute.lineHeight = global::Rebb.Deliveryman.Resource.Attribute.lineHeight;
-			global::Rebb.Client.Core.Resource.Attribute.listChoiceBackgroundIndicator = global::Rebb.Deliveryman.Resource.Attribute.listChoiceBackgroundIndicator;
-			global::Rebb.Client.Core.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::Rebb.Deliveryman.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
-			global::Rebb.Client.Core.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::Rebb.Deliveryman.Resource.Attribute.listChoiceIndicatorSingleAnimated;
-			global::Rebb.Client.Core.Resource.Attribute.listDividerAlertDialog = global::Rebb.Deliveryman.Resource.Attribute.listDividerAlertDialog;
-			global::Rebb.Client.Core.Resource.Attribute.listItemLayout = global::Rebb.Deliveryman.Resource.Attribute.listItemLayout;
-			global::Rebb.Client.Core.Resource.Attribute.listLayout = global::Rebb.Deliveryman.Resource.Attribute.listLayout;
-			global::Rebb.Client.Core.Resource.Attribute.listMenuViewStyle = global::Rebb.Deliveryman.Resource.Attribute.listMenuViewStyle;
-			global::Rebb.Client.Core.Resource.Attribute.listPopupWindowStyle = global::Rebb.Deliveryman.Resource.Attribute.listPopupWindowStyle;
-			global::Rebb.Client.Core.Resource.Attribute.listPreferredItemHeight = global::Rebb.Deliveryman.Resource.Attribute.listPreferredItemHeight;
-			global::Rebb.Client.Core.Resource.Attribute.listPreferredItemHeightLarge = global::Rebb.Deliveryman.Resource.Attribute.listPreferredItemHeightLarge;
-			global::Rebb.Client.Core.Resource.Attribute.listPreferredItemHeightSmall = global::Rebb.Deliveryman.Resource.Attribute.listPreferredItemHeightSmall;
-			global::Rebb.Client.Core.Resource.Attribute.listPreferredItemPaddingEnd = global::Rebb.Deliveryman.Resource.Attribute.listPreferredItemPaddingEnd;
-			global::Rebb.Client.Core.Resource.Attribute.listPreferredItemPaddingLeft = global::Rebb.Deliveryman.Resource.Attribute.listPreferredItemPaddingLeft;
-			global::Rebb.Client.Core.Resource.Attribute.listPreferredItemPaddingRight = global::Rebb.Deliveryman.Resource.Attribute.listPreferredItemPaddingRight;
-			global::Rebb.Client.Core.Resource.Attribute.listPreferredItemPaddingStart = global::Rebb.Deliveryman.Resource.Attribute.listPreferredItemPaddingStart;
-			global::Rebb.Client.Core.Resource.Attribute.logo = global::Rebb.Deliveryman.Resource.Attribute.logo;
-			global::Rebb.Client.Core.Resource.Attribute.logoDescription = global::Rebb.Deliveryman.Resource.Attribute.logoDescription;
-			global::Rebb.Client.Core.Resource.Attribute.maxButtonHeight = global::Rebb.Deliveryman.Resource.Attribute.maxButtonHeight;
-			global::Rebb.Client.Core.Resource.Attribute.measureWithLargestChild = global::Rebb.Deliveryman.Resource.Attribute.measureWithLargestChild;
-			global::Rebb.Client.Core.Resource.Attribute.menu = global::Rebb.Deliveryman.Resource.Attribute.menu;
-			global::Rebb.Client.Core.Resource.Attribute.multiChoiceItemLayout = global::Rebb.Deliveryman.Resource.Attribute.multiChoiceItemLayout;
-			global::Rebb.Client.Core.Resource.Attribute.navigationContentDescription = global::Rebb.Deliveryman.Resource.Attribute.navigationContentDescription;
-			global::Rebb.Client.Core.Resource.Attribute.navigationIcon = global::Rebb.Deliveryman.Resource.Attribute.navigationIcon;
-			global::Rebb.Client.Core.Resource.Attribute.navigationMode = global::Rebb.Deliveryman.Resource.Attribute.navigationMode;
-			global::Rebb.Client.Core.Resource.Attribute.numericModifiers = global::Rebb.Deliveryman.Resource.Attribute.numericModifiers;
-			global::Rebb.Client.Core.Resource.Attribute.overlapAnchor = global::Rebb.Deliveryman.Resource.Attribute.overlapAnchor;
-			global::Rebb.Client.Core.Resource.Attribute.paddingBottomNoButtons = global::Rebb.Deliveryman.Resource.Attribute.paddingBottomNoButtons;
-			global::Rebb.Client.Core.Resource.Attribute.paddingEnd = global::Rebb.Deliveryman.Resource.Attribute.paddingEnd;
-			global::Rebb.Client.Core.Resource.Attribute.paddingStart = global::Rebb.Deliveryman.Resource.Attribute.paddingStart;
-			global::Rebb.Client.Core.Resource.Attribute.paddingTopNoTitle = global::Rebb.Deliveryman.Resource.Attribute.paddingTopNoTitle;
-			global::Rebb.Client.Core.Resource.Attribute.panelBackground = global::Rebb.Deliveryman.Resource.Attribute.panelBackground;
-			global::Rebb.Client.Core.Resource.Attribute.panelMenuListTheme = global::Rebb.Deliveryman.Resource.Attribute.panelMenuListTheme;
-			global::Rebb.Client.Core.Resource.Attribute.panelMenuListWidth = global::Rebb.Deliveryman.Resource.Attribute.panelMenuListWidth;
-			global::Rebb.Client.Core.Resource.Attribute.popupMenuStyle = global::Rebb.Deliveryman.Resource.Attribute.popupMenuStyle;
-			global::Rebb.Client.Core.Resource.Attribute.popupTheme = global::Rebb.Deliveryman.Resource.Attribute.popupTheme;
-			global::Rebb.Client.Core.Resource.Attribute.popupWindowStyle = global::Rebb.Deliveryman.Resource.Attribute.popupWindowStyle;
-			global::Rebb.Client.Core.Resource.Attribute.preserveIconSpacing = global::Rebb.Deliveryman.Resource.Attribute.preserveIconSpacing;
-			global::Rebb.Client.Core.Resource.Attribute.progressBarPadding = global::Rebb.Deliveryman.Resource.Attribute.progressBarPadding;
-			global::Rebb.Client.Core.Resource.Attribute.progressBarStyle = global::Rebb.Deliveryman.Resource.Attribute.progressBarStyle;
-			global::Rebb.Client.Core.Resource.Attribute.queryBackground = global::Rebb.Deliveryman.Resource.Attribute.queryBackground;
-			global::Rebb.Client.Core.Resource.Attribute.queryHint = global::Rebb.Deliveryman.Resource.Attribute.queryHint;
-			global::Rebb.Client.Core.Resource.Attribute.radioButtonStyle = global::Rebb.Deliveryman.Resource.Attribute.radioButtonStyle;
-			global::Rebb.Client.Core.Resource.Attribute.ratingBarStyle = global::Rebb.Deliveryman.Resource.Attribute.ratingBarStyle;
-			global::Rebb.Client.Core.Resource.Attribute.ratingBarStyleIndicator = global::Rebb.Deliveryman.Resource.Attribute.ratingBarStyleIndicator;
-			global::Rebb.Client.Core.Resource.Attribute.ratingBarStyleSmall = global::Rebb.Deliveryman.Resource.Attribute.ratingBarStyleSmall;
-			global::Rebb.Client.Core.Resource.Attribute.searchHintIcon = global::Rebb.Deliveryman.Resource.Attribute.searchHintIcon;
-			global::Rebb.Client.Core.Resource.Attribute.searchIcon = global::Rebb.Deliveryman.Resource.Attribute.searchIcon;
-			global::Rebb.Client.Core.Resource.Attribute.searchViewStyle = global::Rebb.Deliveryman.Resource.Attribute.searchViewStyle;
-			global::Rebb.Client.Core.Resource.Attribute.seekBarStyle = global::Rebb.Deliveryman.Resource.Attribute.seekBarStyle;
-			global::Rebb.Client.Core.Resource.Attribute.selectableItemBackground = global::Rebb.Deliveryman.Resource.Attribute.selectableItemBackground;
-			global::Rebb.Client.Core.Resource.Attribute.selectableItemBackgroundBorderless = global::Rebb.Deliveryman.Resource.Attribute.selectableItemBackgroundBorderless;
-			global::Rebb.Client.Core.Resource.Attribute.showAsAction = global::Rebb.Deliveryman.Resource.Attribute.showAsAction;
-			global::Rebb.Client.Core.Resource.Attribute.showDividers = global::Rebb.Deliveryman.Resource.Attribute.showDividers;
-			global::Rebb.Client.Core.Resource.Attribute.showText = global::Rebb.Deliveryman.Resource.Attribute.showText;
-			global::Rebb.Client.Core.Resource.Attribute.showTitle = global::Rebb.Deliveryman.Resource.Attribute.showTitle;
-			global::Rebb.Client.Core.Resource.Attribute.singleChoiceItemLayout = global::Rebb.Deliveryman.Resource.Attribute.singleChoiceItemLayout;
-			global::Rebb.Client.Core.Resource.Attribute.spinBars = global::Rebb.Deliveryman.Resource.Attribute.spinBars;
-			global::Rebb.Client.Core.Resource.Attribute.spinnerDropDownItemStyle = global::Rebb.Deliveryman.Resource.Attribute.spinnerDropDownItemStyle;
-			global::Rebb.Client.Core.Resource.Attribute.spinnerStyle = global::Rebb.Deliveryman.Resource.Attribute.spinnerStyle;
-			global::Rebb.Client.Core.Resource.Attribute.splitTrack = global::Rebb.Deliveryman.Resource.Attribute.splitTrack;
-			global::Rebb.Client.Core.Resource.Attribute.srcCompat = global::Rebb.Deliveryman.Resource.Attribute.srcCompat;
-			global::Rebb.Client.Core.Resource.Attribute.state_above_anchor = global::Rebb.Deliveryman.Resource.Attribute.state_above_anchor;
-			global::Rebb.Client.Core.Resource.Attribute.subMenuArrow = global::Rebb.Deliveryman.Resource.Attribute.subMenuArrow;
-			global::Rebb.Client.Core.Resource.Attribute.submitBackground = global::Rebb.Deliveryman.Resource.Attribute.submitBackground;
-			global::Rebb.Client.Core.Resource.Attribute.subtitle = global::Rebb.Deliveryman.Resource.Attribute.subtitle;
-			global::Rebb.Client.Core.Resource.Attribute.subtitleTextAppearance = global::Rebb.Deliveryman.Resource.Attribute.subtitleTextAppearance;
-			global::Rebb.Client.Core.Resource.Attribute.subtitleTextColor = global::Rebb.Deliveryman.Resource.Attribute.subtitleTextColor;
-			global::Rebb.Client.Core.Resource.Attribute.subtitleTextStyle = global::Rebb.Deliveryman.Resource.Attribute.subtitleTextStyle;
-			global::Rebb.Client.Core.Resource.Attribute.suggestionRowLayout = global::Rebb.Deliveryman.Resource.Attribute.suggestionRowLayout;
-			global::Rebb.Client.Core.Resource.Attribute.switchMinWidth = global::Rebb.Deliveryman.Resource.Attribute.switchMinWidth;
-			global::Rebb.Client.Core.Resource.Attribute.switchPadding = global::Rebb.Deliveryman.Resource.Attribute.switchPadding;
-			global::Rebb.Client.Core.Resource.Attribute.switchStyle = global::Rebb.Deliveryman.Resource.Attribute.switchStyle;
-			global::Rebb.Client.Core.Resource.Attribute.switchTextAppearance = global::Rebb.Deliveryman.Resource.Attribute.switchTextAppearance;
-			global::Rebb.Client.Core.Resource.Attribute.textAllCaps = global::Rebb.Deliveryman.Resource.Attribute.textAllCaps;
-			global::Rebb.Client.Core.Resource.Attribute.textAppearanceLargePopupMenu = global::Rebb.Deliveryman.Resource.Attribute.textAppearanceLargePopupMenu;
-			global::Rebb.Client.Core.Resource.Attribute.textAppearanceListItem = global::Rebb.Deliveryman.Resource.Attribute.textAppearanceListItem;
-			global::Rebb.Client.Core.Resource.Attribute.textAppearanceListItemSecondary = global::Rebb.Deliveryman.Resource.Attribute.textAppearanceListItemSecondary;
-			global::Rebb.Client.Core.Resource.Attribute.textAppearanceListItemSmall = global::Rebb.Deliveryman.Resource.Attribute.textAppearanceListItemSmall;
-			global::Rebb.Client.Core.Resource.Attribute.textAppearancePopupMenuHeader = global::Rebb.Deliveryman.Resource.Attribute.textAppearancePopupMenuHeader;
-			global::Rebb.Client.Core.Resource.Attribute.textAppearanceSearchResultSubtitle = global::Rebb.Deliveryman.Resource.Attribute.textAppearanceSearchResultSubtitle;
-			global::Rebb.Client.Core.Resource.Attribute.textAppearanceSearchResultTitle = global::Rebb.Deliveryman.Resource.Attribute.textAppearanceSearchResultTitle;
-			global::Rebb.Client.Core.Resource.Attribute.textAppearanceSmallPopupMenu = global::Rebb.Deliveryman.Resource.Attribute.textAppearanceSmallPopupMenu;
-			global::Rebb.Client.Core.Resource.Attribute.textColorAlertDialogListItem = global::Rebb.Deliveryman.Resource.Attribute.textColorAlertDialogListItem;
-			global::Rebb.Client.Core.Resource.Attribute.textColorSearchUrl = global::Rebb.Deliveryman.Resource.Attribute.textColorSearchUrl;
-			global::Rebb.Client.Core.Resource.Attribute.textLocale = global::Rebb.Deliveryman.Resource.Attribute.textLocale;
-			global::Rebb.Client.Core.Resource.Attribute.theme = global::Rebb.Deliveryman.Resource.Attribute.theme;
-			global::Rebb.Client.Core.Resource.Attribute.thickness = global::Rebb.Deliveryman.Resource.Attribute.thickness;
-			global::Rebb.Client.Core.Resource.Attribute.thumbTextPadding = global::Rebb.Deliveryman.Resource.Attribute.thumbTextPadding;
-			global::Rebb.Client.Core.Resource.Attribute.thumbTint = global::Rebb.Deliveryman.Resource.Attribute.thumbTint;
-			global::Rebb.Client.Core.Resource.Attribute.thumbTintMode = global::Rebb.Deliveryman.Resource.Attribute.thumbTintMode;
-			global::Rebb.Client.Core.Resource.Attribute.tickMark = global::Rebb.Deliveryman.Resource.Attribute.tickMark;
-			global::Rebb.Client.Core.Resource.Attribute.tickMarkTint = global::Rebb.Deliveryman.Resource.Attribute.tickMarkTint;
-			global::Rebb.Client.Core.Resource.Attribute.tickMarkTintMode = global::Rebb.Deliveryman.Resource.Attribute.tickMarkTintMode;
-			global::Rebb.Client.Core.Resource.Attribute.tint = global::Rebb.Deliveryman.Resource.Attribute.tint;
-			global::Rebb.Client.Core.Resource.Attribute.tintMode = global::Rebb.Deliveryman.Resource.Attribute.tintMode;
-			global::Rebb.Client.Core.Resource.Attribute.title = global::Rebb.Deliveryman.Resource.Attribute.title;
-			global::Rebb.Client.Core.Resource.Attribute.titleMargin = global::Rebb.Deliveryman.Resource.Attribute.titleMargin;
-			global::Rebb.Client.Core.Resource.Attribute.titleMarginBottom = global::Rebb.Deliveryman.Resource.Attribute.titleMarginBottom;
-			global::Rebb.Client.Core.Resource.Attribute.titleMarginEnd = global::Rebb.Deliveryman.Resource.Attribute.titleMarginEnd;
-			global::Rebb.Client.Core.Resource.Attribute.titleMargins = global::Rebb.Deliveryman.Resource.Attribute.titleMargins;
-			global::Rebb.Client.Core.Resource.Attribute.titleMarginStart = global::Rebb.Deliveryman.Resource.Attribute.titleMarginStart;
-			global::Rebb.Client.Core.Resource.Attribute.titleMarginTop = global::Rebb.Deliveryman.Resource.Attribute.titleMarginTop;
-			global::Rebb.Client.Core.Resource.Attribute.titleTextAppearance = global::Rebb.Deliveryman.Resource.Attribute.titleTextAppearance;
-			global::Rebb.Client.Core.Resource.Attribute.titleTextColor = global::Rebb.Deliveryman.Resource.Attribute.titleTextColor;
-			global::Rebb.Client.Core.Resource.Attribute.titleTextStyle = global::Rebb.Deliveryman.Resource.Attribute.titleTextStyle;
-			global::Rebb.Client.Core.Resource.Attribute.toolbarNavigationButtonStyle = global::Rebb.Deliveryman.Resource.Attribute.toolbarNavigationButtonStyle;
-			global::Rebb.Client.Core.Resource.Attribute.toolbarStyle = global::Rebb.Deliveryman.Resource.Attribute.toolbarStyle;
-			global::Rebb.Client.Core.Resource.Attribute.tooltipForegroundColor = global::Rebb.Deliveryman.Resource.Attribute.tooltipForegroundColor;
-			global::Rebb.Client.Core.Resource.Attribute.tooltipFrameBackground = global::Rebb.Deliveryman.Resource.Attribute.tooltipFrameBackground;
-			global::Rebb.Client.Core.Resource.Attribute.tooltipText = global::Rebb.Deliveryman.Resource.Attribute.tooltipText;
-			global::Rebb.Client.Core.Resource.Attribute.track = global::Rebb.Deliveryman.Resource.Attribute.track;
-			global::Rebb.Client.Core.Resource.Attribute.trackTint = global::Rebb.Deliveryman.Resource.Attribute.trackTint;
-			global::Rebb.Client.Core.Resource.Attribute.trackTintMode = global::Rebb.Deliveryman.Resource.Attribute.trackTintMode;
-			global::Rebb.Client.Core.Resource.Attribute.ttcIndex = global::Rebb.Deliveryman.Resource.Attribute.ttcIndex;
-			global::Rebb.Client.Core.Resource.Attribute.viewInflaterClass = global::Rebb.Deliveryman.Resource.Attribute.viewInflaterClass;
-			global::Rebb.Client.Core.Resource.Attribute.voiceIcon = global::Rebb.Deliveryman.Resource.Attribute.voiceIcon;
-			global::Rebb.Client.Core.Resource.Attribute.windowActionBar = global::Rebb.Deliveryman.Resource.Attribute.windowActionBar;
-			global::Rebb.Client.Core.Resource.Attribute.windowActionBarOverlay = global::Rebb.Deliveryman.Resource.Attribute.windowActionBarOverlay;
-			global::Rebb.Client.Core.Resource.Attribute.windowActionModeOverlay = global::Rebb.Deliveryman.Resource.Attribute.windowActionModeOverlay;
-			global::Rebb.Client.Core.Resource.Attribute.windowFixedHeightMajor = global::Rebb.Deliveryman.Resource.Attribute.windowFixedHeightMajor;
-			global::Rebb.Client.Core.Resource.Attribute.windowFixedHeightMinor = global::Rebb.Deliveryman.Resource.Attribute.windowFixedHeightMinor;
-			global::Rebb.Client.Core.Resource.Attribute.windowFixedWidthMajor = global::Rebb.Deliveryman.Resource.Attribute.windowFixedWidthMajor;
-			global::Rebb.Client.Core.Resource.Attribute.windowFixedWidthMinor = global::Rebb.Deliveryman.Resource.Attribute.windowFixedWidthMinor;
-			global::Rebb.Client.Core.Resource.Attribute.windowMinWidthMajor = global::Rebb.Deliveryman.Resource.Attribute.windowMinWidthMajor;
-			global::Rebb.Client.Core.Resource.Attribute.windowMinWidthMinor = global::Rebb.Deliveryman.Resource.Attribute.windowMinWidthMinor;
-			global::Rebb.Client.Core.Resource.Attribute.windowNoTitle = global::Rebb.Deliveryman.Resource.Attribute.windowNoTitle;
-			global::Rebb.Client.Core.Resource.Boolean.abc_action_bar_embed_tabs = global::Rebb.Deliveryman.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::Rebb.Client.Core.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::Rebb.Deliveryman.Resource.Boolean.abc_config_actionMenuItemAllCaps;
-			global::Rebb.Client.Core.Resource.Color.abc_background_cache_hint_selector_material_dark = global::Rebb.Deliveryman.Resource.Color.abc_background_cache_hint_selector_material_dark;
-			global::Rebb.Client.Core.Resource.Color.abc_background_cache_hint_selector_material_light = global::Rebb.Deliveryman.Resource.Color.abc_background_cache_hint_selector_material_light;
-			global::Rebb.Client.Core.Resource.Color.abc_btn_colored_borderless_text_material = global::Rebb.Deliveryman.Resource.Color.abc_btn_colored_borderless_text_material;
-			global::Rebb.Client.Core.Resource.Color.abc_btn_colored_text_material = global::Rebb.Deliveryman.Resource.Color.abc_btn_colored_text_material;
-			global::Rebb.Client.Core.Resource.Color.abc_color_highlight_material = global::Rebb.Deliveryman.Resource.Color.abc_color_highlight_material;
-			global::Rebb.Client.Core.Resource.Color.abc_decor_view_status_guard = global::Rebb.Deliveryman.Resource.Color.abc_decor_view_status_guard;
-			global::Rebb.Client.Core.Resource.Color.abc_decor_view_status_guard_light = global::Rebb.Deliveryman.Resource.Color.abc_decor_view_status_guard_light;
-			global::Rebb.Client.Core.Resource.Color.abc_hint_foreground_material_dark = global::Rebb.Deliveryman.Resource.Color.abc_hint_foreground_material_dark;
-			global::Rebb.Client.Core.Resource.Color.abc_hint_foreground_material_light = global::Rebb.Deliveryman.Resource.Color.abc_hint_foreground_material_light;
-			global::Rebb.Client.Core.Resource.Color.abc_primary_text_disable_only_material_dark = global::Rebb.Deliveryman.Resource.Color.abc_primary_text_disable_only_material_dark;
-			global::Rebb.Client.Core.Resource.Color.abc_primary_text_disable_only_material_light = global::Rebb.Deliveryman.Resource.Color.abc_primary_text_disable_only_material_light;
-			global::Rebb.Client.Core.Resource.Color.abc_primary_text_material_dark = global::Rebb.Deliveryman.Resource.Color.abc_primary_text_material_dark;
-			global::Rebb.Client.Core.Resource.Color.abc_primary_text_material_light = global::Rebb.Deliveryman.Resource.Color.abc_primary_text_material_light;
-			global::Rebb.Client.Core.Resource.Color.abc_search_url_text = global::Rebb.Deliveryman.Resource.Color.abc_search_url_text;
-			global::Rebb.Client.Core.Resource.Color.abc_search_url_text_normal = global::Rebb.Deliveryman.Resource.Color.abc_search_url_text_normal;
-			global::Rebb.Client.Core.Resource.Color.abc_search_url_text_pressed = global::Rebb.Deliveryman.Resource.Color.abc_search_url_text_pressed;
-			global::Rebb.Client.Core.Resource.Color.abc_search_url_text_selected = global::Rebb.Deliveryman.Resource.Color.abc_search_url_text_selected;
-			global::Rebb.Client.Core.Resource.Color.abc_secondary_text_material_dark = global::Rebb.Deliveryman.Resource.Color.abc_secondary_text_material_dark;
-			global::Rebb.Client.Core.Resource.Color.abc_secondary_text_material_light = global::Rebb.Deliveryman.Resource.Color.abc_secondary_text_material_light;
-			global::Rebb.Client.Core.Resource.Color.abc_tint_btn_checkable = global::Rebb.Deliveryman.Resource.Color.abc_tint_btn_checkable;
-			global::Rebb.Client.Core.Resource.Color.abc_tint_default = global::Rebb.Deliveryman.Resource.Color.abc_tint_default;
-			global::Rebb.Client.Core.Resource.Color.abc_tint_edittext = global::Rebb.Deliveryman.Resource.Color.abc_tint_edittext;
-			global::Rebb.Client.Core.Resource.Color.abc_tint_seek_thumb = global::Rebb.Deliveryman.Resource.Color.abc_tint_seek_thumb;
-			global::Rebb.Client.Core.Resource.Color.abc_tint_spinner = global::Rebb.Deliveryman.Resource.Color.abc_tint_spinner;
-			global::Rebb.Client.Core.Resource.Color.abc_tint_switch_track = global::Rebb.Deliveryman.Resource.Color.abc_tint_switch_track;
-			global::Rebb.Client.Core.Resource.Color.accent_material_dark = global::Rebb.Deliveryman.Resource.Color.accent_material_dark;
-			global::Rebb.Client.Core.Resource.Color.accent_material_light = global::Rebb.Deliveryman.Resource.Color.accent_material_light;
-			global::Rebb.Client.Core.Resource.Color.androidx_core_ripple_material_light = global::Rebb.Deliveryman.Resource.Color.androidx_core_ripple_material_light;
-			global::Rebb.Client.Core.Resource.Color.androidx_core_secondary_text_default_material_light = global::Rebb.Deliveryman.Resource.Color.androidx_core_secondary_text_default_material_light;
-			global::Rebb.Client.Core.Resource.Color.background_floating_material_dark = global::Rebb.Deliveryman.Resource.Color.background_floating_material_dark;
-			global::Rebb.Client.Core.Resource.Color.background_floating_material_light = global::Rebb.Deliveryman.Resource.Color.background_floating_material_light;
-			global::Rebb.Client.Core.Resource.Color.background_material_dark = global::Rebb.Deliveryman.Resource.Color.background_material_dark;
-			global::Rebb.Client.Core.Resource.Color.background_material_light = global::Rebb.Deliveryman.Resource.Color.background_material_light;
-			global::Rebb.Client.Core.Resource.Color.bright_foreground_disabled_material_dark = global::Rebb.Deliveryman.Resource.Color.bright_foreground_disabled_material_dark;
-			global::Rebb.Client.Core.Resource.Color.bright_foreground_disabled_material_light = global::Rebb.Deliveryman.Resource.Color.bright_foreground_disabled_material_light;
-			global::Rebb.Client.Core.Resource.Color.bright_foreground_inverse_material_dark = global::Rebb.Deliveryman.Resource.Color.bright_foreground_inverse_material_dark;
-			global::Rebb.Client.Core.Resource.Color.bright_foreground_inverse_material_light = global::Rebb.Deliveryman.Resource.Color.bright_foreground_inverse_material_light;
-			global::Rebb.Client.Core.Resource.Color.bright_foreground_material_dark = global::Rebb.Deliveryman.Resource.Color.bright_foreground_material_dark;
-			global::Rebb.Client.Core.Resource.Color.bright_foreground_material_light = global::Rebb.Deliveryman.Resource.Color.bright_foreground_material_light;
-			global::Rebb.Client.Core.Resource.Color.button_material_dark = global::Rebb.Deliveryman.Resource.Color.button_material_dark;
-			global::Rebb.Client.Core.Resource.Color.button_material_light = global::Rebb.Deliveryman.Resource.Color.button_material_light;
-			global::Rebb.Client.Core.Resource.Color.dim_foreground_disabled_material_dark = global::Rebb.Deliveryman.Resource.Color.dim_foreground_disabled_material_dark;
-			global::Rebb.Client.Core.Resource.Color.dim_foreground_disabled_material_light = global::Rebb.Deliveryman.Resource.Color.dim_foreground_disabled_material_light;
-			global::Rebb.Client.Core.Resource.Color.dim_foreground_material_dark = global::Rebb.Deliveryman.Resource.Color.dim_foreground_material_dark;
-			global::Rebb.Client.Core.Resource.Color.dim_foreground_material_light = global::Rebb.Deliveryman.Resource.Color.dim_foreground_material_light;
-			global::Rebb.Client.Core.Resource.Color.error_color_material_dark = global::Rebb.Deliveryman.Resource.Color.error_color_material_dark;
-			global::Rebb.Client.Core.Resource.Color.error_color_material_light = global::Rebb.Deliveryman.Resource.Color.error_color_material_light;
-			global::Rebb.Client.Core.Resource.Color.foreground_material_dark = global::Rebb.Deliveryman.Resource.Color.foreground_material_dark;
-			global::Rebb.Client.Core.Resource.Color.foreground_material_light = global::Rebb.Deliveryman.Resource.Color.foreground_material_light;
-			global::Rebb.Client.Core.Resource.Color.highlighted_text_material_dark = global::Rebb.Deliveryman.Resource.Color.highlighted_text_material_dark;
-			global::Rebb.Client.Core.Resource.Color.highlighted_text_material_light = global::Rebb.Deliveryman.Resource.Color.highlighted_text_material_light;
-			global::Rebb.Client.Core.Resource.Color.material_blue_grey_800 = global::Rebb.Deliveryman.Resource.Color.material_blue_grey_800;
-			global::Rebb.Client.Core.Resource.Color.material_blue_grey_900 = global::Rebb.Deliveryman.Resource.Color.material_blue_grey_900;
-			global::Rebb.Client.Core.Resource.Color.material_blue_grey_950 = global::Rebb.Deliveryman.Resource.Color.material_blue_grey_950;
-			global::Rebb.Client.Core.Resource.Color.material_deep_teal_200 = global::Rebb.Deliveryman.Resource.Color.material_deep_teal_200;
-			global::Rebb.Client.Core.Resource.Color.material_deep_teal_500 = global::Rebb.Deliveryman.Resource.Color.material_deep_teal_500;
-			global::Rebb.Client.Core.Resource.Color.material_grey_100 = global::Rebb.Deliveryman.Resource.Color.material_grey_100;
-			global::Rebb.Client.Core.Resource.Color.material_grey_300 = global::Rebb.Deliveryman.Resource.Color.material_grey_300;
-			global::Rebb.Client.Core.Resource.Color.material_grey_50 = global::Rebb.Deliveryman.Resource.Color.material_grey_50;
-			global::Rebb.Client.Core.Resource.Color.material_grey_600 = global::Rebb.Deliveryman.Resource.Color.material_grey_600;
-			global::Rebb.Client.Core.Resource.Color.material_grey_800 = global::Rebb.Deliveryman.Resource.Color.material_grey_800;
-			global::Rebb.Client.Core.Resource.Color.material_grey_850 = global::Rebb.Deliveryman.Resource.Color.material_grey_850;
-			global::Rebb.Client.Core.Resource.Color.material_grey_900 = global::Rebb.Deliveryman.Resource.Color.material_grey_900;
-			global::Rebb.Client.Core.Resource.Color.notification_action_color_filter = global::Rebb.Deliveryman.Resource.Color.notification_action_color_filter;
-			global::Rebb.Client.Core.Resource.Color.notification_icon_bg_color = global::Rebb.Deliveryman.Resource.Color.notification_icon_bg_color;
-			global::Rebb.Client.Core.Resource.Color.primary_dark_material_dark = global::Rebb.Deliveryman.Resource.Color.primary_dark_material_dark;
-			global::Rebb.Client.Core.Resource.Color.primary_dark_material_light = global::Rebb.Deliveryman.Resource.Color.primary_dark_material_light;
-			global::Rebb.Client.Core.Resource.Color.primary_material_dark = global::Rebb.Deliveryman.Resource.Color.primary_material_dark;
-			global::Rebb.Client.Core.Resource.Color.primary_material_light = global::Rebb.Deliveryman.Resource.Color.primary_material_light;
-			global::Rebb.Client.Core.Resource.Color.primary_text_default_material_dark = global::Rebb.Deliveryman.Resource.Color.primary_text_default_material_dark;
-			global::Rebb.Client.Core.Resource.Color.primary_text_default_material_light = global::Rebb.Deliveryman.Resource.Color.primary_text_default_material_light;
-			global::Rebb.Client.Core.Resource.Color.primary_text_disabled_material_dark = global::Rebb.Deliveryman.Resource.Color.primary_text_disabled_material_dark;
-			global::Rebb.Client.Core.Resource.Color.primary_text_disabled_material_light = global::Rebb.Deliveryman.Resource.Color.primary_text_disabled_material_light;
-			global::Rebb.Client.Core.Resource.Color.ripple_material_dark = global::Rebb.Deliveryman.Resource.Color.ripple_material_dark;
-			global::Rebb.Client.Core.Resource.Color.ripple_material_light = global::Rebb.Deliveryman.Resource.Color.ripple_material_light;
-			global::Rebb.Client.Core.Resource.Color.secondary_text_default_material_dark = global::Rebb.Deliveryman.Resource.Color.secondary_text_default_material_dark;
-			global::Rebb.Client.Core.Resource.Color.secondary_text_default_material_light = global::Rebb.Deliveryman.Resource.Color.secondary_text_default_material_light;
-			global::Rebb.Client.Core.Resource.Color.secondary_text_disabled_material_dark = global::Rebb.Deliveryman.Resource.Color.secondary_text_disabled_material_dark;
-			global::Rebb.Client.Core.Resource.Color.secondary_text_disabled_material_light = global::Rebb.Deliveryman.Resource.Color.secondary_text_disabled_material_light;
-			global::Rebb.Client.Core.Resource.Color.switch_thumb_disabled_material_dark = global::Rebb.Deliveryman.Resource.Color.switch_thumb_disabled_material_dark;
-			global::Rebb.Client.Core.Resource.Color.switch_thumb_disabled_material_light = global::Rebb.Deliveryman.Resource.Color.switch_thumb_disabled_material_light;
-			global::Rebb.Client.Core.Resource.Color.switch_thumb_material_dark = global::Rebb.Deliveryman.Resource.Color.switch_thumb_material_dark;
-			global::Rebb.Client.Core.Resource.Color.switch_thumb_material_light = global::Rebb.Deliveryman.Resource.Color.switch_thumb_material_light;
-			global::Rebb.Client.Core.Resource.Color.switch_thumb_normal_material_dark = global::Rebb.Deliveryman.Resource.Color.switch_thumb_normal_material_dark;
-			global::Rebb.Client.Core.Resource.Color.switch_thumb_normal_material_light = global::Rebb.Deliveryman.Resource.Color.switch_thumb_normal_material_light;
-			global::Rebb.Client.Core.Resource.Color.tooltip_background_dark = global::Rebb.Deliveryman.Resource.Color.tooltip_background_dark;
-			global::Rebb.Client.Core.Resource.Color.tooltip_background_light = global::Rebb.Deliveryman.Resource.Color.tooltip_background_light;
-			global::Rebb.Client.Core.Resource.Dimension.abc_action_bar_content_inset_material = global::Rebb.Deliveryman.Resource.Dimension.abc_action_bar_content_inset_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::Rebb.Deliveryman.Resource.Dimension.abc_action_bar_content_inset_with_nav;
-			global::Rebb.Client.Core.Resource.Dimension.abc_action_bar_default_height_material = global::Rebb.Deliveryman.Resource.Dimension.abc_action_bar_default_height_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_action_bar_default_padding_end_material = global::Rebb.Deliveryman.Resource.Dimension.abc_action_bar_default_padding_end_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_action_bar_default_padding_start_material = global::Rebb.Deliveryman.Resource.Dimension.abc_action_bar_default_padding_start_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_action_bar_elevation_material = global::Rebb.Deliveryman.Resource.Dimension.abc_action_bar_elevation_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::Rebb.Deliveryman.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::Rebb.Deliveryman.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::Rebb.Deliveryman.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_action_bar_stacked_max_height = global::Rebb.Deliveryman.Resource.Dimension.abc_action_bar_stacked_max_height;
-			global::Rebb.Client.Core.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::Rebb.Deliveryman.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
-			global::Rebb.Client.Core.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::Rebb.Deliveryman.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::Rebb.Deliveryman.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_action_button_min_height_material = global::Rebb.Deliveryman.Resource.Dimension.abc_action_button_min_height_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_action_button_min_width_material = global::Rebb.Deliveryman.Resource.Dimension.abc_action_button_min_width_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_action_button_min_width_overflow_material = global::Rebb.Deliveryman.Resource.Dimension.abc_action_button_min_width_overflow_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_alert_dialog_button_bar_height = global::Rebb.Deliveryman.Resource.Dimension.abc_alert_dialog_button_bar_height;
-			global::Rebb.Client.Core.Resource.Dimension.abc_alert_dialog_button_dimen = global::Rebb.Deliveryman.Resource.Dimension.abc_alert_dialog_button_dimen;
-			global::Rebb.Client.Core.Resource.Dimension.abc_button_inset_horizontal_material = global::Rebb.Deliveryman.Resource.Dimension.abc_button_inset_horizontal_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_button_inset_vertical_material = global::Rebb.Deliveryman.Resource.Dimension.abc_button_inset_vertical_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_button_padding_horizontal_material = global::Rebb.Deliveryman.Resource.Dimension.abc_button_padding_horizontal_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_button_padding_vertical_material = global::Rebb.Deliveryman.Resource.Dimension.abc_button_padding_vertical_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::Rebb.Deliveryman.Resource.Dimension.abc_cascading_menus_min_smallest_width;
-			global::Rebb.Client.Core.Resource.Dimension.abc_config_prefDialogWidth = global::Rebb.Deliveryman.Resource.Dimension.abc_config_prefDialogWidth;
-			global::Rebb.Client.Core.Resource.Dimension.abc_control_corner_material = global::Rebb.Deliveryman.Resource.Dimension.abc_control_corner_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_control_inset_material = global::Rebb.Deliveryman.Resource.Dimension.abc_control_inset_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_control_padding_material = global::Rebb.Deliveryman.Resource.Dimension.abc_control_padding_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_dialog_corner_radius_material = global::Rebb.Deliveryman.Resource.Dimension.abc_dialog_corner_radius_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_dialog_fixed_height_major = global::Rebb.Deliveryman.Resource.Dimension.abc_dialog_fixed_height_major;
-			global::Rebb.Client.Core.Resource.Dimension.abc_dialog_fixed_height_minor = global::Rebb.Deliveryman.Resource.Dimension.abc_dialog_fixed_height_minor;
-			global::Rebb.Client.Core.Resource.Dimension.abc_dialog_fixed_width_major = global::Rebb.Deliveryman.Resource.Dimension.abc_dialog_fixed_width_major;
-			global::Rebb.Client.Core.Resource.Dimension.abc_dialog_fixed_width_minor = global::Rebb.Deliveryman.Resource.Dimension.abc_dialog_fixed_width_minor;
-			global::Rebb.Client.Core.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::Rebb.Deliveryman.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
-			global::Rebb.Client.Core.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::Rebb.Deliveryman.Resource.Dimension.abc_dialog_list_padding_top_no_title;
-			global::Rebb.Client.Core.Resource.Dimension.abc_dialog_min_width_major = global::Rebb.Deliveryman.Resource.Dimension.abc_dialog_min_width_major;
-			global::Rebb.Client.Core.Resource.Dimension.abc_dialog_min_width_minor = global::Rebb.Deliveryman.Resource.Dimension.abc_dialog_min_width_minor;
-			global::Rebb.Client.Core.Resource.Dimension.abc_dialog_padding_material = global::Rebb.Deliveryman.Resource.Dimension.abc_dialog_padding_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_dialog_padding_top_material = global::Rebb.Deliveryman.Resource.Dimension.abc_dialog_padding_top_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_dialog_title_divider_material = global::Rebb.Deliveryman.Resource.Dimension.abc_dialog_title_divider_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_disabled_alpha_material_dark = global::Rebb.Deliveryman.Resource.Dimension.abc_disabled_alpha_material_dark;
-			global::Rebb.Client.Core.Resource.Dimension.abc_disabled_alpha_material_light = global::Rebb.Deliveryman.Resource.Dimension.abc_disabled_alpha_material_light;
-			global::Rebb.Client.Core.Resource.Dimension.abc_dropdownitem_icon_width = global::Rebb.Deliveryman.Resource.Dimension.abc_dropdownitem_icon_width;
-			global::Rebb.Client.Core.Resource.Dimension.abc_dropdownitem_text_padding_left = global::Rebb.Deliveryman.Resource.Dimension.abc_dropdownitem_text_padding_left;
-			global::Rebb.Client.Core.Resource.Dimension.abc_dropdownitem_text_padding_right = global::Rebb.Deliveryman.Resource.Dimension.abc_dropdownitem_text_padding_right;
-			global::Rebb.Client.Core.Resource.Dimension.abc_edit_text_inset_bottom_material = global::Rebb.Deliveryman.Resource.Dimension.abc_edit_text_inset_bottom_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::Rebb.Deliveryman.Resource.Dimension.abc_edit_text_inset_horizontal_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_edit_text_inset_top_material = global::Rebb.Deliveryman.Resource.Dimension.abc_edit_text_inset_top_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_floating_window_z = global::Rebb.Deliveryman.Resource.Dimension.abc_floating_window_z;
-			global::Rebb.Client.Core.Resource.Dimension.abc_list_item_height_large_material = global::Rebb.Deliveryman.Resource.Dimension.abc_list_item_height_large_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_list_item_height_material = global::Rebb.Deliveryman.Resource.Dimension.abc_list_item_height_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_list_item_height_small_material = global::Rebb.Deliveryman.Resource.Dimension.abc_list_item_height_small_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_list_item_padding_horizontal_material = global::Rebb.Deliveryman.Resource.Dimension.abc_list_item_padding_horizontal_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_panel_menu_list_width = global::Rebb.Deliveryman.Resource.Dimension.abc_panel_menu_list_width;
-			global::Rebb.Client.Core.Resource.Dimension.abc_progress_bar_height_material = global::Rebb.Deliveryman.Resource.Dimension.abc_progress_bar_height_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_search_view_preferred_height = global::Rebb.Deliveryman.Resource.Dimension.abc_search_view_preferred_height;
-			global::Rebb.Client.Core.Resource.Dimension.abc_search_view_preferred_width = global::Rebb.Deliveryman.Resource.Dimension.abc_search_view_preferred_width;
-			global::Rebb.Client.Core.Resource.Dimension.abc_seekbar_track_background_height_material = global::Rebb.Deliveryman.Resource.Dimension.abc_seekbar_track_background_height_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_seekbar_track_progress_height_material = global::Rebb.Deliveryman.Resource.Dimension.abc_seekbar_track_progress_height_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_select_dialog_padding_start_material = global::Rebb.Deliveryman.Resource.Dimension.abc_select_dialog_padding_start_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_switch_padding = global::Rebb.Deliveryman.Resource.Dimension.abc_switch_padding;
-			global::Rebb.Client.Core.Resource.Dimension.abc_text_size_body_1_material = global::Rebb.Deliveryman.Resource.Dimension.abc_text_size_body_1_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_text_size_body_2_material = global::Rebb.Deliveryman.Resource.Dimension.abc_text_size_body_2_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_text_size_button_material = global::Rebb.Deliveryman.Resource.Dimension.abc_text_size_button_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_text_size_caption_material = global::Rebb.Deliveryman.Resource.Dimension.abc_text_size_caption_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_text_size_display_1_material = global::Rebb.Deliveryman.Resource.Dimension.abc_text_size_display_1_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_text_size_display_2_material = global::Rebb.Deliveryman.Resource.Dimension.abc_text_size_display_2_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_text_size_display_3_material = global::Rebb.Deliveryman.Resource.Dimension.abc_text_size_display_3_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_text_size_display_4_material = global::Rebb.Deliveryman.Resource.Dimension.abc_text_size_display_4_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_text_size_headline_material = global::Rebb.Deliveryman.Resource.Dimension.abc_text_size_headline_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_text_size_large_material = global::Rebb.Deliveryman.Resource.Dimension.abc_text_size_large_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_text_size_medium_material = global::Rebb.Deliveryman.Resource.Dimension.abc_text_size_medium_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_text_size_menu_header_material = global::Rebb.Deliveryman.Resource.Dimension.abc_text_size_menu_header_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_text_size_menu_material = global::Rebb.Deliveryman.Resource.Dimension.abc_text_size_menu_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_text_size_small_material = global::Rebb.Deliveryman.Resource.Dimension.abc_text_size_small_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_text_size_subhead_material = global::Rebb.Deliveryman.Resource.Dimension.abc_text_size_subhead_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Rebb.Deliveryman.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
-			global::Rebb.Client.Core.Resource.Dimension.abc_text_size_title_material = global::Rebb.Deliveryman.Resource.Dimension.abc_text_size_title_material;
-			global::Rebb.Client.Core.Resource.Dimension.abc_text_size_title_material_toolbar = global::Rebb.Deliveryman.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::Rebb.Client.Core.Resource.Dimension.compat_button_inset_horizontal_material = global::Rebb.Deliveryman.Resource.Dimension.compat_button_inset_horizontal_material;
-			global::Rebb.Client.Core.Resource.Dimension.compat_button_inset_vertical_material = global::Rebb.Deliveryman.Resource.Dimension.compat_button_inset_vertical_material;
-			global::Rebb.Client.Core.Resource.Dimension.compat_button_padding_horizontal_material = global::Rebb.Deliveryman.Resource.Dimension.compat_button_padding_horizontal_material;
-			global::Rebb.Client.Core.Resource.Dimension.compat_button_padding_vertical_material = global::Rebb.Deliveryman.Resource.Dimension.compat_button_padding_vertical_material;
-			global::Rebb.Client.Core.Resource.Dimension.compat_control_corner_material = global::Rebb.Deliveryman.Resource.Dimension.compat_control_corner_material;
-			global::Rebb.Client.Core.Resource.Dimension.compat_notification_large_icon_max_height = global::Rebb.Deliveryman.Resource.Dimension.compat_notification_large_icon_max_height;
-			global::Rebb.Client.Core.Resource.Dimension.compat_notification_large_icon_max_width = global::Rebb.Deliveryman.Resource.Dimension.compat_notification_large_icon_max_width;
-			global::Rebb.Client.Core.Resource.Dimension.def_drawer_elevation = global::Rebb.Deliveryman.Resource.Dimension.def_drawer_elevation;
-			global::Rebb.Client.Core.Resource.Dimension.disabled_alpha_material_dark = global::Rebb.Deliveryman.Resource.Dimension.disabled_alpha_material_dark;
-			global::Rebb.Client.Core.Resource.Dimension.disabled_alpha_material_light = global::Rebb.Deliveryman.Resource.Dimension.disabled_alpha_material_light;
-			global::Rebb.Client.Core.Resource.Dimension.highlight_alpha_material_colored = global::Rebb.Deliveryman.Resource.Dimension.highlight_alpha_material_colored;
-			global::Rebb.Client.Core.Resource.Dimension.highlight_alpha_material_dark = global::Rebb.Deliveryman.Resource.Dimension.highlight_alpha_material_dark;
-			global::Rebb.Client.Core.Resource.Dimension.highlight_alpha_material_light = global::Rebb.Deliveryman.Resource.Dimension.highlight_alpha_material_light;
-			global::Rebb.Client.Core.Resource.Dimension.hint_alpha_material_dark = global::Rebb.Deliveryman.Resource.Dimension.hint_alpha_material_dark;
-			global::Rebb.Client.Core.Resource.Dimension.hint_alpha_material_light = global::Rebb.Deliveryman.Resource.Dimension.hint_alpha_material_light;
-			global::Rebb.Client.Core.Resource.Dimension.hint_pressed_alpha_material_dark = global::Rebb.Deliveryman.Resource.Dimension.hint_pressed_alpha_material_dark;
-			global::Rebb.Client.Core.Resource.Dimension.hint_pressed_alpha_material_light = global::Rebb.Deliveryman.Resource.Dimension.hint_pressed_alpha_material_light;
-			global::Rebb.Client.Core.Resource.Dimension.notification_action_icon_size = global::Rebb.Deliveryman.Resource.Dimension.notification_action_icon_size;
-			global::Rebb.Client.Core.Resource.Dimension.notification_action_text_size = global::Rebb.Deliveryman.Resource.Dimension.notification_action_text_size;
-			global::Rebb.Client.Core.Resource.Dimension.notification_big_circle_margin = global::Rebb.Deliveryman.Resource.Dimension.notification_big_circle_margin;
-			global::Rebb.Client.Core.Resource.Dimension.notification_content_margin_start = global::Rebb.Deliveryman.Resource.Dimension.notification_content_margin_start;
-			global::Rebb.Client.Core.Resource.Dimension.notification_large_icon_height = global::Rebb.Deliveryman.Resource.Dimension.notification_large_icon_height;
-			global::Rebb.Client.Core.Resource.Dimension.notification_large_icon_width = global::Rebb.Deliveryman.Resource.Dimension.notification_large_icon_width;
-			global::Rebb.Client.Core.Resource.Dimension.notification_main_column_padding_top = global::Rebb.Deliveryman.Resource.Dimension.notification_main_column_padding_top;
-			global::Rebb.Client.Core.Resource.Dimension.notification_media_narrow_margin = global::Rebb.Deliveryman.Resource.Dimension.notification_media_narrow_margin;
-			global::Rebb.Client.Core.Resource.Dimension.notification_right_icon_size = global::Rebb.Deliveryman.Resource.Dimension.notification_right_icon_size;
-			global::Rebb.Client.Core.Resource.Dimension.notification_right_side_padding_top = global::Rebb.Deliveryman.Resource.Dimension.notification_right_side_padding_top;
-			global::Rebb.Client.Core.Resource.Dimension.notification_small_icon_background_padding = global::Rebb.Deliveryman.Resource.Dimension.notification_small_icon_background_padding;
-			global::Rebb.Client.Core.Resource.Dimension.notification_small_icon_size_as_large = global::Rebb.Deliveryman.Resource.Dimension.notification_small_icon_size_as_large;
-			global::Rebb.Client.Core.Resource.Dimension.notification_subtext_size = global::Rebb.Deliveryman.Resource.Dimension.notification_subtext_size;
-			global::Rebb.Client.Core.Resource.Dimension.notification_top_pad = global::Rebb.Deliveryman.Resource.Dimension.notification_top_pad;
-			global::Rebb.Client.Core.Resource.Dimension.notification_top_pad_large_text = global::Rebb.Deliveryman.Resource.Dimension.notification_top_pad_large_text;
-			global::Rebb.Client.Core.Resource.Dimension.tooltip_corner_radius = global::Rebb.Deliveryman.Resource.Dimension.tooltip_corner_radius;
-			global::Rebb.Client.Core.Resource.Dimension.tooltip_horizontal_padding = global::Rebb.Deliveryman.Resource.Dimension.tooltip_horizontal_padding;
-			global::Rebb.Client.Core.Resource.Dimension.tooltip_margin = global::Rebb.Deliveryman.Resource.Dimension.tooltip_margin;
-			global::Rebb.Client.Core.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::Rebb.Deliveryman.Resource.Dimension.tooltip_precise_anchor_extra_offset;
-			global::Rebb.Client.Core.Resource.Dimension.tooltip_precise_anchor_threshold = global::Rebb.Deliveryman.Resource.Dimension.tooltip_precise_anchor_threshold;
-			global::Rebb.Client.Core.Resource.Dimension.tooltip_vertical_padding = global::Rebb.Deliveryman.Resource.Dimension.tooltip_vertical_padding;
-			global::Rebb.Client.Core.Resource.Dimension.tooltip_y_offset_non_touch = global::Rebb.Deliveryman.Resource.Dimension.tooltip_y_offset_non_touch;
-			global::Rebb.Client.Core.Resource.Dimension.tooltip_y_offset_touch = global::Rebb.Deliveryman.Resource.Dimension.tooltip_y_offset_touch;
-			global::Rebb.Client.Core.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::Rebb.Deliveryman.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
-			global::Rebb.Client.Core.Resource.Drawable.abc_action_bar_item_background_material = global::Rebb.Deliveryman.Resource.Drawable.abc_action_bar_item_background_material;
-			global::Rebb.Client.Core.Resource.Drawable.abc_btn_borderless_material = global::Rebb.Deliveryman.Resource.Drawable.abc_btn_borderless_material;
-			global::Rebb.Client.Core.Resource.Drawable.abc_btn_check_material = global::Rebb.Deliveryman.Resource.Drawable.abc_btn_check_material;
-			global::Rebb.Client.Core.Resource.Drawable.abc_btn_check_material_anim = global::Rebb.Deliveryman.Resource.Drawable.abc_btn_check_material_anim;
-			global::Rebb.Client.Core.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::Rebb.Deliveryman.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
-			global::Rebb.Client.Core.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::Rebb.Deliveryman.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
-			global::Rebb.Client.Core.Resource.Drawable.abc_btn_colored_material = global::Rebb.Deliveryman.Resource.Drawable.abc_btn_colored_material;
-			global::Rebb.Client.Core.Resource.Drawable.abc_btn_default_mtrl_shape = global::Rebb.Deliveryman.Resource.Drawable.abc_btn_default_mtrl_shape;
-			global::Rebb.Client.Core.Resource.Drawable.abc_btn_radio_material = global::Rebb.Deliveryman.Resource.Drawable.abc_btn_radio_material;
-			global::Rebb.Client.Core.Resource.Drawable.abc_btn_radio_material_anim = global::Rebb.Deliveryman.Resource.Drawable.abc_btn_radio_material_anim;
-			global::Rebb.Client.Core.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::Rebb.Deliveryman.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
-			global::Rebb.Client.Core.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::Rebb.Deliveryman.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
-			global::Rebb.Client.Core.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::Rebb.Deliveryman.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
-			global::Rebb.Client.Core.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::Rebb.Deliveryman.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
-			global::Rebb.Client.Core.Resource.Drawable.abc_cab_background_internal_bg = global::Rebb.Deliveryman.Resource.Drawable.abc_cab_background_internal_bg;
-			global::Rebb.Client.Core.Resource.Drawable.abc_cab_background_top_material = global::Rebb.Deliveryman.Resource.Drawable.abc_cab_background_top_material;
-			global::Rebb.Client.Core.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::Rebb.Deliveryman.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
-			global::Rebb.Client.Core.Resource.Drawable.abc_control_background_material = global::Rebb.Deliveryman.Resource.Drawable.abc_control_background_material;
-			global::Rebb.Client.Core.Resource.Drawable.abc_dialog_material_background = global::Rebb.Deliveryman.Resource.Drawable.abc_dialog_material_background;
-			global::Rebb.Client.Core.Resource.Drawable.abc_edit_text_material = global::Rebb.Deliveryman.Resource.Drawable.abc_edit_text_material;
-			global::Rebb.Client.Core.Resource.Drawable.abc_ic_ab_back_material = global::Rebb.Deliveryman.Resource.Drawable.abc_ic_ab_back_material;
-			global::Rebb.Client.Core.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::Rebb.Deliveryman.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
-			global::Rebb.Client.Core.Resource.Drawable.abc_ic_clear_material = global::Rebb.Deliveryman.Resource.Drawable.abc_ic_clear_material;
-			global::Rebb.Client.Core.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::Rebb.Deliveryman.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
-			global::Rebb.Client.Core.Resource.Drawable.abc_ic_go_search_api_material = global::Rebb.Deliveryman.Resource.Drawable.abc_ic_go_search_api_material;
-			global::Rebb.Client.Core.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::Rebb.Deliveryman.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
-			global::Rebb.Client.Core.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::Rebb.Deliveryman.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
-			global::Rebb.Client.Core.Resource.Drawable.abc_ic_menu_overflow_material = global::Rebb.Deliveryman.Resource.Drawable.abc_ic_menu_overflow_material;
-			global::Rebb.Client.Core.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::Rebb.Deliveryman.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
-			global::Rebb.Client.Core.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::Rebb.Deliveryman.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
-			global::Rebb.Client.Core.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::Rebb.Deliveryman.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
-			global::Rebb.Client.Core.Resource.Drawable.abc_ic_search_api_material = global::Rebb.Deliveryman.Resource.Drawable.abc_ic_search_api_material;
-			global::Rebb.Client.Core.Resource.Drawable.abc_ic_voice_search_api_material = global::Rebb.Deliveryman.Resource.Drawable.abc_ic_voice_search_api_material;
-			global::Rebb.Client.Core.Resource.Drawable.abc_item_background_holo_dark = global::Rebb.Deliveryman.Resource.Drawable.abc_item_background_holo_dark;
-			global::Rebb.Client.Core.Resource.Drawable.abc_item_background_holo_light = global::Rebb.Deliveryman.Resource.Drawable.abc_item_background_holo_light;
-			global::Rebb.Client.Core.Resource.Drawable.abc_list_divider_material = global::Rebb.Deliveryman.Resource.Drawable.abc_list_divider_material;
-			global::Rebb.Client.Core.Resource.Drawable.abc_list_divider_mtrl_alpha = global::Rebb.Deliveryman.Resource.Drawable.abc_list_divider_mtrl_alpha;
-			global::Rebb.Client.Core.Resource.Drawable.abc_list_focused_holo = global::Rebb.Deliveryman.Resource.Drawable.abc_list_focused_holo;
-			global::Rebb.Client.Core.Resource.Drawable.abc_list_longpressed_holo = global::Rebb.Deliveryman.Resource.Drawable.abc_list_longpressed_holo;
-			global::Rebb.Client.Core.Resource.Drawable.abc_list_pressed_holo_dark = global::Rebb.Deliveryman.Resource.Drawable.abc_list_pressed_holo_dark;
-			global::Rebb.Client.Core.Resource.Drawable.abc_list_pressed_holo_light = global::Rebb.Deliveryman.Resource.Drawable.abc_list_pressed_holo_light;
-			global::Rebb.Client.Core.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::Rebb.Deliveryman.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
-			global::Rebb.Client.Core.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::Rebb.Deliveryman.Resource.Drawable.abc_list_selector_background_transition_holo_light;
-			global::Rebb.Client.Core.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::Rebb.Deliveryman.Resource.Drawable.abc_list_selector_disabled_holo_dark;
-			global::Rebb.Client.Core.Resource.Drawable.abc_list_selector_disabled_holo_light = global::Rebb.Deliveryman.Resource.Drawable.abc_list_selector_disabled_holo_light;
-			global::Rebb.Client.Core.Resource.Drawable.abc_list_selector_holo_dark = global::Rebb.Deliveryman.Resource.Drawable.abc_list_selector_holo_dark;
-			global::Rebb.Client.Core.Resource.Drawable.abc_list_selector_holo_light = global::Rebb.Deliveryman.Resource.Drawable.abc_list_selector_holo_light;
-			global::Rebb.Client.Core.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::Rebb.Deliveryman.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
-			global::Rebb.Client.Core.Resource.Drawable.abc_popup_background_mtrl_mult = global::Rebb.Deliveryman.Resource.Drawable.abc_popup_background_mtrl_mult;
-			global::Rebb.Client.Core.Resource.Drawable.abc_ratingbar_indicator_material = global::Rebb.Deliveryman.Resource.Drawable.abc_ratingbar_indicator_material;
-			global::Rebb.Client.Core.Resource.Drawable.abc_ratingbar_material = global::Rebb.Deliveryman.Resource.Drawable.abc_ratingbar_material;
-			global::Rebb.Client.Core.Resource.Drawable.abc_ratingbar_small_material = global::Rebb.Deliveryman.Resource.Drawable.abc_ratingbar_small_material;
-			global::Rebb.Client.Core.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::Rebb.Deliveryman.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
-			global::Rebb.Client.Core.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::Rebb.Deliveryman.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
-			global::Rebb.Client.Core.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::Rebb.Deliveryman.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
-			global::Rebb.Client.Core.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::Rebb.Deliveryman.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
-			global::Rebb.Client.Core.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::Rebb.Deliveryman.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
-			global::Rebb.Client.Core.Resource.Drawable.abc_seekbar_thumb_material = global::Rebb.Deliveryman.Resource.Drawable.abc_seekbar_thumb_material;
-			global::Rebb.Client.Core.Resource.Drawable.abc_seekbar_tick_mark_material = global::Rebb.Deliveryman.Resource.Drawable.abc_seekbar_tick_mark_material;
-			global::Rebb.Client.Core.Resource.Drawable.abc_seekbar_track_material = global::Rebb.Deliveryman.Resource.Drawable.abc_seekbar_track_material;
-			global::Rebb.Client.Core.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::Rebb.Deliveryman.Resource.Drawable.abc_spinner_mtrl_am_alpha;
-			global::Rebb.Client.Core.Resource.Drawable.abc_spinner_textfield_background_material = global::Rebb.Deliveryman.Resource.Drawable.abc_spinner_textfield_background_material;
-			global::Rebb.Client.Core.Resource.Drawable.abc_switch_thumb_material = global::Rebb.Deliveryman.Resource.Drawable.abc_switch_thumb_material;
-			global::Rebb.Client.Core.Resource.Drawable.abc_switch_track_mtrl_alpha = global::Rebb.Deliveryman.Resource.Drawable.abc_switch_track_mtrl_alpha;
-			global::Rebb.Client.Core.Resource.Drawable.abc_tab_indicator_material = global::Rebb.Deliveryman.Resource.Drawable.abc_tab_indicator_material;
-			global::Rebb.Client.Core.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::Rebb.Deliveryman.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
-			global::Rebb.Client.Core.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::Rebb.Deliveryman.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
-			global::Rebb.Client.Core.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::Rebb.Deliveryman.Resource.Drawable.abc_textfield_default_mtrl_alpha;
-			global::Rebb.Client.Core.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::Rebb.Deliveryman.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
-			global::Rebb.Client.Core.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::Rebb.Deliveryman.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
-			global::Rebb.Client.Core.Resource.Drawable.abc_textfield_search_material = global::Rebb.Deliveryman.Resource.Drawable.abc_textfield_search_material;
-			global::Rebb.Client.Core.Resource.Drawable.abc_text_cursor_material = global::Rebb.Deliveryman.Resource.Drawable.abc_text_cursor_material;
-			global::Rebb.Client.Core.Resource.Drawable.abc_vector_test = global::Rebb.Deliveryman.Resource.Drawable.abc_vector_test;
-			global::Rebb.Client.Core.Resource.Drawable.btn_checkbox_checked_mtrl = global::Rebb.Deliveryman.Resource.Drawable.btn_checkbox_checked_mtrl;
-			global::Rebb.Client.Core.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::Rebb.Deliveryman.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
-			global::Rebb.Client.Core.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::Rebb.Deliveryman.Resource.Drawable.btn_checkbox_unchecked_mtrl;
-			global::Rebb.Client.Core.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::Rebb.Deliveryman.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
-			global::Rebb.Client.Core.Resource.Drawable.btn_radio_off_mtrl = global::Rebb.Deliveryman.Resource.Drawable.btn_radio_off_mtrl;
-			global::Rebb.Client.Core.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::Rebb.Deliveryman.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
-			global::Rebb.Client.Core.Resource.Drawable.btn_radio_on_mtrl = global::Rebb.Deliveryman.Resource.Drawable.btn_radio_on_mtrl;
-			global::Rebb.Client.Core.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::Rebb.Deliveryman.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
-			global::Rebb.Client.Core.Resource.Drawable.notification_action_background = global::Rebb.Deliveryman.Resource.Drawable.notification_action_background;
-			global::Rebb.Client.Core.Resource.Drawable.notification_bg = global::Rebb.Deliveryman.Resource.Drawable.notification_bg;
-			global::Rebb.Client.Core.Resource.Drawable.notification_bg_low = global::Rebb.Deliveryman.Resource.Drawable.notification_bg_low;
-			global::Rebb.Client.Core.Resource.Drawable.notification_bg_low_normal = global::Rebb.Deliveryman.Resource.Drawable.notification_bg_low_normal;
-			global::Rebb.Client.Core.Resource.Drawable.notification_bg_low_pressed = global::Rebb.Deliveryman.Resource.Drawable.notification_bg_low_pressed;
-			global::Rebb.Client.Core.Resource.Drawable.notification_bg_normal = global::Rebb.Deliveryman.Resource.Drawable.notification_bg_normal;
-			global::Rebb.Client.Core.Resource.Drawable.notification_bg_normal_pressed = global::Rebb.Deliveryman.Resource.Drawable.notification_bg_normal_pressed;
-			global::Rebb.Client.Core.Resource.Drawable.notification_icon_background = global::Rebb.Deliveryman.Resource.Drawable.notification_icon_background;
-			global::Rebb.Client.Core.Resource.Drawable.notification_template_icon_bg = global::Rebb.Deliveryman.Resource.Drawable.notification_template_icon_bg;
-			global::Rebb.Client.Core.Resource.Drawable.notification_template_icon_low_bg = global::Rebb.Deliveryman.Resource.Drawable.notification_template_icon_low_bg;
-			global::Rebb.Client.Core.Resource.Drawable.notification_tile_bg = global::Rebb.Deliveryman.Resource.Drawable.notification_tile_bg;
-			global::Rebb.Client.Core.Resource.Drawable.notify_panel_notification_icon_bg = global::Rebb.Deliveryman.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::Rebb.Client.Core.Resource.Drawable.tooltip_frame_dark = global::Rebb.Deliveryman.Resource.Drawable.tooltip_frame_dark;
-			global::Rebb.Client.Core.Resource.Drawable.tooltip_frame_light = global::Rebb.Deliveryman.Resource.Drawable.tooltip_frame_light;
-			global::Rebb.Client.Core.Resource.Id.accessibility_action_clickable_span = global::Rebb.Deliveryman.Resource.Id.accessibility_action_clickable_span;
-			global::Rebb.Client.Core.Resource.Id.accessibility_custom_action_0 = global::Rebb.Deliveryman.Resource.Id.accessibility_custom_action_0;
-			global::Rebb.Client.Core.Resource.Id.accessibility_custom_action_1 = global::Rebb.Deliveryman.Resource.Id.accessibility_custom_action_1;
-			global::Rebb.Client.Core.Resource.Id.accessibility_custom_action_10 = global::Rebb.Deliveryman.Resource.Id.accessibility_custom_action_10;
-			global::Rebb.Client.Core.Resource.Id.accessibility_custom_action_11 = global::Rebb.Deliveryman.Resource.Id.accessibility_custom_action_11;
-			global::Rebb.Client.Core.Resource.Id.accessibility_custom_action_12 = global::Rebb.Deliveryman.Resource.Id.accessibility_custom_action_12;
-			global::Rebb.Client.Core.Resource.Id.accessibility_custom_action_13 = global::Rebb.Deliveryman.Resource.Id.accessibility_custom_action_13;
-			global::Rebb.Client.Core.Resource.Id.accessibility_custom_action_14 = global::Rebb.Deliveryman.Resource.Id.accessibility_custom_action_14;
-			global::Rebb.Client.Core.Resource.Id.accessibility_custom_action_15 = global::Rebb.Deliveryman.Resource.Id.accessibility_custom_action_15;
-			global::Rebb.Client.Core.Resource.Id.accessibility_custom_action_16 = global::Rebb.Deliveryman.Resource.Id.accessibility_custom_action_16;
-			global::Rebb.Client.Core.Resource.Id.accessibility_custom_action_17 = global::Rebb.Deliveryman.Resource.Id.accessibility_custom_action_17;
-			global::Rebb.Client.Core.Resource.Id.accessibility_custom_action_18 = global::Rebb.Deliveryman.Resource.Id.accessibility_custom_action_18;
-			global::Rebb.Client.Core.Resource.Id.accessibility_custom_action_19 = global::Rebb.Deliveryman.Resource.Id.accessibility_custom_action_19;
-			global::Rebb.Client.Core.Resource.Id.accessibility_custom_action_2 = global::Rebb.Deliveryman.Resource.Id.accessibility_custom_action_2;
-			global::Rebb.Client.Core.Resource.Id.accessibility_custom_action_20 = global::Rebb.Deliveryman.Resource.Id.accessibility_custom_action_20;
-			global::Rebb.Client.Core.Resource.Id.accessibility_custom_action_21 = global::Rebb.Deliveryman.Resource.Id.accessibility_custom_action_21;
-			global::Rebb.Client.Core.Resource.Id.accessibility_custom_action_22 = global::Rebb.Deliveryman.Resource.Id.accessibility_custom_action_22;
-			global::Rebb.Client.Core.Resource.Id.accessibility_custom_action_23 = global::Rebb.Deliveryman.Resource.Id.accessibility_custom_action_23;
-			global::Rebb.Client.Core.Resource.Id.accessibility_custom_action_24 = global::Rebb.Deliveryman.Resource.Id.accessibility_custom_action_24;
-			global::Rebb.Client.Core.Resource.Id.accessibility_custom_action_25 = global::Rebb.Deliveryman.Resource.Id.accessibility_custom_action_25;
-			global::Rebb.Client.Core.Resource.Id.accessibility_custom_action_26 = global::Rebb.Deliveryman.Resource.Id.accessibility_custom_action_26;
-			global::Rebb.Client.Core.Resource.Id.accessibility_custom_action_27 = global::Rebb.Deliveryman.Resource.Id.accessibility_custom_action_27;
-			global::Rebb.Client.Core.Resource.Id.accessibility_custom_action_28 = global::Rebb.Deliveryman.Resource.Id.accessibility_custom_action_28;
-			global::Rebb.Client.Core.Resource.Id.accessibility_custom_action_29 = global::Rebb.Deliveryman.Resource.Id.accessibility_custom_action_29;
-			global::Rebb.Client.Core.Resource.Id.accessibility_custom_action_3 = global::Rebb.Deliveryman.Resource.Id.accessibility_custom_action_3;
-			global::Rebb.Client.Core.Resource.Id.accessibility_custom_action_30 = global::Rebb.Deliveryman.Resource.Id.accessibility_custom_action_30;
-			global::Rebb.Client.Core.Resource.Id.accessibility_custom_action_31 = global::Rebb.Deliveryman.Resource.Id.accessibility_custom_action_31;
-			global::Rebb.Client.Core.Resource.Id.accessibility_custom_action_4 = global::Rebb.Deliveryman.Resource.Id.accessibility_custom_action_4;
-			global::Rebb.Client.Core.Resource.Id.accessibility_custom_action_5 = global::Rebb.Deliveryman.Resource.Id.accessibility_custom_action_5;
-			global::Rebb.Client.Core.Resource.Id.accessibility_custom_action_6 = global::Rebb.Deliveryman.Resource.Id.accessibility_custom_action_6;
-			global::Rebb.Client.Core.Resource.Id.accessibility_custom_action_7 = global::Rebb.Deliveryman.Resource.Id.accessibility_custom_action_7;
-			global::Rebb.Client.Core.Resource.Id.accessibility_custom_action_8 = global::Rebb.Deliveryman.Resource.Id.accessibility_custom_action_8;
-			global::Rebb.Client.Core.Resource.Id.accessibility_custom_action_9 = global::Rebb.Deliveryman.Resource.Id.accessibility_custom_action_9;
-			global::Rebb.Client.Core.Resource.Id.actions = global::Rebb.Deliveryman.Resource.Id.actions;
-			global::Rebb.Client.Core.Resource.Id.action_bar = global::Rebb.Deliveryman.Resource.Id.action_bar;
-			global::Rebb.Client.Core.Resource.Id.action_bar_activity_content = global::Rebb.Deliveryman.Resource.Id.action_bar_activity_content;
-			global::Rebb.Client.Core.Resource.Id.action_bar_container = global::Rebb.Deliveryman.Resource.Id.action_bar_container;
-			global::Rebb.Client.Core.Resource.Id.action_bar_root = global::Rebb.Deliveryman.Resource.Id.action_bar_root;
-			global::Rebb.Client.Core.Resource.Id.action_bar_spinner = global::Rebb.Deliveryman.Resource.Id.action_bar_spinner;
-			global::Rebb.Client.Core.Resource.Id.action_bar_subtitle = global::Rebb.Deliveryman.Resource.Id.action_bar_subtitle;
-			global::Rebb.Client.Core.Resource.Id.action_bar_title = global::Rebb.Deliveryman.Resource.Id.action_bar_title;
-			global::Rebb.Client.Core.Resource.Id.action_container = global::Rebb.Deliveryman.Resource.Id.action_container;
-			global::Rebb.Client.Core.Resource.Id.action_context_bar = global::Rebb.Deliveryman.Resource.Id.action_context_bar;
-			global::Rebb.Client.Core.Resource.Id.action_divider = global::Rebb.Deliveryman.Resource.Id.action_divider;
-			global::Rebb.Client.Core.Resource.Id.action_image = global::Rebb.Deliveryman.Resource.Id.action_image;
-			global::Rebb.Client.Core.Resource.Id.action_menu_divider = global::Rebb.Deliveryman.Resource.Id.action_menu_divider;
-			global::Rebb.Client.Core.Resource.Id.action_menu_presenter = global::Rebb.Deliveryman.Resource.Id.action_menu_presenter;
-			global::Rebb.Client.Core.Resource.Id.action_mode_bar = global::Rebb.Deliveryman.Resource.Id.action_mode_bar;
-			global::Rebb.Client.Core.Resource.Id.action_mode_bar_stub = global::Rebb.Deliveryman.Resource.Id.action_mode_bar_stub;
-			global::Rebb.Client.Core.Resource.Id.action_mode_close_button = global::Rebb.Deliveryman.Resource.Id.action_mode_close_button;
-			global::Rebb.Client.Core.Resource.Id.action_text = global::Rebb.Deliveryman.Resource.Id.action_text;
-			global::Rebb.Client.Core.Resource.Id.activity_chooser_view_content = global::Rebb.Deliveryman.Resource.Id.activity_chooser_view_content;
-			global::Rebb.Client.Core.Resource.Id.add = global::Rebb.Deliveryman.Resource.Id.add;
-			global::Rebb.Client.Core.Resource.Id.alertTitle = global::Rebb.Deliveryman.Resource.Id.alertTitle;
-			global::Rebb.Client.Core.Resource.Id.ALT = global::Rebb.Deliveryman.Resource.Id.ALT;
-			global::Rebb.Client.Core.Resource.Id.always = global::Rebb.Deliveryman.Resource.Id.always;
-			global::Rebb.Client.Core.Resource.Id.async = global::Rebb.Deliveryman.Resource.Id.async;
-			global::Rebb.Client.Core.Resource.Id.beginning = global::Rebb.Deliveryman.Resource.Id.beginning;
-			global::Rebb.Client.Core.Resource.Id.blocking = global::Rebb.Deliveryman.Resource.Id.blocking;
-			global::Rebb.Client.Core.Resource.Id.bottom = global::Rebb.Deliveryman.Resource.Id.bottom;
-			global::Rebb.Client.Core.Resource.Id.buttonPanel = global::Rebb.Deliveryman.Resource.Id.buttonPanel;
-			global::Rebb.Client.Core.Resource.Id.center_vertical = global::Rebb.Deliveryman.Resource.Id.center_vertical;
-			global::Rebb.Client.Core.Resource.Id.checkbox = global::Rebb.Deliveryman.Resource.Id.checkbox;
-			global::Rebb.Client.Core.Resource.Id.@checked = global::Rebb.Deliveryman.Resource.Id.@checked;
-			global::Rebb.Client.Core.Resource.Id.chronometer = global::Rebb.Deliveryman.Resource.Id.chronometer;
-			global::Rebb.Client.Core.Resource.Id.collapseActionView = global::Rebb.Deliveryman.Resource.Id.collapseActionView;
-			global::Rebb.Client.Core.Resource.Id.content = global::Rebb.Deliveryman.Resource.Id.content;
-			global::Rebb.Client.Core.Resource.Id.contentPanel = global::Rebb.Deliveryman.Resource.Id.contentPanel;
-			global::Rebb.Client.Core.Resource.Id.CTRL = global::Rebb.Deliveryman.Resource.Id.CTRL;
-			global::Rebb.Client.Core.Resource.Id.custom = global::Rebb.Deliveryman.Resource.Id.custom;
-			global::Rebb.Client.Core.Resource.Id.customPanel = global::Rebb.Deliveryman.Resource.Id.customPanel;
-			global::Rebb.Client.Core.Resource.Id.decor_content_parent = global::Rebb.Deliveryman.Resource.Id.decor_content_parent;
-			global::Rebb.Client.Core.Resource.Id.default_activity_button = global::Rebb.Deliveryman.Resource.Id.default_activity_button;
-			global::Rebb.Client.Core.Resource.Id.dialog_button = global::Rebb.Deliveryman.Resource.Id.dialog_button;
-			global::Rebb.Client.Core.Resource.Id.disableHome = global::Rebb.Deliveryman.Resource.Id.disableHome;
-			global::Rebb.Client.Core.Resource.Id.edit_query = global::Rebb.Deliveryman.Resource.Id.edit_query;
-			global::Rebb.Client.Core.Resource.Id.end = global::Rebb.Deliveryman.Resource.Id.end;
-			global::Rebb.Client.Core.Resource.Id.expanded_menu = global::Rebb.Deliveryman.Resource.Id.expanded_menu;
-			global::Rebb.Client.Core.Resource.Id.expand_activities_button = global::Rebb.Deliveryman.Resource.Id.expand_activities_button;
-			global::Rebb.Client.Core.Resource.Id.forever = global::Rebb.Deliveryman.Resource.Id.forever;
-			global::Rebb.Client.Core.Resource.Id.fragment_container_view_tag = global::Rebb.Deliveryman.Resource.Id.fragment_container_view_tag;
-			global::Rebb.Client.Core.Resource.Id.FUNCTION = global::Rebb.Deliveryman.Resource.Id.FUNCTION;
-			global::Rebb.Client.Core.Resource.Id.group_divider = global::Rebb.Deliveryman.Resource.Id.group_divider;
-			global::Rebb.Client.Core.Resource.Id.home = global::Rebb.Deliveryman.Resource.Id.home;
-			global::Rebb.Client.Core.Resource.Id.homeAsUp = global::Rebb.Deliveryman.Resource.Id.homeAsUp;
-			global::Rebb.Client.Core.Resource.Id.icon = global::Rebb.Deliveryman.Resource.Id.icon;
-			global::Rebb.Client.Core.Resource.Id.icon_group = global::Rebb.Deliveryman.Resource.Id.icon_group;
-			global::Rebb.Client.Core.Resource.Id.ifRoom = global::Rebb.Deliveryman.Resource.Id.ifRoom;
-			global::Rebb.Client.Core.Resource.Id.image = global::Rebb.Deliveryman.Resource.Id.image;
-			global::Rebb.Client.Core.Resource.Id.info = global::Rebb.Deliveryman.Resource.Id.info;
-			global::Rebb.Client.Core.Resource.Id.italic = global::Rebb.Deliveryman.Resource.Id.italic;
-			global::Rebb.Client.Core.Resource.Id.line1 = global::Rebb.Deliveryman.Resource.Id.line1;
-			global::Rebb.Client.Core.Resource.Id.line3 = global::Rebb.Deliveryman.Resource.Id.line3;
-			global::Rebb.Client.Core.Resource.Id.listMode = global::Rebb.Deliveryman.Resource.Id.listMode;
-			global::Rebb.Client.Core.Resource.Id.list_item = global::Rebb.Deliveryman.Resource.Id.list_item;
-			global::Rebb.Client.Core.Resource.Id.message = global::Rebb.Deliveryman.Resource.Id.message;
-			global::Rebb.Client.Core.Resource.Id.META = global::Rebb.Deliveryman.Resource.Id.META;
-			global::Rebb.Client.Core.Resource.Id.middle = global::Rebb.Deliveryman.Resource.Id.middle;
-			global::Rebb.Client.Core.Resource.Id.multiply = global::Rebb.Deliveryman.Resource.Id.multiply;
-			global::Rebb.Client.Core.Resource.Id.never = global::Rebb.Deliveryman.Resource.Id.never;
-			global::Rebb.Client.Core.Resource.Id.none = global::Rebb.Deliveryman.Resource.Id.none;
-			global::Rebb.Client.Core.Resource.Id.normal = global::Rebb.Deliveryman.Resource.Id.normal;
-			global::Rebb.Client.Core.Resource.Id.notification_background = global::Rebb.Deliveryman.Resource.Id.notification_background;
-			global::Rebb.Client.Core.Resource.Id.notification_main_column = global::Rebb.Deliveryman.Resource.Id.notification_main_column;
-			global::Rebb.Client.Core.Resource.Id.notification_main_column_container = global::Rebb.Deliveryman.Resource.Id.notification_main_column_container;
-			global::Rebb.Client.Core.Resource.Id.off = global::Rebb.Deliveryman.Resource.Id.off;
-			global::Rebb.Client.Core.Resource.Id.on = global::Rebb.Deliveryman.Resource.Id.on;
-			global::Rebb.Client.Core.Resource.Id.parentPanel = global::Rebb.Deliveryman.Resource.Id.parentPanel;
-			global::Rebb.Client.Core.Resource.Id.progress_circular = global::Rebb.Deliveryman.Resource.Id.progress_circular;
-			global::Rebb.Client.Core.Resource.Id.progress_horizontal = global::Rebb.Deliveryman.Resource.Id.progress_horizontal;
-			global::Rebb.Client.Core.Resource.Id.radio = global::Rebb.Deliveryman.Resource.Id.radio;
-			global::Rebb.Client.Core.Resource.Id.right_icon = global::Rebb.Deliveryman.Resource.Id.right_icon;
-			global::Rebb.Client.Core.Resource.Id.right_side = global::Rebb.Deliveryman.Resource.Id.right_side;
-			global::Rebb.Client.Core.Resource.Id.screen = global::Rebb.Deliveryman.Resource.Id.screen;
-			global::Rebb.Client.Core.Resource.Id.scrollIndicatorDown = global::Rebb.Deliveryman.Resource.Id.scrollIndicatorDown;
-			global::Rebb.Client.Core.Resource.Id.scrollIndicatorUp = global::Rebb.Deliveryman.Resource.Id.scrollIndicatorUp;
-			global::Rebb.Client.Core.Resource.Id.scrollView = global::Rebb.Deliveryman.Resource.Id.scrollView;
-			global::Rebb.Client.Core.Resource.Id.search_badge = global::Rebb.Deliveryman.Resource.Id.search_badge;
-			global::Rebb.Client.Core.Resource.Id.search_bar = global::Rebb.Deliveryman.Resource.Id.search_bar;
-			global::Rebb.Client.Core.Resource.Id.search_button = global::Rebb.Deliveryman.Resource.Id.search_button;
-			global::Rebb.Client.Core.Resource.Id.search_close_btn = global::Rebb.Deliveryman.Resource.Id.search_close_btn;
-			global::Rebb.Client.Core.Resource.Id.search_edit_frame = global::Rebb.Deliveryman.Resource.Id.search_edit_frame;
-			global::Rebb.Client.Core.Resource.Id.search_go_btn = global::Rebb.Deliveryman.Resource.Id.search_go_btn;
-			global::Rebb.Client.Core.Resource.Id.search_mag_icon = global::Rebb.Deliveryman.Resource.Id.search_mag_icon;
-			global::Rebb.Client.Core.Resource.Id.search_plate = global::Rebb.Deliveryman.Resource.Id.search_plate;
-			global::Rebb.Client.Core.Resource.Id.search_src_text = global::Rebb.Deliveryman.Resource.Id.search_src_text;
-			global::Rebb.Client.Core.Resource.Id.search_voice_btn = global::Rebb.Deliveryman.Resource.Id.search_voice_btn;
-			global::Rebb.Client.Core.Resource.Id.select_dialog_listview = global::Rebb.Deliveryman.Resource.Id.select_dialog_listview;
-			global::Rebb.Client.Core.Resource.Id.SHIFT = global::Rebb.Deliveryman.Resource.Id.SHIFT;
-			global::Rebb.Client.Core.Resource.Id.shortcut = global::Rebb.Deliveryman.Resource.Id.shortcut;
-			global::Rebb.Client.Core.Resource.Id.showCustom = global::Rebb.Deliveryman.Resource.Id.showCustom;
-			global::Rebb.Client.Core.Resource.Id.showHome = global::Rebb.Deliveryman.Resource.Id.showHome;
-			global::Rebb.Client.Core.Resource.Id.showTitle = global::Rebb.Deliveryman.Resource.Id.showTitle;
-			global::Rebb.Client.Core.Resource.Id.spacer = global::Rebb.Deliveryman.Resource.Id.spacer;
-			global::Rebb.Client.Core.Resource.Id.split_action_bar = global::Rebb.Deliveryman.Resource.Id.split_action_bar;
-			global::Rebb.Client.Core.Resource.Id.src_atop = global::Rebb.Deliveryman.Resource.Id.src_atop;
-			global::Rebb.Client.Core.Resource.Id.src_in = global::Rebb.Deliveryman.Resource.Id.src_in;
-			global::Rebb.Client.Core.Resource.Id.src_over = global::Rebb.Deliveryman.Resource.Id.src_over;
-			global::Rebb.Client.Core.Resource.Id.submenuarrow = global::Rebb.Deliveryman.Resource.Id.submenuarrow;
-			global::Rebb.Client.Core.Resource.Id.submit_area = global::Rebb.Deliveryman.Resource.Id.submit_area;
-			global::Rebb.Client.Core.Resource.Id.SYM = global::Rebb.Deliveryman.Resource.Id.SYM;
-			global::Rebb.Client.Core.Resource.Id.tabMode = global::Rebb.Deliveryman.Resource.Id.tabMode;
-			global::Rebb.Client.Core.Resource.Id.tag_accessibility_actions = global::Rebb.Deliveryman.Resource.Id.tag_accessibility_actions;
-			global::Rebb.Client.Core.Resource.Id.tag_accessibility_clickable_spans = global::Rebb.Deliveryman.Resource.Id.tag_accessibility_clickable_spans;
-			global::Rebb.Client.Core.Resource.Id.tag_accessibility_heading = global::Rebb.Deliveryman.Resource.Id.tag_accessibility_heading;
-			global::Rebb.Client.Core.Resource.Id.tag_accessibility_pane_title = global::Rebb.Deliveryman.Resource.Id.tag_accessibility_pane_title;
-			global::Rebb.Client.Core.Resource.Id.tag_screen_reader_focusable = global::Rebb.Deliveryman.Resource.Id.tag_screen_reader_focusable;
-			global::Rebb.Client.Core.Resource.Id.tag_transition_group = global::Rebb.Deliveryman.Resource.Id.tag_transition_group;
-			global::Rebb.Client.Core.Resource.Id.tag_unhandled_key_event_manager = global::Rebb.Deliveryman.Resource.Id.tag_unhandled_key_event_manager;
-			global::Rebb.Client.Core.Resource.Id.tag_unhandled_key_listeners = global::Rebb.Deliveryman.Resource.Id.tag_unhandled_key_listeners;
-			global::Rebb.Client.Core.Resource.Id.text = global::Rebb.Deliveryman.Resource.Id.text;
-			global::Rebb.Client.Core.Resource.Id.text2 = global::Rebb.Deliveryman.Resource.Id.text2;
-			global::Rebb.Client.Core.Resource.Id.textSpacerNoButtons = global::Rebb.Deliveryman.Resource.Id.textSpacerNoButtons;
-			global::Rebb.Client.Core.Resource.Id.textSpacerNoTitle = global::Rebb.Deliveryman.Resource.Id.textSpacerNoTitle;
-			global::Rebb.Client.Core.Resource.Id.time = global::Rebb.Deliveryman.Resource.Id.time;
-			global::Rebb.Client.Core.Resource.Id.title = global::Rebb.Deliveryman.Resource.Id.title;
-			global::Rebb.Client.Core.Resource.Id.titleDividerNoCustom = global::Rebb.Deliveryman.Resource.Id.titleDividerNoCustom;
-			global::Rebb.Client.Core.Resource.Id.title_template = global::Rebb.Deliveryman.Resource.Id.title_template;
-			global::Rebb.Client.Core.Resource.Id.top = global::Rebb.Deliveryman.Resource.Id.top;
-			global::Rebb.Client.Core.Resource.Id.topPanel = global::Rebb.Deliveryman.Resource.Id.topPanel;
-			global::Rebb.Client.Core.Resource.Id.@unchecked = global::Rebb.Deliveryman.Resource.Id.@unchecked;
-			global::Rebb.Client.Core.Resource.Id.uniform = global::Rebb.Deliveryman.Resource.Id.uniform;
-			global::Rebb.Client.Core.Resource.Id.up = global::Rebb.Deliveryman.Resource.Id.up;
-			global::Rebb.Client.Core.Resource.Id.useLogo = global::Rebb.Deliveryman.Resource.Id.useLogo;
-			global::Rebb.Client.Core.Resource.Id.view_tree_saved_state_registry_owner = global::Rebb.Deliveryman.Resource.Id.view_tree_saved_state_registry_owner;
-			global::Rebb.Client.Core.Resource.Id.visible_removing_fragment_view_tag = global::Rebb.Deliveryman.Resource.Id.visible_removing_fragment_view_tag;
-			global::Rebb.Client.Core.Resource.Id.withText = global::Rebb.Deliveryman.Resource.Id.withText;
-			global::Rebb.Client.Core.Resource.Id.wrap_content = global::Rebb.Deliveryman.Resource.Id.wrap_content;
-			global::Rebb.Client.Core.Resource.Integer.abc_config_activityDefaultDur = global::Rebb.Deliveryman.Resource.Integer.abc_config_activityDefaultDur;
-			global::Rebb.Client.Core.Resource.Integer.abc_config_activityShortDur = global::Rebb.Deliveryman.Resource.Integer.abc_config_activityShortDur;
-			global::Rebb.Client.Core.Resource.Integer.cancel_button_image_alpha = global::Rebb.Deliveryman.Resource.Integer.cancel_button_image_alpha;
-			global::Rebb.Client.Core.Resource.Integer.config_tooltipAnimTime = global::Rebb.Deliveryman.Resource.Integer.config_tooltipAnimTime;
-			global::Rebb.Client.Core.Resource.Integer.status_bar_notification_info_maxnum = global::Rebb.Deliveryman.Resource.Integer.status_bar_notification_info_maxnum;
-			global::Rebb.Client.Core.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::Rebb.Deliveryman.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
-			global::Rebb.Client.Core.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::Rebb.Deliveryman.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
-			global::Rebb.Client.Core.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::Rebb.Deliveryman.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
-			global::Rebb.Client.Core.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::Rebb.Deliveryman.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
-			global::Rebb.Client.Core.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::Rebb.Deliveryman.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
-			global::Rebb.Client.Core.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::Rebb.Deliveryman.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
-			global::Rebb.Client.Core.Resource.Interpolator.fast_out_slow_in = global::Rebb.Deliveryman.Resource.Interpolator.fast_out_slow_in;
-			global::Rebb.Client.Core.Resource.Layout.abc_action_bar_title_item = global::Rebb.Deliveryman.Resource.Layout.abc_action_bar_title_item;
-			global::Rebb.Client.Core.Resource.Layout.abc_action_bar_up_container = global::Rebb.Deliveryman.Resource.Layout.abc_action_bar_up_container;
-			global::Rebb.Client.Core.Resource.Layout.abc_action_menu_item_layout = global::Rebb.Deliveryman.Resource.Layout.abc_action_menu_item_layout;
-			global::Rebb.Client.Core.Resource.Layout.abc_action_menu_layout = global::Rebb.Deliveryman.Resource.Layout.abc_action_menu_layout;
-			global::Rebb.Client.Core.Resource.Layout.abc_action_mode_bar = global::Rebb.Deliveryman.Resource.Layout.abc_action_mode_bar;
-			global::Rebb.Client.Core.Resource.Layout.abc_action_mode_close_item_material = global::Rebb.Deliveryman.Resource.Layout.abc_action_mode_close_item_material;
-			global::Rebb.Client.Core.Resource.Layout.abc_activity_chooser_view = global::Rebb.Deliveryman.Resource.Layout.abc_activity_chooser_view;
-			global::Rebb.Client.Core.Resource.Layout.abc_activity_chooser_view_list_item = global::Rebb.Deliveryman.Resource.Layout.abc_activity_chooser_view_list_item;
-			global::Rebb.Client.Core.Resource.Layout.abc_alert_dialog_button_bar_material = global::Rebb.Deliveryman.Resource.Layout.abc_alert_dialog_button_bar_material;
-			global::Rebb.Client.Core.Resource.Layout.abc_alert_dialog_material = global::Rebb.Deliveryman.Resource.Layout.abc_alert_dialog_material;
-			global::Rebb.Client.Core.Resource.Layout.abc_alert_dialog_title_material = global::Rebb.Deliveryman.Resource.Layout.abc_alert_dialog_title_material;
-			global::Rebb.Client.Core.Resource.Layout.abc_cascading_menu_item_layout = global::Rebb.Deliveryman.Resource.Layout.abc_cascading_menu_item_layout;
-			global::Rebb.Client.Core.Resource.Layout.abc_dialog_title_material = global::Rebb.Deliveryman.Resource.Layout.abc_dialog_title_material;
-			global::Rebb.Client.Core.Resource.Layout.abc_expanded_menu_layout = global::Rebb.Deliveryman.Resource.Layout.abc_expanded_menu_layout;
-			global::Rebb.Client.Core.Resource.Layout.abc_list_menu_item_checkbox = global::Rebb.Deliveryman.Resource.Layout.abc_list_menu_item_checkbox;
-			global::Rebb.Client.Core.Resource.Layout.abc_list_menu_item_icon = global::Rebb.Deliveryman.Resource.Layout.abc_list_menu_item_icon;
-			global::Rebb.Client.Core.Resource.Layout.abc_list_menu_item_layout = global::Rebb.Deliveryman.Resource.Layout.abc_list_menu_item_layout;
-			global::Rebb.Client.Core.Resource.Layout.abc_list_menu_item_radio = global::Rebb.Deliveryman.Resource.Layout.abc_list_menu_item_radio;
-			global::Rebb.Client.Core.Resource.Layout.abc_popup_menu_header_item_layout = global::Rebb.Deliveryman.Resource.Layout.abc_popup_menu_header_item_layout;
-			global::Rebb.Client.Core.Resource.Layout.abc_popup_menu_item_layout = global::Rebb.Deliveryman.Resource.Layout.abc_popup_menu_item_layout;
-			global::Rebb.Client.Core.Resource.Layout.abc_screen_content_include = global::Rebb.Deliveryman.Resource.Layout.abc_screen_content_include;
-			global::Rebb.Client.Core.Resource.Layout.abc_screen_simple = global::Rebb.Deliveryman.Resource.Layout.abc_screen_simple;
-			global::Rebb.Client.Core.Resource.Layout.abc_screen_simple_overlay_action_mode = global::Rebb.Deliveryman.Resource.Layout.abc_screen_simple_overlay_action_mode;
-			global::Rebb.Client.Core.Resource.Layout.abc_screen_toolbar = global::Rebb.Deliveryman.Resource.Layout.abc_screen_toolbar;
-			global::Rebb.Client.Core.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Rebb.Deliveryman.Resource.Layout.abc_search_dropdown_item_icons_2line;
-			global::Rebb.Client.Core.Resource.Layout.abc_search_view = global::Rebb.Deliveryman.Resource.Layout.abc_search_view;
-			global::Rebb.Client.Core.Resource.Layout.abc_select_dialog_material = global::Rebb.Deliveryman.Resource.Layout.abc_select_dialog_material;
-			global::Rebb.Client.Core.Resource.Layout.abc_tooltip = global::Rebb.Deliveryman.Resource.Layout.abc_tooltip;
-			global::Rebb.Client.Core.Resource.Layout.custom_dialog = global::Rebb.Deliveryman.Resource.Layout.custom_dialog;
-			global::Rebb.Client.Core.Resource.Layout.notification_action = global::Rebb.Deliveryman.Resource.Layout.notification_action;
-			global::Rebb.Client.Core.Resource.Layout.notification_action_tombstone = global::Rebb.Deliveryman.Resource.Layout.notification_action_tombstone;
-			global::Rebb.Client.Core.Resource.Layout.notification_template_custom_big = global::Rebb.Deliveryman.Resource.Layout.notification_template_custom_big;
-			global::Rebb.Client.Core.Resource.Layout.notification_template_icon_group = global::Rebb.Deliveryman.Resource.Layout.notification_template_icon_group;
-			global::Rebb.Client.Core.Resource.Layout.notification_template_part_chronometer = global::Rebb.Deliveryman.Resource.Layout.notification_template_part_chronometer;
-			global::Rebb.Client.Core.Resource.Layout.notification_template_part_time = global::Rebb.Deliveryman.Resource.Layout.notification_template_part_time;
-			global::Rebb.Client.Core.Resource.Layout.select_dialog_item_material = global::Rebb.Deliveryman.Resource.Layout.select_dialog_item_material;
-			global::Rebb.Client.Core.Resource.Layout.select_dialog_multichoice_material = global::Rebb.Deliveryman.Resource.Layout.select_dialog_multichoice_material;
-			global::Rebb.Client.Core.Resource.Layout.select_dialog_singlechoice_material = global::Rebb.Deliveryman.Resource.Layout.select_dialog_singlechoice_material;
-			global::Rebb.Client.Core.Resource.Layout.support_simple_spinner_dropdown_item = global::Rebb.Deliveryman.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::Rebb.Client.Core.Resource.String.abc_action_bar_home_description = global::Rebb.Deliveryman.Resource.String.abc_action_bar_home_description;
-			global::Rebb.Client.Core.Resource.String.abc_action_bar_up_description = global::Rebb.Deliveryman.Resource.String.abc_action_bar_up_description;
-			global::Rebb.Client.Core.Resource.String.abc_action_menu_overflow_description = global::Rebb.Deliveryman.Resource.String.abc_action_menu_overflow_description;
-			global::Rebb.Client.Core.Resource.String.abc_action_mode_done = global::Rebb.Deliveryman.Resource.String.abc_action_mode_done;
-			global::Rebb.Client.Core.Resource.String.abc_activitychooserview_choose_application = global::Rebb.Deliveryman.Resource.String.abc_activitychooserview_choose_application;
-			global::Rebb.Client.Core.Resource.String.abc_activity_chooser_view_see_all = global::Rebb.Deliveryman.Resource.String.abc_activity_chooser_view_see_all;
-			global::Rebb.Client.Core.Resource.String.abc_capital_off = global::Rebb.Deliveryman.Resource.String.abc_capital_off;
-			global::Rebb.Client.Core.Resource.String.abc_capital_on = global::Rebb.Deliveryman.Resource.String.abc_capital_on;
-			global::Rebb.Client.Core.Resource.String.abc_menu_alt_shortcut_label = global::Rebb.Deliveryman.Resource.String.abc_menu_alt_shortcut_label;
-			global::Rebb.Client.Core.Resource.String.abc_menu_ctrl_shortcut_label = global::Rebb.Deliveryman.Resource.String.abc_menu_ctrl_shortcut_label;
-			global::Rebb.Client.Core.Resource.String.abc_menu_delete_shortcut_label = global::Rebb.Deliveryman.Resource.String.abc_menu_delete_shortcut_label;
-			global::Rebb.Client.Core.Resource.String.abc_menu_enter_shortcut_label = global::Rebb.Deliveryman.Resource.String.abc_menu_enter_shortcut_label;
-			global::Rebb.Client.Core.Resource.String.abc_menu_function_shortcut_label = global::Rebb.Deliveryman.Resource.String.abc_menu_function_shortcut_label;
-			global::Rebb.Client.Core.Resource.String.abc_menu_meta_shortcut_label = global::Rebb.Deliveryman.Resource.String.abc_menu_meta_shortcut_label;
-			global::Rebb.Client.Core.Resource.String.abc_menu_shift_shortcut_label = global::Rebb.Deliveryman.Resource.String.abc_menu_shift_shortcut_label;
-			global::Rebb.Client.Core.Resource.String.abc_menu_space_shortcut_label = global::Rebb.Deliveryman.Resource.String.abc_menu_space_shortcut_label;
-			global::Rebb.Client.Core.Resource.String.abc_menu_sym_shortcut_label = global::Rebb.Deliveryman.Resource.String.abc_menu_sym_shortcut_label;
-			global::Rebb.Client.Core.Resource.String.abc_prepend_shortcut_label = global::Rebb.Deliveryman.Resource.String.abc_prepend_shortcut_label;
-			global::Rebb.Client.Core.Resource.String.abc_searchview_description_clear = global::Rebb.Deliveryman.Resource.String.abc_searchview_description_clear;
-			global::Rebb.Client.Core.Resource.String.abc_searchview_description_query = global::Rebb.Deliveryman.Resource.String.abc_searchview_description_query;
-			global::Rebb.Client.Core.Resource.String.abc_searchview_description_search = global::Rebb.Deliveryman.Resource.String.abc_searchview_description_search;
-			global::Rebb.Client.Core.Resource.String.abc_searchview_description_submit = global::Rebb.Deliveryman.Resource.String.abc_searchview_description_submit;
-			global::Rebb.Client.Core.Resource.String.abc_searchview_description_voice = global::Rebb.Deliveryman.Resource.String.abc_searchview_description_voice;
-			global::Rebb.Client.Core.Resource.String.abc_search_hint = global::Rebb.Deliveryman.Resource.String.abc_search_hint;
-			global::Rebb.Client.Core.Resource.String.abc_shareactionprovider_share_with = global::Rebb.Deliveryman.Resource.String.abc_shareactionprovider_share_with;
-			global::Rebb.Client.Core.Resource.String.abc_shareactionprovider_share_with_application = global::Rebb.Deliveryman.Resource.String.abc_shareactionprovider_share_with_application;
-			global::Rebb.Client.Core.Resource.String.abc_toolbar_collapse_description = global::Rebb.Deliveryman.Resource.String.abc_toolbar_collapse_description;
-			global::Rebb.Client.Core.Resource.String.app_name = global::Rebb.Deliveryman.Resource.String.app_name;
-			global::Rebb.Client.Core.Resource.String.hello = global::Rebb.Deliveryman.Resource.String.hello;
-			global::Rebb.Client.Core.Resource.String.pwd_invalid = global::Rebb.Deliveryman.Resource.String.pwd_invalid;
-			global::Rebb.Client.Core.Resource.String.search_menu_title = global::Rebb.Deliveryman.Resource.String.search_menu_title;
-			global::Rebb.Client.Core.Resource.String.status_bar_notification_info_overflow = global::Rebb.Deliveryman.Resource.String.status_bar_notification_info_overflow;
-			global::Rebb.Client.Core.Resource.String.user_invalid = global::Rebb.Deliveryman.Resource.String.user_invalid;
-			global::Rebb.Client.Core.Resource.Style.AlertDialog_AppCompat = global::Rebb.Deliveryman.Resource.Style.AlertDialog_AppCompat;
-			global::Rebb.Client.Core.Resource.Style.AlertDialog_AppCompat_Light = global::Rebb.Deliveryman.Resource.Style.AlertDialog_AppCompat_Light;
-			global::Rebb.Client.Core.Resource.Style.Animation_AppCompat_Dialog = global::Rebb.Deliveryman.Resource.Style.Animation_AppCompat_Dialog;
-			global::Rebb.Client.Core.Resource.Style.Animation_AppCompat_DropDownUp = global::Rebb.Deliveryman.Resource.Style.Animation_AppCompat_DropDownUp;
-			global::Rebb.Client.Core.Resource.Style.Animation_AppCompat_Tooltip = global::Rebb.Deliveryman.Resource.Style.Animation_AppCompat_Tooltip;
-			global::Rebb.Client.Core.Resource.Style.Base_AlertDialog_AppCompat = global::Rebb.Deliveryman.Resource.Style.Base_AlertDialog_AppCompat;
-			global::Rebb.Client.Core.Resource.Style.Base_AlertDialog_AppCompat_Light = global::Rebb.Deliveryman.Resource.Style.Base_AlertDialog_AppCompat_Light;
-			global::Rebb.Client.Core.Resource.Style.Base_Animation_AppCompat_Dialog = global::Rebb.Deliveryman.Resource.Style.Base_Animation_AppCompat_Dialog;
-			global::Rebb.Client.Core.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::Rebb.Deliveryman.Resource.Style.Base_Animation_AppCompat_DropDownUp;
-			global::Rebb.Client.Core.Resource.Style.Base_Animation_AppCompat_Tooltip = global::Rebb.Deliveryman.Resource.Style.Base_Animation_AppCompat_Tooltip;
-			global::Rebb.Client.Core.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::Rebb.Deliveryman.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
-			global::Rebb.Client.Core.Resource.Style.Base_DialogWindowTitle_AppCompat = global::Rebb.Deliveryman.Resource.Style.Base_DialogWindowTitle_AppCompat;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Body1;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Body2;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Button = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Button;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Caption;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Display1;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Display2;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Display3;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Display4;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Headline;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Large = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Large;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Medium;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Menu;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Small = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Small;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Title = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Title;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Rebb.Client.Core.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::Rebb.Deliveryman.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Rebb.Client.Core.Resource.Style.Base_ThemeOverlay_AppCompat = global::Rebb.Deliveryman.Resource.Style.Base_ThemeOverlay_AppCompat;
-			global::Rebb.Client.Core.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::Rebb.Deliveryman.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
-			global::Rebb.Client.Core.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::Rebb.Deliveryman.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
-			global::Rebb.Client.Core.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::Rebb.Deliveryman.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Rebb.Client.Core.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::Rebb.Deliveryman.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
-			global::Rebb.Client.Core.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::Rebb.Deliveryman.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
-			global::Rebb.Client.Core.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::Rebb.Deliveryman.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
-			global::Rebb.Client.Core.Resource.Style.Base_Theme_AppCompat = global::Rebb.Deliveryman.Resource.Style.Base_Theme_AppCompat;
-			global::Rebb.Client.Core.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::Rebb.Deliveryman.Resource.Style.Base_Theme_AppCompat_CompactMenu;
-			global::Rebb.Client.Core.Resource.Style.Base_Theme_AppCompat_Dialog = global::Rebb.Deliveryman.Resource.Style.Base_Theme_AppCompat_Dialog;
-			global::Rebb.Client.Core.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::Rebb.Deliveryman.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
-			global::Rebb.Client.Core.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::Rebb.Deliveryman.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
-			global::Rebb.Client.Core.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::Rebb.Deliveryman.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
-			global::Rebb.Client.Core.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::Rebb.Deliveryman.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
-			global::Rebb.Client.Core.Resource.Style.Base_Theme_AppCompat_Light = global::Rebb.Deliveryman.Resource.Style.Base_Theme_AppCompat_Light;
-			global::Rebb.Client.Core.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::Rebb.Deliveryman.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
-			global::Rebb.Client.Core.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::Rebb.Deliveryman.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
-			global::Rebb.Client.Core.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::Rebb.Deliveryman.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
-			global::Rebb.Client.Core.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::Rebb.Deliveryman.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
-			global::Rebb.Client.Core.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::Rebb.Deliveryman.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
-			global::Rebb.Client.Core.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::Rebb.Deliveryman.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Rebb.Client.Core.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::Rebb.Deliveryman.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
-			global::Rebb.Client.Core.Resource.Style.Base_V21_Theme_AppCompat = global::Rebb.Deliveryman.Resource.Style.Base_V21_Theme_AppCompat;
-			global::Rebb.Client.Core.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::Rebb.Deliveryman.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
-			global::Rebb.Client.Core.Resource.Style.Base_V21_Theme_AppCompat_Light = global::Rebb.Deliveryman.Resource.Style.Base_V21_Theme_AppCompat_Light;
-			global::Rebb.Client.Core.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::Rebb.Deliveryman.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
-			global::Rebb.Client.Core.Resource.Style.Base_V22_Theme_AppCompat = global::Rebb.Deliveryman.Resource.Style.Base_V22_Theme_AppCompat;
-			global::Rebb.Client.Core.Resource.Style.Base_V22_Theme_AppCompat_Light = global::Rebb.Deliveryman.Resource.Style.Base_V22_Theme_AppCompat_Light;
-			global::Rebb.Client.Core.Resource.Style.Base_V23_Theme_AppCompat = global::Rebb.Deliveryman.Resource.Style.Base_V23_Theme_AppCompat;
-			global::Rebb.Client.Core.Resource.Style.Base_V23_Theme_AppCompat_Light = global::Rebb.Deliveryman.Resource.Style.Base_V23_Theme_AppCompat_Light;
-			global::Rebb.Client.Core.Resource.Style.Base_V26_Theme_AppCompat = global::Rebb.Deliveryman.Resource.Style.Base_V26_Theme_AppCompat;
-			global::Rebb.Client.Core.Resource.Style.Base_V26_Theme_AppCompat_Light = global::Rebb.Deliveryman.Resource.Style.Base_V26_Theme_AppCompat_Light;
-			global::Rebb.Client.Core.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::Rebb.Deliveryman.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
-			global::Rebb.Client.Core.Resource.Style.Base_V28_Theme_AppCompat = global::Rebb.Deliveryman.Resource.Style.Base_V28_Theme_AppCompat;
-			global::Rebb.Client.Core.Resource.Style.Base_V28_Theme_AppCompat_Light = global::Rebb.Deliveryman.Resource.Style.Base_V28_Theme_AppCompat_Light;
-			global::Rebb.Client.Core.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::Rebb.Deliveryman.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
-			global::Rebb.Client.Core.Resource.Style.Base_V7_Theme_AppCompat = global::Rebb.Deliveryman.Resource.Style.Base_V7_Theme_AppCompat;
-			global::Rebb.Client.Core.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::Rebb.Deliveryman.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
-			global::Rebb.Client.Core.Resource.Style.Base_V7_Theme_AppCompat_Light = global::Rebb.Deliveryman.Resource.Style.Base_V7_Theme_AppCompat_Light;
-			global::Rebb.Client.Core.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::Rebb.Deliveryman.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
-			global::Rebb.Client.Core.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::Rebb.Deliveryman.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
-			global::Rebb.Client.Core.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::Rebb.Deliveryman.Resource.Style.Base_V7_Widget_AppCompat_EditText;
-			global::Rebb.Client.Core.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::Rebb.Deliveryman.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_ActionBar = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_ActionBar;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_ActionButton = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_ActionButton;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_ActionMode = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_ActionMode;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_Button = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_Button;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_ButtonBar;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_Button_Colored;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_Button_Small = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_Button_Small;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_EditText = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_EditText;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_ImageButton = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_ImageButton;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_ListMenuView;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_ListView = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_ListView;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_PopupMenu;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_PopupWindow;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_ProgressBar;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_RatingBar = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_RatingBar;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_SearchView = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_SearchView;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_SeekBar = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_SeekBar;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_Spinner = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_Spinner;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_TextView = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_TextView;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_Toolbar = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_Toolbar;
-			global::Rebb.Client.Core.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::Rebb.Deliveryman.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Rebb.Client.Core.Resource.Style.Platform_AppCompat = global::Rebb.Deliveryman.Resource.Style.Platform_AppCompat;
-			global::Rebb.Client.Core.Resource.Style.Platform_AppCompat_Light = global::Rebb.Deliveryman.Resource.Style.Platform_AppCompat_Light;
-			global::Rebb.Client.Core.Resource.Style.Platform_ThemeOverlay_AppCompat = global::Rebb.Deliveryman.Resource.Style.Platform_ThemeOverlay_AppCompat;
-			global::Rebb.Client.Core.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::Rebb.Deliveryman.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
-			global::Rebb.Client.Core.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::Rebb.Deliveryman.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
-			global::Rebb.Client.Core.Resource.Style.Platform_V21_AppCompat = global::Rebb.Deliveryman.Resource.Style.Platform_V21_AppCompat;
-			global::Rebb.Client.Core.Resource.Style.Platform_V21_AppCompat_Light = global::Rebb.Deliveryman.Resource.Style.Platform_V21_AppCompat_Light;
-			global::Rebb.Client.Core.Resource.Style.Platform_V25_AppCompat = global::Rebb.Deliveryman.Resource.Style.Platform_V25_AppCompat;
-			global::Rebb.Client.Core.Resource.Style.Platform_V25_AppCompat_Light = global::Rebb.Deliveryman.Resource.Style.Platform_V25_AppCompat_Light;
-			global::Rebb.Client.Core.Resource.Style.Platform_Widget_AppCompat_Spinner = global::Rebb.Deliveryman.Resource.Style.Platform_Widget_AppCompat_Spinner;
-			global::Rebb.Client.Core.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::Rebb.Deliveryman.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
-			global::Rebb.Client.Core.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::Rebb.Deliveryman.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
-			global::Rebb.Client.Core.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::Rebb.Deliveryman.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
-			global::Rebb.Client.Core.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::Rebb.Deliveryman.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
-			global::Rebb.Client.Core.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::Rebb.Deliveryman.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
-			global::Rebb.Client.Core.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::Rebb.Deliveryman.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
-			global::Rebb.Client.Core.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::Rebb.Deliveryman.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
-			global::Rebb.Client.Core.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::Rebb.Deliveryman.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
-			global::Rebb.Client.Core.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::Rebb.Deliveryman.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
-			global::Rebb.Client.Core.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::Rebb.Deliveryman.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
-			global::Rebb.Client.Core.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::Rebb.Deliveryman.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
-			global::Rebb.Client.Core.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::Rebb.Deliveryman.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
-			global::Rebb.Client.Core.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::Rebb.Deliveryman.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
-			global::Rebb.Client.Core.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::Rebb.Deliveryman.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
-			global::Rebb.Client.Core.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::Rebb.Deliveryman.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
-			global::Rebb.Client.Core.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::Rebb.Deliveryman.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
-			global::Rebb.Client.Core.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::Rebb.Deliveryman.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Body1 = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Body1;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Body2 = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Body2;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Button = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Button;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Caption = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Caption;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Display1 = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Display1;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Display2 = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Display2;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Display3 = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Display3;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Display4 = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Display4;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Headline = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Headline;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Inverse = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Inverse;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Large = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Large;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Medium = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Medium;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Menu = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Small = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Small;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Subhead = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Subhead;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Title = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Title;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Tooltip = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Tooltip;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Widget_Button;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Rebb.Deliveryman.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_Compat_Notification = global::Rebb.Deliveryman.Resource.Style.TextAppearance_Compat_Notification;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_Compat_Notification_Info = global::Rebb.Deliveryman.Resource.Style.TextAppearance_Compat_Notification_Info;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::Rebb.Deliveryman.Resource.Style.TextAppearance_Compat_Notification_Line2;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_Compat_Notification_Time = global::Rebb.Deliveryman.Resource.Style.TextAppearance_Compat_Notification_Time;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_Compat_Notification_Title = global::Rebb.Deliveryman.Resource.Style.TextAppearance_Compat_Notification_Title;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Rebb.Deliveryman.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Rebb.Deliveryman.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Rebb.Client.Core.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Rebb.Deliveryman.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Rebb.Client.Core.Resource.Style.ThemeOverlay_AppCompat = global::Rebb.Deliveryman.Resource.Style.ThemeOverlay_AppCompat;
-			global::Rebb.Client.Core.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Rebb.Deliveryman.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
-			global::Rebb.Client.Core.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Rebb.Deliveryman.Resource.Style.ThemeOverlay_AppCompat_Dark;
-			global::Rebb.Client.Core.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::Rebb.Deliveryman.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Rebb.Client.Core.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::Rebb.Deliveryman.Resource.Style.ThemeOverlay_AppCompat_DayNight;
-			global::Rebb.Client.Core.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::Rebb.Deliveryman.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
-			global::Rebb.Client.Core.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::Rebb.Deliveryman.Resource.Style.ThemeOverlay_AppCompat_Dialog;
-			global::Rebb.Client.Core.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::Rebb.Deliveryman.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
-			global::Rebb.Client.Core.Resource.Style.ThemeOverlay_AppCompat_Light = global::Rebb.Deliveryman.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::Rebb.Client.Core.Resource.Style.Theme_AppCompat = global::Rebb.Deliveryman.Resource.Style.Theme_AppCompat;
-			global::Rebb.Client.Core.Resource.Style.Theme_AppCompat_CompactMenu = global::Rebb.Deliveryman.Resource.Style.Theme_AppCompat_CompactMenu;
-			global::Rebb.Client.Core.Resource.Style.Theme_AppCompat_DayNight = global::Rebb.Deliveryman.Resource.Style.Theme_AppCompat_DayNight;
-			global::Rebb.Client.Core.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::Rebb.Deliveryman.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
-			global::Rebb.Client.Core.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::Rebb.Deliveryman.Resource.Style.Theme_AppCompat_DayNight_Dialog;
-			global::Rebb.Client.Core.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::Rebb.Deliveryman.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
-			global::Rebb.Client.Core.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::Rebb.Deliveryman.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
-			global::Rebb.Client.Core.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::Rebb.Deliveryman.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
-			global::Rebb.Client.Core.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::Rebb.Deliveryman.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
-			global::Rebb.Client.Core.Resource.Style.Theme_AppCompat_Dialog = global::Rebb.Deliveryman.Resource.Style.Theme_AppCompat_Dialog;
-			global::Rebb.Client.Core.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::Rebb.Deliveryman.Resource.Style.Theme_AppCompat_DialogWhenLarge;
-			global::Rebb.Client.Core.Resource.Style.Theme_AppCompat_Dialog_Alert = global::Rebb.Deliveryman.Resource.Style.Theme_AppCompat_Dialog_Alert;
-			global::Rebb.Client.Core.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::Rebb.Deliveryman.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
-			global::Rebb.Client.Core.Resource.Style.Theme_AppCompat_Empty = global::Rebb.Deliveryman.Resource.Style.Theme_AppCompat_Empty;
-			global::Rebb.Client.Core.Resource.Style.Theme_AppCompat_Light = global::Rebb.Deliveryman.Resource.Style.Theme_AppCompat_Light;
-			global::Rebb.Client.Core.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::Rebb.Deliveryman.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
-			global::Rebb.Client.Core.Resource.Style.Theme_AppCompat_Light_Dialog = global::Rebb.Deliveryman.Resource.Style.Theme_AppCompat_Light_Dialog;
-			global::Rebb.Client.Core.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::Rebb.Deliveryman.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
-			global::Rebb.Client.Core.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::Rebb.Deliveryman.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
-			global::Rebb.Client.Core.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::Rebb.Deliveryman.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Rebb.Client.Core.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::Rebb.Deliveryman.Resource.Style.Theme_AppCompat_Light_NoActionBar;
-			global::Rebb.Client.Core.Resource.Style.Theme_AppCompat_NoActionBar = global::Rebb.Deliveryman.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_ActionBar = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_ActionBar;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_ActionBar_Solid;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_ActionBar_TabText;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_ActionBar_TabView;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_ActionButton = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_ActionButton;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_ActionMode = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_ActionMode;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_ActivityChooserView = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_ActivityChooserView;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_Button = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_Button;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_ButtonBar = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_ButtonBar;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_Button_Borderless = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_Button_Borderless;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_Button_Colored = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_Button_Colored;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_Button_Small = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_Button_Small;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_EditText = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_EditText;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_ImageButton = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_ImageButton;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_Light_ActionBar = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_Light_ActionBar;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_Light_ActionButton = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_Light_ActionButton;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_Light_PopupMenu;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_Light_SearchView = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_Light_SearchView;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_ListMenuView = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_ListMenuView;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_ListPopupWindow = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_ListPopupWindow;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_ListView = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_ListView;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_ListView_DropDown = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_ListView_DropDown;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_ListView_Menu = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_ListView_Menu;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_PopupMenu = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_PopupMenu;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_PopupWindow = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_PopupWindow;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_ProgressBar = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_ProgressBar;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_RatingBar = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_RatingBar;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_RatingBar_Small = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_RatingBar_Small;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_SearchView = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_SearchView;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_SeekBar = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_SeekBar;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_Spinner = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_Spinner;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_Spinner_DropDown;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_Spinner_Underlined;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_TextView = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_TextView;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_Toolbar = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_Toolbar;
-			global::Rebb.Client.Core.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::Rebb.Deliveryman.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Rebb.Client.Core.Resource.Style.Widget_Compat_NotificationActionContainer = global::Rebb.Deliveryman.Resource.Style.Widget_Compat_NotificationActionContainer;
-			global::Rebb.Client.Core.Resource.Style.Widget_Compat_NotificationActionText = global::Rebb.Deliveryman.Resource.Style.Widget_Compat_NotificationActionText;
-			global::Rebb.Client.Core.Resource.Styleable.ActionBar = global::Rebb.Deliveryman.Resource.Styleable.ActionBar;
-			global::Rebb.Client.Core.Resource.Styleable.ActionBarLayout = global::Rebb.Deliveryman.Resource.Styleable.ActionBarLayout;
-			global::Rebb.Client.Core.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::Rebb.Deliveryman.Resource.Styleable.ActionBarLayout_android_layout_gravity;
-			global::Rebb.Client.Core.Resource.Styleable.ActionBar_background = global::Rebb.Deliveryman.Resource.Styleable.ActionBar_background;
-			global::Rebb.Client.Core.Resource.Styleable.ActionBar_backgroundSplit = global::Rebb.Deliveryman.Resource.Styleable.ActionBar_backgroundSplit;
-			global::Rebb.Client.Core.Resource.Styleable.ActionBar_backgroundStacked = global::Rebb.Deliveryman.Resource.Styleable.ActionBar_backgroundStacked;
-			global::Rebb.Client.Core.Resource.Styleable.ActionBar_contentInsetEnd = global::Rebb.Deliveryman.Resource.Styleable.ActionBar_contentInsetEnd;
-			global::Rebb.Client.Core.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::Rebb.Deliveryman.Resource.Styleable.ActionBar_contentInsetEndWithActions;
-			global::Rebb.Client.Core.Resource.Styleable.ActionBar_contentInsetLeft = global::Rebb.Deliveryman.Resource.Styleable.ActionBar_contentInsetLeft;
-			global::Rebb.Client.Core.Resource.Styleable.ActionBar_contentInsetRight = global::Rebb.Deliveryman.Resource.Styleable.ActionBar_contentInsetRight;
-			global::Rebb.Client.Core.Resource.Styleable.ActionBar_contentInsetStart = global::Rebb.Deliveryman.Resource.Styleable.ActionBar_contentInsetStart;
-			global::Rebb.Client.Core.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::Rebb.Deliveryman.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
-			global::Rebb.Client.Core.Resource.Styleable.ActionBar_customNavigationLayout = global::Rebb.Deliveryman.Resource.Styleable.ActionBar_customNavigationLayout;
-			global::Rebb.Client.Core.Resource.Styleable.ActionBar_displayOptions = global::Rebb.Deliveryman.Resource.Styleable.ActionBar_displayOptions;
-			global::Rebb.Client.Core.Resource.Styleable.ActionBar_divider = global::Rebb.Deliveryman.Resource.Styleable.ActionBar_divider;
-			global::Rebb.Client.Core.Resource.Styleable.ActionBar_elevation = global::Rebb.Deliveryman.Resource.Styleable.ActionBar_elevation;
-			global::Rebb.Client.Core.Resource.Styleable.ActionBar_height = global::Rebb.Deliveryman.Resource.Styleable.ActionBar_height;
-			global::Rebb.Client.Core.Resource.Styleable.ActionBar_hideOnContentScroll = global::Rebb.Deliveryman.Resource.Styleable.ActionBar_hideOnContentScroll;
-			global::Rebb.Client.Core.Resource.Styleable.ActionBar_homeAsUpIndicator = global::Rebb.Deliveryman.Resource.Styleable.ActionBar_homeAsUpIndicator;
-			global::Rebb.Client.Core.Resource.Styleable.ActionBar_homeLayout = global::Rebb.Deliveryman.Resource.Styleable.ActionBar_homeLayout;
-			global::Rebb.Client.Core.Resource.Styleable.ActionBar_icon = global::Rebb.Deliveryman.Resource.Styleable.ActionBar_icon;
-			global::Rebb.Client.Core.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::Rebb.Deliveryman.Resource.Styleable.ActionBar_indeterminateProgressStyle;
-			global::Rebb.Client.Core.Resource.Styleable.ActionBar_itemPadding = global::Rebb.Deliveryman.Resource.Styleable.ActionBar_itemPadding;
-			global::Rebb.Client.Core.Resource.Styleable.ActionBar_logo = global::Rebb.Deliveryman.Resource.Styleable.ActionBar_logo;
-			global::Rebb.Client.Core.Resource.Styleable.ActionBar_navigationMode = global::Rebb.Deliveryman.Resource.Styleable.ActionBar_navigationMode;
-			global::Rebb.Client.Core.Resource.Styleable.ActionBar_popupTheme = global::Rebb.Deliveryman.Resource.Styleable.ActionBar_popupTheme;
-			global::Rebb.Client.Core.Resource.Styleable.ActionBar_progressBarPadding = global::Rebb.Deliveryman.Resource.Styleable.ActionBar_progressBarPadding;
-			global::Rebb.Client.Core.Resource.Styleable.ActionBar_progressBarStyle = global::Rebb.Deliveryman.Resource.Styleable.ActionBar_progressBarStyle;
-			global::Rebb.Client.Core.Resource.Styleable.ActionBar_subtitle = global::Rebb.Deliveryman.Resource.Styleable.ActionBar_subtitle;
-			global::Rebb.Client.Core.Resource.Styleable.ActionBar_subtitleTextStyle = global::Rebb.Deliveryman.Resource.Styleable.ActionBar_subtitleTextStyle;
-			global::Rebb.Client.Core.Resource.Styleable.ActionBar_title = global::Rebb.Deliveryman.Resource.Styleable.ActionBar_title;
-			global::Rebb.Client.Core.Resource.Styleable.ActionBar_titleTextStyle = global::Rebb.Deliveryman.Resource.Styleable.ActionBar_titleTextStyle;
-			global::Rebb.Client.Core.Resource.Styleable.ActionMenuItemView = global::Rebb.Deliveryman.Resource.Styleable.ActionMenuItemView;
-			global::Rebb.Client.Core.Resource.Styleable.ActionMenuItemView_android_minWidth = global::Rebb.Deliveryman.Resource.Styleable.ActionMenuItemView_android_minWidth;
-			global::Rebb.Client.Core.Resource.Styleable.ActionMenuView = global::Rebb.Deliveryman.Resource.Styleable.ActionMenuView;
-			global::Rebb.Client.Core.Resource.Styleable.ActionMode = global::Rebb.Deliveryman.Resource.Styleable.ActionMode;
-			global::Rebb.Client.Core.Resource.Styleable.ActionMode_background = global::Rebb.Deliveryman.Resource.Styleable.ActionMode_background;
-			global::Rebb.Client.Core.Resource.Styleable.ActionMode_backgroundSplit = global::Rebb.Deliveryman.Resource.Styleable.ActionMode_backgroundSplit;
-			global::Rebb.Client.Core.Resource.Styleable.ActionMode_closeItemLayout = global::Rebb.Deliveryman.Resource.Styleable.ActionMode_closeItemLayout;
-			global::Rebb.Client.Core.Resource.Styleable.ActionMode_height = global::Rebb.Deliveryman.Resource.Styleable.ActionMode_height;
-			global::Rebb.Client.Core.Resource.Styleable.ActionMode_subtitleTextStyle = global::Rebb.Deliveryman.Resource.Styleable.ActionMode_subtitleTextStyle;
-			global::Rebb.Client.Core.Resource.Styleable.ActionMode_titleTextStyle = global::Rebb.Deliveryman.Resource.Styleable.ActionMode_titleTextStyle;
-			global::Rebb.Client.Core.Resource.Styleable.ActivityChooserView = global::Rebb.Deliveryman.Resource.Styleable.ActivityChooserView;
-			global::Rebb.Client.Core.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::Rebb.Deliveryman.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
-			global::Rebb.Client.Core.Resource.Styleable.ActivityChooserView_initialActivityCount = global::Rebb.Deliveryman.Resource.Styleable.ActivityChooserView_initialActivityCount;
-			global::Rebb.Client.Core.Resource.Styleable.AlertDialog = global::Rebb.Deliveryman.Resource.Styleable.AlertDialog;
-			global::Rebb.Client.Core.Resource.Styleable.AlertDialog_android_layout = global::Rebb.Deliveryman.Resource.Styleable.AlertDialog_android_layout;
-			global::Rebb.Client.Core.Resource.Styleable.AlertDialog_buttonIconDimen = global::Rebb.Deliveryman.Resource.Styleable.AlertDialog_buttonIconDimen;
-			global::Rebb.Client.Core.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::Rebb.Deliveryman.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
-			global::Rebb.Client.Core.Resource.Styleable.AlertDialog_listItemLayout = global::Rebb.Deliveryman.Resource.Styleable.AlertDialog_listItemLayout;
-			global::Rebb.Client.Core.Resource.Styleable.AlertDialog_listLayout = global::Rebb.Deliveryman.Resource.Styleable.AlertDialog_listLayout;
-			global::Rebb.Client.Core.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::Rebb.Deliveryman.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
-			global::Rebb.Client.Core.Resource.Styleable.AlertDialog_showTitle = global::Rebb.Deliveryman.Resource.Styleable.AlertDialog_showTitle;
-			global::Rebb.Client.Core.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::Rebb.Deliveryman.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-			global::Rebb.Client.Core.Resource.Styleable.AnimatedStateListDrawableCompat = global::Rebb.Deliveryman.Resource.Styleable.AnimatedStateListDrawableCompat;
-			global::Rebb.Client.Core.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::Rebb.Deliveryman.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
-			global::Rebb.Client.Core.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::Rebb.Deliveryman.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
-			global::Rebb.Client.Core.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::Rebb.Deliveryman.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
-			global::Rebb.Client.Core.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::Rebb.Deliveryman.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
-			global::Rebb.Client.Core.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::Rebb.Deliveryman.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
-			global::Rebb.Client.Core.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::Rebb.Deliveryman.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
-			global::Rebb.Client.Core.Resource.Styleable.AnimatedStateListDrawableItem = global::Rebb.Deliveryman.Resource.Styleable.AnimatedStateListDrawableItem;
-			global::Rebb.Client.Core.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::Rebb.Deliveryman.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
-			global::Rebb.Client.Core.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::Rebb.Deliveryman.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
-			global::Rebb.Client.Core.Resource.Styleable.AnimatedStateListDrawableTransition = global::Rebb.Deliveryman.Resource.Styleable.AnimatedStateListDrawableTransition;
-			global::Rebb.Client.Core.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::Rebb.Deliveryman.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
-			global::Rebb.Client.Core.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::Rebb.Deliveryman.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
-			global::Rebb.Client.Core.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::Rebb.Deliveryman.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
-			global::Rebb.Client.Core.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::Rebb.Deliveryman.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatImageView = global::Rebb.Deliveryman.Resource.Styleable.AppCompatImageView;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatImageView_android_src = global::Rebb.Deliveryman.Resource.Styleable.AppCompatImageView_android_src;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatImageView_srcCompat = global::Rebb.Deliveryman.Resource.Styleable.AppCompatImageView_srcCompat;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatImageView_tint = global::Rebb.Deliveryman.Resource.Styleable.AppCompatImageView_tint;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatImageView_tintMode = global::Rebb.Deliveryman.Resource.Styleable.AppCompatImageView_tintMode;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatSeekBar = global::Rebb.Deliveryman.Resource.Styleable.AppCompatSeekBar;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatSeekBar_android_thumb = global::Rebb.Deliveryman.Resource.Styleable.AppCompatSeekBar_android_thumb;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatSeekBar_tickMark = global::Rebb.Deliveryman.Resource.Styleable.AppCompatSeekBar_tickMark;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::Rebb.Deliveryman.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::Rebb.Deliveryman.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTextHelper = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTextHelper;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTextView = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTextView;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTextView_android_textAppearance = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTextView_android_textAppearance;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTextView_autoSizeTextType;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTextView_drawableEndCompat;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTextView_drawableRightCompat;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTextView_drawableStartCompat;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTextView_drawableTint = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTextView_drawableTint;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTextView_drawableTintMode = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTextView_drawableTintMode;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTextView_drawableTopCompat;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTextView_fontFamily = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTextView_fontFamily;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTextView_fontVariationSettings;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTextView_lineHeight = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTextView_lineHeight;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTextView_textAllCaps = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTextView_textAllCaps;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTextView_textLocale = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTextView_textLocale;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_actionBarDivider = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_actionBarDivider;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_actionBarSize = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_actionBarSize;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_actionBarStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_actionBarStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_actionBarTheme = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_actionBarTheme;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_actionButtonStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_actionModeBackground = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_actionModeBackground;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_actionModeStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_actionModeStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_alertDialogStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_alertDialogTheme;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_buttonBarStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_buttonStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_buttonStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_checkboxStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_checkboxStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_colorAccent = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_colorAccent;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_colorButtonNormal;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_colorControlActivated = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_colorControlActivated;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_colorControlHighlight;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_colorControlNormal = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_colorControlNormal;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_colorError = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_colorError;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_colorPrimary = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_colorPrimary;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_controlBackground = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_controlBackground;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_dialogTheme = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_dialogTheme;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_dividerHorizontal;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_dividerVertical = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_dividerVertical;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_editTextBackground = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_editTextBackground;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_editTextColor = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_editTextColor;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_editTextStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_editTextStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_imageButtonStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_panelBackground = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_panelBackground;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_popupMenuStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_popupWindowStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_radioButtonStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_ratingBarStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_searchViewStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_searchViewStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_seekBarStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_seekBarStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_selectableItemBackground;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_spinnerStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_spinnerStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_switchStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_switchStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_toolbarStyle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_toolbarStyle;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_viewInflaterClass;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_windowActionBar = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_windowActionBar;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
-			global::Rebb.Client.Core.Resource.Styleable.AppCompatTheme_windowNoTitle = global::Rebb.Deliveryman.Resource.Styleable.AppCompatTheme_windowNoTitle;
-			global::Rebb.Client.Core.Resource.Styleable.ButtonBarLayout = global::Rebb.Deliveryman.Resource.Styleable.ButtonBarLayout;
-			global::Rebb.Client.Core.Resource.Styleable.ButtonBarLayout_allowStacking = global::Rebb.Deliveryman.Resource.Styleable.ButtonBarLayout_allowStacking;
-			global::Rebb.Client.Core.Resource.Styleable.ColorStateListItem = global::Rebb.Deliveryman.Resource.Styleable.ColorStateListItem;
-			global::Rebb.Client.Core.Resource.Styleable.ColorStateListItem_alpha = global::Rebb.Deliveryman.Resource.Styleable.ColorStateListItem_alpha;
-			global::Rebb.Client.Core.Resource.Styleable.ColorStateListItem_android_alpha = global::Rebb.Deliveryman.Resource.Styleable.ColorStateListItem_android_alpha;
-			global::Rebb.Client.Core.Resource.Styleable.ColorStateListItem_android_color = global::Rebb.Deliveryman.Resource.Styleable.ColorStateListItem_android_color;
-			global::Rebb.Client.Core.Resource.Styleable.CompoundButton = global::Rebb.Deliveryman.Resource.Styleable.CompoundButton;
-			global::Rebb.Client.Core.Resource.Styleable.CompoundButton_android_button = global::Rebb.Deliveryman.Resource.Styleable.CompoundButton_android_button;
-			global::Rebb.Client.Core.Resource.Styleable.CompoundButton_buttonCompat = global::Rebb.Deliveryman.Resource.Styleable.CompoundButton_buttonCompat;
-			global::Rebb.Client.Core.Resource.Styleable.CompoundButton_buttonTint = global::Rebb.Deliveryman.Resource.Styleable.CompoundButton_buttonTint;
-			global::Rebb.Client.Core.Resource.Styleable.CompoundButton_buttonTintMode = global::Rebb.Deliveryman.Resource.Styleable.CompoundButton_buttonTintMode;
-			global::Rebb.Client.Core.Resource.Styleable.DrawerArrowToggle = global::Rebb.Deliveryman.Resource.Styleable.DrawerArrowToggle;
-			global::Rebb.Client.Core.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::Rebb.Deliveryman.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
-			global::Rebb.Client.Core.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::Rebb.Deliveryman.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
-			global::Rebb.Client.Core.Resource.Styleable.DrawerArrowToggle_barLength = global::Rebb.Deliveryman.Resource.Styleable.DrawerArrowToggle_barLength;
-			global::Rebb.Client.Core.Resource.Styleable.DrawerArrowToggle_color = global::Rebb.Deliveryman.Resource.Styleable.DrawerArrowToggle_color;
-			global::Rebb.Client.Core.Resource.Styleable.DrawerArrowToggle_drawableSize = global::Rebb.Deliveryman.Resource.Styleable.DrawerArrowToggle_drawableSize;
-			global::Rebb.Client.Core.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::Rebb.Deliveryman.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
-			global::Rebb.Client.Core.Resource.Styleable.DrawerArrowToggle_spinBars = global::Rebb.Deliveryman.Resource.Styleable.DrawerArrowToggle_spinBars;
-			global::Rebb.Client.Core.Resource.Styleable.DrawerArrowToggle_thickness = global::Rebb.Deliveryman.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::Rebb.Client.Core.Resource.Styleable.DrawerLayout = global::Rebb.Deliveryman.Resource.Styleable.DrawerLayout;
-			global::Rebb.Client.Core.Resource.Styleable.DrawerLayout_elevation = global::Rebb.Deliveryman.Resource.Styleable.DrawerLayout_elevation;
-			global::Rebb.Client.Core.Resource.Styleable.FontFamily = global::Rebb.Deliveryman.Resource.Styleable.FontFamily;
-			global::Rebb.Client.Core.Resource.Styleable.FontFamilyFont = global::Rebb.Deliveryman.Resource.Styleable.FontFamilyFont;
-			global::Rebb.Client.Core.Resource.Styleable.FontFamilyFont_android_font = global::Rebb.Deliveryman.Resource.Styleable.FontFamilyFont_android_font;
-			global::Rebb.Client.Core.Resource.Styleable.FontFamilyFont_android_fontStyle = global::Rebb.Deliveryman.Resource.Styleable.FontFamilyFont_android_fontStyle;
-			global::Rebb.Client.Core.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::Rebb.Deliveryman.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
-			global::Rebb.Client.Core.Resource.Styleable.FontFamilyFont_android_fontWeight = global::Rebb.Deliveryman.Resource.Styleable.FontFamilyFont_android_fontWeight;
-			global::Rebb.Client.Core.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::Rebb.Deliveryman.Resource.Styleable.FontFamilyFont_android_ttcIndex;
-			global::Rebb.Client.Core.Resource.Styleable.FontFamilyFont_font = global::Rebb.Deliveryman.Resource.Styleable.FontFamilyFont_font;
-			global::Rebb.Client.Core.Resource.Styleable.FontFamilyFont_fontStyle = global::Rebb.Deliveryman.Resource.Styleable.FontFamilyFont_fontStyle;
-			global::Rebb.Client.Core.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::Rebb.Deliveryman.Resource.Styleable.FontFamilyFont_fontVariationSettings;
-			global::Rebb.Client.Core.Resource.Styleable.FontFamilyFont_fontWeight = global::Rebb.Deliveryman.Resource.Styleable.FontFamilyFont_fontWeight;
-			global::Rebb.Client.Core.Resource.Styleable.FontFamilyFont_ttcIndex = global::Rebb.Deliveryman.Resource.Styleable.FontFamilyFont_ttcIndex;
-			global::Rebb.Client.Core.Resource.Styleable.FontFamily_fontProviderAuthority = global::Rebb.Deliveryman.Resource.Styleable.FontFamily_fontProviderAuthority;
-			global::Rebb.Client.Core.Resource.Styleable.FontFamily_fontProviderCerts = global::Rebb.Deliveryman.Resource.Styleable.FontFamily_fontProviderCerts;
-			global::Rebb.Client.Core.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::Rebb.Deliveryman.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
-			global::Rebb.Client.Core.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::Rebb.Deliveryman.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
-			global::Rebb.Client.Core.Resource.Styleable.FontFamily_fontProviderPackage = global::Rebb.Deliveryman.Resource.Styleable.FontFamily_fontProviderPackage;
-			global::Rebb.Client.Core.Resource.Styleable.FontFamily_fontProviderQuery = global::Rebb.Deliveryman.Resource.Styleable.FontFamily_fontProviderQuery;
-			global::Rebb.Client.Core.Resource.Styleable.Fragment = global::Rebb.Deliveryman.Resource.Styleable.Fragment;
-			global::Rebb.Client.Core.Resource.Styleable.FragmentContainerView = global::Rebb.Deliveryman.Resource.Styleable.FragmentContainerView;
-			global::Rebb.Client.Core.Resource.Styleable.FragmentContainerView_android_name = global::Rebb.Deliveryman.Resource.Styleable.FragmentContainerView_android_name;
-			global::Rebb.Client.Core.Resource.Styleable.FragmentContainerView_android_tag = global::Rebb.Deliveryman.Resource.Styleable.FragmentContainerView_android_tag;
-			global::Rebb.Client.Core.Resource.Styleable.Fragment_android_id = global::Rebb.Deliveryman.Resource.Styleable.Fragment_android_id;
-			global::Rebb.Client.Core.Resource.Styleable.Fragment_android_name = global::Rebb.Deliveryman.Resource.Styleable.Fragment_android_name;
-			global::Rebb.Client.Core.Resource.Styleable.Fragment_android_tag = global::Rebb.Deliveryman.Resource.Styleable.Fragment_android_tag;
-			global::Rebb.Client.Core.Resource.Styleable.GradientColor = global::Rebb.Deliveryman.Resource.Styleable.GradientColor;
-			global::Rebb.Client.Core.Resource.Styleable.GradientColorItem = global::Rebb.Deliveryman.Resource.Styleable.GradientColorItem;
-			global::Rebb.Client.Core.Resource.Styleable.GradientColorItem_android_color = global::Rebb.Deliveryman.Resource.Styleable.GradientColorItem_android_color;
-			global::Rebb.Client.Core.Resource.Styleable.GradientColorItem_android_offset = global::Rebb.Deliveryman.Resource.Styleable.GradientColorItem_android_offset;
-			global::Rebb.Client.Core.Resource.Styleable.GradientColor_android_centerColor = global::Rebb.Deliveryman.Resource.Styleable.GradientColor_android_centerColor;
-			global::Rebb.Client.Core.Resource.Styleable.GradientColor_android_centerX = global::Rebb.Deliveryman.Resource.Styleable.GradientColor_android_centerX;
-			global::Rebb.Client.Core.Resource.Styleable.GradientColor_android_centerY = global::Rebb.Deliveryman.Resource.Styleable.GradientColor_android_centerY;
-			global::Rebb.Client.Core.Resource.Styleable.GradientColor_android_endColor = global::Rebb.Deliveryman.Resource.Styleable.GradientColor_android_endColor;
-			global::Rebb.Client.Core.Resource.Styleable.GradientColor_android_endX = global::Rebb.Deliveryman.Resource.Styleable.GradientColor_android_endX;
-			global::Rebb.Client.Core.Resource.Styleable.GradientColor_android_endY = global::Rebb.Deliveryman.Resource.Styleable.GradientColor_android_endY;
-			global::Rebb.Client.Core.Resource.Styleable.GradientColor_android_gradientRadius = global::Rebb.Deliveryman.Resource.Styleable.GradientColor_android_gradientRadius;
-			global::Rebb.Client.Core.Resource.Styleable.GradientColor_android_startColor = global::Rebb.Deliveryman.Resource.Styleable.GradientColor_android_startColor;
-			global::Rebb.Client.Core.Resource.Styleable.GradientColor_android_startX = global::Rebb.Deliveryman.Resource.Styleable.GradientColor_android_startX;
-			global::Rebb.Client.Core.Resource.Styleable.GradientColor_android_startY = global::Rebb.Deliveryman.Resource.Styleable.GradientColor_android_startY;
-			global::Rebb.Client.Core.Resource.Styleable.GradientColor_android_tileMode = global::Rebb.Deliveryman.Resource.Styleable.GradientColor_android_tileMode;
-			global::Rebb.Client.Core.Resource.Styleable.GradientColor_android_type = global::Rebb.Deliveryman.Resource.Styleable.GradientColor_android_type;
-			global::Rebb.Client.Core.Resource.Styleable.LinearLayoutCompat = global::Rebb.Deliveryman.Resource.Styleable.LinearLayoutCompat;
-			global::Rebb.Client.Core.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::Rebb.Deliveryman.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
-			global::Rebb.Client.Core.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::Rebb.Deliveryman.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
-			global::Rebb.Client.Core.Resource.Styleable.LinearLayoutCompat_android_gravity = global::Rebb.Deliveryman.Resource.Styleable.LinearLayoutCompat_android_gravity;
-			global::Rebb.Client.Core.Resource.Styleable.LinearLayoutCompat_android_orientation = global::Rebb.Deliveryman.Resource.Styleable.LinearLayoutCompat_android_orientation;
-			global::Rebb.Client.Core.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::Rebb.Deliveryman.Resource.Styleable.LinearLayoutCompat_android_weightSum;
-			global::Rebb.Client.Core.Resource.Styleable.LinearLayoutCompat_divider = global::Rebb.Deliveryman.Resource.Styleable.LinearLayoutCompat_divider;
-			global::Rebb.Client.Core.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::Rebb.Deliveryman.Resource.Styleable.LinearLayoutCompat_dividerPadding;
-			global::Rebb.Client.Core.Resource.Styleable.LinearLayoutCompat_Layout = global::Rebb.Deliveryman.Resource.Styleable.LinearLayoutCompat_Layout;
-			global::Rebb.Client.Core.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::Rebb.Deliveryman.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
-			global::Rebb.Client.Core.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::Rebb.Deliveryman.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
-			global::Rebb.Client.Core.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::Rebb.Deliveryman.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
-			global::Rebb.Client.Core.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::Rebb.Deliveryman.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
-			global::Rebb.Client.Core.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::Rebb.Deliveryman.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
-			global::Rebb.Client.Core.Resource.Styleable.LinearLayoutCompat_showDividers = global::Rebb.Deliveryman.Resource.Styleable.LinearLayoutCompat_showDividers;
-			global::Rebb.Client.Core.Resource.Styleable.ListPopupWindow = global::Rebb.Deliveryman.Resource.Styleable.ListPopupWindow;
-			global::Rebb.Client.Core.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::Rebb.Deliveryman.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
-			global::Rebb.Client.Core.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::Rebb.Deliveryman.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::Rebb.Client.Core.Resource.Styleable.MenuGroup = global::Rebb.Deliveryman.Resource.Styleable.MenuGroup;
-			global::Rebb.Client.Core.Resource.Styleable.MenuGroup_android_checkableBehavior = global::Rebb.Deliveryman.Resource.Styleable.MenuGroup_android_checkableBehavior;
-			global::Rebb.Client.Core.Resource.Styleable.MenuGroup_android_enabled = global::Rebb.Deliveryman.Resource.Styleable.MenuGroup_android_enabled;
-			global::Rebb.Client.Core.Resource.Styleable.MenuGroup_android_id = global::Rebb.Deliveryman.Resource.Styleable.MenuGroup_android_id;
-			global::Rebb.Client.Core.Resource.Styleable.MenuGroup_android_menuCategory = global::Rebb.Deliveryman.Resource.Styleable.MenuGroup_android_menuCategory;
-			global::Rebb.Client.Core.Resource.Styleable.MenuGroup_android_orderInCategory = global::Rebb.Deliveryman.Resource.Styleable.MenuGroup_android_orderInCategory;
-			global::Rebb.Client.Core.Resource.Styleable.MenuGroup_android_visible = global::Rebb.Deliveryman.Resource.Styleable.MenuGroup_android_visible;
-			global::Rebb.Client.Core.Resource.Styleable.MenuItem = global::Rebb.Deliveryman.Resource.Styleable.MenuItem;
-			global::Rebb.Client.Core.Resource.Styleable.MenuItem_actionLayout = global::Rebb.Deliveryman.Resource.Styleable.MenuItem_actionLayout;
-			global::Rebb.Client.Core.Resource.Styleable.MenuItem_actionProviderClass = global::Rebb.Deliveryman.Resource.Styleable.MenuItem_actionProviderClass;
-			global::Rebb.Client.Core.Resource.Styleable.MenuItem_actionViewClass = global::Rebb.Deliveryman.Resource.Styleable.MenuItem_actionViewClass;
-			global::Rebb.Client.Core.Resource.Styleable.MenuItem_alphabeticModifiers = global::Rebb.Deliveryman.Resource.Styleable.MenuItem_alphabeticModifiers;
-			global::Rebb.Client.Core.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::Rebb.Deliveryman.Resource.Styleable.MenuItem_android_alphabeticShortcut;
-			global::Rebb.Client.Core.Resource.Styleable.MenuItem_android_checkable = global::Rebb.Deliveryman.Resource.Styleable.MenuItem_android_checkable;
-			global::Rebb.Client.Core.Resource.Styleable.MenuItem_android_checked = global::Rebb.Deliveryman.Resource.Styleable.MenuItem_android_checked;
-			global::Rebb.Client.Core.Resource.Styleable.MenuItem_android_enabled = global::Rebb.Deliveryman.Resource.Styleable.MenuItem_android_enabled;
-			global::Rebb.Client.Core.Resource.Styleable.MenuItem_android_icon = global::Rebb.Deliveryman.Resource.Styleable.MenuItem_android_icon;
-			global::Rebb.Client.Core.Resource.Styleable.MenuItem_android_id = global::Rebb.Deliveryman.Resource.Styleable.MenuItem_android_id;
-			global::Rebb.Client.Core.Resource.Styleable.MenuItem_android_menuCategory = global::Rebb.Deliveryman.Resource.Styleable.MenuItem_android_menuCategory;
-			global::Rebb.Client.Core.Resource.Styleable.MenuItem_android_numericShortcut = global::Rebb.Deliveryman.Resource.Styleable.MenuItem_android_numericShortcut;
-			global::Rebb.Client.Core.Resource.Styleable.MenuItem_android_onClick = global::Rebb.Deliveryman.Resource.Styleable.MenuItem_android_onClick;
-			global::Rebb.Client.Core.Resource.Styleable.MenuItem_android_orderInCategory = global::Rebb.Deliveryman.Resource.Styleable.MenuItem_android_orderInCategory;
-			global::Rebb.Client.Core.Resource.Styleable.MenuItem_android_title = global::Rebb.Deliveryman.Resource.Styleable.MenuItem_android_title;
-			global::Rebb.Client.Core.Resource.Styleable.MenuItem_android_titleCondensed = global::Rebb.Deliveryman.Resource.Styleable.MenuItem_android_titleCondensed;
-			global::Rebb.Client.Core.Resource.Styleable.MenuItem_android_visible = global::Rebb.Deliveryman.Resource.Styleable.MenuItem_android_visible;
-			global::Rebb.Client.Core.Resource.Styleable.MenuItem_contentDescription = global::Rebb.Deliveryman.Resource.Styleable.MenuItem_contentDescription;
-			global::Rebb.Client.Core.Resource.Styleable.MenuItem_iconTint = global::Rebb.Deliveryman.Resource.Styleable.MenuItem_iconTint;
-			global::Rebb.Client.Core.Resource.Styleable.MenuItem_iconTintMode = global::Rebb.Deliveryman.Resource.Styleable.MenuItem_iconTintMode;
-			global::Rebb.Client.Core.Resource.Styleable.MenuItem_numericModifiers = global::Rebb.Deliveryman.Resource.Styleable.MenuItem_numericModifiers;
-			global::Rebb.Client.Core.Resource.Styleable.MenuItem_showAsAction = global::Rebb.Deliveryman.Resource.Styleable.MenuItem_showAsAction;
-			global::Rebb.Client.Core.Resource.Styleable.MenuItem_tooltipText = global::Rebb.Deliveryman.Resource.Styleable.MenuItem_tooltipText;
-			global::Rebb.Client.Core.Resource.Styleable.MenuView = global::Rebb.Deliveryman.Resource.Styleable.MenuView;
-			global::Rebb.Client.Core.Resource.Styleable.MenuView_android_headerBackground = global::Rebb.Deliveryman.Resource.Styleable.MenuView_android_headerBackground;
-			global::Rebb.Client.Core.Resource.Styleable.MenuView_android_horizontalDivider = global::Rebb.Deliveryman.Resource.Styleable.MenuView_android_horizontalDivider;
-			global::Rebb.Client.Core.Resource.Styleable.MenuView_android_itemBackground = global::Rebb.Deliveryman.Resource.Styleable.MenuView_android_itemBackground;
-			global::Rebb.Client.Core.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::Rebb.Deliveryman.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
-			global::Rebb.Client.Core.Resource.Styleable.MenuView_android_itemTextAppearance = global::Rebb.Deliveryman.Resource.Styleable.MenuView_android_itemTextAppearance;
-			global::Rebb.Client.Core.Resource.Styleable.MenuView_android_verticalDivider = global::Rebb.Deliveryman.Resource.Styleable.MenuView_android_verticalDivider;
-			global::Rebb.Client.Core.Resource.Styleable.MenuView_android_windowAnimationStyle = global::Rebb.Deliveryman.Resource.Styleable.MenuView_android_windowAnimationStyle;
-			global::Rebb.Client.Core.Resource.Styleable.MenuView_preserveIconSpacing = global::Rebb.Deliveryman.Resource.Styleable.MenuView_preserveIconSpacing;
-			global::Rebb.Client.Core.Resource.Styleable.MenuView_subMenuArrow = global::Rebb.Deliveryman.Resource.Styleable.MenuView_subMenuArrow;
-			global::Rebb.Client.Core.Resource.Styleable.PopupWindow = global::Rebb.Deliveryman.Resource.Styleable.PopupWindow;
-			global::Rebb.Client.Core.Resource.Styleable.PopupWindowBackgroundState = global::Rebb.Deliveryman.Resource.Styleable.PopupWindowBackgroundState;
-			global::Rebb.Client.Core.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::Rebb.Deliveryman.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
-			global::Rebb.Client.Core.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::Rebb.Deliveryman.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
-			global::Rebb.Client.Core.Resource.Styleable.PopupWindow_android_popupBackground = global::Rebb.Deliveryman.Resource.Styleable.PopupWindow_android_popupBackground;
-			global::Rebb.Client.Core.Resource.Styleable.PopupWindow_overlapAnchor = global::Rebb.Deliveryman.Resource.Styleable.PopupWindow_overlapAnchor;
-			global::Rebb.Client.Core.Resource.Styleable.RecycleListView = global::Rebb.Deliveryman.Resource.Styleable.RecycleListView;
-			global::Rebb.Client.Core.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::Rebb.Deliveryman.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
-			global::Rebb.Client.Core.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::Rebb.Deliveryman.Resource.Styleable.RecycleListView_paddingTopNoTitle;
-			global::Rebb.Client.Core.Resource.Styleable.SearchView = global::Rebb.Deliveryman.Resource.Styleable.SearchView;
-			global::Rebb.Client.Core.Resource.Styleable.SearchView_android_focusable = global::Rebb.Deliveryman.Resource.Styleable.SearchView_android_focusable;
-			global::Rebb.Client.Core.Resource.Styleable.SearchView_android_imeOptions = global::Rebb.Deliveryman.Resource.Styleable.SearchView_android_imeOptions;
-			global::Rebb.Client.Core.Resource.Styleable.SearchView_android_inputType = global::Rebb.Deliveryman.Resource.Styleable.SearchView_android_inputType;
-			global::Rebb.Client.Core.Resource.Styleable.SearchView_android_maxWidth = global::Rebb.Deliveryman.Resource.Styleable.SearchView_android_maxWidth;
-			global::Rebb.Client.Core.Resource.Styleable.SearchView_closeIcon = global::Rebb.Deliveryman.Resource.Styleable.SearchView_closeIcon;
-			global::Rebb.Client.Core.Resource.Styleable.SearchView_commitIcon = global::Rebb.Deliveryman.Resource.Styleable.SearchView_commitIcon;
-			global::Rebb.Client.Core.Resource.Styleable.SearchView_defaultQueryHint = global::Rebb.Deliveryman.Resource.Styleable.SearchView_defaultQueryHint;
-			global::Rebb.Client.Core.Resource.Styleable.SearchView_goIcon = global::Rebb.Deliveryman.Resource.Styleable.SearchView_goIcon;
-			global::Rebb.Client.Core.Resource.Styleable.SearchView_iconifiedByDefault = global::Rebb.Deliveryman.Resource.Styleable.SearchView_iconifiedByDefault;
-			global::Rebb.Client.Core.Resource.Styleable.SearchView_layout = global::Rebb.Deliveryman.Resource.Styleable.SearchView_layout;
-			global::Rebb.Client.Core.Resource.Styleable.SearchView_queryBackground = global::Rebb.Deliveryman.Resource.Styleable.SearchView_queryBackground;
-			global::Rebb.Client.Core.Resource.Styleable.SearchView_queryHint = global::Rebb.Deliveryman.Resource.Styleable.SearchView_queryHint;
-			global::Rebb.Client.Core.Resource.Styleable.SearchView_searchHintIcon = global::Rebb.Deliveryman.Resource.Styleable.SearchView_searchHintIcon;
-			global::Rebb.Client.Core.Resource.Styleable.SearchView_searchIcon = global::Rebb.Deliveryman.Resource.Styleable.SearchView_searchIcon;
-			global::Rebb.Client.Core.Resource.Styleable.SearchView_submitBackground = global::Rebb.Deliveryman.Resource.Styleable.SearchView_submitBackground;
-			global::Rebb.Client.Core.Resource.Styleable.SearchView_suggestionRowLayout = global::Rebb.Deliveryman.Resource.Styleable.SearchView_suggestionRowLayout;
-			global::Rebb.Client.Core.Resource.Styleable.SearchView_voiceIcon = global::Rebb.Deliveryman.Resource.Styleable.SearchView_voiceIcon;
-			global::Rebb.Client.Core.Resource.Styleable.Spinner = global::Rebb.Deliveryman.Resource.Styleable.Spinner;
-			global::Rebb.Client.Core.Resource.Styleable.Spinner_android_dropDownWidth = global::Rebb.Deliveryman.Resource.Styleable.Spinner_android_dropDownWidth;
-			global::Rebb.Client.Core.Resource.Styleable.Spinner_android_entries = global::Rebb.Deliveryman.Resource.Styleable.Spinner_android_entries;
-			global::Rebb.Client.Core.Resource.Styleable.Spinner_android_popupBackground = global::Rebb.Deliveryman.Resource.Styleable.Spinner_android_popupBackground;
-			global::Rebb.Client.Core.Resource.Styleable.Spinner_android_prompt = global::Rebb.Deliveryman.Resource.Styleable.Spinner_android_prompt;
-			global::Rebb.Client.Core.Resource.Styleable.Spinner_popupTheme = global::Rebb.Deliveryman.Resource.Styleable.Spinner_popupTheme;
-			global::Rebb.Client.Core.Resource.Styleable.StateListDrawable = global::Rebb.Deliveryman.Resource.Styleable.StateListDrawable;
-			global::Rebb.Client.Core.Resource.Styleable.StateListDrawableItem = global::Rebb.Deliveryman.Resource.Styleable.StateListDrawableItem;
-			global::Rebb.Client.Core.Resource.Styleable.StateListDrawableItem_android_drawable = global::Rebb.Deliveryman.Resource.Styleable.StateListDrawableItem_android_drawable;
-			global::Rebb.Client.Core.Resource.Styleable.StateListDrawable_android_constantSize = global::Rebb.Deliveryman.Resource.Styleable.StateListDrawable_android_constantSize;
-			global::Rebb.Client.Core.Resource.Styleable.StateListDrawable_android_dither = global::Rebb.Deliveryman.Resource.Styleable.StateListDrawable_android_dither;
-			global::Rebb.Client.Core.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::Rebb.Deliveryman.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
-			global::Rebb.Client.Core.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::Rebb.Deliveryman.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
-			global::Rebb.Client.Core.Resource.Styleable.StateListDrawable_android_variablePadding = global::Rebb.Deliveryman.Resource.Styleable.StateListDrawable_android_variablePadding;
-			global::Rebb.Client.Core.Resource.Styleable.StateListDrawable_android_visible = global::Rebb.Deliveryman.Resource.Styleable.StateListDrawable_android_visible;
-			global::Rebb.Client.Core.Resource.Styleable.SwitchCompat = global::Rebb.Deliveryman.Resource.Styleable.SwitchCompat;
-			global::Rebb.Client.Core.Resource.Styleable.SwitchCompat_android_textOff = global::Rebb.Deliveryman.Resource.Styleable.SwitchCompat_android_textOff;
-			global::Rebb.Client.Core.Resource.Styleable.SwitchCompat_android_textOn = global::Rebb.Deliveryman.Resource.Styleable.SwitchCompat_android_textOn;
-			global::Rebb.Client.Core.Resource.Styleable.SwitchCompat_android_thumb = global::Rebb.Deliveryman.Resource.Styleable.SwitchCompat_android_thumb;
-			global::Rebb.Client.Core.Resource.Styleable.SwitchCompat_showText = global::Rebb.Deliveryman.Resource.Styleable.SwitchCompat_showText;
-			global::Rebb.Client.Core.Resource.Styleable.SwitchCompat_splitTrack = global::Rebb.Deliveryman.Resource.Styleable.SwitchCompat_splitTrack;
-			global::Rebb.Client.Core.Resource.Styleable.SwitchCompat_switchMinWidth = global::Rebb.Deliveryman.Resource.Styleable.SwitchCompat_switchMinWidth;
-			global::Rebb.Client.Core.Resource.Styleable.SwitchCompat_switchPadding = global::Rebb.Deliveryman.Resource.Styleable.SwitchCompat_switchPadding;
-			global::Rebb.Client.Core.Resource.Styleable.SwitchCompat_switchTextAppearance = global::Rebb.Deliveryman.Resource.Styleable.SwitchCompat_switchTextAppearance;
-			global::Rebb.Client.Core.Resource.Styleable.SwitchCompat_thumbTextPadding = global::Rebb.Deliveryman.Resource.Styleable.SwitchCompat_thumbTextPadding;
-			global::Rebb.Client.Core.Resource.Styleable.SwitchCompat_thumbTint = global::Rebb.Deliveryman.Resource.Styleable.SwitchCompat_thumbTint;
-			global::Rebb.Client.Core.Resource.Styleable.SwitchCompat_thumbTintMode = global::Rebb.Deliveryman.Resource.Styleable.SwitchCompat_thumbTintMode;
-			global::Rebb.Client.Core.Resource.Styleable.SwitchCompat_track = global::Rebb.Deliveryman.Resource.Styleable.SwitchCompat_track;
-			global::Rebb.Client.Core.Resource.Styleable.SwitchCompat_trackTint = global::Rebb.Deliveryman.Resource.Styleable.SwitchCompat_trackTint;
-			global::Rebb.Client.Core.Resource.Styleable.SwitchCompat_trackTintMode = global::Rebb.Deliveryman.Resource.Styleable.SwitchCompat_trackTintMode;
-			global::Rebb.Client.Core.Resource.Styleable.TextAppearance = global::Rebb.Deliveryman.Resource.Styleable.TextAppearance;
-			global::Rebb.Client.Core.Resource.Styleable.TextAppearance_android_fontFamily = global::Rebb.Deliveryman.Resource.Styleable.TextAppearance_android_fontFamily;
-			global::Rebb.Client.Core.Resource.Styleable.TextAppearance_android_shadowColor = global::Rebb.Deliveryman.Resource.Styleable.TextAppearance_android_shadowColor;
-			global::Rebb.Client.Core.Resource.Styleable.TextAppearance_android_shadowDx = global::Rebb.Deliveryman.Resource.Styleable.TextAppearance_android_shadowDx;
-			global::Rebb.Client.Core.Resource.Styleable.TextAppearance_android_shadowDy = global::Rebb.Deliveryman.Resource.Styleable.TextAppearance_android_shadowDy;
-			global::Rebb.Client.Core.Resource.Styleable.TextAppearance_android_shadowRadius = global::Rebb.Deliveryman.Resource.Styleable.TextAppearance_android_shadowRadius;
-			global::Rebb.Client.Core.Resource.Styleable.TextAppearance_android_textColor = global::Rebb.Deliveryman.Resource.Styleable.TextAppearance_android_textColor;
-			global::Rebb.Client.Core.Resource.Styleable.TextAppearance_android_textColorHint = global::Rebb.Deliveryman.Resource.Styleable.TextAppearance_android_textColorHint;
-			global::Rebb.Client.Core.Resource.Styleable.TextAppearance_android_textColorLink = global::Rebb.Deliveryman.Resource.Styleable.TextAppearance_android_textColorLink;
-			global::Rebb.Client.Core.Resource.Styleable.TextAppearance_android_textFontWeight = global::Rebb.Deliveryman.Resource.Styleable.TextAppearance_android_textFontWeight;
-			global::Rebb.Client.Core.Resource.Styleable.TextAppearance_android_textSize = global::Rebb.Deliveryman.Resource.Styleable.TextAppearance_android_textSize;
-			global::Rebb.Client.Core.Resource.Styleable.TextAppearance_android_textStyle = global::Rebb.Deliveryman.Resource.Styleable.TextAppearance_android_textStyle;
-			global::Rebb.Client.Core.Resource.Styleable.TextAppearance_android_typeface = global::Rebb.Deliveryman.Resource.Styleable.TextAppearance_android_typeface;
-			global::Rebb.Client.Core.Resource.Styleable.TextAppearance_fontFamily = global::Rebb.Deliveryman.Resource.Styleable.TextAppearance_fontFamily;
-			global::Rebb.Client.Core.Resource.Styleable.TextAppearance_fontVariationSettings = global::Rebb.Deliveryman.Resource.Styleable.TextAppearance_fontVariationSettings;
-			global::Rebb.Client.Core.Resource.Styleable.TextAppearance_textAllCaps = global::Rebb.Deliveryman.Resource.Styleable.TextAppearance_textAllCaps;
-			global::Rebb.Client.Core.Resource.Styleable.TextAppearance_textLocale = global::Rebb.Deliveryman.Resource.Styleable.TextAppearance_textLocale;
-			global::Rebb.Client.Core.Resource.Styleable.Toolbar = global::Rebb.Deliveryman.Resource.Styleable.Toolbar;
-			global::Rebb.Client.Core.Resource.Styleable.Toolbar_android_gravity = global::Rebb.Deliveryman.Resource.Styleable.Toolbar_android_gravity;
-			global::Rebb.Client.Core.Resource.Styleable.Toolbar_android_minHeight = global::Rebb.Deliveryman.Resource.Styleable.Toolbar_android_minHeight;
-			global::Rebb.Client.Core.Resource.Styleable.Toolbar_buttonGravity = global::Rebb.Deliveryman.Resource.Styleable.Toolbar_buttonGravity;
-			global::Rebb.Client.Core.Resource.Styleable.Toolbar_collapseContentDescription = global::Rebb.Deliveryman.Resource.Styleable.Toolbar_collapseContentDescription;
-			global::Rebb.Client.Core.Resource.Styleable.Toolbar_collapseIcon = global::Rebb.Deliveryman.Resource.Styleable.Toolbar_collapseIcon;
-			global::Rebb.Client.Core.Resource.Styleable.Toolbar_contentInsetEnd = global::Rebb.Deliveryman.Resource.Styleable.Toolbar_contentInsetEnd;
-			global::Rebb.Client.Core.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::Rebb.Deliveryman.Resource.Styleable.Toolbar_contentInsetEndWithActions;
-			global::Rebb.Client.Core.Resource.Styleable.Toolbar_contentInsetLeft = global::Rebb.Deliveryman.Resource.Styleable.Toolbar_contentInsetLeft;
-			global::Rebb.Client.Core.Resource.Styleable.Toolbar_contentInsetRight = global::Rebb.Deliveryman.Resource.Styleable.Toolbar_contentInsetRight;
-			global::Rebb.Client.Core.Resource.Styleable.Toolbar_contentInsetStart = global::Rebb.Deliveryman.Resource.Styleable.Toolbar_contentInsetStart;
-			global::Rebb.Client.Core.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::Rebb.Deliveryman.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
-			global::Rebb.Client.Core.Resource.Styleable.Toolbar_logo = global::Rebb.Deliveryman.Resource.Styleable.Toolbar_logo;
-			global::Rebb.Client.Core.Resource.Styleable.Toolbar_logoDescription = global::Rebb.Deliveryman.Resource.Styleable.Toolbar_logoDescription;
-			global::Rebb.Client.Core.Resource.Styleable.Toolbar_maxButtonHeight = global::Rebb.Deliveryman.Resource.Styleable.Toolbar_maxButtonHeight;
-			global::Rebb.Client.Core.Resource.Styleable.Toolbar_menu = global::Rebb.Deliveryman.Resource.Styleable.Toolbar_menu;
-			global::Rebb.Client.Core.Resource.Styleable.Toolbar_navigationContentDescription = global::Rebb.Deliveryman.Resource.Styleable.Toolbar_navigationContentDescription;
-			global::Rebb.Client.Core.Resource.Styleable.Toolbar_navigationIcon = global::Rebb.Deliveryman.Resource.Styleable.Toolbar_navigationIcon;
-			global::Rebb.Client.Core.Resource.Styleable.Toolbar_popupTheme = global::Rebb.Deliveryman.Resource.Styleable.Toolbar_popupTheme;
-			global::Rebb.Client.Core.Resource.Styleable.Toolbar_subtitle = global::Rebb.Deliveryman.Resource.Styleable.Toolbar_subtitle;
-			global::Rebb.Client.Core.Resource.Styleable.Toolbar_subtitleTextAppearance = global::Rebb.Deliveryman.Resource.Styleable.Toolbar_subtitleTextAppearance;
-			global::Rebb.Client.Core.Resource.Styleable.Toolbar_subtitleTextColor = global::Rebb.Deliveryman.Resource.Styleable.Toolbar_subtitleTextColor;
-			global::Rebb.Client.Core.Resource.Styleable.Toolbar_title = global::Rebb.Deliveryman.Resource.Styleable.Toolbar_title;
-			global::Rebb.Client.Core.Resource.Styleable.Toolbar_titleMargin = global::Rebb.Deliveryman.Resource.Styleable.Toolbar_titleMargin;
-			global::Rebb.Client.Core.Resource.Styleable.Toolbar_titleMarginBottom = global::Rebb.Deliveryman.Resource.Styleable.Toolbar_titleMarginBottom;
-			global::Rebb.Client.Core.Resource.Styleable.Toolbar_titleMarginEnd = global::Rebb.Deliveryman.Resource.Styleable.Toolbar_titleMarginEnd;
-			global::Rebb.Client.Core.Resource.Styleable.Toolbar_titleMargins = global::Rebb.Deliveryman.Resource.Styleable.Toolbar_titleMargins;
-			global::Rebb.Client.Core.Resource.Styleable.Toolbar_titleMarginStart = global::Rebb.Deliveryman.Resource.Styleable.Toolbar_titleMarginStart;
-			global::Rebb.Client.Core.Resource.Styleable.Toolbar_titleMarginTop = global::Rebb.Deliveryman.Resource.Styleable.Toolbar_titleMarginTop;
-			global::Rebb.Client.Core.Resource.Styleable.Toolbar_titleTextAppearance = global::Rebb.Deliveryman.Resource.Styleable.Toolbar_titleTextAppearance;
-			global::Rebb.Client.Core.Resource.Styleable.Toolbar_titleTextColor = global::Rebb.Deliveryman.Resource.Styleable.Toolbar_titleTextColor;
-			global::Rebb.Client.Core.Resource.Styleable.View = global::Rebb.Deliveryman.Resource.Styleable.View;
-			global::Rebb.Client.Core.Resource.Styleable.ViewBackgroundHelper = global::Rebb.Deliveryman.Resource.Styleable.ViewBackgroundHelper;
-			global::Rebb.Client.Core.Resource.Styleable.ViewBackgroundHelper_android_background = global::Rebb.Deliveryman.Resource.Styleable.ViewBackgroundHelper_android_background;
-			global::Rebb.Client.Core.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::Rebb.Deliveryman.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
-			global::Rebb.Client.Core.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::Rebb.Deliveryman.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
-			global::Rebb.Client.Core.Resource.Styleable.ViewStubCompat = global::Rebb.Deliveryman.Resource.Styleable.ViewStubCompat;
-			global::Rebb.Client.Core.Resource.Styleable.ViewStubCompat_android_id = global::Rebb.Deliveryman.Resource.Styleable.ViewStubCompat_android_id;
-			global::Rebb.Client.Core.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Rebb.Deliveryman.Resource.Styleable.ViewStubCompat_android_inflatedId;
-			global::Rebb.Client.Core.Resource.Styleable.ViewStubCompat_android_layout = global::Rebb.Deliveryman.Resource.Styleable.ViewStubCompat_android_layout;
-			global::Rebb.Client.Core.Resource.Styleable.View_android_focusable = global::Rebb.Deliveryman.Resource.Styleable.View_android_focusable;
-			global::Rebb.Client.Core.Resource.Styleable.View_android_theme = global::Rebb.Deliveryman.Resource.Styleable.View_android_theme;
-			global::Rebb.Client.Core.Resource.Styleable.View_paddingEnd = global::Rebb.Deliveryman.Resource.Styleable.View_paddingEnd;
-			global::Rebb.Client.Core.Resource.Styleable.View_paddingStart = global::Rebb.Deliveryman.Resource.Styleable.View_paddingStart;
-			global::Rebb.Client.Core.Resource.Styleable.View_theme = global::Rebb.Deliveryman.Resource.Styleable.View_theme;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::Rebb.Deliveryman.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::Rebb.Deliveryman.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::Rebb.Deliveryman.Resource.Attribute.fontProviderAuthority;
@@ -7519,6 +5834,9 @@ namespace Rebb.Deliveryman
 			// aapt resource value: 0x7F070096
 			public const int tread_white = 2131165334;
 			
+			// aapt resource value: 0x7F070097
+			public const int x = 2131165335;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -7608,248 +5926,248 @@ namespace Rebb.Deliveryman
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7F090013
-			public const int accelerate = 2131296275;
-			
 			// aapt resource value: 0x7F090014
-			public const int accessibility_action_clickable_span = 2131296276;
+			public const int accelerate = 2131296276;
 			
 			// aapt resource value: 0x7F090015
-			public const int accessibility_custom_action_0 = 2131296277;
+			public const int accessibility_action_clickable_span = 2131296277;
 			
 			// aapt resource value: 0x7F090016
-			public const int accessibility_custom_action_1 = 2131296278;
+			public const int accessibility_custom_action_0 = 2131296278;
 			
 			// aapt resource value: 0x7F090017
-			public const int accessibility_custom_action_10 = 2131296279;
+			public const int accessibility_custom_action_1 = 2131296279;
 			
 			// aapt resource value: 0x7F090018
-			public const int accessibility_custom_action_11 = 2131296280;
+			public const int accessibility_custom_action_10 = 2131296280;
 			
 			// aapt resource value: 0x7F090019
-			public const int accessibility_custom_action_12 = 2131296281;
+			public const int accessibility_custom_action_11 = 2131296281;
 			
 			// aapt resource value: 0x7F09001A
-			public const int accessibility_custom_action_13 = 2131296282;
+			public const int accessibility_custom_action_12 = 2131296282;
 			
 			// aapt resource value: 0x7F09001B
-			public const int accessibility_custom_action_14 = 2131296283;
+			public const int accessibility_custom_action_13 = 2131296283;
 			
 			// aapt resource value: 0x7F09001C
-			public const int accessibility_custom_action_15 = 2131296284;
+			public const int accessibility_custom_action_14 = 2131296284;
 			
 			// aapt resource value: 0x7F09001D
-			public const int accessibility_custom_action_16 = 2131296285;
+			public const int accessibility_custom_action_15 = 2131296285;
 			
 			// aapt resource value: 0x7F09001E
-			public const int accessibility_custom_action_17 = 2131296286;
+			public const int accessibility_custom_action_16 = 2131296286;
 			
 			// aapt resource value: 0x7F09001F
-			public const int accessibility_custom_action_18 = 2131296287;
+			public const int accessibility_custom_action_17 = 2131296287;
 			
 			// aapt resource value: 0x7F090020
-			public const int accessibility_custom_action_19 = 2131296288;
+			public const int accessibility_custom_action_18 = 2131296288;
 			
 			// aapt resource value: 0x7F090021
-			public const int accessibility_custom_action_2 = 2131296289;
+			public const int accessibility_custom_action_19 = 2131296289;
 			
 			// aapt resource value: 0x7F090022
-			public const int accessibility_custom_action_20 = 2131296290;
+			public const int accessibility_custom_action_2 = 2131296290;
 			
 			// aapt resource value: 0x7F090023
-			public const int accessibility_custom_action_21 = 2131296291;
+			public const int accessibility_custom_action_20 = 2131296291;
 			
 			// aapt resource value: 0x7F090024
-			public const int accessibility_custom_action_22 = 2131296292;
+			public const int accessibility_custom_action_21 = 2131296292;
 			
 			// aapt resource value: 0x7F090025
-			public const int accessibility_custom_action_23 = 2131296293;
+			public const int accessibility_custom_action_22 = 2131296293;
 			
 			// aapt resource value: 0x7F090026
-			public const int accessibility_custom_action_24 = 2131296294;
+			public const int accessibility_custom_action_23 = 2131296294;
 			
 			// aapt resource value: 0x7F090027
-			public const int accessibility_custom_action_25 = 2131296295;
+			public const int accessibility_custom_action_24 = 2131296295;
 			
 			// aapt resource value: 0x7F090028
-			public const int accessibility_custom_action_26 = 2131296296;
+			public const int accessibility_custom_action_25 = 2131296296;
 			
 			// aapt resource value: 0x7F090029
-			public const int accessibility_custom_action_27 = 2131296297;
+			public const int accessibility_custom_action_26 = 2131296297;
 			
 			// aapt resource value: 0x7F09002A
-			public const int accessibility_custom_action_28 = 2131296298;
+			public const int accessibility_custom_action_27 = 2131296298;
 			
 			// aapt resource value: 0x7F09002B
-			public const int accessibility_custom_action_29 = 2131296299;
+			public const int accessibility_custom_action_28 = 2131296299;
 			
 			// aapt resource value: 0x7F09002C
-			public const int accessibility_custom_action_3 = 2131296300;
+			public const int accessibility_custom_action_29 = 2131296300;
 			
 			// aapt resource value: 0x7F09002D
-			public const int accessibility_custom_action_30 = 2131296301;
+			public const int accessibility_custom_action_3 = 2131296301;
 			
 			// aapt resource value: 0x7F09002E
-			public const int accessibility_custom_action_31 = 2131296302;
+			public const int accessibility_custom_action_30 = 2131296302;
 			
 			// aapt resource value: 0x7F09002F
-			public const int accessibility_custom_action_4 = 2131296303;
+			public const int accessibility_custom_action_31 = 2131296303;
 			
 			// aapt resource value: 0x7F090030
-			public const int accessibility_custom_action_5 = 2131296304;
+			public const int accessibility_custom_action_4 = 2131296304;
 			
 			// aapt resource value: 0x7F090031
-			public const int accessibility_custom_action_6 = 2131296305;
+			public const int accessibility_custom_action_5 = 2131296305;
 			
 			// aapt resource value: 0x7F090032
-			public const int accessibility_custom_action_7 = 2131296306;
+			public const int accessibility_custom_action_6 = 2131296306;
 			
 			// aapt resource value: 0x7F090033
-			public const int accessibility_custom_action_8 = 2131296307;
+			public const int accessibility_custom_action_7 = 2131296307;
 			
 			// aapt resource value: 0x7F090034
-			public const int accessibility_custom_action_9 = 2131296308;
+			public const int accessibility_custom_action_8 = 2131296308;
 			
 			// aapt resource value: 0x7F090035
-			public const int actionDown = 2131296309;
+			public const int accessibility_custom_action_9 = 2131296309;
 			
 			// aapt resource value: 0x7F090036
-			public const int actionDownUp = 2131296310;
-			
-			// aapt resource value: 0x7F090049
-			public const int actions = 2131296329;
+			public const int actionDown = 2131296310;
 			
 			// aapt resource value: 0x7F090037
-			public const int actionUp = 2131296311;
-			
-			// aapt resource value: 0x7F090038
-			public const int action_bar = 2131296312;
-			
-			// aapt resource value: 0x7F090039
-			public const int action_bar_activity_content = 2131296313;
-			
-			// aapt resource value: 0x7F09003A
-			public const int action_bar_container = 2131296314;
-			
-			// aapt resource value: 0x7F09003B
-			public const int action_bar_root = 2131296315;
-			
-			// aapt resource value: 0x7F09003C
-			public const int action_bar_spinner = 2131296316;
-			
-			// aapt resource value: 0x7F09003D
-			public const int action_bar_subtitle = 2131296317;
-			
-			// aapt resource value: 0x7F09003E
-			public const int action_bar_title = 2131296318;
-			
-			// aapt resource value: 0x7F09003F
-			public const int action_container = 2131296319;
-			
-			// aapt resource value: 0x7F090040
-			public const int action_context_bar = 2131296320;
-			
-			// aapt resource value: 0x7F090041
-			public const int action_divider = 2131296321;
-			
-			// aapt resource value: 0x7F090042
-			public const int action_image = 2131296322;
-			
-			// aapt resource value: 0x7F090043
-			public const int action_menu_divider = 2131296323;
-			
-			// aapt resource value: 0x7F090044
-			public const int action_menu_presenter = 2131296324;
-			
-			// aapt resource value: 0x7F090045
-			public const int action_mode_bar = 2131296325;
-			
-			// aapt resource value: 0x7F090046
-			public const int action_mode_bar_stub = 2131296326;
-			
-			// aapt resource value: 0x7F090047
-			public const int action_mode_close_button = 2131296327;
-			
-			// aapt resource value: 0x7F090048
-			public const int action_text = 2131296328;
+			public const int actionDownUp = 2131296311;
 			
 			// aapt resource value: 0x7F09004A
-			public const int activity_chooser_view_content = 2131296330;
+			public const int actions = 2131296330;
+			
+			// aapt resource value: 0x7F090038
+			public const int actionUp = 2131296312;
+			
+			// aapt resource value: 0x7F090039
+			public const int action_bar = 2131296313;
+			
+			// aapt resource value: 0x7F09003A
+			public const int action_bar_activity_content = 2131296314;
+			
+			// aapt resource value: 0x7F09003B
+			public const int action_bar_container = 2131296315;
+			
+			// aapt resource value: 0x7F09003C
+			public const int action_bar_root = 2131296316;
+			
+			// aapt resource value: 0x7F09003D
+			public const int action_bar_spinner = 2131296317;
+			
+			// aapt resource value: 0x7F09003E
+			public const int action_bar_subtitle = 2131296318;
+			
+			// aapt resource value: 0x7F09003F
+			public const int action_bar_title = 2131296319;
+			
+			// aapt resource value: 0x7F090040
+			public const int action_container = 2131296320;
+			
+			// aapt resource value: 0x7F090041
+			public const int action_context_bar = 2131296321;
+			
+			// aapt resource value: 0x7F090042
+			public const int action_divider = 2131296322;
+			
+			// aapt resource value: 0x7F090043
+			public const int action_image = 2131296323;
+			
+			// aapt resource value: 0x7F090044
+			public const int action_menu_divider = 2131296324;
+			
+			// aapt resource value: 0x7F090045
+			public const int action_menu_presenter = 2131296325;
+			
+			// aapt resource value: 0x7F090046
+			public const int action_mode_bar = 2131296326;
+			
+			// aapt resource value: 0x7F090047
+			public const int action_mode_bar_stub = 2131296327;
+			
+			// aapt resource value: 0x7F090048
+			public const int action_mode_close_button = 2131296328;
+			
+			// aapt resource value: 0x7F090049
+			public const int action_text = 2131296329;
 			
 			// aapt resource value: 0x7F09004B
-			public const int add = 2131296331;
+			public const int activity_chooser_view_content = 2131296331;
 			
 			// aapt resource value: 0x7F09004C
-			public const int alertTitle = 2131296332;
+			public const int add = 2131296332;
 			
 			// aapt resource value: 0x7F09004D
-			public const int aligned = 2131296333;
+			public const int alertTitle = 2131296333;
 			
 			// aapt resource value: 0x7F09004E
-			public const int all = 2131296334;
+			public const int aligned = 2131296334;
 			
 			// aapt resource value: 0x7F09004F
-			public const int allStates = 2131296335;
+			public const int all = 2131296335;
+			
+			// aapt resource value: 0x7F090050
+			public const int allStates = 2131296336;
 			
 			// aapt resource value: 0x7F090000
 			public const int ALT = 2131296256;
 			
-			// aapt resource value: 0x7F090050
-			public const int always = 2131296336;
-			
 			// aapt resource value: 0x7F090051
-			public const int animateToEnd = 2131296337;
+			public const int always = 2131296337;
 			
 			// aapt resource value: 0x7F090052
-			public const int animateToStart = 2131296338;
-			
-			// aapt resource value: 0x7F090054
-			public const int anticipate = 2131296340;
+			public const int animateToEnd = 2131296338;
 			
 			// aapt resource value: 0x7F090053
-			public const int antiClockwise = 2131296339;
+			public const int animateToStart = 2131296339;
 			
 			// aapt resource value: 0x7F090055
-			public const int arc = 2131296341;
+			public const int anticipate = 2131296341;
+			
+			// aapt resource value: 0x7F090054
+			public const int antiClockwise = 2131296340;
 			
 			// aapt resource value: 0x7F090056
-			public const int asConfigured = 2131296342;
+			public const int arc = 2131296342;
 			
 			// aapt resource value: 0x7F090057
-			public const int async = 2131296343;
+			public const int asConfigured = 2131296343;
 			
 			// aapt resource value: 0x7F090058
-			public const int auto = 2131296344;
+			public const int async = 2131296344;
 			
 			// aapt resource value: 0x7F090059
-			public const int autoComplete = 2131296345;
+			public const int auto = 2131296345;
 			
 			// aapt resource value: 0x7F09005A
-			public const int autoCompleteToEnd = 2131296346;
+			public const int autoComplete = 2131296346;
 			
 			// aapt resource value: 0x7F09005B
-			public const int autoCompleteToStart = 2131296347;
+			public const int autoCompleteToEnd = 2131296347;
 			
 			// aapt resource value: 0x7F09005C
-			public const int barrier = 2131296348;
+			public const int autoCompleteToStart = 2131296348;
 			
 			// aapt resource value: 0x7F09005D
-			public const int baseline = 2131296349;
-			
-			// aapt resource value: 0x7F09005F
-			public const int beginning = 2131296351;
+			public const int barrier = 2131296349;
 			
 			// aapt resource value: 0x7F09005E
-			public const int beginOnFirstDraw = 2131296350;
+			public const int baseline = 2131296350;
 			
 			// aapt resource value: 0x7F090060
-			public const int bestChoice = 2131296352;
+			public const int beginning = 2131296352;
+			
+			// aapt resource value: 0x7F09005F
+			public const int beginOnFirstDraw = 2131296351;
 			
 			// aapt resource value: 0x7F090061
-			public const int blocking = 2131296353;
+			public const int bestChoice = 2131296353;
 			
 			// aapt resource value: 0x7F090062
-			public const int bottom = 2131296354;
+			public const int blocking = 2131296354;
+			
+			// aapt resource value: 0x7F090063
+			public const int bottom = 2131296355;
 			
 			// aapt resource value: 0x7F090001
 			public const int BOTTOM_END = 2131296257;
@@ -7857,893 +6175,893 @@ namespace Rebb.Deliveryman
 			// aapt resource value: 0x7F090002
 			public const int BOTTOM_START = 2131296258;
 			
-			// aapt resource value: 0x7F090063
-			public const int bounce = 2131296355;
-			
 			// aapt resource value: 0x7F090064
-			public const int bounceBoth = 2131296356;
+			public const int bounce = 2131296356;
 			
 			// aapt resource value: 0x7F090065
-			public const int bounceEnd = 2131296357;
+			public const int bounceBoth = 2131296357;
 			
 			// aapt resource value: 0x7F090066
-			public const int bounceStart = 2131296358;
+			public const int bounceEnd = 2131296358;
 			
 			// aapt resource value: 0x7F090067
-			public const int browser_actions_header_text = 2131296359;
-			
-			// aapt resource value: 0x7F09006A
-			public const int browser_actions_menu_items = 2131296362;
+			public const int bounceStart = 2131296359;
 			
 			// aapt resource value: 0x7F090068
-			public const int browser_actions_menu_item_icon = 2131296360;
-			
-			// aapt resource value: 0x7F090069
-			public const int browser_actions_menu_item_text = 2131296361;
+			public const int browser_actions_header_text = 2131296360;
 			
 			// aapt resource value: 0x7F09006B
-			public const int browser_actions_menu_view = 2131296363;
+			public const int browser_actions_menu_items = 2131296363;
+			
+			// aapt resource value: 0x7F090069
+			public const int browser_actions_menu_item_icon = 2131296361;
+			
+			// aapt resource value: 0x7F09006A
+			public const int browser_actions_menu_item_text = 2131296362;
 			
 			// aapt resource value: 0x7F09006C
-			public const int btnNext = 2131296364;
+			public const int browser_actions_menu_view = 2131296364;
 			
 			// aapt resource value: 0x7F09006D
-			public const int buttonPanel = 2131296365;
+			public const int btnNext = 2131296365;
 			
 			// aapt resource value: 0x7F09006E
-			public const int cache_measures = 2131296366;
+			public const int buttonPanel = 2131296366;
 			
 			// aapt resource value: 0x7F09006F
-			public const int cancel_button = 2131296367;
+			public const int cache_measures = 2131296367;
 			
 			// aapt resource value: 0x7F090070
-			public const int carryVelocity = 2131296368;
+			public const int cancel_button = 2131296368;
 			
 			// aapt resource value: 0x7F090071
-			public const int center = 2131296369;
+			public const int carryVelocity = 2131296369;
 			
 			// aapt resource value: 0x7F090072
-			public const int center_horizontal = 2131296370;
+			public const int center = 2131296370;
 			
 			// aapt resource value: 0x7F090073
-			public const int center_vertical = 2131296371;
+			public const int center_horizontal = 2131296371;
 			
 			// aapt resource value: 0x7F090074
-			public const int chain = 2131296372;
+			public const int center_vertical = 2131296372;
 			
 			// aapt resource value: 0x7F090075
-			public const int chains = 2131296373;
+			public const int chain = 2131296373;
 			
 			// aapt resource value: 0x7F090076
-			public const int checkAcceptTerms = 2131296374;
+			public const int chains = 2131296374;
 			
 			// aapt resource value: 0x7F090077
-			public const int checkbox = 2131296375;
+			public const int checkAcceptTerms = 2131296375;
 			
 			// aapt resource value: 0x7F090078
-			public const int @checked = 2131296376;
+			public const int checkbox = 2131296376;
 			
 			// aapt resource value: 0x7F090079
-			public const int chip = 2131296377;
+			public const int @checked = 2131296377;
 			
 			// aapt resource value: 0x7F09007A
-			public const int chip1 = 2131296378;
+			public const int chip = 2131296378;
 			
 			// aapt resource value: 0x7F09007B
-			public const int chip2 = 2131296379;
+			public const int chip1 = 2131296379;
 			
 			// aapt resource value: 0x7F09007C
-			public const int chip3 = 2131296380;
+			public const int chip2 = 2131296380;
 			
 			// aapt resource value: 0x7F09007D
-			public const int chip_group = 2131296381;
+			public const int chip3 = 2131296381;
 			
 			// aapt resource value: 0x7F09007E
-			public const int chronometer = 2131296382;
+			public const int chip_group = 2131296382;
 			
 			// aapt resource value: 0x7F09007F
-			public const int circle_center = 2131296383;
+			public const int chronometer = 2131296383;
 			
 			// aapt resource value: 0x7F090080
-			public const int clear_text = 2131296384;
+			public const int circle_center = 2131296384;
 			
 			// aapt resource value: 0x7F090081
-			public const int clip_horizontal = 2131296385;
+			public const int clear_text = 2131296385;
 			
 			// aapt resource value: 0x7F090082
-			public const int clip_vertical = 2131296386;
+			public const int clip_horizontal = 2131296386;
 			
 			// aapt resource value: 0x7F090083
-			public const int clockwise = 2131296387;
+			public const int clip_vertical = 2131296387;
 			
 			// aapt resource value: 0x7F090084
-			public const int closest = 2131296388;
+			public const int clockwise = 2131296388;
 			
 			// aapt resource value: 0x7F090085
-			public const int collapseActionView = 2131296389;
+			public const int closest = 2131296389;
 			
 			// aapt resource value: 0x7F090086
-			public const int confirm_button = 2131296390;
+			public const int collapseActionView = 2131296390;
 			
 			// aapt resource value: 0x7F090087
-			public const int constraint = 2131296391;
+			public const int confirm_button = 2131296391;
 			
 			// aapt resource value: 0x7F090088
-			public const int container = 2131296392;
+			public const int constraint = 2131296392;
 			
 			// aapt resource value: 0x7F090089
-			public const int content = 2131296393;
+			public const int container = 2131296393;
 			
 			// aapt resource value: 0x7F09008A
-			public const int contentPanel = 2131296394;
+			public const int content = 2131296394;
 			
 			// aapt resource value: 0x7F09008B
-			public const int contiguous = 2131296395;
+			public const int contentPanel = 2131296395;
 			
 			// aapt resource value: 0x7F09008C
-			public const int continuousVelocity = 2131296396;
+			public const int contiguous = 2131296396;
 			
 			// aapt resource value: 0x7F09008D
-			public const int coordinator = 2131296397;
+			public const int continuousVelocity = 2131296397;
 			
 			// aapt resource value: 0x7F09008E
-			public const int cos = 2131296398;
+			public const int coordinator = 2131296398;
 			
 			// aapt resource value: 0x7F09008F
-			public const int counterclockwise = 2131296399;
+			public const int cos = 2131296399;
+			
+			// aapt resource value: 0x7F090090
+			public const int counterclockwise = 2131296400;
 			
 			// aapt resource value: 0x7F090003
 			public const int CTRL = 2131296259;
 			
-			// aapt resource value: 0x7F090090
-			public const int currentState = 2131296400;
-			
 			// aapt resource value: 0x7F090091
-			public const int custom = 2131296401;
+			public const int currentState = 2131296401;
 			
 			// aapt resource value: 0x7F090092
-			public const int customPanel = 2131296402;
+			public const int custom = 2131296402;
 			
 			// aapt resource value: 0x7F090093
-			public const int cut = 2131296403;
+			public const int customPanel = 2131296403;
 			
 			// aapt resource value: 0x7F090094
-			public const int date_picker_actions = 2131296404;
+			public const int cut = 2131296404;
 			
 			// aapt resource value: 0x7F090095
-			public const int decelerate = 2131296405;
+			public const int date_picker_actions = 2131296405;
 			
 			// aapt resource value: 0x7F090096
-			public const int decelerateAndComplete = 2131296406;
+			public const int decelerate = 2131296406;
 			
 			// aapt resource value: 0x7F090097
-			public const int decor_content_parent = 2131296407;
+			public const int decelerateAndComplete = 2131296407;
 			
 			// aapt resource value: 0x7F090098
-			public const int default_activity_button = 2131296408;
+			public const int decor_content_parent = 2131296408;
 			
 			// aapt resource value: 0x7F090099
-			public const int deltaRelative = 2131296409;
+			public const int default_activity_button = 2131296409;
 			
 			// aapt resource value: 0x7F09009A
-			public const int dependency_ordering = 2131296410;
+			public const int deltaRelative = 2131296410;
 			
 			// aapt resource value: 0x7F09009B
-			public const int design_bottom_sheet = 2131296411;
+			public const int dependency_ordering = 2131296411;
 			
 			// aapt resource value: 0x7F09009C
-			public const int design_menu_item_action_area = 2131296412;
+			public const int design_bottom_sheet = 2131296412;
 			
 			// aapt resource value: 0x7F09009D
-			public const int design_menu_item_action_area_stub = 2131296413;
+			public const int design_menu_item_action_area = 2131296413;
 			
 			// aapt resource value: 0x7F09009E
-			public const int design_menu_item_text = 2131296414;
+			public const int design_menu_item_action_area_stub = 2131296414;
 			
 			// aapt resource value: 0x7F09009F
-			public const int design_navigation_view = 2131296415;
+			public const int design_menu_item_text = 2131296415;
 			
 			// aapt resource value: 0x7F0900A0
-			public const int dialog_button = 2131296416;
+			public const int design_navigation_view = 2131296416;
 			
 			// aapt resource value: 0x7F0900A1
-			public const int dimensions = 2131296417;
+			public const int dialog_button = 2131296417;
 			
 			// aapt resource value: 0x7F0900A2
-			public const int direct = 2131296418;
+			public const int dimensions = 2131296418;
 			
 			// aapt resource value: 0x7F0900A3
-			public const int disableHome = 2131296419;
+			public const int direct = 2131296419;
 			
 			// aapt resource value: 0x7F0900A4
-			public const int disableIntraAutoTransition = 2131296420;
+			public const int disableHome = 2131296420;
 			
 			// aapt resource value: 0x7F0900A5
-			public const int disablePostScroll = 2131296421;
+			public const int disableIntraAutoTransition = 2131296421;
 			
 			// aapt resource value: 0x7F0900A6
-			public const int disableScroll = 2131296422;
+			public const int disablePostScroll = 2131296422;
 			
 			// aapt resource value: 0x7F0900A7
-			public const int disjoint = 2131296423;
+			public const int disableScroll = 2131296423;
 			
 			// aapt resource value: 0x7F0900A8
-			public const int dragAnticlockwise = 2131296424;
+			public const int disjoint = 2131296424;
 			
 			// aapt resource value: 0x7F0900A9
-			public const int dragClockwise = 2131296425;
+			public const int dragAnticlockwise = 2131296425;
 			
 			// aapt resource value: 0x7F0900AA
-			public const int dragDown = 2131296426;
+			public const int dragClockwise = 2131296426;
 			
 			// aapt resource value: 0x7F0900AB
-			public const int dragEnd = 2131296427;
+			public const int dragDown = 2131296427;
 			
 			// aapt resource value: 0x7F0900AC
-			public const int dragLeft = 2131296428;
+			public const int dragEnd = 2131296428;
 			
 			// aapt resource value: 0x7F0900AD
-			public const int dragRight = 2131296429;
+			public const int dragLeft = 2131296429;
 			
 			// aapt resource value: 0x7F0900AE
-			public const int dragStart = 2131296430;
+			public const int dragRight = 2131296430;
 			
 			// aapt resource value: 0x7F0900AF
-			public const int dragUp = 2131296431;
+			public const int dragStart = 2131296431;
 			
 			// aapt resource value: 0x7F0900B0
-			public const int dropdown_menu = 2131296432;
+			public const int dragUp = 2131296432;
 			
 			// aapt resource value: 0x7F0900B1
-			public const int easeIn = 2131296433;
+			public const int dropdown_menu = 2131296433;
 			
 			// aapt resource value: 0x7F0900B2
-			public const int easeInOut = 2131296434;
+			public const int easeIn = 2131296434;
 			
 			// aapt resource value: 0x7F0900B3
-			public const int easeOut = 2131296435;
+			public const int easeInOut = 2131296435;
 			
 			// aapt resource value: 0x7F0900B4
-			public const int east = 2131296436;
+			public const int easeOut = 2131296436;
 			
 			// aapt resource value: 0x7F0900B5
-			public const int edit_query = 2131296437;
+			public const int east = 2131296437;
 			
 			// aapt resource value: 0x7F0900B6
-			public const int edtConfirmPassword = 2131296438;
+			public const int edit_query = 2131296438;
 			
 			// aapt resource value: 0x7F0900B7
-			public const int edtEmail = 2131296439;
+			public const int edtConfirmPassword = 2131296439;
 			
 			// aapt resource value: 0x7F0900B8
-			public const int edtName = 2131296440;
+			public const int edtEmail = 2131296440;
 			
 			// aapt resource value: 0x7F0900B9
-			public const int edtPassword = 2131296441;
+			public const int edtName = 2131296441;
 			
 			// aapt resource value: 0x7F0900BA
-			public const int edtPhone = 2131296442;
+			public const int edtPassword = 2131296442;
 			
 			// aapt resource value: 0x7F0900BB
-			public const int elastic = 2131296443;
+			public const int edtPhone = 2131296443;
 			
 			// aapt resource value: 0x7F0900BC
-			public const int end = 2131296444;
+			public const int elastic = 2131296444;
 			
 			// aapt resource value: 0x7F0900BD
-			public const int endToStart = 2131296445;
+			public const int end = 2131296445;
 			
 			// aapt resource value: 0x7F0900BE
-			public const int enterAlways = 2131296446;
+			public const int endToStart = 2131296446;
 			
 			// aapt resource value: 0x7F0900BF
-			public const int enterAlwaysCollapsed = 2131296447;
+			public const int enterAlways = 2131296447;
 			
 			// aapt resource value: 0x7F0900C0
-			public const int exitUntilCollapsed = 2131296448;
-			
-			// aapt resource value: 0x7F0900C2
-			public const int expanded_menu = 2131296450;
+			public const int enterAlwaysCollapsed = 2131296448;
 			
 			// aapt resource value: 0x7F0900C1
-			public const int expand_activities_button = 2131296449;
+			public const int exitUntilCollapsed = 2131296449;
 			
 			// aapt resource value: 0x7F0900C3
-			public const int fab = 2131296451;
+			public const int expanded_menu = 2131296451;
+			
+			// aapt resource value: 0x7F0900C2
+			public const int expand_activities_button = 2131296450;
 			
 			// aapt resource value: 0x7F0900C4
-			public const int fade = 2131296452;
+			public const int fab = 2131296452;
 			
 			// aapt resource value: 0x7F0900C5
-			public const int fill = 2131296453;
-			
-			// aapt resource value: 0x7F0900C8
-			public const int filled = 2131296456;
+			public const int fade = 2131296453;
 			
 			// aapt resource value: 0x7F0900C6
-			public const int fill_horizontal = 2131296454;
-			
-			// aapt resource value: 0x7F0900C7
-			public const int fill_vertical = 2131296455;
+			public const int fill = 2131296454;
 			
 			// aapt resource value: 0x7F0900C9
-			public const int fitToContents = 2131296457;
+			public const int filled = 2131296457;
+			
+			// aapt resource value: 0x7F0900C7
+			public const int fill_horizontal = 2131296455;
+			
+			// aapt resource value: 0x7F0900C8
+			public const int fill_vertical = 2131296456;
 			
 			// aapt resource value: 0x7F0900CA
-			public const int @fixed = 2131296458;
+			public const int fitToContents = 2131296458;
 			
 			// aapt resource value: 0x7F0900CB
-			public const int flip = 2131296459;
+			public const int @fixed = 2131296459;
 			
 			// aapt resource value: 0x7F0900CC
-			public const int floating = 2131296460;
+			public const int flip = 2131296460;
 			
 			// aapt resource value: 0x7F0900CD
-			public const int forever = 2131296461;
+			public const int floating = 2131296461;
 			
 			// aapt resource value: 0x7F0900CE
-			public const int fragment_container_view_tag = 2131296462;
+			public const int forever = 2131296462;
 			
 			// aapt resource value: 0x7F0900CF
-			public const int frost = 2131296463;
+			public const int fragment_container_view_tag = 2131296463;
+			
+			// aapt resource value: 0x7F0900D0
+			public const int frost = 2131296464;
 			
 			// aapt resource value: 0x7F090004
 			public const int FUNCTION = 2131296260;
 			
-			// aapt resource value: 0x7F0900D0
-			public const int ghost_view = 2131296464;
-			
 			// aapt resource value: 0x7F0900D1
-			public const int ghost_view_holder = 2131296465;
+			public const int ghost_view = 2131296465;
 			
 			// aapt resource value: 0x7F0900D2
-			public const int gone = 2131296466;
+			public const int ghost_view_holder = 2131296466;
 			
 			// aapt resource value: 0x7F0900D3
-			public const int graph = 2131296467;
+			public const int gone = 2131296467;
 			
 			// aapt resource value: 0x7F0900D4
-			public const int graph_wrap = 2131296468;
-			
-			// aapt resource value: 0x7F0900D6
-			public const int grouping = 2131296470;
-			
-			// aapt resource value: 0x7F0900D7
-			public const int groups = 2131296471;
+			public const int graph = 2131296468;
 			
 			// aapt resource value: 0x7F0900D5
-			public const int group_divider = 2131296469;
+			public const int graph_wrap = 2131296469;
+			
+			// aapt resource value: 0x7F0900D7
+			public const int grouping = 2131296471;
 			
 			// aapt resource value: 0x7F0900D8
-			public const int guideline = 2131296472;
+			public const int groups = 2131296472;
+			
+			// aapt resource value: 0x7F0900D6
+			public const int group_divider = 2131296470;
 			
 			// aapt resource value: 0x7F0900D9
-			public const int header_title = 2131296473;
+			public const int guideline = 2131296473;
 			
 			// aapt resource value: 0x7F0900DA
-			public const int hideable = 2131296474;
+			public const int header_title = 2131296474;
 			
 			// aapt resource value: 0x7F0900DB
-			public const int home = 2131296475;
+			public const int hideable = 2131296475;
 			
 			// aapt resource value: 0x7F0900DC
-			public const int homeAsUp = 2131296476;
+			public const int home = 2131296476;
 			
 			// aapt resource value: 0x7F0900DD
-			public const int honorRequest = 2131296477;
+			public const int homeAsUp = 2131296477;
 			
 			// aapt resource value: 0x7F0900DE
-			public const int horizontal_only = 2131296478;
+			public const int honorRequest = 2131296478;
 			
 			// aapt resource value: 0x7F0900DF
-			public const int icon = 2131296479;
+			public const int horizontal_only = 2131296479;
 			
 			// aapt resource value: 0x7F0900E0
-			public const int icon_group = 2131296480;
+			public const int icon = 2131296480;
 			
 			// aapt resource value: 0x7F0900E1
-			public const int ifRoom = 2131296481;
+			public const int icon_group = 2131296481;
 			
 			// aapt resource value: 0x7F0900E2
-			public const int ignore = 2131296482;
+			public const int ifRoom = 2131296482;
 			
 			// aapt resource value: 0x7F0900E3
-			public const int ignoreRequest = 2131296483;
+			public const int ignore = 2131296483;
 			
 			// aapt resource value: 0x7F0900E4
-			public const int image = 2131296484;
+			public const int ignoreRequest = 2131296484;
 			
 			// aapt resource value: 0x7F0900E5
-			public const int imgLogo = 2131296485;
+			public const int image = 2131296485;
 			
 			// aapt resource value: 0x7F0900E6
-			public const int imgResultCapture = 2131296486;
+			public const int imgLogo = 2131296486;
 			
 			// aapt resource value: 0x7F0900E7
-			public const int imgSwitchCamera = 2131296487;
+			public const int imgResultCapture = 2131296487;
 			
 			// aapt resource value: 0x7F0900E8
-			public const int immediateStop = 2131296488;
+			public const int imgSwitchCamera = 2131296488;
 			
 			// aapt resource value: 0x7F0900E9
-			public const int included = 2131296489;
+			public const int immediateStop = 2131296489;
 			
 			// aapt resource value: 0x7F0900EA
-			public const int info = 2131296490;
+			public const int included = 2131296490;
 			
 			// aapt resource value: 0x7F0900EB
-			public const int invisible = 2131296491;
+			public const int info = 2131296491;
 			
 			// aapt resource value: 0x7F0900EC
-			public const int inward = 2131296492;
+			public const int invisible = 2131296492;
 			
 			// aapt resource value: 0x7F0900ED
-			public const int italic = 2131296493;
+			public const int inward = 2131296493;
 			
 			// aapt resource value: 0x7F0900EE
-			public const int item_touch_helper_previous_elevation = 2131296494;
+			public const int italic = 2131296494;
 			
 			// aapt resource value: 0x7F0900EF
-			public const int jumpToEnd = 2131296495;
+			public const int item_touch_helper_previous_elevation = 2131296495;
 			
 			// aapt resource value: 0x7F0900F0
-			public const int jumpToStart = 2131296496;
+			public const int jumpToEnd = 2131296496;
 			
 			// aapt resource value: 0x7F0900F1
-			public const int labeled = 2131296497;
+			public const int jumpToStart = 2131296497;
 			
 			// aapt resource value: 0x7F0900F2
-			public const int layout = 2131296498;
+			public const int labeled = 2131296498;
 			
 			// aapt resource value: 0x7F0900F3
-			public const int left = 2131296499;
+			public const int layout = 2131296499;
 			
 			// aapt resource value: 0x7F0900F4
-			public const int leftToRight = 2131296500;
+			public const int left = 2131296500;
 			
 			// aapt resource value: 0x7F0900F5
-			public const int legacy = 2131296501;
+			public const int leftToRight = 2131296501;
 			
 			// aapt resource value: 0x7F0900F6
-			public const int line1 = 2131296502;
+			public const int legacy = 2131296502;
 			
 			// aapt resource value: 0x7F0900F7
-			public const int line3 = 2131296503;
+			public const int line1 = 2131296503;
 			
 			// aapt resource value: 0x7F0900F8
-			public const int linear = 2131296504;
+			public const int line3 = 2131296504;
 			
 			// aapt resource value: 0x7F0900F9
-			public const int listMode = 2131296505;
+			public const int linear = 2131296505;
 			
 			// aapt resource value: 0x7F0900FA
-			public const int list_item = 2131296506;
+			public const int listMode = 2131296506;
 			
 			// aapt resource value: 0x7F0900FB
-			public const int loadingBackground = 2131296507;
+			public const int list_item = 2131296507;
 			
 			// aapt resource value: 0x7F0900FC
-			public const int loadingCardLayout = 2131296508;
+			public const int loadingBackground = 2131296508;
 			
 			// aapt resource value: 0x7F0900FD
-			public const int loadingMainLayout = 2131296509;
+			public const int loadingCardLayout = 2131296509;
 			
 			// aapt resource value: 0x7F0900FE
-			public const int loadingMessage = 2131296510;
+			public const int loadingMainLayout = 2131296510;
 			
 			// aapt resource value: 0x7F0900FF
-			public const int loadingProgressBar = 2131296511;
+			public const int loadingMessage = 2131296511;
 			
 			// aapt resource value: 0x7F090100
-			public const int masked = 2131296512;
+			public const int loadingProgressBar = 2131296512;
 			
 			// aapt resource value: 0x7F090101
-			public const int match_constraint = 2131296513;
+			public const int masked = 2131296513;
 			
 			// aapt resource value: 0x7F090102
-			public const int match_parent = 2131296514;
+			public const int match_constraint = 2131296514;
 			
 			// aapt resource value: 0x7F090103
-			public const int material_clock_display = 2131296515;
+			public const int match_parent = 2131296515;
 			
 			// aapt resource value: 0x7F090104
-			public const int material_clock_face = 2131296516;
+			public const int material_clock_display = 2131296516;
 			
 			// aapt resource value: 0x7F090105
-			public const int material_clock_hand = 2131296517;
+			public const int material_clock_face = 2131296517;
 			
 			// aapt resource value: 0x7F090106
-			public const int material_clock_period_am_button = 2131296518;
+			public const int material_clock_hand = 2131296518;
 			
 			// aapt resource value: 0x7F090107
-			public const int material_clock_period_pm_button = 2131296519;
+			public const int material_clock_period_am_button = 2131296519;
 			
 			// aapt resource value: 0x7F090108
-			public const int material_clock_period_toggle = 2131296520;
+			public const int material_clock_period_pm_button = 2131296520;
 			
 			// aapt resource value: 0x7F090109
-			public const int material_hour_text_input = 2131296521;
+			public const int material_clock_period_toggle = 2131296521;
 			
 			// aapt resource value: 0x7F09010A
-			public const int material_hour_tv = 2131296522;
+			public const int material_hour_text_input = 2131296522;
 			
 			// aapt resource value: 0x7F09010B
-			public const int material_label = 2131296523;
+			public const int material_hour_tv = 2131296523;
 			
 			// aapt resource value: 0x7F09010C
-			public const int material_minute_text_input = 2131296524;
+			public const int material_label = 2131296524;
 			
 			// aapt resource value: 0x7F09010D
-			public const int material_minute_tv = 2131296525;
+			public const int material_minute_text_input = 2131296525;
 			
 			// aapt resource value: 0x7F09010E
-			public const int material_textinput_timepicker = 2131296526;
+			public const int material_minute_tv = 2131296526;
 			
 			// aapt resource value: 0x7F09010F
-			public const int material_timepicker_cancel_button = 2131296527;
+			public const int material_textinput_timepicker = 2131296527;
 			
 			// aapt resource value: 0x7F090110
-			public const int material_timepicker_container = 2131296528;
+			public const int material_timepicker_cancel_button = 2131296528;
 			
 			// aapt resource value: 0x7F090111
-			public const int material_timepicker_edit_text = 2131296529;
+			public const int material_timepicker_container = 2131296529;
 			
 			// aapt resource value: 0x7F090112
-			public const int material_timepicker_mode_button = 2131296530;
+			public const int material_timepicker_edit_text = 2131296530;
 			
 			// aapt resource value: 0x7F090113
-			public const int material_timepicker_ok_button = 2131296531;
+			public const int material_timepicker_mode_button = 2131296531;
 			
 			// aapt resource value: 0x7F090114
-			public const int material_timepicker_view = 2131296532;
+			public const int material_timepicker_ok_button = 2131296532;
 			
 			// aapt resource value: 0x7F090115
-			public const int material_value_index = 2131296533;
+			public const int material_timepicker_view = 2131296533;
 			
 			// aapt resource value: 0x7F090116
-			public const int message = 2131296534;
+			public const int material_value_index = 2131296534;
+			
+			// aapt resource value: 0x7F090117
+			public const int message = 2131296535;
 			
 			// aapt resource value: 0x7F090005
 			public const int META = 2131296261;
 			
-			// aapt resource value: 0x7F090117
-			public const int middle = 2131296535;
-			
 			// aapt resource value: 0x7F090118
-			public const int mini = 2131296536;
+			public const int middle = 2131296536;
 			
 			// aapt resource value: 0x7F090119
-			public const int month_grid = 2131296537;
+			public const int mini = 2131296537;
 			
 			// aapt resource value: 0x7F09011A
-			public const int month_navigation_bar = 2131296538;
+			public const int month_grid = 2131296538;
 			
 			// aapt resource value: 0x7F09011B
-			public const int month_navigation_fragment_toggle = 2131296539;
+			public const int month_navigation_bar = 2131296539;
 			
 			// aapt resource value: 0x7F09011C
-			public const int month_navigation_next = 2131296540;
+			public const int month_navigation_fragment_toggle = 2131296540;
 			
 			// aapt resource value: 0x7F09011D
-			public const int month_navigation_previous = 2131296541;
+			public const int month_navigation_next = 2131296541;
 			
 			// aapt resource value: 0x7F09011E
-			public const int month_title = 2131296542;
+			public const int month_navigation_previous = 2131296542;
 			
 			// aapt resource value: 0x7F09011F
-			public const int motion_base = 2131296543;
+			public const int month_title = 2131296543;
 			
 			// aapt resource value: 0x7F090120
-			public const int mtrl_anchor_parent = 2131296544;
-			
-			// aapt resource value: 0x7F090122
-			public const int mtrl_calendar_days_of_week = 2131296546;
+			public const int motion_base = 2131296544;
 			
 			// aapt resource value: 0x7F090121
-			public const int mtrl_calendar_day_selector_frame = 2131296545;
+			public const int mtrl_anchor_parent = 2131296545;
 			
 			// aapt resource value: 0x7F090123
-			public const int mtrl_calendar_frame = 2131296547;
+			public const int mtrl_calendar_days_of_week = 2131296547;
+			
+			// aapt resource value: 0x7F090122
+			public const int mtrl_calendar_day_selector_frame = 2131296546;
 			
 			// aapt resource value: 0x7F090124
-			public const int mtrl_calendar_main_pane = 2131296548;
+			public const int mtrl_calendar_frame = 2131296548;
 			
 			// aapt resource value: 0x7F090125
-			public const int mtrl_calendar_months = 2131296549;
+			public const int mtrl_calendar_main_pane = 2131296549;
 			
 			// aapt resource value: 0x7F090126
-			public const int mtrl_calendar_selection_frame = 2131296550;
+			public const int mtrl_calendar_months = 2131296550;
 			
 			// aapt resource value: 0x7F090127
-			public const int mtrl_calendar_text_input_frame = 2131296551;
+			public const int mtrl_calendar_selection_frame = 2131296551;
 			
 			// aapt resource value: 0x7F090128
-			public const int mtrl_calendar_year_selector_frame = 2131296552;
+			public const int mtrl_calendar_text_input_frame = 2131296552;
 			
 			// aapt resource value: 0x7F090129
-			public const int mtrl_card_checked_layer_id = 2131296553;
+			public const int mtrl_calendar_year_selector_frame = 2131296553;
 			
 			// aapt resource value: 0x7F09012A
-			public const int mtrl_child_content_container = 2131296554;
+			public const int mtrl_card_checked_layer_id = 2131296554;
 			
 			// aapt resource value: 0x7F09012B
-			public const int mtrl_internal_children_alpha_tag = 2131296555;
+			public const int mtrl_child_content_container = 2131296555;
 			
 			// aapt resource value: 0x7F09012C
-			public const int mtrl_motion_snapshot_view = 2131296556;
+			public const int mtrl_internal_children_alpha_tag = 2131296556;
 			
 			// aapt resource value: 0x7F09012D
-			public const int mtrl_picker_fullscreen = 2131296557;
+			public const int mtrl_motion_snapshot_view = 2131296557;
 			
 			// aapt resource value: 0x7F09012E
-			public const int mtrl_picker_header = 2131296558;
+			public const int mtrl_picker_fullscreen = 2131296558;
 			
 			// aapt resource value: 0x7F09012F
-			public const int mtrl_picker_header_selection_text = 2131296559;
+			public const int mtrl_picker_header = 2131296559;
 			
 			// aapt resource value: 0x7F090130
-			public const int mtrl_picker_header_title_and_selection = 2131296560;
+			public const int mtrl_picker_header_selection_text = 2131296560;
 			
 			// aapt resource value: 0x7F090131
-			public const int mtrl_picker_header_toggle = 2131296561;
+			public const int mtrl_picker_header_title_and_selection = 2131296561;
 			
 			// aapt resource value: 0x7F090132
-			public const int mtrl_picker_text_input_date = 2131296562;
+			public const int mtrl_picker_header_toggle = 2131296562;
 			
 			// aapt resource value: 0x7F090133
-			public const int mtrl_picker_text_input_range_end = 2131296563;
+			public const int mtrl_picker_text_input_date = 2131296563;
 			
 			// aapt resource value: 0x7F090134
-			public const int mtrl_picker_text_input_range_start = 2131296564;
+			public const int mtrl_picker_text_input_range_end = 2131296564;
 			
 			// aapt resource value: 0x7F090135
-			public const int mtrl_picker_title_text = 2131296565;
+			public const int mtrl_picker_text_input_range_start = 2131296565;
 			
 			// aapt resource value: 0x7F090136
-			public const int mtrl_view_tag_bottom_padding = 2131296566;
+			public const int mtrl_picker_title_text = 2131296566;
 			
 			// aapt resource value: 0x7F090137
-			public const int multiply = 2131296567;
+			public const int mtrl_view_tag_bottom_padding = 2131296567;
 			
 			// aapt resource value: 0x7F090138
-			public const int navigation_bar_item_icon_view = 2131296568;
+			public const int multiply = 2131296568;
 			
 			// aapt resource value: 0x7F090139
-			public const int navigation_bar_item_labels_group = 2131296569;
+			public const int navigation_bar_item_icon_view = 2131296569;
 			
 			// aapt resource value: 0x7F09013A
-			public const int navigation_bar_item_large_label_view = 2131296570;
+			public const int navigation_bar_item_labels_group = 2131296570;
 			
 			// aapt resource value: 0x7F09013B
-			public const int navigation_bar_item_small_label_view = 2131296571;
+			public const int navigation_bar_item_large_label_view = 2131296571;
 			
 			// aapt resource value: 0x7F09013C
-			public const int navigation_header_container = 2131296572;
+			public const int navigation_bar_item_small_label_view = 2131296572;
 			
 			// aapt resource value: 0x7F09013D
-			public const int never = 2131296573;
+			public const int navigation_header_container = 2131296573;
 			
 			// aapt resource value: 0x7F09013E
-			public const int neverCompleteToEnd = 2131296574;
+			public const int never = 2131296574;
 			
 			// aapt resource value: 0x7F09013F
-			public const int neverCompleteToStart = 2131296575;
-			
-			// aapt resource value: 0x7F090142
-			public const int none = 2131296578;
-			
-			// aapt resource value: 0x7F090143
-			public const int normal = 2131296579;
-			
-			// aapt resource value: 0x7F090144
-			public const int north = 2131296580;
+			public const int neverCompleteToEnd = 2131296575;
 			
 			// aapt resource value: 0x7F090140
-			public const int noScroll = 2131296576;
+			public const int neverCompleteToStart = 2131296576;
 			
-			// aapt resource value: 0x7F090141
-			public const int noState = 2131296577;
+			// aapt resource value: 0x7F090143
+			public const int none = 2131296579;
+			
+			// aapt resource value: 0x7F090144
+			public const int normal = 2131296580;
 			
 			// aapt resource value: 0x7F090145
-			public const int notification_background = 2131296581;
+			public const int north = 2131296581;
+			
+			// aapt resource value: 0x7F090141
+			public const int noScroll = 2131296577;
+			
+			// aapt resource value: 0x7F090142
+			public const int noState = 2131296578;
 			
 			// aapt resource value: 0x7F090146
-			public const int notification_main_column = 2131296582;
+			public const int notification_background = 2131296582;
 			
 			// aapt resource value: 0x7F090147
-			public const int notification_main_column_container = 2131296583;
+			public const int notification_main_column = 2131296583;
+			
+			// aapt resource value: 0x7F090148
+			public const int notification_main_column_container = 2131296584;
 			
 			// aapt resource value: 0x7F090006
 			public const int NO_DEBUG = 2131296262;
 			
-			// aapt resource value: 0x7F090148
-			public const int off = 2131296584;
-			
 			// aapt resource value: 0x7F090149
-			public const int on = 2131296585;
+			public const int off = 2131296585;
 			
 			// aapt resource value: 0x7F09014A
-			public const int outline = 2131296586;
+			public const int on = 2131296586;
 			
 			// aapt resource value: 0x7F09014B
-			public const int outward = 2131296587;
+			public const int outline = 2131296587;
 			
 			// aapt resource value: 0x7F09014C
-			public const int overshoot = 2131296588;
+			public const int outward = 2131296588;
 			
 			// aapt resource value: 0x7F09014D
-			public const int packed = 2131296589;
+			public const int overshoot = 2131296589;
 			
 			// aapt resource value: 0x7F09014E
-			public const int parallax = 2131296590;
+			public const int packed = 2131296590;
 			
 			// aapt resource value: 0x7F09014F
-			public const int parent = 2131296591;
+			public const int parallax = 2131296591;
 			
 			// aapt resource value: 0x7F090150
-			public const int parentPanel = 2131296592;
+			public const int parent = 2131296592;
 			
 			// aapt resource value: 0x7F090151
-			public const int parentRelative = 2131296593;
+			public const int parentPanel = 2131296593;
 			
 			// aapt resource value: 0x7F090152
-			public const int parent_matrix = 2131296594;
+			public const int parentRelative = 2131296594;
 			
 			// aapt resource value: 0x7F090153
-			public const int password_toggle = 2131296595;
+			public const int parent_matrix = 2131296595;
 			
 			// aapt resource value: 0x7F090154
-			public const int path = 2131296596;
+			public const int password_toggle = 2131296596;
 			
 			// aapt resource value: 0x7F090155
-			public const int pathRelative = 2131296597;
+			public const int path = 2131296597;
 			
 			// aapt resource value: 0x7F090156
-			public const int peekHeight = 2131296598;
+			public const int pathRelative = 2131296598;
 			
 			// aapt resource value: 0x7F090157
-			public const int percent = 2131296599;
+			public const int peekHeight = 2131296599;
 			
 			// aapt resource value: 0x7F090158
-			public const int pin = 2131296600;
+			public const int percent = 2131296600;
 			
 			// aapt resource value: 0x7F090159
-			public const int position = 2131296601;
+			public const int pin = 2131296601;
 			
 			// aapt resource value: 0x7F09015A
-			public const int postLayout = 2131296602;
+			public const int position = 2131296602;
 			
 			// aapt resource value: 0x7F09015B
-			public const int progress_circular = 2131296603;
+			public const int postLayout = 2131296603;
 			
 			// aapt resource value: 0x7F09015C
-			public const int progress_horizontal = 2131296604;
+			public const int progress_circular = 2131296604;
 			
 			// aapt resource value: 0x7F09015D
-			public const int radio = 2131296605;
+			public const int progress_horizontal = 2131296605;
 			
 			// aapt resource value: 0x7F09015E
-			public const int ratio = 2131296606;
+			public const int radio = 2131296606;
 			
 			// aapt resource value: 0x7F09015F
-			public const int rectangles = 2131296607;
+			public const int ratio = 2131296607;
 			
 			// aapt resource value: 0x7F090160
-			public const int registerFragment = 2131296608;
+			public const int rectangles = 2131296608;
 			
 			// aapt resource value: 0x7F090161
-			public const int registerProgress = 2131296609;
+			public const int registerFragment = 2131296609;
 			
 			// aapt resource value: 0x7F090162
-			public const int reverseSawtooth = 2131296610;
+			public const int registerProgress = 2131296610;
 			
 			// aapt resource value: 0x7F090163
-			public const int right = 2131296611;
+			public const int reverseSawtooth = 2131296611;
 			
 			// aapt resource value: 0x7F090164
-			public const int rightToLeft = 2131296612;
+			public const int right = 2131296612;
 			
 			// aapt resource value: 0x7F090165
-			public const int right_icon = 2131296613;
+			public const int rightToLeft = 2131296613;
 			
 			// aapt resource value: 0x7F090166
-			public const int right_side = 2131296614;
+			public const int right_icon = 2131296614;
 			
 			// aapt resource value: 0x7F090167
-			public const int rounded = 2131296615;
+			public const int right_side = 2131296615;
 			
 			// aapt resource value: 0x7F090168
-			public const int row_index_key = 2131296616;
+			public const int rounded = 2131296616;
 			
 			// aapt resource value: 0x7F090169
-			public const int save_non_transition_alpha = 2131296617;
+			public const int row_index_key = 2131296617;
 			
 			// aapt resource value: 0x7F09016A
-			public const int save_overlay_view = 2131296618;
+			public const int save_non_transition_alpha = 2131296618;
 			
 			// aapt resource value: 0x7F09016B
-			public const int sawtooth = 2131296619;
+			public const int save_overlay_view = 2131296619;
 			
 			// aapt resource value: 0x7F09016C
-			public const int scale = 2131296620;
+			public const int sawtooth = 2131296620;
 			
 			// aapt resource value: 0x7F09016D
-			public const int screen = 2131296621;
+			public const int scale = 2131296621;
 			
 			// aapt resource value: 0x7F09016E
-			public const int scroll = 2131296622;
-			
-			// aapt resource value: 0x7F090172
-			public const int scrollable = 2131296626;
+			public const int screen = 2131296622;
 			
 			// aapt resource value: 0x7F09016F
-			public const int scrollIndicatorDown = 2131296623;
-			
-			// aapt resource value: 0x7F090170
-			public const int scrollIndicatorUp = 2131296624;
-			
-			// aapt resource value: 0x7F090171
-			public const int scrollView = 2131296625;
+			public const int scroll = 2131296623;
 			
 			// aapt resource value: 0x7F090173
-			public const int search_badge = 2131296627;
+			public const int scrollable = 2131296627;
+			
+			// aapt resource value: 0x7F090170
+			public const int scrollIndicatorDown = 2131296624;
+			
+			// aapt resource value: 0x7F090171
+			public const int scrollIndicatorUp = 2131296625;
+			
+			// aapt resource value: 0x7F090172
+			public const int scrollView = 2131296626;
 			
 			// aapt resource value: 0x7F090174
-			public const int search_bar = 2131296628;
+			public const int search_badge = 2131296628;
 			
 			// aapt resource value: 0x7F090175
-			public const int search_button = 2131296629;
+			public const int search_bar = 2131296629;
 			
 			// aapt resource value: 0x7F090176
-			public const int search_close_btn = 2131296630;
+			public const int search_button = 2131296630;
 			
 			// aapt resource value: 0x7F090177
-			public const int search_edit_frame = 2131296631;
+			public const int search_close_btn = 2131296631;
 			
 			// aapt resource value: 0x7F090178
-			public const int search_go_btn = 2131296632;
+			public const int search_edit_frame = 2131296632;
 			
 			// aapt resource value: 0x7F090179
-			public const int search_mag_icon = 2131296633;
+			public const int search_go_btn = 2131296633;
 			
 			// aapt resource value: 0x7F09017A
-			public const int search_plate = 2131296634;
+			public const int search_mag_icon = 2131296634;
 			
 			// aapt resource value: 0x7F09017B
-			public const int search_src_text = 2131296635;
+			public const int search_plate = 2131296635;
 			
 			// aapt resource value: 0x7F09017C
-			public const int search_voice_btn = 2131296636;
-			
-			// aapt resource value: 0x7F09017E
-			public const int selected = 2131296638;
-			
-			// aapt resource value: 0x7F09017F
-			public const int selection_type = 2131296639;
+			public const int search_src_text = 2131296636;
 			
 			// aapt resource value: 0x7F09017D
-			public const int select_dialog_listview = 2131296637;
+			public const int search_voice_btn = 2131296637;
+			
+			// aapt resource value: 0x7F09017F
+			public const int selected = 2131296639;
 			
 			// aapt resource value: 0x7F090180
-			public const int sharedValueSet = 2131296640;
+			public const int selection_type = 2131296640;
+			
+			// aapt resource value: 0x7F09017E
+			public const int select_dialog_listview = 2131296638;
 			
 			// aapt resource value: 0x7F090181
-			public const int sharedValueUnset = 2131296641;
+			public const int sharedValueSet = 2131296641;
+			
+			// aapt resource value: 0x7F090182
+			public const int sharedValueUnset = 2131296642;
 			
 			// aapt resource value: 0x7F090007
 			public const int SHIFT = 2131296263;
 			
-			// aapt resource value: 0x7F090182
-			public const int shortcut = 2131296642;
-			
 			// aapt resource value: 0x7F090183
-			public const int showCustom = 2131296643;
+			public const int shortcut = 2131296643;
 			
 			// aapt resource value: 0x7F090184
-			public const int showHome = 2131296644;
+			public const int showCustom = 2131296644;
 			
 			// aapt resource value: 0x7F090185
-			public const int showTitle = 2131296645;
+			public const int showHome = 2131296645;
+			
+			// aapt resource value: 0x7F090186
+			public const int showTitle = 2131296646;
 			
 			// aapt resource value: 0x7F090008
 			public const int SHOW_ALL = 2131296264;
@@ -8754,245 +7072,248 @@ namespace Rebb.Deliveryman
 			// aapt resource value: 0x7F09000A
 			public const int SHOW_PROGRESS = 2131296266;
 			
-			// aapt resource value: 0x7F090186
-			public const int sin = 2131296646;
-			
 			// aapt resource value: 0x7F090187
-			public const int skipCollapsed = 2131296647;
+			public const int sin = 2131296647;
 			
 			// aapt resource value: 0x7F090188
-			public const int skipped = 2131296648;
+			public const int skipCollapsed = 2131296648;
 			
 			// aapt resource value: 0x7F090189
-			public const int slide = 2131296649;
+			public const int skipped = 2131296649;
 			
 			// aapt resource value: 0x7F09018A
-			public const int snackbar_action = 2131296650;
+			public const int slide = 2131296650;
 			
 			// aapt resource value: 0x7F09018B
-			public const int snackbar_text = 2131296651;
+			public const int snackbar_action = 2131296651;
 			
 			// aapt resource value: 0x7F09018C
-			public const int snap = 2131296652;
+			public const int snackbar_text = 2131296652;
 			
 			// aapt resource value: 0x7F09018D
-			public const int snapMargins = 2131296653;
+			public const int snap = 2131296653;
 			
 			// aapt resource value: 0x7F09018E
-			public const int south = 2131296654;
+			public const int snapMargins = 2131296654;
 			
 			// aapt resource value: 0x7F09018F
-			public const int spacer = 2131296655;
+			public const int south = 2131296655;
 			
 			// aapt resource value: 0x7F090190
-			public const int special_effects_controller_view_tag = 2131296656;
+			public const int spacer = 2131296656;
 			
 			// aapt resource value: 0x7F090191
-			public const int spline = 2131296657;
+			public const int special_effects_controller_view_tag = 2131296657;
 			
 			// aapt resource value: 0x7F090192
-			public const int split_action_bar = 2131296658;
+			public const int spline = 2131296658;
 			
 			// aapt resource value: 0x7F090193
-			public const int spread = 2131296659;
+			public const int split_action_bar = 2131296659;
 			
 			// aapt resource value: 0x7F090194
-			public const int spread_inside = 2131296660;
+			public const int spread = 2131296660;
 			
 			// aapt resource value: 0x7F090195
-			public const int spring = 2131296661;
+			public const int spread_inside = 2131296661;
 			
 			// aapt resource value: 0x7F090196
-			public const int square = 2131296662;
+			public const int spring = 2131296662;
 			
 			// aapt resource value: 0x7F090197
-			public const int src_atop = 2131296663;
+			public const int square = 2131296663;
 			
 			// aapt resource value: 0x7F090198
-			public const int src_in = 2131296664;
+			public const int src_atop = 2131296664;
 			
 			// aapt resource value: 0x7F090199
-			public const int src_over = 2131296665;
+			public const int src_in = 2131296665;
 			
 			// aapt resource value: 0x7F09019A
-			public const int standard = 2131296666;
+			public const int src_over = 2131296666;
 			
 			// aapt resource value: 0x7F09019B
-			public const int start = 2131296667;
+			public const int standard = 2131296667;
 			
 			// aapt resource value: 0x7F09019C
-			public const int startHorizontal = 2131296668;
+			public const int start = 2131296668;
 			
 			// aapt resource value: 0x7F09019D
-			public const int startToEnd = 2131296669;
+			public const int startHorizontal = 2131296669;
 			
 			// aapt resource value: 0x7F09019E
-			public const int startVertical = 2131296670;
+			public const int startToEnd = 2131296670;
 			
 			// aapt resource value: 0x7F09019F
-			public const int staticLayout = 2131296671;
+			public const int startVertical = 2131296671;
 			
 			// aapt resource value: 0x7F0901A0
-			public const int staticPostLayout = 2131296672;
+			public const int staticLayout = 2131296672;
 			
 			// aapt resource value: 0x7F0901A1
-			public const int stop = 2131296673;
+			public const int staticPostLayout = 2131296673;
 			
 			// aapt resource value: 0x7F0901A2
-			public const int stretch = 2131296674;
+			public const int stop = 2131296674;
 			
 			// aapt resource value: 0x7F0901A3
-			public const int submenuarrow = 2131296675;
+			public const int stretch = 2131296675;
 			
 			// aapt resource value: 0x7F0901A4
-			public const int submit_area = 2131296676;
+			public const int submenuarrow = 2131296676;
 			
 			// aapt resource value: 0x7F0901A5
-			public const int supportScrollUp = 2131296677;
+			public const int submit_area = 2131296677;
+			
+			// aapt resource value: 0x7F0901A6
+			public const int supportScrollUp = 2131296678;
 			
 			// aapt resource value: 0x7F09000B
 			public const int SYM = 2131296267;
 			
-			// aapt resource value: 0x7F0901A6
-			public const int tabMode = 2131296678;
-			
 			// aapt resource value: 0x7F0901A7
-			public const int tag_accessibility_actions = 2131296679;
+			public const int tabMode = 2131296679;
 			
 			// aapt resource value: 0x7F0901A8
-			public const int tag_accessibility_clickable_spans = 2131296680;
+			public const int tag_accessibility_actions = 2131296680;
 			
 			// aapt resource value: 0x7F0901A9
-			public const int tag_accessibility_heading = 2131296681;
+			public const int tag_accessibility_clickable_spans = 2131296681;
 			
 			// aapt resource value: 0x7F0901AA
-			public const int tag_accessibility_pane_title = 2131296682;
+			public const int tag_accessibility_heading = 2131296682;
 			
 			// aapt resource value: 0x7F0901AB
-			public const int tag_on_apply_window_listener = 2131296683;
+			public const int tag_accessibility_pane_title = 2131296683;
 			
 			// aapt resource value: 0x7F0901AC
-			public const int tag_on_receive_content_listener = 2131296684;
+			public const int tag_on_apply_window_listener = 2131296684;
 			
 			// aapt resource value: 0x7F0901AD
-			public const int tag_on_receive_content_mime_types = 2131296685;
+			public const int tag_on_receive_content_listener = 2131296685;
 			
 			// aapt resource value: 0x7F0901AE
-			public const int tag_screen_reader_focusable = 2131296686;
+			public const int tag_on_receive_content_mime_types = 2131296686;
 			
 			// aapt resource value: 0x7F0901AF
-			public const int tag_state_description = 2131296687;
+			public const int tag_screen_reader_focusable = 2131296687;
 			
 			// aapt resource value: 0x7F0901B0
-			public const int tag_transition_group = 2131296688;
+			public const int tag_state_description = 2131296688;
 			
 			// aapt resource value: 0x7F0901B1
-			public const int tag_unhandled_key_event_manager = 2131296689;
+			public const int tag_transition_group = 2131296689;
 			
 			// aapt resource value: 0x7F0901B2
-			public const int tag_unhandled_key_listeners = 2131296690;
+			public const int tag_unhandled_key_event_manager = 2131296690;
 			
 			// aapt resource value: 0x7F0901B3
-			public const int tag_window_insets_animation_callback = 2131296691;
+			public const int tag_unhandled_key_listeners = 2131296691;
 			
 			// aapt resource value: 0x7F0901B4
-			public const int test_checkbox_android_button_tint = 2131296692;
+			public const int tag_window_insets_animation_callback = 2131296692;
 			
 			// aapt resource value: 0x7F0901B5
-			public const int test_checkbox_app_button_tint = 2131296693;
+			public const int test_checkbox_android_button_tint = 2131296693;
 			
 			// aapt resource value: 0x7F0901B6
-			public const int test_radiobutton_android_button_tint = 2131296694;
+			public const int test_checkbox_app_button_tint = 2131296694;
 			
 			// aapt resource value: 0x7F0901B7
-			public const int test_radiobutton_app_button_tint = 2131296695;
+			public const int test_radiobutton_android_button_tint = 2131296695;
 			
 			// aapt resource value: 0x7F0901B8
-			public const int text = 2131296696;
+			public const int test_radiobutton_app_button_tint = 2131296696;
 			
 			// aapt resource value: 0x7F0901B9
-			public const int text2 = 2131296697;
+			public const int text = 2131296697;
 			
 			// aapt resource value: 0x7F0901BA
-			public const int textEnd = 2131296698;
+			public const int text2 = 2131296698;
+			
+			// aapt resource value: 0x7F0901BB
+			public const int textEnd = 2131296699;
+			
+			// aapt resource value: 0x7F09000F
+			public const int TextInputConfirmationCode = 2131296271;
 			
 			// aapt resource value: 0x7F09000E
 			public const int TextInputConfirmPassword = 2131296270;
 			
-			// aapt resource value: 0x7F09000F
-			public const int TextInputEmail = 2131296271;
-			
 			// aapt resource value: 0x7F090010
-			public const int TextInputName = 2131296272;
+			public const int TextInputEmail = 2131296272;
 			
 			// aapt resource value: 0x7F090011
-			public const int TextInputPassword = 2131296273;
+			public const int TextInputName = 2131296273;
 			
 			// aapt resource value: 0x7F090012
-			public const int TextInputPhoneNumber = 2131296274;
+			public const int TextInputPassword = 2131296274;
 			
-			// aapt resource value: 0x7F0901C2
-			public const int textinput_counter = 2131296706;
+			// aapt resource value: 0x7F090013
+			public const int TextInputPhoneNumber = 2131296275;
 			
 			// aapt resource value: 0x7F0901C3
-			public const int textinput_error = 2131296707;
+			public const int textinput_counter = 2131296707;
 			
 			// aapt resource value: 0x7F0901C4
-			public const int textinput_helper_text = 2131296708;
+			public const int textinput_error = 2131296708;
 			
 			// aapt resource value: 0x7F0901C5
-			public const int textinput_placeholder = 2131296709;
+			public const int textinput_helper_text = 2131296709;
 			
 			// aapt resource value: 0x7F0901C6
-			public const int textinput_prefix_text = 2131296710;
+			public const int textinput_placeholder = 2131296710;
 			
 			// aapt resource value: 0x7F0901C7
-			public const int textinput_suffix_text = 2131296711;
-			
-			// aapt resource value: 0x7F0901BB
-			public const int textSpacerNoButtons = 2131296699;
-			
-			// aapt resource value: 0x7F0901BC
-			public const int textSpacerNoTitle = 2131296700;
-			
-			// aapt resource value: 0x7F0901BD
-			public const int textStart = 2131296701;
-			
-			// aapt resource value: 0x7F0901BE
-			public const int textTop = 2131296702;
-			
-			// aapt resource value: 0x7F0901BF
-			public const int text_input_end_icon = 2131296703;
-			
-			// aapt resource value: 0x7F0901C0
-			public const int text_input_error_icon = 2131296704;
-			
-			// aapt resource value: 0x7F0901C1
-			public const int text_input_start_icon = 2131296705;
+			public const int textinput_prefix_text = 2131296711;
 			
 			// aapt resource value: 0x7F0901C8
-			public const int time = 2131296712;
+			public const int textinput_suffix_text = 2131296712;
+			
+			// aapt resource value: 0x7F0901BC
+			public const int textSpacerNoButtons = 2131296700;
+			
+			// aapt resource value: 0x7F0901BD
+			public const int textSpacerNoTitle = 2131296701;
+			
+			// aapt resource value: 0x7F0901BE
+			public const int textStart = 2131296702;
+			
+			// aapt resource value: 0x7F0901BF
+			public const int textTop = 2131296703;
+			
+			// aapt resource value: 0x7F0901C0
+			public const int text_input_end_icon = 2131296704;
+			
+			// aapt resource value: 0x7F0901C1
+			public const int text_input_error_icon = 2131296705;
+			
+			// aapt resource value: 0x7F0901C2
+			public const int text_input_start_icon = 2131296706;
 			
 			// aapt resource value: 0x7F0901C9
-			public const int title = 2131296713;
+			public const int time = 2131296713;
 			
 			// aapt resource value: 0x7F0901CA
-			public const int titleDividerNoCustom = 2131296714;
+			public const int title = 2131296714;
 			
 			// aapt resource value: 0x7F0901CB
-			public const int title_template = 2131296715;
+			public const int titleDividerNoCustom = 2131296715;
 			
 			// aapt resource value: 0x7F0901CC
-			public const int toggle = 2131296716;
+			public const int title_template = 2131296716;
 			
 			// aapt resource value: 0x7F0901CD
-			public const int toolbar = 2131296717;
+			public const int toggle = 2131296717;
 			
 			// aapt resource value: 0x7F0901CE
-			public const int top = 2131296718;
+			public const int toolbar = 2131296718;
 			
 			// aapt resource value: 0x7F0901CF
-			public const int topPanel = 2131296719;
+			public const int top = 2131296719;
+			
+			// aapt resource value: 0x7F0901D0
+			public const int topPanel = 2131296720;
 			
 			// aapt resource value: 0x7F09000C
 			public const int TOP_END = 2131296268;
@@ -9000,101 +7321,104 @@ namespace Rebb.Deliveryman
 			// aapt resource value: 0x7F09000D
 			public const int TOP_START = 2131296269;
 			
-			// aapt resource value: 0x7F0901D0
-			public const int touch_outside = 2131296720;
-			
 			// aapt resource value: 0x7F0901D1
-			public const int transitionToEnd = 2131296721;
+			public const int touch_outside = 2131296721;
 			
 			// aapt resource value: 0x7F0901D2
-			public const int transitionToStart = 2131296722;
+			public const int transitionToEnd = 2131296722;
 			
 			// aapt resource value: 0x7F0901D3
-			public const int transition_current_scene = 2131296723;
+			public const int transitionToStart = 2131296723;
 			
 			// aapt resource value: 0x7F0901D4
-			public const int transition_layout_save = 2131296724;
+			public const int transition_current_scene = 2131296724;
 			
 			// aapt resource value: 0x7F0901D5
-			public const int transition_position = 2131296725;
+			public const int transition_layout_save = 2131296725;
 			
 			// aapt resource value: 0x7F0901D6
-			public const int transition_scene_layoutid_cache = 2131296726;
+			public const int transition_position = 2131296726;
 			
 			// aapt resource value: 0x7F0901D7
-			public const int transition_transform = 2131296727;
+			public const int transition_scene_layoutid_cache = 2131296727;
 			
 			// aapt resource value: 0x7F0901D8
-			public const int triangle = 2131296728;
+			public const int transition_transform = 2131296728;
 			
 			// aapt resource value: 0x7F0901D9
-			public const int txvTermo = 2131296729;
+			public const int triangle = 2131296729;
 			
 			// aapt resource value: 0x7F0901DA
-			public const int @unchecked = 2131296730;
+			public const int txtSendAgain = 2131296730;
 			
 			// aapt resource value: 0x7F0901DB
-			public const int uniform = 2131296731;
+			public const int txvTermo = 2131296731;
 			
 			// aapt resource value: 0x7F0901DC
-			public const int unlabeled = 2131296732;
+			public const int @unchecked = 2131296732;
 			
 			// aapt resource value: 0x7F0901DD
-			public const int up = 2131296733;
+			public const int uniform = 2131296733;
 			
 			// aapt resource value: 0x7F0901DE
-			public const int useLogo = 2131296734;
+			public const int unlabeled = 2131296734;
 			
 			// aapt resource value: 0x7F0901DF
-			public const int vertical_only = 2131296735;
+			public const int up = 2131296735;
 			
 			// aapt resource value: 0x7F0901E0
-			public const int view_offset_helper = 2131296736;
+			public const int useLogo = 2131296736;
 			
 			// aapt resource value: 0x7F0901E1
-			public const int view_transition = 2131296737;
+			public const int vertical_only = 2131296737;
 			
 			// aapt resource value: 0x7F0901E2
-			public const int view_tree_lifecycle_owner = 2131296738;
+			public const int view_offset_helper = 2131296738;
 			
 			// aapt resource value: 0x7F0901E3
-			public const int view_tree_saved_state_registry_owner = 2131296739;
+			public const int view_transition = 2131296739;
 			
 			// aapt resource value: 0x7F0901E4
-			public const int view_tree_view_model_store_owner = 2131296740;
+			public const int view_tree_lifecycle_owner = 2131296740;
 			
 			// aapt resource value: 0x7F0901E5
-			public const int visible = 2131296741;
+			public const int view_tree_saved_state_registry_owner = 2131296741;
 			
 			// aapt resource value: 0x7F0901E6
-			public const int visible_removing_fragment_view_tag = 2131296742;
+			public const int view_tree_view_model_store_owner = 2131296742;
 			
 			// aapt resource value: 0x7F0901E7
-			public const int west = 2131296743;
-			
-			// aapt resource value: 0x7F0901E9
-			public const int withinBounds = 2131296745;
+			public const int visible = 2131296743;
 			
 			// aapt resource value: 0x7F0901E8
-			public const int withText = 2131296744;
+			public const int visible_removing_fragment_view_tag = 2131296744;
 			
-			// aapt resource value: 0x7F0901EA
-			public const int wrap = 2131296746;
+			// aapt resource value: 0x7F0901E9
+			public const int west = 2131296745;
 			
 			// aapt resource value: 0x7F0901EB
-			public const int wrap_content = 2131296747;
+			public const int withinBounds = 2131296747;
+			
+			// aapt resource value: 0x7F0901EA
+			public const int withText = 2131296746;
 			
 			// aapt resource value: 0x7F0901EC
-			public const int wrap_content_constrained = 2131296748;
+			public const int wrap = 2131296748;
 			
 			// aapt resource value: 0x7F0901ED
-			public const int x_left = 2131296749;
+			public const int wrap_content = 2131296749;
 			
 			// aapt resource value: 0x7F0901EE
-			public const int x_right = 2131296750;
+			public const int wrap_content_constrained = 2131296750;
 			
 			// aapt resource value: 0x7F0901EF
-			public const int zero_corner_chip = 2131296751;
+			public const int x_left = 2131296751;
+			
+			// aapt resource value: 0x7F0901F0
+			public const int x_right = 2131296752;
+			
+			// aapt resource value: 0x7F0901F1
+			public const int zero_corner_chip = 2131296753;
 			
 			static Id()
 			{
@@ -9415,214 +7739,217 @@ namespace Rebb.Deliveryman
 			public const int design_text_input_start_icon = 2131492917;
 			
 			// aapt resource value: 0x7F0C0036
-			public const int dialog_loading = 2131492918;
+			public const int dialog_error = 2131492918;
 			
 			// aapt resource value: 0x7F0C0037
-			public const int fragment_confirm_email = 2131492919;
+			public const int dialog_loading = 2131492919;
 			
 			// aapt resource value: 0x7F0C0038
-			public const int material_chip_input_combo = 2131492920;
-			
-			// aapt resource value: 0x7F0C003D
-			public const int material_clockface_textview = 2131492925;
-			
-			// aapt resource value: 0x7F0C003E
-			public const int material_clockface_view = 2131492926;
+			public const int fragment_confirm_email = 2131492920;
 			
 			// aapt resource value: 0x7F0C0039
-			public const int material_clock_display = 2131492921;
+			public const int material_chip_input_combo = 2131492921;
 			
-			// aapt resource value: 0x7F0C003A
-			public const int material_clock_display_divider = 2131492922;
-			
-			// aapt resource value: 0x7F0C003B
-			public const int material_clock_period_toggle = 2131492923;
-			
-			// aapt resource value: 0x7F0C003C
-			public const int material_clock_period_toggle_land = 2131492924;
+			// aapt resource value: 0x7F0C003E
+			public const int material_clockface_textview = 2131492926;
 			
 			// aapt resource value: 0x7F0C003F
-			public const int material_radial_view_group = 2131492927;
+			public const int material_clockface_view = 2131492927;
+			
+			// aapt resource value: 0x7F0C003A
+			public const int material_clock_display = 2131492922;
+			
+			// aapt resource value: 0x7F0C003B
+			public const int material_clock_display_divider = 2131492923;
+			
+			// aapt resource value: 0x7F0C003C
+			public const int material_clock_period_toggle = 2131492924;
+			
+			// aapt resource value: 0x7F0C003D
+			public const int material_clock_period_toggle_land = 2131492925;
 			
 			// aapt resource value: 0x7F0C0040
-			public const int material_textinput_timepicker = 2131492928;
-			
-			// aapt resource value: 0x7F0C0043
-			public const int material_timepicker = 2131492931;
-			
-			// aapt resource value: 0x7F0C0044
-			public const int material_timepicker_dialog = 2131492932;
-			
-			// aapt resource value: 0x7F0C0045
-			public const int material_timepicker_textinput_display = 2131492933;
+			public const int material_radial_view_group = 2131492928;
 			
 			// aapt resource value: 0x7F0C0041
-			public const int material_time_chip = 2131492929;
+			public const int material_textinput_timepicker = 2131492929;
 			
-			// aapt resource value: 0x7F0C0042
-			public const int material_time_input = 2131492930;
+			// aapt resource value: 0x7F0C0044
+			public const int material_timepicker = 2131492932;
+			
+			// aapt resource value: 0x7F0C0045
+			public const int material_timepicker_dialog = 2131492933;
 			
 			// aapt resource value: 0x7F0C0046
-			public const int mtrl_alert_dialog = 2131492934;
+			public const int material_timepicker_textinput_display = 2131492934;
+			
+			// aapt resource value: 0x7F0C0042
+			public const int material_time_chip = 2131492930;
+			
+			// aapt resource value: 0x7F0C0043
+			public const int material_time_input = 2131492931;
 			
 			// aapt resource value: 0x7F0C0047
-			public const int mtrl_alert_dialog_actions = 2131492935;
+			public const int mtrl_alert_dialog = 2131492935;
 			
 			// aapt resource value: 0x7F0C0048
-			public const int mtrl_alert_dialog_title = 2131492936;
+			public const int mtrl_alert_dialog_actions = 2131492936;
 			
 			// aapt resource value: 0x7F0C0049
-			public const int mtrl_alert_select_dialog_item = 2131492937;
+			public const int mtrl_alert_dialog_title = 2131492937;
 			
 			// aapt resource value: 0x7F0C004A
-			public const int mtrl_alert_select_dialog_multichoice = 2131492938;
+			public const int mtrl_alert_select_dialog_item = 2131492938;
 			
 			// aapt resource value: 0x7F0C004B
-			public const int mtrl_alert_select_dialog_singlechoice = 2131492939;
+			public const int mtrl_alert_select_dialog_multichoice = 2131492939;
 			
 			// aapt resource value: 0x7F0C004C
-			public const int mtrl_calendar_day = 2131492940;
-			
-			// aapt resource value: 0x7F0C004E
-			public const int mtrl_calendar_days_of_week = 2131492942;
+			public const int mtrl_alert_select_dialog_singlechoice = 2131492940;
 			
 			// aapt resource value: 0x7F0C004D
-			public const int mtrl_calendar_day_of_week = 2131492941;
+			public const int mtrl_calendar_day = 2131492941;
 			
 			// aapt resource value: 0x7F0C004F
-			public const int mtrl_calendar_horizontal = 2131492943;
+			public const int mtrl_calendar_days_of_week = 2131492943;
+			
+			// aapt resource value: 0x7F0C004E
+			public const int mtrl_calendar_day_of_week = 2131492942;
 			
 			// aapt resource value: 0x7F0C0050
-			public const int mtrl_calendar_month = 2131492944;
-			
-			// aapt resource value: 0x7F0C0053
-			public const int mtrl_calendar_months = 2131492947;
+			public const int mtrl_calendar_horizontal = 2131492944;
 			
 			// aapt resource value: 0x7F0C0051
-			public const int mtrl_calendar_month_labeled = 2131492945;
-			
-			// aapt resource value: 0x7F0C0052
-			public const int mtrl_calendar_month_navigation = 2131492946;
+			public const int mtrl_calendar_month = 2131492945;
 			
 			// aapt resource value: 0x7F0C0054
-			public const int mtrl_calendar_vertical = 2131492948;
+			public const int mtrl_calendar_months = 2131492948;
+			
+			// aapt resource value: 0x7F0C0052
+			public const int mtrl_calendar_month_labeled = 2131492946;
+			
+			// aapt resource value: 0x7F0C0053
+			public const int mtrl_calendar_month_navigation = 2131492947;
 			
 			// aapt resource value: 0x7F0C0055
-			public const int mtrl_calendar_year = 2131492949;
+			public const int mtrl_calendar_vertical = 2131492949;
 			
 			// aapt resource value: 0x7F0C0056
-			public const int mtrl_layout_snackbar = 2131492950;
+			public const int mtrl_calendar_year = 2131492950;
 			
 			// aapt resource value: 0x7F0C0057
-			public const int mtrl_layout_snackbar_include = 2131492951;
+			public const int mtrl_layout_snackbar = 2131492951;
 			
 			// aapt resource value: 0x7F0C0058
-			public const int mtrl_navigation_rail_item = 2131492952;
+			public const int mtrl_layout_snackbar_include = 2131492952;
 			
 			// aapt resource value: 0x7F0C0059
-			public const int mtrl_picker_actions = 2131492953;
+			public const int mtrl_navigation_rail_item = 2131492953;
 			
 			// aapt resource value: 0x7F0C005A
-			public const int mtrl_picker_dialog = 2131492954;
+			public const int mtrl_picker_actions = 2131492954;
 			
 			// aapt resource value: 0x7F0C005B
-			public const int mtrl_picker_fullscreen = 2131492955;
+			public const int mtrl_picker_dialog = 2131492955;
 			
 			// aapt resource value: 0x7F0C005C
-			public const int mtrl_picker_header_dialog = 2131492956;
+			public const int mtrl_picker_fullscreen = 2131492956;
 			
 			// aapt resource value: 0x7F0C005D
-			public const int mtrl_picker_header_fullscreen = 2131492957;
+			public const int mtrl_picker_header_dialog = 2131492957;
 			
 			// aapt resource value: 0x7F0C005E
-			public const int mtrl_picker_header_selection_text = 2131492958;
+			public const int mtrl_picker_header_fullscreen = 2131492958;
 			
 			// aapt resource value: 0x7F0C005F
-			public const int mtrl_picker_header_title_text = 2131492959;
+			public const int mtrl_picker_header_selection_text = 2131492959;
 			
 			// aapt resource value: 0x7F0C0060
-			public const int mtrl_picker_header_toggle = 2131492960;
+			public const int mtrl_picker_header_title_text = 2131492960;
 			
 			// aapt resource value: 0x7F0C0061
-			public const int mtrl_picker_text_input_date = 2131492961;
+			public const int mtrl_picker_header_toggle = 2131492961;
 			
 			// aapt resource value: 0x7F0C0062
-			public const int mtrl_picker_text_input_date_range = 2131492962;
+			public const int mtrl_picker_text_input_date = 2131492962;
 			
 			// aapt resource value: 0x7F0C0063
-			public const int notification_action = 2131492963;
+			public const int mtrl_picker_text_input_date_range = 2131492963;
 			
 			// aapt resource value: 0x7F0C0064
-			public const int notification_action_tombstone = 2131492964;
+			public const int notification_action = 2131492964;
 			
 			// aapt resource value: 0x7F0C0065
-			public const int notification_template_custom_big = 2131492965;
+			public const int notification_action_tombstone = 2131492965;
 			
 			// aapt resource value: 0x7F0C0066
-			public const int notification_template_icon_group = 2131492966;
+			public const int notification_template_custom_big = 2131492966;
 			
 			// aapt resource value: 0x7F0C0067
-			public const int notification_template_part_chronometer = 2131492967;
+			public const int notification_template_icon_group = 2131492967;
 			
 			// aapt resource value: 0x7F0C0068
-			public const int notification_template_part_time = 2131492968;
+			public const int notification_template_part_chronometer = 2131492968;
 			
 			// aapt resource value: 0x7F0C0069
-			public const int select_dialog_item_material = 2131492969;
+			public const int notification_template_part_time = 2131492969;
 			
 			// aapt resource value: 0x7F0C006A
-			public const int select_dialog_multichoice_material = 2131492970;
+			public const int select_dialog_item_material = 2131492970;
 			
 			// aapt resource value: 0x7F0C006B
-			public const int select_dialog_singlechoice_material = 2131492971;
+			public const int select_dialog_multichoice_material = 2131492971;
 			
 			// aapt resource value: 0x7F0C006C
-			public const int support_simple_spinner_dropdown_item = 2131492972;
+			public const int select_dialog_singlechoice_material = 2131492972;
 			
 			// aapt resource value: 0x7F0C006D
-			public const int test_action_chip = 2131492973;
+			public const int support_simple_spinner_dropdown_item = 2131492973;
 			
 			// aapt resource value: 0x7F0C006E
-			public const int test_chip_zero_corner_radius = 2131492974;
+			public const int test_action_chip = 2131492974;
 			
 			// aapt resource value: 0x7F0C006F
-			public const int test_design_checkbox = 2131492975;
+			public const int test_chip_zero_corner_radius = 2131492975;
 			
 			// aapt resource value: 0x7F0C0070
-			public const int test_design_radiobutton = 2131492976;
+			public const int test_design_checkbox = 2131492976;
 			
 			// aapt resource value: 0x7F0C0071
-			public const int test_navigation_bar_item_layout = 2131492977;
+			public const int test_design_radiobutton = 2131492977;
 			
 			// aapt resource value: 0x7F0C0072
-			public const int test_reflow_chipgroup = 2131492978;
+			public const int test_navigation_bar_item_layout = 2131492978;
 			
 			// aapt resource value: 0x7F0C0073
-			public const int test_toolbar = 2131492979;
+			public const int test_reflow_chipgroup = 2131492979;
 			
 			// aapt resource value: 0x7F0C0074
-			public const int test_toolbar_custom_background = 2131492980;
+			public const int test_toolbar = 2131492980;
 			
 			// aapt resource value: 0x7F0C0075
-			public const int test_toolbar_elevation = 2131492981;
+			public const int test_toolbar_custom_background = 2131492981;
 			
 			// aapt resource value: 0x7F0C0076
-			public const int test_toolbar_surface = 2131492982;
-			
-			// aapt resource value: 0x7F0C007B
-			public const int text_view_without_line_height = 2131492987;
+			public const int test_toolbar_elevation = 2131492982;
 			
 			// aapt resource value: 0x7F0C0077
-			public const int text_view_with_line_height_from_appearance = 2131492983;
+			public const int test_toolbar_surface = 2131492983;
+			
+			// aapt resource value: 0x7F0C007C
+			public const int text_view_without_line_height = 2131492988;
 			
 			// aapt resource value: 0x7F0C0078
-			public const int text_view_with_line_height_from_layout = 2131492984;
+			public const int text_view_with_line_height_from_appearance = 2131492984;
 			
 			// aapt resource value: 0x7F0C0079
-			public const int text_view_with_line_height_from_style = 2131492985;
+			public const int text_view_with_line_height_from_layout = 2131492985;
 			
 			// aapt resource value: 0x7F0C007A
-			public const int text_view_with_theme_line_height = 2131492986;
+			public const int text_view_with_line_height_from_style = 2131492986;
+			
+			// aapt resource value: 0x7F0C007B
+			public const int text_view_with_theme_line_height = 2131492987;
 			
 			static Layout()
 			{
@@ -9811,10 +8138,10 @@ namespace Rebb.Deliveryman
 			public const int fallback_menu_item_share_link = 2131689516;
 			
 			// aapt resource value: 0x7F0F002D
-			public const int hello = 2131689517;
+			public const int hide_bottom_view_on_scroll_behavior = 2131689517;
 			
 			// aapt resource value: 0x7F0F002E
-			public const int hide_bottom_view_on_scroll_behavior = 2131689518;
+			public const int hint_confirmation_code = 2131689518;
 			
 			// aapt resource value: 0x7F0F002F
 			public const int hint_confirmpassword = 2131689519;
@@ -10021,19 +8348,19 @@ namespace Rebb.Deliveryman
 			public const int path_password_strike_through = 2131689586;
 			
 			// aapt resource value: 0x7F0F0073
-			public const int pwd_invalid = 2131689587;
+			public const int search_menu_title = 2131689587;
 			
 			// aapt resource value: 0x7F0F0074
-			public const int search_menu_title = 2131689588;
+			public const int status_bar_notification_info_overflow = 2131689588;
 			
 			// aapt resource value: 0x7F0F0075
-			public const int status_bar_notification_info_overflow = 2131689589;
-			
-			// aapt resource value: 0x7F0F0076
-			public const int text_avaca = 2131689590;
+			public const int text_avaca = 2131689589;
 			
 			// aapt resource value: 0x7F0F0077
 			public const int text_confirma_cadastro = 2131689591;
+			
+			// aapt resource value: 0x7F0F0076
+			public const int text_confirm_email_sub = 2131689590;
 			
 			// aapt resource value: 0x7F0F0078
 			public const int text_document_cnh = 2131689592;
@@ -10078,10 +8405,13 @@ namespace Rebb.Deliveryman
 			public const int text_send_account = 2131689605;
 			
 			// aapt resource value: 0x7F0F0086
-			public const int text_voltar = 2131689606;
+			public const int text_send_not_working = 2131689606;
 			
 			// aapt resource value: 0x7F0F0087
-			public const int user_invalid = 2131689607;
+			public const int text_voltar = 2131689607;
+			
+			// aapt resource value: 0x7F0F0088
+			public const int title_confirm_email = 2131689608;
 			
 			static String()
 			{

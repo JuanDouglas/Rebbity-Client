@@ -10,7 +10,7 @@ using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Rebb.Deliveryman.Assets.Fragments
+namespace Rebb.App.Client.Assets.Fragments
 {
     public class LoadingTaskFragment : AppCompatDialogFragment
     {

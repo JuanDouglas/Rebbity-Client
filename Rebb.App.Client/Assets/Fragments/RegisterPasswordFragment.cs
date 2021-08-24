@@ -19,7 +19,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Rebb.Deliveryman.Assets.Fragments
+namespace Rebb.App.Client.Assets.Fragments
 {
     public class RegisterPasswordFragment : RegisterFragment
     {
@@ -45,7 +45,7 @@ namespace Rebb.Deliveryman.Assets.Fragments
         {
             // Use this to return your custom view for this Fragment
             // return inflater.Inflate(Resource.Layout.YourFragment, container, false);
-            View view = inflater.Inflate(Resource.Layout.content_register_password, container, false);
+            View view = inflater.Inflate(Resource.Layout.fragment_register_password, container, false);
             btnNext = view.FindViewById(Resource.Id.btnNext);
             Password = view.FindViewById<TextInputLayout>(Resource.Id.TextInputPassword);
             ConfirmPassword = view.FindViewById<TextInputLayout>(Resource.Id.TextInputPassword);

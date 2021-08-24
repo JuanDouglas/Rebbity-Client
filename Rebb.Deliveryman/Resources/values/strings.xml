@@ -10,6 +10,7 @@
 	<string name="hint_phonenumber">Numero Celular</string>
 	<string name="hint_cpf">CPF</string>
 	<string name="hint_name">Nome</string>
+	<string name="hint_confirmation_code">Código de confirmação</string>
 	<string name="text_register_rebbity_account">Bem-vindo entregador(a)!</string>
 	<string name="text_register_rebbity_account_sub">Vamos começar o seu cadastro. Para isso digite algumas informações de contato e o seu nome.</string>
 
@@ -31,4 +32,8 @@
 	<string name="text_main">Li e concordo com os Termos e Condições de Uso.</string>
 	<string name="text_next">Proximo</string>
 	<string name="text_send_account">Enviando seu cadastro.</string>
+	<string name="text_send_not_working">Não recebeu? Envie novamente.</string>
+
+	<string name="title_confirm_email">Confirmação de e-mail</string>
+	<string name="text_confirm_email_sub">\t Hora de confirma o seu e-mail. Não esqueça ele é um dos principais meios de darmos suporte a você, certifique-se que ele esteja certo.</string>
 </resources>

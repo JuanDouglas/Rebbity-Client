@@ -12,7 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Rebb.Deliveryman.Assets
+namespace Rebb.App.Client.Assets
 {
     internal static class Statics
     {

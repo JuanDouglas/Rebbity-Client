@@ -18,7 +18,7 @@ using System.Linq;
 using System.Text;
 using Xamarin.Essentials;
 
-namespace Rebb.Deliveryman.Assets.Fragments
+namespace Rebb.App.Client.Assets.Fragments
 {
     public class RegisterBasicFragment : RegisterFragment
     {
@@ -56,7 +56,7 @@ namespace Rebb.Deliveryman.Assets.Fragments
         {
             // Use this to return your custom view for this Fragment
             // return inflater.Inflate(Resource.Layout.YourFragment, container, false);
-            View view = inflater.Inflate(Resource.Layout.content_register_basic, container, false);
+            View view = inflater.Inflate(Resource.Layout.fragment_register_basic, container, false);
 
             txvCondicoesTerm = view.FindViewById<TextView>(Resource.Id.txvTermo);
             btnNext = view.FindViewById(Resource.Id.btnNext);

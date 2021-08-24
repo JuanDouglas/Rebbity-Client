@@ -28,7 +28,7 @@ namespace Rebb.App.Client
         private void RegisterClick(object sender, EventArgs args)
         {
             Bundle bundle = ActivityOptionsCompat.MakeCustomAnimation(this, Resource.Animation.abc_fade_in, Resource.Animation.abc_fade_out).ToBundle();
-            Intent intent = new Intent(this, typeof(RegisterAccountActivity));
+            Intent intent = new Intent(this, typeof(RegisterActivity));
             ActivityCompat.StartActivity(this, intent, bundle);
         }
     }
