@@ -4,7 +4,6 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using Android.Content;
 using Rebb.Client.Core;
 using Rebb.Client.Core.Models;
 using System;
@@ -18,6 +17,7 @@ namespace Rebb.App.Client.Assets
     {
         public static ApiClient ApiClient { get; set; }
         public const string LoginPreferences = "LoginSharedPreferences";
+        public const string AppName = "Rebbity Consumer"; 
         public static void SaveLogin(Context context, Login login, string email)
         {
             ISharedPreferences preferences = context.GetSharedPreferences(LoginPreferences, FileCreationMode.Private);

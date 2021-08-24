@@ -1,11 +1,16 @@
 ﻿using Android.App;
 using Android.Content;
+using Android.Content.PM;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using AndroidX.AppCompat.App;
 using AndroidX.Core.App;
+using Rebb.App.Client.Assets;
+using Rebb.App.Client.Assets.Enums;
+using Rebb.Client.Core;
+using Rebb.Client.Core.Models.Result;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,21 +23,46 @@ namespace Rebb.App.Client
     [Activity(Label = "@string/app_name", MainLauncher = true, Theme = "@style/AppTheme.NoActionBar")]
     public class SplashScreenActivity : AppCompatActivity
     {
+        public ApiClient Client { get { return Statics.ApiClient; } }
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.splash_screen);
 
-            Task task = Task.Run(() =>
-            {
-                Thread.Sleep(1000);
+            Task task = Task.Run(Background);
+            if (task.Status == TaskStatus.Created)
+                task.Start();
+        }
 
-                Bundle bundle = ActivityOptionsCompat.MakeCustomAnimation(this, Resource.Animation.abc_fade_in, Resource.Animation.abc_fade_out).ToBundle();
-                Intent intent = new Intent(this, typeof(StartActivity));
-                Finish();
-                ActivityCompat.StartActivity(this, intent,bundle);
-            });
-            // Create your application here
+        public async Task Background() {
+
+            Bundle bundle = ActivityOptionsCompat.MakeCustomAnimation(this, Resource.Animation.abc_fade_in, Resource.Animation.abc_fade_out).ToBundle();
+            Intent intent = new Intent(this, typeof(StartActivity));
+
+            try
+            {
+                Statics.ApiClient = new ApiClient(Statics.GetLogin(this), this, Statics.AppName);
+                ValidLoginResult? validation = await Client.LoginController.ValidLoginAsync(Client.Login);
+
+                if (validation != null)
+                {
+                    if (validation.ValidLogin)
+                    {
+                        intent = new Intent(this, typeof(MainActivity));
+                        if (!validation.ValidedAccount)
+                        {
+                            intent = new Intent(this, typeof(RegisterActivity));
+                            intent.PutExtra(RegisterActivity.RegisterStepKey, (int)RegisterStep.RegisterEmail);
+                        }
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+            }
+
+            ActivityCompat.StartActivity(this, intent, bundle);
+            Finish();
         }
     }
 }

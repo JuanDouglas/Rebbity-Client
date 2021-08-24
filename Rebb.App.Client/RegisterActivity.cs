@@ -18,6 +18,7 @@ using Rebb.Client.Core.Models;
 using Rebb.Client.Core.Models.Upload;
 using Rebb.App.Client.Assets;
 using Rebb.App.Client.Assets.Fragments;
+using Rebb.App.Client.Assets.Enums;
 
 namespace Rebb.App.Client
 {
@@ -33,11 +34,13 @@ namespace Rebb.App.Client
             RegisterStep step = RegisterStep.RegisterBasic;
             if (Intent != null)
             {
-                step = (RegisterStep)Intent.Extras.GetInt(RegisterStepKey, 1);
+                if (Intent.Extras != null)
+                {
+                    step = (RegisterStep)Intent.Extras.GetInt(RegisterStepKey, 1);
+                }
             }
             ByStep(step);
         }
-
 
         public void ByStep(RegisterStep step)
         {

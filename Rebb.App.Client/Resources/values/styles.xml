@@ -15,18 +15,33 @@
 	</style>
 
 	<style name="TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
-		<item name="android:textSize">16dp</item>
+		<item name="android:textSize">@dimen/normal_text_size</item>
 		<item name="android:layout_margin">3dp</item>
 		<item name="android:fontFamily">@font/roboto</item>
 		<item name="android:layout_marginHorizontal">0dp</item>
-
 	</style>
 
 	<style name="TextInputEditText">
-		<item name="android:textSize">16dp</item>
+		<item name="android:textSize">@dimen/normal_text_size</item>
 		<item name="android:layout_margin">5dp</item>
 		<item name="android:fontFamily">@font/roboto</item>
 		<item name="android:padding">12dp</item>
+	</style>
+
+	<style name="BottomButton">
+		<item name="android:layout_margin">20dp</item>
+		<item name="android:layout_alignParentBottom">true</item>
+	</style>
+
+	<style name="BottomButton.TextView">
+		<item name="android:textColor">@android:color/white</item>
+		<item name="android:background">@drawable/gradient</item>
+		<item name="android:paddingVertical">12dp</item>
+		<item name="android:textSize">@dimen/normal_text_size</item>
+		<item name="android:textAllCaps">true</item>
+		<item name="android:paddingHorizontal">22dp</item>
+		<item name="android:textAlignment">center</item>
+		<item name="android:layout_margin">0dp</item>
 	</style>
 
 	<style name="error_appearance" parent="@android:style/TextAppearance">

@@ -1,4 +1,7 @@
-﻿using Rebb.Client.Core.Controllers;
+﻿using Android.Content;
+using Android.Content.PM;
+using Android.OS;
+using Rebb.Client.Core.Controllers;
 using Rebb.Client.Core.Controllers.Base;
 using Rebb.Client.Core.Models;
 
@@ -25,6 +28,13 @@ namespace Rebb.Client.Core
             AccountController = new AccountController();
             LoginController = new LoginController();
             DeliveryManController = new DeliverymanController();
+        }
+        public ApiClient(Login? login, Context context, string appName) : this(login, string.Empty)
+        {
+            PackageInfo pInfo = context.PackageManager.GetPackageInfo(context.PackageName, 0);
+            string version = pInfo.VersionName;
+
+            UserAgent = $"Android ({appName} {version}-{Build.VERSION.SdkInt})";
         }
     }
 }

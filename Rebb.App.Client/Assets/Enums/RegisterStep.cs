@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Rebb.App.Client.Assets.Fragments
+namespace Rebb.App.Client.Assets.Enums
 {
     public enum RegisterStep : uint
     {
