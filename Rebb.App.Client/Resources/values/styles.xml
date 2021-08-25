@@ -26,6 +26,10 @@
 		<item name="android:layout_margin">5dp</item>
 		<item name="android:fontFamily">@font/roboto</item>
 		<item name="android:padding">12dp</item>
+		<item name="colorControlNormal">#c5c5c5</item>
+		<item name="colorControlActivated">@color/colorAccent</item>
+		<item name="colorControlHighlight">@color/colorAccent</item>
+		<item name="errorTextAppearance">@style/TextInputLayout.ErrorApparence</item>
 	</style>
 
 	<style name="BottomButton">
@@ -33,20 +37,19 @@
 		<item name="android:layout_alignParentBottom">true</item>
 	</style>
 
-	<style name="BottomButton.TextView">
+	<style name="BottomButton.TextView" parent="@style/Text">
 		<item name="android:textColor">@android:color/white</item>
 		<item name="android:background">@drawable/gradient</item>
 		<item name="android:paddingVertical">12dp</item>
-		<item name="android:textSize">@dimen/normal_text_size</item>
 		<item name="android:textAllCaps">true</item>
 		<item name="android:paddingHorizontal">22dp</item>
 		<item name="android:textAlignment">center</item>
 		<item name="android:layout_margin">0dp</item>
 	</style>
 
-	<style name="error_appearance" parent="@android:style/TextAppearance">
-		<item name="android:textColor">@android:color/holo_red_light</item>
-		<item name="android:textSize">12sp</item>
+	<style name="TextInputLayout.ErrorApparence" parent="@style/Text">
+		<item name="android:textColor">@android:color/holo_red_dark</item>
+		<item name="android:textSize">15dp</item>
 	</style>
 
 	<style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
@@ -55,17 +58,16 @@
 
 
 	<!--Title for font in Text main -->
-	<style name="TextTitleFont">
+	<style name="Text.Title" parent="@style/Text">
 		<item name="android:fontFamily">@font/montserrat</item>
 		<item name="android:textSize">24dp</item>
 		<item name="android:layout_marginVertical">7dp</item>
 		<item name="android:textColor">@android:color/black</item>
 	</style>
-	<!--Text small -->
-	<style name="TextSecond">
+	
+	<style name="Text">
 		<item name="android:fontFamily">@font/montserrat</item>
-		<item name="android:textSize">15dp</item>
-		<item name="android:textColor">@android:color/black</item>
+		<item name="android:textSize">@dimen/normal_text_size</item>
 	</style>
 
 	<style name="TextViweSepar">

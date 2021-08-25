@@ -7,26 +7,33 @@
 	<string name="start_title">Tudo rapido, simples e seguro!</string>
 	<string name="start_text">Descubra comidas deliciosas os restaurantes incriveis perto de voce</string>
 	<string name="register_account_text">Criar conta</string>
+	
 	<!-- Hints -->
 	<string name="hint_email">Email</string>
 	<string name="hint_password">Senha</string>
 	<string name="hint_confirmpassword">Confirma senha</string>
-	<string name="hint_acceptterms">Aceito os Termos e politica de privacidade</string>
 	<string name="hint_cpf">CPF</string>
 	<string name="hint_name">Nome</string>
 	<string name="hint_confirmation_code">Código de confirmação</string>
 	<string name="hint_phonenumber">Numero telefone</string>
-	
+	<string name="hint_acceptterms">Li e concordo com os <font color="@color/colorPrimary">Termos</font> e <font color="@color/colorPrimary">Politica de privacidade</font>.</string>
+
+	<string name="title_register">Cadastro</string>
+	<string name="text_terms">Termos</string>
+	<string name="text_privacy_policy">Politica de privacidade</string>
 	<string name="text_register">Bem-vindo!</string>
 	<string name="text_register_sub">Vamos começar o seu cadastro. Para isso digite algumas informações de contato e o seu nome.</string>
 	<string name="text_register_rebbity_password">Criar senha</string>
 	<string name="text_register_rebbity_password_sub">Essa senha deve ser difícil. Mas lembre-se você irá usá-la para entrar no aplicativo junto o com seu e-mail, por isso anote-a.</string>
-	<string name="text_main">Li e concordo com os Termos e Condições de Uso.</string>
 	<string name="text_next">Proximo</string>
+	<string name="text_login">Fazer Login</string>
 	<string name="text_send_account">Enviando seu cadastro.</string>
 	<string name="text_send_not_working">Não recebeu? Envie novamente.</string>
 	<string name="title_confirm_email">Confirmação de e-mail</string>
 	<string name="text_confirm_email_sub">\t Hora de confirma o seu e-mail. Não esqueça ele é um dos principais meios de darmos suporte a você, certifique-se que ele esteja certo.</string>
-
+	<string name="text_terms_required">Voce deve aceitar os Termos e Politica de Privacidade antes de continuar!</string>
+	<string name="text_register_button">Cadastrar-se</string>
+	<string name="text_no_account">Não tem uma conta?</string>
+	<string name="text_forgot_password">Esqueceu a senha ?</string>
 </resources>
 

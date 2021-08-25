@@ -169,7 +169,7 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\start_activity.xml">
+    <AndroidResource Include="Resources\layout\activity_start.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -246,6 +246,16 @@
       <Project>{2058f780-e94c-4a0a-aa5b-cd4b7f5ab648}</Project>
       <Name>Rebb.Client.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\activity_login.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\login_head_gradient.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

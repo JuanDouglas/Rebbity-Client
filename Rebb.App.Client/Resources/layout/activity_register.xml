@@ -11,16 +11,18 @@
         android:orientation="horizontal"
         android:layout_height="wrap_content">
         <ImageView
-            android:layout_width="40dp"
-            android:layout_marginRight="20dp"
-            android:padding="5dp"
-            android:layout_margin="7dp"
+            android:layout_width="35dp"
+            android:layout_marginRight="25dp"
+            android:padding="7dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/ripple_color_primary"
             android:src="@drawable/arrow_left"
-            android:layout_height="40dp"/>
+            android:id="@+id/btnBack"
+            android:layout_height="35dp"/>
         <TextView
             android:layout_width="match_parent"
             android:textSize="25dp"
-            android:text="Cadastro"
+            android:text="@string/title_register"
             android:textColor="@color/colorAccent"
             android:layout_margin="10dp"
             android:layout_height="wrap_content"/>

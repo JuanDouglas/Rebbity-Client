@@ -26,10 +26,14 @@ namespace Rebb.App.Client
     public class RegisterActivity : AppCompatActivity
     {
         public const string RegisterStepKey = "StartRegisterStep";
+        View btnBack;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.activity_register);
+
+            btnBack = FindViewById(Resource.Id.btnBack);
+            btnBack.Click += BackButtonClick;
 
             RegisterStep step = RegisterStep.RegisterBasic;
             if (Intent != null)
@@ -68,6 +72,13 @@ namespace Rebb.App.Client
                 .SetReorderingAllowed(true)
                 .Add(Resource.Id.registerFragment, fragment, RegisterBasicFragment.TAG)
                 .Commit();
+        }
+
+        public void BackButtonClick(object sender, EventArgs args)
+        {
+            Bundle bundle = ActivityOptionsCompat.MakeCustomAnimation(this, Resource.Animation.abc_fade_in, Resource.Animation.abc_fade_out).ToBundle();
+            Intent intent = new Intent(this, typeof(StartActivity));
+            ActivityCompat.StartActivity(this, intent, bundle);
         }
     }
 }

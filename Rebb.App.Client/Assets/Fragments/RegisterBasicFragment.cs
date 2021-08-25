@@ -17,6 +17,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Xamarin.Essentials;
+using AlertDialog = AndroidX.AppCompat.App.AlertDialog;
 
 namespace Rebb.App.Client.Assets.Fragments
 {
@@ -83,19 +84,24 @@ namespace Rebb.App.Client.Assets.Fragments
             if (Errors != null)
                 ShowErrors(Errors);
 
-            SpannableString ss = new SpannableString(Resources.GetString(Resource.String.text_main));
-            ForegroundColorSpan fcsBlue = new ForegroundColorSpan(Color.Red);
-            ss.SetSpan(fcsBlue, 21, 46, SpanTypes.User);
-            txvCondicoesTerm.SetText(ss, TextView.BufferType.Normal);
             AlterProgress(500);
             return view;
         }
-
         private void NextClick(object sender, EventArgs args)
         {
             Email.EditText.Text ??= string.Empty;
             Name.EditText.Text ??= string.Empty;
             PhoneNumber.EditText.Text ??= string.Empty;
+
+            if (!AcceptTerms.Checked)
+            {
+                string error = Resources.GetString(Resource.String.text_terms_required);
+
+                AlertDialog.Builder builder = new AlertDialog.Builder(Context);
+                builder.SetMessage(error);
+
+                builder.Show();
+            }
 
             if (Email.ErrorEnabled || PhoneNumber.ErrorEnabled || Name.ErrorEnabled)
             {

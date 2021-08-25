@@ -13,6 +13,7 @@ using Rebb.Client.Core;
 using Rebb.Client.Core.Models.Result;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -34,31 +35,35 @@ namespace Rebb.App.Client
                 task.Start();
         }
 
-        public async Task Background() {
+        public async Task Background()
+        {
+            Stopwatch stopWatch = new Stopwatch();
+            stopWatch.Start();
 
             Bundle bundle = ActivityOptionsCompat.MakeCustomAnimation(this, Resource.Animation.abc_fade_in, Resource.Animation.abc_fade_out).ToBundle();
             Intent intent = new Intent(this, typeof(StartActivity));
 
-            try
-            {
-                Statics.ApiClient = new ApiClient(Statics.GetLogin(this), this, Statics.AppName);
-                ValidLoginResult? validation = await Client.LoginController.ValidLoginAsync(Client.Login);
+            Statics.ApiClient = new ApiClient(Statics.GetLogin(this), this, Statics.AppName);
+            ValidLoginResult? validation = await Client.LoginController.ValidLoginAsync(Client.Login);
 
-                if (validation != null)
+            if (validation != null)
+            {
+                if (validation.ValidLogin)
                 {
-                    if (validation.ValidLogin)
+                    intent = new Intent(this, typeof(MainActivity));
+                    if (!validation.ValidedAccount)
                     {
-                        intent = new Intent(this, typeof(MainActivity));
-                        if (!validation.ValidedAccount)
-                        {
-                            intent = new Intent(this, typeof(RegisterActivity));
-                            intent.PutExtra(RegisterActivity.RegisterStepKey, (int)RegisterStep.RegisterEmail);
-                        }
+                        intent = new Intent(this, typeof(RegisterActivity));
+                        intent.PutExtra(RegisterActivity.RegisterStepKey, (int)RegisterStep.RegisterEmail);
                     }
                 }
             }
-            catch (Exception e)
+            stopWatch.Stop();
+
+            TimeSpan minTime = TimeSpan.FromMilliseconds(400);
+            if (stopWatch.Elapsed < minTime)
             {
+                Thread.Sleep((int)(minTime.TotalMilliseconds - stopWatch.Elapsed.TotalMilliseconds));
             }
 
             ActivityCompat.StartActivity(this, intent, bundle);

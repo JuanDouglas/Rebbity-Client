@@ -20,7 +20,7 @@ namespace Rebb.App.Client
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            SetContentView(Resource.Layout.start_activity);
+            SetContentView(Resource.Layout.activity_start);
             btnRegister = FindViewById(Resource.Id.btnStartRegister);
             btnRegister.Click += RegisterClick;
             // Create your application here
