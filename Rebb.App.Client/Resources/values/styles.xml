@@ -32,7 +32,7 @@
 		<item name="errorTextAppearance">@style/TextInputLayout.ErrorApparence</item>
 	</style>
 
-	<style name="BottomButton">
+	<style name="BottomButton" parent="">
 		<item name="android:layout_margin">20dp</item>
 		<item name="android:layout_alignParentBottom">true</item>
 	</style>
@@ -40,7 +40,7 @@
 	<style name="BottomButton.TextView" parent="@style/Text">
 		<item name="android:textColor">@android:color/white</item>
 		<item name="android:background">@drawable/gradient</item>
-		<item name="android:paddingVertical">12dp</item>
+		<item name="android:padding">12dp</item>
 		<item name="android:textAllCaps">true</item>
 		<item name="android:paddingHorizontal">22dp</item>
 		<item name="android:textAlignment">center</item>

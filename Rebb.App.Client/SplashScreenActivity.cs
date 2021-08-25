@@ -21,7 +21,7 @@ using System.Threading.Tasks;
 
 namespace Rebb.App.Client
 {
-    [Activity(Label = "@string/app_name", MainLauncher = true, Theme = "@style/AppTheme.NoActionBar")]
+    [Activity(Label = "@string/app_name", MainLauncher = true, Theme = "@style/AppTheme.NoActionBar", HardwareAccelerated = false)]
     public class SplashScreenActivity : AppCompatActivity
     {
         public ApiClient Client { get { return Statics.ApiClient; } }
@@ -60,7 +60,7 @@ namespace Rebb.App.Client
             }
             stopWatch.Stop();
 
-            TimeSpan minTime = TimeSpan.FromMilliseconds(400);
+            TimeSpan minTime = TimeSpan.FromMilliseconds(800);
             if (stopWatch.Elapsed < minTime)
             {
                 Thread.Sleep((int)(minTime.TotalMilliseconds - stopWatch.Elapsed.TotalMilliseconds));

@@ -42,7 +42,7 @@ namespace Rebb.App.Client.Assets.Fragments
             Errors = result;
         }
 
-        public RegisterBasicFragment(ValidationErrorsResult result, AppCompatActivity activity, AccountUpload account) : this(result,activity)
+        public RegisterBasicFragment(ValidationErrorsResult result, AppCompatActivity activity, AccountUpload account) : this(result, activity)
         {
             Account = account;
         }
@@ -80,7 +80,7 @@ namespace Rebb.App.Client.Assets.Fragments
             PhoneNumber.EditText.TextChanged += ErrorDisableClick;
             Name.EditText.TextChanged += ErrorDisableClick;
             PhoneNumber.EditText.TextChanged += PhoneTextChangedEvent;
-           
+
             if (Errors != null)
                 ShowErrors(Errors);
 
@@ -99,8 +99,12 @@ namespace Rebb.App.Client.Assets.Fragments
 
                 AlertDialog.Builder builder = new AlertDialog.Builder(Context);
                 builder.SetMessage(error);
+                builder.SetPositiveButton(Resources.GetString(Resource.String.text_ok), (object sender, DialogClickEventArgs args) =>
+                {
 
+                });
                 builder.Show();
+                return;
             }
 
             if (Email.ErrorEnabled || PhoneNumber.ErrorEnabled || Name.ErrorEnabled)

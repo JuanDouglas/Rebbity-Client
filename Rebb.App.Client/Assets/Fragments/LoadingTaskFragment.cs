@@ -24,34 +24,8 @@ namespace Rebb.App.Client.Assets.Fragments
         public View Background { get; set; }
         public bool Exitable { get; set; }
 
-        public bool Loading
-        {
-            get { return _loading; }
-            set
-            {
-                _loading = value;
-                Task.Run(() =>
-                {
-                    int velocity = 10;
-                    do
-                    {
-                        if (LoadingProgressBar.Progress == LoadingProgressBar.Max)
-                        {
-                            LoadingProgressBar.Progress = 0;
-                        }
-                        LoadingProgressBar.Progress++;
+        public bool Loading { get; set; }
 
-                        velocity = 8 * (LoadingProgressBar.Progress / 16);
-                        if (velocity < 12)
-                        {
-                            velocity = 12;
-                        }
-                        Thread.Sleep(velocity);
-                    } while (Loading);
-                });
-            }
-        }
-        private bool _loading;
         public string Message
         {
             get
@@ -151,16 +125,27 @@ namespace Rebb.App.Client.Assets.Fragments
         }
         public override void Dismiss()
         {
-            TranslateAnimation translateAnimation = new TranslateAnimation(0, 0, 0, 350) { Duration = AnimationDuration, Interpolator = new AccelerateInterpolator() };
-            AlphaAnimation alphaAnimation = new AlphaAnimation(1, 0) { Duration = AnimationDuration * 2 };
+            try
+            {
+                TranslateAnimation translateAnimation = new TranslateAnimation(0, 0, 0, 350) { Duration = AnimationDuration, Interpolator = new AccelerateInterpolator() };
+                AlphaAnimation alphaAnimation = new AlphaAnimation(1, 0) { Duration = AnimationDuration * 2 };
 
-            CardLayout.StartAnimation(translateAnimation);
-            Background.StartAnimation(alphaAnimation);
-            alphaAnimation.AnimationEnd += (object sender, Animation.AnimationEndEventArgs args) => { base.Dismiss(); };
+                alphaAnimation.AnimationEnd += (object sender, Animation.AnimationEndEventArgs args) => { base.Dismiss(); };
 
+                Activity.RunOnUiThread(()=> {
 
-            translateAnimation.Start();
-            alphaAnimation.Start();
+                    CardLayout.StartAnimation(translateAnimation);
+                    Background.StartAnimation(alphaAnimation);
+                });
+
+                translateAnimation.Start();
+                alphaAnimation.Start();
+            }
+            catch (Exception e)
+            {
+
+                throw;
+            }
 
         }
     }

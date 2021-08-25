@@ -72,7 +72,7 @@ namespace Rebb.App.Client.Assets.Fragments
 
             try
             {
-                string message = Resources.GetString(Resource.String.text_send_account);
+                string message = Resources.GetString(Resource.String.task_send_account);
                 var loadingTaskFragment = new LoadingTaskFragment(new Task<Task>(SendAccount))
                 {
                     Message = message
