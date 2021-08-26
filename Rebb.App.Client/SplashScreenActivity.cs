@@ -21,7 +21,7 @@ using System.Threading.Tasks;
 
 namespace Rebb.App.Client
 {
-    [Activity(Label = "@string/app_name", MainLauncher = true, Theme = "@style/AppTheme.NoActionBar", HardwareAccelerated = false)]
+    [Activity(Label = "@string/app_name", MainLauncher = true, Theme = "@style/AppTheme.NoActionBar",HardwareAccelerated =false)]
     public class SplashScreenActivity : AppCompatActivity
     {
         public ApiClient Client { get { return Statics.ApiClient; } }

@@ -29,6 +29,8 @@ namespace Rebb.App.Client
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.activity_login);
 
+            User = FindViewById<TextInputLayout>(Resource.Id.TextInputEmail);
+            Pwd = FindViewById<TextInputLayout>(Resource.Id.TextInputPassword);
             btnLogin = FindViewById(Resource.Id.btnLogin);
             btnLogin.Click += LoginClick;
             // Create your application here
@@ -37,6 +39,9 @@ namespace Rebb.App.Client
         public void LoginClick(object sender, EventArgs args)
         {
             string message = Resources.GetString(Resource.String.task_login);
+            User.EditText.Text ??= string.Empty;
+            Pwd.EditText.Text ??= string.Empty;
+
             LoadingTaskFragment fragment = new LoadingTaskFragment(new Task<Task>(LoginAsync))
             {
                 Message = message,
@@ -74,13 +79,19 @@ namespace Rebb.App.Client
                 string field = e.FieldName.ToLowerInvariant();
                 if (field == nameof(Pwd).ToLowerInvariant())
                 {
-                   
+                    Pwd.Error = Resources.GetString(Resource.String.error_invalid_password);
+                    Pwd.ErrorEnabled = true;
                 }
 
                 if (field == nameof(User).ToLowerInvariant())
                 {
-
+                    User.Error = Resources.GetString(Resource.String.error_invalid_login);
+                    User.ErrorEnabled = true;
                 }
+            }
+            catch (Exception e)
+            { 
+            
             }
         }
     }

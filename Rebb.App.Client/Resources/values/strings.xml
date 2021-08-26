@@ -22,6 +22,10 @@
 	<string name="task_login">Validando login</string>
 	<string name="task_send_account">Enviando seu cadastro.</string>
 
+	<!-- Error -->
+	<string name="error_invalid_login">Não existe nennhum cadastro com esse e-mail</string>
+	<string name="error_invalid_password">Senha ou usuário incorreto!</string>
+	
 	<string name="title_register">Cadastro</string>
 	<string name="text_terms">Termos</string>
 	<string name="text_privacy_policy">Politica de privacidade</string>
