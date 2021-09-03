@@ -12,6 +12,7 @@ namespace Rebb.Client.Core.Controllers
 {
     public sealed class LoginController : ApiController
     {
+        protected internal override string DefaultHost => base.DefaultHost + "/Login";
         /// <summary>
         /// Validar login
         /// </summary>
@@ -27,7 +28,7 @@ namespace Rebb.Client.Core.Controllers
             }
 
             HttpRequestMessage request = login.AutenticatedRequest(DefaultRequest);
-            request.RequestUri = new Uri(Host.AbsoluteUri + "/Login/ValidLogin");
+            request.RequestUri = new Uri(DefaultHost + "/ValidLogin");
 
             HttpResponseMessage response = await SendAsync(request);
             if (response.StatusCode != HttpStatusCode.OK)
@@ -48,7 +49,7 @@ namespace Rebb.Client.Core.Controllers
         /// <returns>Resultado do primeiro passo.</returns>
         public async Task<FirstStepResult> FirstStepAsync(string user)
         {
-            Uri uri = new Uri(Host.AbsoluteUri + $"/Login/FirstStep?redirect=false&user={Uri.EscapeUriString(user)}");
+            Uri uri = new Uri(DefaultHost + $"/FirstStep?redirect=false&user={Uri.EscapeUriString(user)}");
             HttpResponseMessage response = await GetAsync(uri.AbsoluteUri);
 
             if (response.StatusCode != HttpStatusCode.OK)

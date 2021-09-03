@@ -197,6 +197,8 @@ namespace Rebb.App.Client.Assets.Fragments
         public void PhoneTextChangedEvent(object sender, TextChangedEventArgs args)
         {
             string text = args.Text.ToString();
+
+            PhoneNumber.EditText.Text = string.Format("{0:(##) # ####-####}", Convert.ToInt64(text));
         }
     }
 }

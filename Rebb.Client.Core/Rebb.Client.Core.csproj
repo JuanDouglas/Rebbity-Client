@@ -54,6 +54,7 @@
     <Compile Include="Controllers\Base\LoguedController.cs" />
     <Compile Include="Controllers\DeliverymanController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\NotificationsController.cs" />
     <Compile Include="Exceptions\LoginException.cs" />
     <Compile Include="Exceptions\ValidationErrorsException.cs" />
     <Compile Include="Models\Enums\DocumentType.cs" />

@@ -47,6 +47,8 @@ namespace Rebb.Client.Core.Controllers.Base
         }
         public static Uri Host => new Uri($"https://{TestedDomain}/api");
         public static string UserAgent { get; set; }
+
+        protected internal virtual string DefaultHost => Host.AbsoluteUri + "/Login";
         protected internal static HttpClient HttpClient
         {
             get

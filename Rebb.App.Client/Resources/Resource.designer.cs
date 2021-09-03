@@ -1903,33 +1903,20 @@ namespace Rebb.App.Client
 			global::Xamarin.Essentials.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::Rebb.App.Client.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
 		}
 		
-		public partial class Attribute
-		{
-			
-			static Attribute()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Attribute()
-			{
-			}
-		}
-		
-		public partial class Color
+		public partial class Animation
 		{
 			
 			// aapt resource value: 0x7F010000
-			public const int colorAccent = 2130771968;
+			public const int abc_fade_in = 2130771968;
 			
 			// aapt resource value: 0x7F010001
-			public const int colorPrimary = 2130771969;
+			public const int abc_fade_out = 2130771969;
 			
 			// aapt resource value: 0x7F010002
-			public const int colorPrimaryDark = 2130771970;
+			public const int abc_grow_fade_in_from_bottom = 2130771970;
 			
 			// aapt resource value: 0x7F010003
-			public const int ic_launcher_background = 2130771971;
+			public const int abc_popup_enter = 2130771971;
 			
 			// aapt resource value: 0x7F010004
 			public const int abc_popup_exit = 2130771972;
@@ -2020,22 +2007,22 @@ namespace Rebb.App.Client
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 			}
 			
-			private Color()
+			private Animation()
 			{
 			}
 		}
 		
-		public partial class Dimension
+		public partial class Animator
 		{
 			
 			// aapt resource value: 0x7F020000
-			public const int activity_horizontal_margin = 2130837504;
+			public const int design_appbar_state_list_animator = 2130837504;
 			
 			// aapt resource value: 0x7F020001
-			public const int activity_vertical_margin = 2130837505;
+			public const int design_fab_hide_motion_spec = 2130837505;
 			
 			// aapt resource value: 0x7F020002
-			public const int fab_margin = 2130837506;
+			public const int design_fab_show_motion_spec = 2130837506;
 			
 			// aapt resource value: 0x7F020003
 			public const int fragment_close_enter = 2130837507;
@@ -2111,12 +2098,12 @@ namespace Rebb.App.Client
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 			}
 			
-			private Dimension()
+			private Animator()
 			{
 			}
 		}
 		
-		public partial class Drawable
+		public partial class Attribute
 		{
 			
 			// aapt resource value: 0x7F030003
@@ -5131,55 +5118,55 @@ namespace Rebb.App.Client
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 			}
 			
-			private Font()
+			private Boolean()
 			{
 			}
 		}
 		
-		public partial class Id
+		public partial class Color
 		{
 			
 			// aapt resource value: 0x7F050000
-			public const int action_settings = 2131034112;
+			public const int abc_background_cache_hint_selector_material_dark = 2131034112;
 			
 			// aapt resource value: 0x7F050001
-			public const int btnStartRegister = 2131034113;
+			public const int abc_background_cache_hint_selector_material_light = 2131034113;
 			
 			// aapt resource value: 0x7F050002
-			public const int chk1 = 2131034114;
+			public const int abc_btn_colored_borderless_text_material = 2131034114;
 			
 			// aapt resource value: 0x7F050003
-			public const int drawer_layout = 2131034115;
+			public const int abc_btn_colored_text_material = 2131034115;
 			
 			// aapt resource value: 0x7F050004
-			public const int fab = 2131034116;
+			public const int abc_color_highlight_material = 2131034116;
 			
 			// aapt resource value: 0x7F050005
-			public const int imageView = 2131034117;
+			public const int abc_decor_view_status_guard = 2131034117;
 			
 			// aapt resource value: 0x7F050006
-			public const int nav_camera = 2131034118;
+			public const int abc_decor_view_status_guard_light = 2131034118;
 			
 			// aapt resource value: 0x7F050007
-			public const int nav_gallery = 2131034119;
+			public const int abc_hint_foreground_material_dark = 2131034119;
 			
 			// aapt resource value: 0x7F050008
-			public const int nav_manage = 2131034120;
+			public const int abc_hint_foreground_material_light = 2131034120;
 			
 			// aapt resource value: 0x7F050009
-			public const int nav_send = 2131034121;
+			public const int abc_primary_text_disable_only_material_dark = 2131034121;
 			
 			// aapt resource value: 0x7F05000A
-			public const int nav_share = 2131034122;
+			public const int abc_primary_text_disable_only_material_light = 2131034122;
 			
 			// aapt resource value: 0x7F05000B
-			public const int nav_slideshow = 2131034123;
+			public const int abc_primary_text_material_dark = 2131034123;
 			
 			// aapt resource value: 0x7F05000C
-			public const int nav_view = 2131034124;
+			public const int abc_primary_text_material_light = 2131034124;
 			
 			// aapt resource value: 0x7F05000D
-			public const int textView = 2131034125;
+			public const int abc_search_url_text = 2131034125;
 			
 			// aapt resource value: 0x7F05000E
 			public const int abc_search_url_text_normal = 2131034126;
@@ -5792,34 +5779,73 @@ namespace Rebb.App.Client
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 			}
 			
-			private Id()
+			private Color()
 			{
 			}
 		}
 		
-		public partial class Layout
+		public partial class Dimension
 		{
 			
 			// aapt resource value: 0x7F060000
-			public const int activity_main = 2131099648;
+			public const int abc_action_bar_content_inset_material = 2131099648;
 			
 			// aapt resource value: 0x7F060001
-			public const int app_bar_main = 2131099649;
+			public const int abc_action_bar_content_inset_with_nav = 2131099649;
 			
 			// aapt resource value: 0x7F060002
-			public const int content_main = 2131099650;
+			public const int abc_action_bar_default_height_material = 2131099650;
 			
 			// aapt resource value: 0x7F060003
-			public const int nav_header_main = 2131099651;
+			public const int abc_action_bar_default_padding_end_material = 2131099651;
 			
 			// aapt resource value: 0x7F060004
-			public const int register_account = 2131099652;
+			public const int abc_action_bar_default_padding_start_material = 2131099652;
 			
 			// aapt resource value: 0x7F060005
-			public const int splash_screen = 2131099653;
+			public const int abc_action_bar_elevation_material = 2131099653;
 			
 			// aapt resource value: 0x7F060006
-			public const int start_activity = 2131099654;
+			public const int abc_action_bar_icon_vertical_padding_material = 2131099654;
+			
+			// aapt resource value: 0x7F060007
+			public const int abc_action_bar_overflow_padding_end_material = 2131099655;
+			
+			// aapt resource value: 0x7F060008
+			public const int abc_action_bar_overflow_padding_start_material = 2131099656;
+			
+			// aapt resource value: 0x7F060009
+			public const int abc_action_bar_stacked_max_height = 2131099657;
+			
+			// aapt resource value: 0x7F06000A
+			public const int abc_action_bar_stacked_tab_max_width = 2131099658;
+			
+			// aapt resource value: 0x7F06000B
+			public const int abc_action_bar_subtitle_bottom_margin_material = 2131099659;
+			
+			// aapt resource value: 0x7F06000C
+			public const int abc_action_bar_subtitle_top_margin_material = 2131099660;
+			
+			// aapt resource value: 0x7F06000D
+			public const int abc_action_button_min_height_material = 2131099661;
+			
+			// aapt resource value: 0x7F06000E
+			public const int abc_action_button_min_width_material = 2131099662;
+			
+			// aapt resource value: 0x7F06000F
+			public const int abc_action_button_min_width_overflow_material = 2131099663;
+			
+			// aapt resource value: 0x7F060010
+			public const int abc_alert_dialog_button_bar_height = 2131099664;
+			
+			// aapt resource value: 0x7F060011
+			public const int abc_alert_dialog_button_dimen = 2131099665;
+			
+			// aapt resource value: 0x7F060012
+			public const int abc_button_inset_horizontal_material = 2131099666;
+			
+			// aapt resource value: 0x7F060013
+			public const int abc_button_inset_vertical_material = 2131099667;
 			
 			// aapt resource value: 0x7F060014
 			public const int abc_button_padding_horizontal_material = 2131099668;
@@ -7068,12 +7094,12 @@ namespace Rebb.App.Client
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 			}
 			
-			private Layout()
+			private Dimension()
 			{
 			}
 		}
 		
-		public partial class Menu
+		public partial class Drawable
 		{
 			
 			// aapt resource value: 0x7F070006
@@ -7553,27 +7579,75 @@ namespace Rebb.App.Client
 			// aapt resource value: 0x7F0700A4
 			public const int x = 2131165348;
 			
-			static Menu()
+			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 			}
 			
-			private Menu()
+			private Drawable()
 			{
 			}
 		}
 		
-		public partial class Mipmap
+		public partial class Font
 		{
 			
 			// aapt resource value: 0x7F080000
-			public const int ic_launcher = 2131230720;
+			public const int montserrat = 2131230720;
 			
 			// aapt resource value: 0x7F080001
-			public const int ic_launcher_foreground = 2131230721;
+			public const int montserrat_black = 2131230721;
 			
 			// aapt resource value: 0x7F080002
-			public const int ic_launcher_round = 2131230722;
+			public const int montserrat_blackitalic = 2131230722;
+			
+			// aapt resource value: 0x7F080003
+			public const int montserrat_bold = 2131230723;
+			
+			// aapt resource value: 0x7F080004
+			public const int montserrat_bolditalic = 2131230724;
+			
+			// aapt resource value: 0x7F080005
+			public const int montserrat_extrabold = 2131230725;
+			
+			// aapt resource value: 0x7F080006
+			public const int montserrat_extrabolditalic = 2131230726;
+			
+			// aapt resource value: 0x7F080007
+			public const int montserrat_extralight = 2131230727;
+			
+			// aapt resource value: 0x7F080008
+			public const int montserrat_extralightitalicc = 2131230728;
+			
+			// aapt resource value: 0x7F080009
+			public const int montserrat_italic = 2131230729;
+			
+			// aapt resource value: 0x7F08000A
+			public const int montserrat_light = 2131230730;
+			
+			// aapt resource value: 0x7F08000B
+			public const int montserrat_lightitalic = 2131230731;
+			
+			// aapt resource value: 0x7F08000C
+			public const int montserrat_medium = 2131230732;
+			
+			// aapt resource value: 0x7F08000D
+			public const int montserrat_mediumitalic = 2131230733;
+			
+			// aapt resource value: 0x7F08000E
+			public const int montserrat_regular = 2131230734;
+			
+			// aapt resource value: 0x7F08000F
+			public const int montserrat_semibold = 2131230735;
+			
+			// aapt resource value: 0x7F080010
+			public const int montserrat_semibolditalic = 2131230736;
+			
+			// aapt resource value: 0x7F080011
+			public const int montserrat_thin = 2131230737;
+			
+			// aapt resource value: 0x7F080012
+			public const int montserrat_thinitalic = 2131230738;
 			
 			// aapt resource value: 0x7F080013
 			public const int roboto = 2131230739;
@@ -7586,12 +7660,12 @@ namespace Rebb.App.Client
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 			}
 			
-			private Mipmap()
+			private Font()
 			{
 			}
 		}
 		
-		public partial class String
+		public partial class Id
 		{
 			
 			// aapt resource value: 0x7F090014
@@ -9132,25 +9206,28 @@ namespace Rebb.App.Client
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 			}
 			
-			private String()
+			private Id()
 			{
 			}
 		}
 		
-		public partial class Style
+		public partial class Integer
 		{
 			
 			// aapt resource value: 0x7F0A0000
-			public const int AppTheme = 2131361792;
+			public const int abc_config_activityDefaultDur = 2131361792;
 			
 			// aapt resource value: 0x7F0A0001
-			public const int AppTheme_AppBarOverlay = 2131361793;
+			public const int abc_config_activityShortDur = 2131361793;
 			
 			// aapt resource value: 0x7F0A0002
-			public const int AppTheme_NoActionBar = 2131361794;
+			public const int app_bar_elevation_anim_duration = 2131361794;
 			
 			// aapt resource value: 0x7F0A0003
-			public const int AppTheme_PopupOverlay = 2131361795;
+			public const int bottom_sheet_slide_duration = 2131361795;
+			
+			// aapt resource value: 0x7F0A0004
+			public const int cancel_button_image_alpha = 2131361796;
 			
 			// aapt resource value: 0x7F0A0005
 			public const int config_tooltipAnimTime = 2131361797;

@@ -10,7 +10,7 @@ using System;
 
 namespace Rebb.App.Client
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar",HardwareAccelerated =false)]
+    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar")]
     public class StartActivity : AppCompatActivity
     {
         View btnRegister;
